@@ -8,12 +8,12 @@
   content="width=device-width, initial-scale=1.0, viewport-fit=cover"
 >
 
-<title>Signal</title>
+<title>News IQ</title>
 
 <meta name="theme-color" content="#f3f0e8">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Signal">
+<meta name="apple-mobile-web-app-title" content="News IQ">
 
 <style>
 
@@ -27,6 +27,7 @@ html {
 
 body {
   margin: 0;
+
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -36,16 +37,8 @@ body {
   color: #19231f;
 
   background:
-    radial-gradient(
-      circle at top left,
-      #f7e7c5 0,
-      transparent 27%
-    ),
-    radial-gradient(
-      circle at top right,
-      #dcece4 0,
-      transparent 25%
-    ),
+    radial-gradient(circle at top left, #f7e7c5 0, transparent 27%),
+    radial-gradient(circle at top right, #dcece4 0, transparent 25%),
     #f3f0e8;
 
   min-height: 100vh;
@@ -87,13 +80,7 @@ button {
 h1 {
   margin: 0;
 
-  font-size:
-    clamp(
-      52px,
-      15vw,
-      82px
-    );
-
+  font-size: clamp(52px, 15vw, 82px);
   line-height: .92;
   letter-spacing: -.065em;
   font-weight: 900;
@@ -101,9 +88,7 @@ h1 {
 
 .hero p {
   max-width: 650px;
-
-  margin:
-    18px 0 0;
+  margin: 18px 0 0;
 
   color: #68716c;
   font-size: 16px;
@@ -120,14 +105,13 @@ h1 {
   top: 0;
   z-index: 40;
 
-  padding:
-    9px 0 11px;
+  padding: 9px 0 11px;
 
   background:
     linear-gradient(
       to bottom,
-      rgba(243,240,232,.96),
-      rgba(243,240,232,.88),
+      rgba(243,240,232,.97),
+      rgba(243,240,232,.90),
       rgba(243,240,232,0)
     );
 
@@ -140,9 +124,7 @@ h1 {
   gap: 8px;
 
   overflow-x: auto;
-
-  padding:
-    2px 0 8px;
+  padding: 2px 0 8px;
 
   scrollbar-width: none;
 }
@@ -154,25 +136,19 @@ h1 {
 .news-controls button {
   flex: 0 0 auto;
 
-  border: 1px solid
-    rgba(25,40,32,.06);
-
+  border: 1px solid rgba(25,40,32,.06);
   border-radius: 999px;
 
-  padding:
-    10px 14px;
+  padding: 10px 14px;
 
-  background:
-    rgba(255,255,255,.88);
-
+  background: rgba(255,255,255,.88);
   color: #425048;
 
   font-size: 12px;
   font-weight: 800;
 
   box-shadow:
-    0 5px 18px
-    rgba(30,45,37,.04);
+    0 5px 18px rgba(30,45,37,.04);
 }
 
 .news-controls button.active {
@@ -190,15 +166,12 @@ h1 {
   color: white;
 
   padding: 22px;
-
   border-radius: 26px;
 
-  margin:
-    10px 0 22px;
+  margin: 10px 0 22px;
 
   box-shadow:
-    0 10px 30px
-    rgba(25,40,32,.10);
+    0 10px 30px rgba(25,40,32,.10);
 }
 
 .news-hero-top {
@@ -218,7 +191,6 @@ h1 {
   margin: 0;
 
   color: #c9d3ce;
-
   line-height: 1.5;
   font-size: 14px;
 }
@@ -227,16 +199,11 @@ h1 {
   flex: 0 0 auto;
 
   border: 0;
-
-  background:
-    rgba(255,255,255,.12);
-
+  background: rgba(255,255,255,.12);
   color: white;
 
   border-radius: 999px;
-
-  padding:
-    10px 14px;
+  padding: 10px 14px;
 
   font-weight: 800;
   font-size: 12px;
@@ -253,34 +220,25 @@ h1 {
 
 .news-heading-row {
   display: flex;
-
-  justify-content:
-    space-between;
-
-  align-items:
-    end;
-
+  justify-content: space-between;
+  align-items: end;
   gap: 15px;
 
-  margin:
-    4px 3px 12px;
+  margin: 4px 3px 12px;
 }
 
 .news-heading-row h3 {
   margin: 0;
 
   font-size: 22px;
-
-  letter-spacing:
-    -.025em;
+  letter-spacing: -.025em;
 }
 
 .news-status {
   font-size: 12px;
   color: #78817b;
 
-  margin:
-    5px 3px 14px;
+  margin: 5px 3px 14px;
 }
 
 
@@ -300,8 +258,7 @@ h1 {
   text-decoration: none;
 
   border:
-    1px solid
-    rgba(25,40,32,.07);
+    1px solid rgba(25,40,32,.07);
 
   border-radius: 23px;
 
@@ -309,8 +266,7 @@ h1 {
     rgba(255,255,255,.89);
 
   box-shadow:
-    0 9px 29px
-    rgba(30,45,37,.05);
+    0 9px 29px rgba(30,45,37,.05);
 
   padding: 19px;
 
@@ -360,12 +316,8 @@ h1 {
 
 .news-top {
   display: flex;
-
-  justify-content:
-    space-between;
-
-  align-items:
-    center;
+  justify-content: space-between;
+  align-items: center;
 
   gap: 12px;
 
@@ -395,11 +347,8 @@ h1 {
   margin: 0;
 
   font-size: 21px;
-
   line-height: 1.2;
-
-  letter-spacing:
-    -.025em;
+  letter-spacing: -.025em;
 }
 
 .news-link {
@@ -417,8 +366,7 @@ h1 {
 ========================= */
 
 .news-loading {
-  padding:
-    30px 0;
+  padding: 30px 0;
 }
 
 .spinner {
@@ -426,16 +374,14 @@ h1 {
   height: 26px;
 
   border:
-    3px solid
-    #d8ddda;
+    3px solid #d8ddda;
 
   border-top-color:
     #203128;
 
   border-radius: 50%;
 
-  margin:
-    0 auto 10px;
+  margin: 0 auto 10px;
 
   animation:
     spin .8s linear infinite;
@@ -444,8 +390,7 @@ h1 {
 @keyframes spin {
 
   to {
-    transform:
-      rotate(360deg);
+    transform: rotate(360deg);
   }
 
 }
@@ -454,37 +399,18 @@ h1 {
   text-align: center;
 
   font-size: 13px;
-
   color: #858d88;
-}
-
-.news-error {
-  background: #fff0ec;
-
-  border-radius: 18px;
-
-  padding: 18px;
-
-  color: #624a42;
-
-  line-height: 1.5;
-
-  margin-bottom: 12px;
 }
 
 .end-message {
   text-align: center;
 
-  padding:
-    28px 10px;
+  padding: 28px 10px;
 
   color: #8a928d;
 
   font-size: 13px;
 }
-
-
-/* Infinite scroll target */
 
 #newsSentinel {
   height: 20px;
@@ -502,11 +428,9 @@ h1 {
   color: #929995;
 
   font-size: 12px;
-
   line-height: 1.5;
 
-  padding:
-    40px 10px 0;
+  padding: 40px 10px 0;
 }
 
 .hidden {
@@ -522,32 +446,28 @@ h1 {
 <div class="app">
 
 
-<!-- =========================
-     HEADER
-========================= -->
+<!-- HEADER -->
 
 <header class="hero">
 
   <div class="eyebrow">
-    News · Engineering · Technology · Business
+    Engineering · Technology · Business · Science
   </div>
 
   <h1>
-    Signal
+    News IQ
   </h1>
 
   <p>
-    A continuously updated feed of interesting developments
-    across engineering, technology, business, finance, science,
-    energy and the industries shaping the world.
+    Interesting news and developments across engineering,
+    technology, business, finance, science, energy and the
+    industries shaping the world.
   </p>
 
 </header>
 
 
-<!-- =========================
-     CATEGORY SELECTOR
-========================= -->
+<!-- CATEGORY SELECTOR -->
 
 <div class="news-controls-wrap">
 
@@ -613,9 +533,7 @@ h1 {
 </div>
 
 
-<!-- =========================
-     NEWS HERO
-========================= -->
+<!-- NEWS HERO -->
 
 <div class="news-hero">
 
@@ -624,11 +542,11 @@ h1 {
     <div>
 
       <h2 id="categoryTitle">
-        Today's Signals
+        Today's News
       </h2>
 
       <p id="categoryDescription">
-        Interesting developments from engineering,
+        A mix of interesting developments from engineering,
         technology, business, finance, science and industry.
       </p>
 
@@ -646,9 +564,7 @@ h1 {
 </div>
 
 
-<!-- =========================
-     NEWS FEED
-========================= -->
+<!-- NEWS FEED -->
 
 <div class="news-heading-row">
 
@@ -663,7 +579,7 @@ h1 {
   class="news-status"
   id="newsStatus"
 >
-  Finding current articles…
+  Finding current stories…
 </div>
 
 
@@ -699,7 +615,7 @@ h1 {
 
 
 <div class="footer">
-  External articles belong to their respective publishers.
+  News IQ · External articles belong to their respective publishers.
 </div>
 
 
@@ -710,17 +626,17 @@ h1 {
 
 
 /* =====================================
-   CATEGORY DESCRIPTIONS
+   CATEGORY INFORMATION
 ===================================== */
 
 const categoryInfo = {
 
   all: {
     title:
-      "Today's Signals",
+      "Today's News",
 
     description:
-      "Interesting developments from engineering, technology, business, finance, science and industry."
+      "A mix of interesting developments from engineering, technology, business, finance, science and industry."
   },
 
   engineering: {
@@ -744,7 +660,7 @@ const categoryInfo = {
       "Business",
 
     description:
-      "Companies, markets, strategy, major investments, acquisitions and important business developments."
+      "Companies, strategy, major investments, expansions and important business developments."
   },
 
   finance: {
@@ -752,7 +668,7 @@ const categoryInfo = {
       "Finance",
 
     description:
-      "Markets, investing, economics, companies, capital and financial developments."
+      "Markets, investing, economics, capital and major financial developments."
   },
 
   ma: {
@@ -760,7 +676,7 @@ const categoryInfo = {
       "Mergers & Acquisitions",
 
     description:
-      "Acquisitions, mergers, private equity, dealmaking and major corporate transactions."
+      "Acquisitions, mergers, private equity, buyouts and major corporate transactions."
   },
 
   science: {
@@ -768,7 +684,7 @@ const categoryInfo = {
       "Science",
 
     description:
-      "Research, discoveries, space, physics, materials, medicine and scientific breakthroughs."
+      "Research, discoveries, space, physics, materials and scientific breakthroughs."
   },
 
   energy: {
@@ -776,7 +692,7 @@ const categoryInfo = {
       "Energy",
 
     description:
-      "Oil and gas, nuclear, renewables, batteries, power generation and the energy transition."
+      "Oil and gas, nuclear, renewables, batteries, power generation and emerging energy technology."
   },
 
   infrastructure: {
@@ -798,31 +714,23 @@ const categoryInfo = {
 const newsSearches = {
 
 
-/* -------------------------
-   MIXED HOME FEED
-------------------------- */
+/* FOR YOU */
 
 all: [
 
-  '"engineering" technology breakthrough when:14d',
+  '"engineering breakthrough" when:30d',
 
-  '"engineering" new technology when:14d',
+  '"engineering innovation" when:30d',
 
-  '"engineering project" when:14d',
-
-  '"mechanical engineering" technology when:30d',
-
-  '"civil engineering" project when:30d',
-
-  '"electrical engineering" technology when:30d',
-
-  '"aerospace engineering" when:30d',
+  '"engineering project" when:30d',
 
   '"robotics" engineering when:14d',
 
   '"advanced manufacturing" when:30d',
 
-  '"new technology" industry when:14d',
+  '"technology breakthrough" when:14d',
+
+  '"new technology" when:14d',
 
   '"artificial intelligence" technology when:7d',
 
@@ -832,13 +740,13 @@ all: [
 
   '"business acquisition" when:30d',
 
-  '"private equity" acquisition when:30d',
-
   '"major investment" company when:14d',
 
-  '"scientific breakthrough" when:14d',
+  '"company expansion" when:30d',
 
-  '"new discovery" science when:14d',
+  '"scientific breakthrough" when:30d',
+
+  '"new discovery" science when:30d',
 
   '"energy technology" when:30d',
 
@@ -850,15 +758,18 @@ all: [
 
   '"major construction project" when:30d',
 
-  '"space technology" when:14d'
+  '"space technology" when:30d',
+
+  '"aerospace engineering" when:30d',
+
+  '"new factory" technology when:30d',
+
+  '"industrial automation" when:30d'
 
 ],
 
 
-
-/* -------------------------
-   ENGINEERING
-------------------------- */
+/* ENGINEERING */
 
 engineering: [
 
@@ -866,7 +777,7 @@ engineering: [
 
   '"engineering innovation" when:30d',
 
-  '"engineering technology" when:14d',
+  '"engineering technology" when:30d',
 
   '"mechanical engineering" when:30d',
 
@@ -880,8 +791,6 @@ engineering: [
 
   '"chemical engineering" when:30d',
 
-  '"industrial engineering" when:30d',
-
   '"manufacturing engineering" when:30d',
 
   '"robotics engineering" when:30d',
@@ -890,9 +799,7 @@ engineering: [
 
   '"marine engineering" when:30d',
 
-  '"engineering project" technology when:30d',
-
-  '"engineering design" innovation when:30d',
+  '"engineering project" when:30d',
 
   '"advanced manufacturing" engineering when:30d',
 
@@ -904,7 +811,7 @@ engineering: [
 
   '"new material" engineering when:30d',
 
-  '"construction engineering" project when:30d',
+  '"construction engineering" when:30d',
 
   '"bridge engineering" when:90d',
 
@@ -921,10 +828,7 @@ engineering: [
 ],
 
 
-
-/* -------------------------
-   TECHNOLOGY
-------------------------- */
+/* TECHNOLOGY */
 
 technology: [
 
@@ -969,10 +873,7 @@ technology: [
 ],
 
 
-
-/* -------------------------
-   BUSINESS
-------------------------- */
+/* BUSINESS */
 
 business: [
 
@@ -1011,10 +912,7 @@ business: [
 ],
 
 
-
-/* -------------------------
-   FINANCE
-------------------------- */
+/* FINANCE */
 
 finance: [
 
@@ -1051,10 +949,7 @@ finance: [
 ],
 
 
-
-/* -------------------------
-   M&A
-------------------------- */
+/* M&A */
 
 ma: [
 
@@ -1095,10 +990,7 @@ ma: [
 ],
 
 
-
-/* -------------------------
-   SCIENCE
-------------------------- */
+/* SCIENCE */
 
 science: [
 
@@ -1135,10 +1027,7 @@ science: [
 ],
 
 
-
-/* -------------------------
-   ENERGY
-------------------------- */
+/* ENERGY */
 
 energy: [
 
@@ -1179,10 +1068,7 @@ energy: [
 ],
 
 
-
-/* -------------------------
-   INFRASTRUCTURE
-------------------------- */
+/* INFRASTRUCTURE */
 
 infrastructure: [
 
@@ -1247,15 +1133,8 @@ let allNewsStories =
 let displayedNewsCount =
   0;
 
-
-/* Number displayed each time */
-
 const newsBatchSize =
   10;
-
-
-/* Number of new searches made
-   when more news is required */
 
 const queriesPerFetch =
   2;
@@ -1336,7 +1215,7 @@ function cleanNewsTitle(
 
 
 /* =====================================
-   SOURCE FROM GOOGLE NEWS TITLE
+   SOURCE
 ===================================== */
 
 function getNewsSource(
@@ -1396,7 +1275,7 @@ function removeNewsSource(
 
 
 /* =====================================
-   RELATIVE DATES
+   RELATIVE DATE
 ===================================== */
 
 function relativeDate(
@@ -1534,7 +1413,7 @@ function storyAlreadyExists(
 
 
 /* =====================================
-   FETCH ONE QUERY
+   FETCH QUERY
 ===================================== */
 
 async function fetchNewsQuery(
@@ -1588,7 +1467,7 @@ async function fetchNewsQuery(
 
 
 /* =====================================
-   FETCH MORE SEARCHES
+   FETCH MORE NEWS
 ===================================== */
 
 async function fetchMoreNewsSources() {
@@ -1807,7 +1686,7 @@ async function fetchMoreNewsSources() {
 
 
 /* =====================================
-   RENDER NEXT 10 STORIES
+   RENDER NEWS
 ===================================== */
 
 function renderNextNewsBatch() {
@@ -1898,7 +1777,7 @@ function renderNextNewsBatch() {
 
 
 /* =====================================
-   LOAD MORE ON SCROLL
+   LOAD MORE
 ===================================== */
 
 async function loadMoreNews() {
@@ -1910,9 +1789,6 @@ async function loadMoreNews() {
     return;
 
   }
-
-
-  /* First show stories already fetched */
 
   if (
     displayedNewsCount <
@@ -1933,9 +1809,6 @@ async function loadMoreNews() {
 
   }
 
-
-  /* Then perform more Google searches */
-
   if (
     newsQueryIndex <
       newsSearches[
@@ -1952,7 +1825,7 @@ async function loadMoreNews() {
 
 
 /* =====================================
-   RESET NEWS
+   RESET
 ===================================== */
 
 function resetNewsState() {
@@ -2003,12 +1876,6 @@ async function initializeNews() {
 
   await fetchMoreNewsSources();
 
-
-  /*
-    Keep searching until we have
-    enough initial stories.
-  */
-
   while (
     allNewsStories.length <
       15 &&
@@ -2042,7 +1909,6 @@ async function refreshNews() {
       "Refreshing stories…";
 
   await fetchMoreNewsSources();
-
 
   while (
     allNewsStories.length <
@@ -2149,7 +2015,7 @@ async function changeNewsCategory(
 
 
 /* =====================================
-   INFINITE SCROLL OBSERVER
+   INFINITE SCROLL
 ===================================== */
 
 const newsObserver =
@@ -2200,7 +2066,7 @@ newsObserver.observe(
 
 
 /* =====================================
-   EXTRA IPHONE SCROLL SAFETY
+   IPHONE SCROLL SAFETY
 ===================================== */
 
 window.addEventListener(
@@ -2262,7 +2128,7 @@ function escapeHTML(
 
 
 /* =====================================
-   START
+   START NEWS IQ
 ===================================== */
 
 initializeNews();
