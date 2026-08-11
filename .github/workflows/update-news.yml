@@ -27,6 +27,8 @@ jobs:
           import urllib.parse
           import urllib.request
           import xml.etree.ElementTree as ET
+
+          from concurrent.futures import ThreadPoolExecutor, as_completed
           from datetime import datetime, timezone
           from email.utils import parsedate_to_datetime
 
@@ -134,6 +136,10 @@ jobs:
           )
 
 
+          MAX_WORKERS = 10
+          MAX_STORIES_PER_CATEGORY = 180
+
+
           def normalize_title(title):
               return re.sub(
                   r"[^a-z0-9]",
@@ -152,6 +158,7 @@ jobs:
 
 
           def fetch_query(query):
+
               encoded = urllib.parse.quote(query)
 
               url = (
@@ -170,7 +177,7 @@ jobs:
               try:
                   with urllib.request.urlopen(
                       request,
-                      timeout=20
+                      timeout=12
                   ) as response:
 
                       data = response.read()
@@ -181,7 +188,6 @@ jobs:
                       query,
                       exc
                   )
-
                   return []
 
 
@@ -194,28 +200,23 @@ jobs:
                       query,
                       exc
                   )
-
                   return []
 
 
               stories = []
 
 
-              for item in root.findall(
-                  ".//item"
-              ):
+              for item in root.findall(".//item"):
 
                   raw_title = (
                       item.findtext("title")
                       or ""
                   )
 
-
                   link = (
                       item.findtext("link")
                       or ""
                   )
-
 
                   pub_date = (
                       item.findtext("pubDate")
@@ -233,44 +234,30 @@ jobs:
                   )
 
 
-                  if (
-                      not title
-                      or not link
-                  ):
+                  if not title or not link:
                       continue
 
 
                   try:
-                      parsed_date = (
-                          parsedate_to_datetime(
-                              pub_date
-                          )
+                      parsed_date = parsedate_to_datetime(
+                          pub_date
                       )
 
-                      if (
-                          parsed_date.tzinfo
-                          is None
-                      ):
-                          parsed_date = (
-                              parsed_date.replace(
-                                  tzinfo=timezone.utc
-                              )
+                      if parsed_date.tzinfo is None:
+                          parsed_date = parsed_date.replace(
+                              tzinfo=timezone.utc
                           )
 
                       iso_date = (
                           parsed_date
-                          .astimezone(
-                              timezone.utc
-                          )
+                          .astimezone(timezone.utc)
                           .isoformat()
                       )
 
                   except Exception:
-                      iso_date = (
-                          datetime.now(
-                              timezone.utc
-                          ).isoformat()
-                      )
+                      iso_date = datetime.now(
+                          timezone.utc
+                      ).isoformat()
 
 
                   stories.append({
@@ -284,97 +271,88 @@ jobs:
               return stories
 
 
-          def collect_category(
-              searches
-          ):
+          def build_queries(searches):
+
+              query_list = []
+
+              for window in windows:
+                  for search in searches:
+                      query_list.append(
+                          search + " " + window
+                      )
+
+              return query_list
+
+
+          def collect_category(searches):
+
+              queries = build_queries(searches)
 
               stories = []
-
               seen_titles = set()
-
               seen_links = set()
 
 
-              for window in windows:
+              with ThreadPoolExecutor(
+                  max_workers=MAX_WORKERS
+              ) as executor:
 
-                  for search in searches:
-
-                      query = (
-                          search
-                          + " "
-                          + window
-                      )
-
-
-                      items = fetch_query(
+                  futures = {
+                      executor.submit(
+                          fetch_query,
                           query
-                      )
+                      ): query
+                      for query in queries
+                  }
+
+
+                  for future in as_completed(futures):
+
+                      query = futures[future]
+
+                      try:
+                          items = future.result()
+
+                      except Exception as exc:
+                          print(
+                              "Unexpected query error:",
+                              query,
+                              exc
+                          )
+                          continue
 
 
                       for story in items:
 
-                          normalized = (
-                              normalize_title(
-                                  story[
-                                      "title"
-                                  ]
-                              )
+                          normalized = normalize_title(
+                              story["title"]
                           )
 
 
-                          if (
-                              normalized
-                              in seen_titles
-                          ):
+                          if normalized in seen_titles:
                               continue
 
 
-                          if (
-                              story["link"]
-                              in seen_links
-                          ):
+                          if story["link"] in seen_links:
                               continue
 
 
-                          seen_titles.add(
-                              normalized
-                          )
+                          seen_titles.add(normalized)
+                          seen_links.add(story["link"])
 
-                          seen_links.add(
-                              story["link"]
-                          )
-
-                          stories.append(
-                              story
-                          )
-
-
-                      #
-                      # Don't hammer Google News.
-                      #
-                      # Once we have plenty for a
-                      # category, stop asking for
-                      # more searches in that window.
-                      #
-                      if len(stories) >= 180:
-                          break
-
-
-                  if len(stories) >= 180:
-                      break
+                          stories.append(story)
 
 
               stories.sort(
                   key=lambda x:
-                      x.get(
-                          "date",
-                          ""
-                      ),
+                      x.get("date", ""),
                   reverse=True
               )
 
 
-              return stories[:180]
+              return stories[
+                  :MAX_STORIES_PER_CATEGORY
+              ]
 
 
           output = {
@@ -398,22 +376,25 @@ jobs:
 
               output[
                   "categories"
-              ][category] = (
-                  collect_category(
-                      searches
-                  )
+              ][category] = collect_category(
+                  searches
+              )
+
+              print(
+                  category,
+                  len(
+                      output[
+                          "categories"
+                      ][category]
+                  ),
+                  "stories"
               )
 
 
-          #
-          # Build For You from the other
-          # categories.
-          #
+          # Build For You by interleaving categories.
 
           mixed = []
-
           mixed_seen = set()
-
 
           source_categories = [
               "valuation",
@@ -425,20 +406,13 @@ jobs:
           ]
 
 
-          #
-          # Interleave categories instead
-          # of letting one dominate.
-          #
-
-          for i in range(40):
+          for i in range(50):
 
               for category in source_categories:
 
-                  stories = (
-                      output[
-                          "categories"
-                      ][category]
-                  )
+                  stories = output[
+                      "categories"
+                  ][category]
 
 
                   if i >= len(stories):
@@ -446,7 +420,6 @@ jobs:
 
 
                   story = stories[i]
-
 
                   key = normalize_title(
                       story["title"]
@@ -458,16 +431,12 @@ jobs:
 
 
                   mixed_seen.add(key)
-
                   mixed.append(story)
 
 
           mixed.sort(
               key=lambda x:
-                  x.get(
-                      "date",
-                      ""
-                  ),
+                  x.get("date", ""),
               reverse=True
           )
 
@@ -491,9 +460,7 @@ jobs:
               )
 
 
-          print(
-              "Created news.json"
-          )
+          print("Created news.json")
 
           for category, stories in output["categories"].items():
               print(
