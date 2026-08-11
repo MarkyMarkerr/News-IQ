@@ -1,0 +1,520 @@
+name: Update News IQ
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch News IQ stories
+        run: |
+          python3 <<'PYTHON'
+          import json
+          import re
+          import html
+          import urllib.parse
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
+          from email.utils import parsedate_to_datetime
+
+
+          categories = {
+
+              "valuation": [
+                  "business valuation",
+                  "private company valuation",
+                  "EBITDA multiples valuation",
+                  "business acquisition valuation",
+                  "selling business valuation",
+                  "business appraisal",
+                  "discounted cash flow valuation",
+                  "free cash flow valuation",
+                  "enterprise value acquisition",
+                  "lower middle market valuation",
+                  "private equity valuation",
+                  "quality of earnings acquisition",
+              ],
+
+              "engineering": [
+                  "engineering innovation",
+                  "engineering breakthrough",
+                  "mechanical engineering",
+                  "electrical engineering",
+                  "civil engineering project",
+                  "aerospace engineering",
+                  "manufacturing engineering",
+                  "robotics engineering",
+                  "materials engineering",
+                  "structural engineering",
+                  "advanced manufacturing",
+                  "industrial automation engineering",
+              ],
+
+              "business": [
+                  "business news companies",
+                  "company expansion",
+                  "major company investment",
+                  "manufacturing investment",
+                  "business acquisition",
+                  "corporate strategy",
+                  "company growth",
+                  "new factory investment",
+                  "private company investment",
+                  "industrial expansion",
+              ],
+
+              "finance": [
+                  "financial markets",
+                  "stock market companies",
+                  "economic outlook",
+                  "corporate earnings",
+                  "capital markets",
+                  "private markets",
+                  "private equity investment",
+                  "venture capital",
+                  "credit markets",
+                  "corporate debt",
+              ],
+
+              "science": [
+                  "scientific breakthrough",
+                  "scientific discovery",
+                  "physics breakthrough",
+                  "materials science",
+                  "space discovery",
+                  "space mission",
+                  "astronomy discovery",
+                  "quantum research",
+                  "fusion research",
+                  "biotechnology breakthrough",
+              ],
+
+              "energy": [
+                  "energy technology",
+                  "nuclear energy",
+                  "small modular reactor",
+                  "fusion energy",
+                  "battery technology",
+                  "energy storage",
+                  "oil gas technology",
+                  "carbon capture",
+                  "power grid",
+                  "geothermal energy",
+                  "hydrogen energy",
+              ],
+          }
+
+
+          windows = [
+              "when:7d",
+              "when:30d",
+              "when:90d",
+              "when:1y",
+          ]
+
+
+          USER_AGENT = (
+              "Mozilla/5.0 "
+              "(Macintosh; Intel Mac OS X 10_15_7) "
+              "AppleWebKit/537.36 "
+              "Chrome/120 Safari/537.36"
+          )
+
+
+          def normalize_title(title):
+              return re.sub(
+                  r"[^a-z0-9]",
+                  "",
+                  title.lower()
+              )[:180]
+
+
+          def split_source(title):
+              parts = title.rsplit(" - ", 1)
+
+              if len(parts) == 2:
+                  return parts[0].strip(), parts[1].strip()
+
+              return title.strip(), "News"
+
+
+          def fetch_query(query):
+              encoded = urllib.parse.quote(query)
+
+              url = (
+                  "https://news.google.com/rss/search?q="
+                  + encoded
+                  + "&hl=en-CA&gl=CA&ceid=CA:en"
+              )
+
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "User-Agent": USER_AGENT
+                  }
+              )
+
+              try:
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=20
+                  ) as response:
+
+                      data = response.read()
+
+              except Exception as exc:
+                  print(
+                      "Query failed:",
+                      query,
+                      exc
+                  )
+
+                  return []
+
+
+              try:
+                  root = ET.fromstring(data)
+
+              except Exception as exc:
+                  print(
+                      "XML parse failed:",
+                      query,
+                      exc
+                  )
+
+                  return []
+
+
+              stories = []
+
+
+              for item in root.findall(
+                  ".//item"
+              ):
+
+                  raw_title = (
+                      item.findtext("title")
+                      or ""
+                  )
+
+
+                  link = (
+                      item.findtext("link")
+                      or ""
+                  )
+
+
+                  pub_date = (
+                      item.findtext("pubDate")
+                      or ""
+                  )
+
+
+                  raw_title = html.unescape(
+                      raw_title
+                  ).strip()
+
+
+                  title, source = split_source(
+                      raw_title
+                  )
+
+
+                  if (
+                      not title
+                      or not link
+                  ):
+                      continue
+
+
+                  try:
+                      parsed_date = (
+                          parsedate_to_datetime(
+                              pub_date
+                          )
+                      )
+
+                      if (
+                          parsed_date.tzinfo
+                          is None
+                      ):
+                          parsed_date = (
+                              parsed_date.replace(
+                                  tzinfo=timezone.utc
+                              )
+                          )
+
+                      iso_date = (
+                          parsed_date
+                          .astimezone(
+                              timezone.utc
+                          )
+                          .isoformat()
+                      )
+
+                  except Exception:
+                      iso_date = (
+                          datetime.now(
+                              timezone.utc
+                          ).isoformat()
+                      )
+
+
+                  stories.append({
+                      "title": title,
+                      "source": source,
+                      "link": link,
+                      "date": iso_date,
+                  })
+
+
+              return stories
+
+
+          def collect_category(
+              searches
+          ):
+
+              stories = []
+
+              seen_titles = set()
+
+              seen_links = set()
+
+
+              for window in windows:
+
+                  for search in searches:
+
+                      query = (
+                          search
+                          + " "
+                          + window
+                      )
+
+
+                      items = fetch_query(
+                          query
+                      )
+
+
+                      for story in items:
+
+                          normalized = (
+                              normalize_title(
+                                  story[
+                                      "title"
+                                  ]
+                              )
+                          )
+
+
+                          if (
+                              normalized
+                              in seen_titles
+                          ):
+                              continue
+
+
+                          if (
+                              story["link"]
+                              in seen_links
+                          ):
+                              continue
+
+
+                          seen_titles.add(
+                              normalized
+                          )
+
+                          seen_links.add(
+                              story["link"]
+                          )
+
+                          stories.append(
+                              story
+                          )
+
+
+                      #
+                      # Don't hammer Google News.
+                      #
+                      # Once we have plenty for a
+                      # category, stop asking for
+                      # more searches in that window.
+                      #
+                      if len(stories) >= 180:
+                          break
+
+
+                  if len(stories) >= 180:
+                      break
+
+
+              stories.sort(
+                  key=lambda x:
+                      x.get(
+                          "date",
+                          ""
+                      ),
+                  reverse=True
+              )
+
+
+              return stories[:180]
+
+
+          output = {
+
+              "updated":
+                  datetime.now(
+                      timezone.utc
+                  ).isoformat(),
+
+              "categories": {}
+
+          }
+
+
+          for category, searches in categories.items():
+
+              print(
+                  "Fetching",
+                  category
+              )
+
+              output[
+                  "categories"
+              ][category] = (
+                  collect_category(
+                      searches
+                  )
+              )
+
+
+          #
+          # Build For You from the other
+          # categories.
+          #
+
+          mixed = []
+
+          mixed_seen = set()
+
+
+          source_categories = [
+              "valuation",
+              "engineering",
+              "business",
+              "finance",
+              "science",
+              "energy",
+          ]
+
+
+          #
+          # Interleave categories instead
+          # of letting one dominate.
+          #
+
+          for i in range(40):
+
+              for category in source_categories:
+
+                  stories = (
+                      output[
+                          "categories"
+                      ][category]
+                  )
+
+
+                  if i >= len(stories):
+                      continue
+
+
+                  story = stories[i]
+
+
+                  key = normalize_title(
+                      story["title"]
+                  )
+
+
+                  if key in mixed_seen:
+                      continue
+
+
+                  mixed_seen.add(key)
+
+                  mixed.append(story)
+
+
+          mixed.sort(
+              key=lambda x:
+                  x.get(
+                      "date",
+                      ""
+                  ),
+              reverse=True
+          )
+
+
+          output[
+              "categories"
+          ]["all"] = mixed[:200]
+
+
+          with open(
+              "news.json",
+              "w",
+              encoding="utf-8"
+          ) as file:
+
+              json.dump(
+                  output,
+                  file,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+
+          print(
+              "Created news.json"
+          )
+
+          for category, stories in output["categories"].items():
+              print(
+                  category,
+                  len(stories),
+                  "stories"
+              )
+
+          PYTHON
+
+      - name: Commit updated news
+        run: |
+          git config user.name "News IQ Bot"
+          git config user.email "actions@github.com"
+
+          git add news.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update News IQ stories"
+          git push
