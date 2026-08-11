@@ -2,11 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0, viewport-fit=cover"
->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 <title>News IQ</title>
 
@@ -86,7 +82,7 @@ h1 {
 }
 
 
-/* CATEGORY NAV */
+/* TABS */
 
 .news-controls-wrap {
   position: sticky;
@@ -183,10 +179,6 @@ h1 {
   font-size: 12px;
 }
 
-.refresh-news:active {
-  transform: scale(.97);
-}
-
 
 /* FEED */
 
@@ -219,15 +211,16 @@ h1 {
   display: block;
   color: inherit;
   text-decoration: none;
+
   border: 1px solid rgba(25,40,32,.07);
   border-radius: 23px;
+
   background: rgba(255,255,255,.89);
 
   box-shadow:
     0 9px 29px rgba(30,45,37,.05);
 
   padding: 19px;
-  transition: transform .12s ease;
 }
 
 .news-card:nth-child(4n+1) {
@@ -246,10 +239,6 @@ h1 {
   background: linear-gradient(145deg,#f7f1fa,#fff);
 }
 
-.news-card:active {
-  transform: scale(.986);
-}
-
 .news-top {
   display: flex;
   justify-content: space-between;
@@ -262,7 +251,6 @@ h1 {
   font-size: 12px;
   font-weight: 850;
   color: #627169;
-
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -299,13 +287,10 @@ h1 {
 .spinner {
   width: 26px;
   height: 26px;
-
   border: 3px solid #d8ddda;
   border-top-color: #203128;
   border-radius: 50%;
-
   margin: 0 auto 10px;
-
   animation: spin .8s linear infinite;
 }
 
@@ -333,9 +318,6 @@ h1 {
   height: 24px;
 }
 
-
-/* FOOTER */
-
 .footer {
   text-align: center;
   color: #929995;
@@ -358,15 +340,14 @@ h1 {
 <header class="hero">
 
   <div class="eyebrow">
-    Engineering · Technology · Business · Valuation · Science
+    Engineering · Business · Valuation · Finance · Science · Energy
   </div>
 
   <h1>News IQ</h1>
 
   <p>
-    Interesting news and insights across engineering, technology,
-    business valuation, finance, science, energy and the industries
-    shaping the world.
+    Interesting news and insights across engineering, business,
+    valuation, finance, science and energy.
   </p>
 
 </header>
@@ -376,65 +357,32 @@ h1 {
 
   <div class="news-controls">
 
-    <button
-      class="active"
-      onclick="changeNewsCategory('all',this)"
-    >
+    <button class="active" onclick="changeNewsCategory('all',this)">
       For You
     </button>
 
-    <button
-      onclick="changeNewsCategory('valuation',this)"
-    >
+    <button onclick="changeNewsCategory('valuation',this)">
       Business Valuation
     </button>
 
-    <button
-      onclick="changeNewsCategory('engineering',this)"
-    >
+    <button onclick="changeNewsCategory('engineering',this)">
       Engineering
     </button>
 
-    <button
-      onclick="changeNewsCategory('technology',this)"
-    >
-      Technology
-    </button>
-
-    <button
-      onclick="changeNewsCategory('business',this)"
-    >
+    <button onclick="changeNewsCategory('business',this)">
       Business
     </button>
 
-    <button
-      onclick="changeNewsCategory('finance',this)"
-    >
+    <button onclick="changeNewsCategory('finance',this)">
       Finance
     </button>
 
-    <button
-      onclick="changeNewsCategory('ma',this)"
-    >
-      M&A
-    </button>
-
-    <button
-      onclick="changeNewsCategory('science',this)"
-    >
+    <button onclick="changeNewsCategory('science',this)">
       Science
     </button>
 
-    <button
-      onclick="changeNewsCategory('energy',this)"
-    >
+    <button onclick="changeNewsCategory('energy',this)">
       Energy
-    </button>
-
-    <button
-      onclick="changeNewsCategory('infrastructure',this)"
-    >
-      Infrastructure
     </button>
 
   </div>
@@ -453,16 +401,13 @@ h1 {
       </h2>
 
       <p id="categoryDescription">
-        A mix of interesting developments from engineering,
-        business valuation, technology, finance, science and industry.
+        A mix of engineering, business, valuation, finance,
+        science and energy news.
       </p>
 
     </div>
 
-    <button
-      class="refresh-news"
-      onclick="refreshNews()"
-    >
+    <button class="refresh-news" onclick="refreshNews()">
       Refresh
     </button>
 
@@ -476,24 +421,15 @@ h1 {
 </div>
 
 
-<div
-  class="news-status"
-  id="newsStatus"
->
+<div class="news-status" id="newsStatus">
   Finding current stories…
 </div>
 
 
-<div
-  class="news-list"
-  id="newsList"
-></div>
+<div class="news-list" id="newsList"></div>
 
 
-<div
-  id="newsLoading"
-  class="news-loading hidden"
->
+<div id="newsLoading" class="news-loading hidden">
 
   <div class="spinner"></div>
 
@@ -507,10 +443,7 @@ h1 {
 <div id="newsSentinel"></div>
 
 
-<div
-  id="newsEnd"
-  class="end-message hidden"
->
+<div id="newsEnd" class="end-message hidden">
   You've reached the end of available stories from the past year.
 </div>
 
@@ -525,389 +458,279 @@ h1 {
 <script>
 
 
-/* =====================================
+/* =========================
    SETTINGS
-===================================== */
+========================= */
 
 const STORIES_PER_RENDER = 10;
-
-/*
-  Number of search queries run together
-  each time infinite scroll needs more.
-*/
-
 const QUERIES_PER_BATCH = 3;
-
-
-/*
-  Maximum wait for one RSS request.
-*/
-
 const REQUEST_TIMEOUT = 7000;
 
 
-
-/* =====================================
-   CATEGORY INFORMATION
-===================================== */
+/* =========================
+   CATEGORY INFO
+========================= */
 
 const categoryInfo = {
 
   all: {
     title: "Today's News",
     description:
-      "A mix of interesting developments from engineering, business valuation, technology, finance, science and industry."
+      "A mix of engineering, business, valuation, finance, science and energy news."
   },
 
   valuation: {
     title: "Business Valuation",
     description:
-      "Business value, EBITDA multiples, private-company transactions, DCF, acquisitions, business sales and M&A valuation."
+      "Business value, EBITDA multiples, DCF, private-company transactions, acquisitions and business sales."
   },
 
   engineering: {
     title: "Engineering",
     description:
-      "Mechanical, electrical, civil, aerospace, manufacturing, robotics, materials and major engineering projects."
-  },
-
-  technology: {
-    title: "Technology",
-    description:
-      "AI, computing, semiconductors, robotics, software and emerging technologies."
+      "Mechanical, electrical, civil, aerospace, manufacturing, robotics, materials and engineering projects."
   },
 
   business: {
     title: "Business",
     description:
-      "Companies, strategy, major investments, expansions and important business developments."
+      "Companies, strategy, investments, expansions, manufacturing and major business developments."
   },
 
   finance: {
     title: "Finance",
     description:
-      "Markets, investing, economics, capital and major financial developments."
-  },
-
-  ma: {
-    title: "Mergers & Acquisitions",
-    description:
-      "Acquisitions, mergers, private equity, buyouts and major corporate transactions."
+      "Markets, investing, economics, capital, corporate earnings and financial developments."
   },
 
   science: {
     title: "Science",
     description:
-      "Research, discoveries, space, physics, materials and scientific breakthroughs."
+      "Research, discoveries, physics, space, materials and scientific breakthroughs."
   },
 
   energy: {
     title: "Energy",
     description:
-      "Oil and gas, nuclear, renewables, batteries, power generation and emerging energy technology."
-  },
-
-  infrastructure: {
-    title: "Infrastructure",
-    description:
-      "Major construction, transportation, bridges, tunnels, utilities and large-scale projects."
+      "Oil and gas, nuclear, renewables, batteries, power generation and emerging energy systems."
   }
 
 };
 
 
-
-/* =====================================
-   BASE SEARCH TOPICS
-===================================== */
+/* =========================
+   BASE SEARCHES
+========================= */
 
 const baseSearches = {
 
   all: [
-    '"engineering breakthrough"',
-    '"business valuation"',
-    '"technology breakthrough"',
-    '"artificial intelligence" technology',
-    '"major acquisition" company',
-    '"scientific breakthrough"',
-    '"energy technology"',
-    '"infrastructure project"',
-    '"advanced manufacturing"',
-    '"semiconductor" technology',
-    '"business acquisition" valuation',
-    '"space technology"',
-    '"robotics" engineering',
-    '"private equity" acquisition',
-    '"new material" engineering'
+    'engineering breakthrough',
+    'engineering innovation',
+    'business valuation',
+    'EBITDA multiples',
+    'major business investment',
+    'company expansion',
+    'financial markets',
+    'corporate earnings',
+    'scientific breakthrough',
+    'science discovery',
+    'energy technology',
+    'nuclear energy',
+    'advanced manufacturing',
+    'robotics engineering',
+    'business acquisition valuation',
+    'private equity acquisition',
+    'new material engineering',
+    'aerospace engineering'
   ],
 
 
   valuation: [
-    '"business valuation"',
-    '"private company valuation"',
-    '"private business valuation"',
-    '"small business valuation"',
-    '"middle market valuation"',
-    '"lower middle market" valuation',
-    '"EBITDA multiple" acquisition',
-    '"EBITDA multiples" business',
-    '"EBITDA multiple" valuation',
-    '"valuation multiples" business',
-    '"valuation multiples" M&A',
-    '"transaction multiples" valuation',
-    '"deal multiples" acquisition',
-    '"enterprise value" acquisition',
-    '"enterprise value" valuation',
-    '"free cash flow" business valuation',
-    '"discounted cash flow" business valuation',
-    '"DCF valuation" private company',
-    '"business appraisal" valuation',
-    '"buying a business" valuation',
-    '"business acquisition" valuation',
-    '"small business acquisition" valuation',
-    '"selling a business" valuation',
-    '"business sale" valuation',
-    '"sell a company" valuation',
-    '"company sale" EBITDA multiple',
-    '"business broker" valuation',
-    '"business broker" sale',
-    '"exit planning" business valuation',
-    '"business owner" exit valuation',
-    '"private equity" acquisition valuation',
-    '"private equity" EBITDA multiples',
-    '"private equity" middle market valuation',
-    '"lower middle market" acquisition',
-    '"middle market" valuation multiples',
-    '"search fund" acquisition valuation',
-    '"entrepreneurship through acquisition" valuation',
-    '"quality of earnings" acquisition',
-    '"acquisition due diligence" valuation',
-    '"M&A market" middle market'
+    'business valuation',
+    'private company valuation',
+    'private business valuation',
+    'small business valuation',
+    'middle market valuation',
+    'lower middle market valuation',
+    'EBITDA multiple acquisition',
+    'EBITDA multiples business',
+    'EBITDA valuation',
+    'valuation multiples business',
+    'valuation multiples acquisition',
+    'transaction multiples valuation',
+    'deal multiples acquisition',
+    'enterprise value acquisition',
+    'enterprise value valuation',
+    'free cash flow valuation',
+    'discounted cash flow valuation',
+    'DCF private company valuation',
+    'business appraisal valuation',
+    'buying a business valuation',
+    'business acquisition valuation',
+    'small business acquisition',
+    'selling a business valuation',
+    'business sale valuation',
+    'sell a company valuation',
+    'company sale EBITDA multiple',
+    'business broker valuation',
+    'business broker sale',
+    'exit planning business valuation',
+    'business owner exit valuation',
+    'private equity acquisition valuation',
+    'private equity EBITDA multiples',
+    'private equity middle market',
+    'lower middle market acquisition',
+    'middle market valuation multiples',
+    'search fund acquisition',
+    'entrepreneurship through acquisition',
+    'quality of earnings acquisition',
+    'acquisition due diligence valuation'
   ],
 
 
   engineering: [
-    '"engineering breakthrough"',
-    '"engineering innovation"',
-    '"engineering technology"',
-    '"mechanical engineering"',
-    '"electrical engineering"',
-    '"civil engineering"',
-    '"aerospace engineering"',
-    '"structural engineering"',
-    '"chemical engineering"',
-    '"manufacturing engineering"',
-    '"robotics engineering"',
-    '"automotive engineering"',
-    '"marine engineering"',
-    '"engineering project"',
-    '"advanced manufacturing" engineering',
-    '"3D printing" engineering',
-    '"additive manufacturing"',
-    '"materials engineering"',
-    '"new material" engineering',
-    '"construction engineering"',
-    '"bridge engineering"',
-    '"tunnel engineering"',
-    '"engineering megaproject"',
-    '"engineering prototype"',
-    '"industrial automation" engineering',
-    '"robotics" engineering technology'
-  ],
-
-
-  technology: [
-    '"technology breakthrough"',
-    '"new technology"',
-    '"artificial intelligence"',
-    '"AI technology"',
-    '"robotics" technology',
-    '"humanoid robot"',
-    '"semiconductor"',
-    '"computer chip" technology',
-    '"quantum computing"',
-    '"data center" technology',
-    '"cloud computing"',
-    '"cybersecurity" technology',
-    '"autonomous vehicle" technology',
-    '"drone technology"',
-    '"space technology"',
-    '"satellite technology"',
-    '"battery technology"',
-    '"fusion technology"',
-    '"advanced computing"'
+    'engineering breakthrough',
+    'engineering innovation',
+    'engineering technology',
+    'mechanical engineering innovation',
+    'electrical engineering innovation',
+    'civil engineering project',
+    'aerospace engineering',
+    'structural engineering',
+    'chemical engineering technology',
+    'manufacturing engineering',
+    'robotics engineering',
+    'automotive engineering',
+    'marine engineering',
+    'engineering project',
+    'advanced manufacturing engineering',
+    '3D printing engineering',
+    'additive manufacturing',
+    'materials engineering',
+    'new material engineering',
+    'construction engineering',
+    'bridge engineering',
+    'tunnel engineering',
+    'engineering megaproject',
+    'engineering prototype',
+    'industrial automation engineering',
+    'robotics technology engineering',
+    'energy engineering',
+    'power engineering',
+    'industrial engineering innovation'
   ],
 
 
   business: [
-    '"business news" companies',
-    '"company expansion"',
-    '"major investment" company',
-    '"new factory" company',
-    '"manufacturing investment"',
-    '"business acquisition"',
-    '"company acquisition"',
-    '"company strategy"',
-    '"corporate investment"',
-    '"business growth" company',
-    '"industrial company" investment',
-    '"technology company" investment',
-    '"startup funding" technology',
-    '"private company" investment',
-    '"business expansion" manufacturing',
-    '"new facility" company'
+    'business news companies',
+    'company expansion',
+    'major investment company',
+    'new factory company',
+    'manufacturing investment',
+    'business acquisition',
+    'company acquisition',
+    'company strategy',
+    'corporate investment',
+    'business growth company',
+    'industrial company investment',
+    'startup funding',
+    'private company investment',
+    'business expansion manufacturing',
+    'new facility company',
+    'factory expansion',
+    'industrial expansion',
+    'corporate strategy'
   ],
 
 
   finance: [
-    '"financial markets"',
-    '"stock market" companies',
-    '"investment markets"',
-    '"economic outlook"',
-    '"corporate earnings"',
-    '"company valuation"',
-    '"enterprise value" company',
-    '"private markets"',
-    '"private equity" investment',
-    '"venture capital" technology',
-    '"capital markets"',
-    '"IPO" technology company',
-    '"market valuation" company',
-    '"investment fund" acquisition',
-    '"institutional investors" company'
-  ],
-
-
-  ma: [
-    '"acquisition" company',
-    '"major acquisition"',
-    '"merger" company',
-    '"M&A"',
-    '"mergers acquisitions"',
-    '"private equity" acquisition',
-    '"buyout" company',
-    '"takeover" company',
-    '"acquisition agreement"',
-    '"deal value" acquisition',
-    '"strategic acquisition"',
-    '"technology acquisition"',
-    '"industrial acquisition"',
-    '"engineering company" acquisition',
-    '"manufacturing company" acquisition',
-    '"energy company" acquisition',
-    '"infrastructure acquisition"'
+    'financial markets',
+    'stock market companies',
+    'investment markets',
+    'economic outlook',
+    'corporate earnings',
+    'company valuation',
+    'enterprise value company',
+    'private markets',
+    'private equity investment',
+    'venture capital',
+    'capital markets',
+    'IPO company',
+    'market valuation company',
+    'investment fund acquisition',
+    'institutional investors company',
+    'interest rates economy',
+    'corporate debt markets',
+    'credit markets'
   ],
 
 
   science: [
-    '"scientific breakthrough"',
-    '"scientific discovery"',
-    '"new discovery" researchers',
-    '"physics breakthrough"',
-    '"materials science" breakthrough',
-    '"new material" scientists',
-    '"space discovery"',
-    '"space mission"',
-    '"astronomy discovery"',
-    '"fusion research"',
-    '"quantum research" breakthrough',
-    '"medical technology" breakthrough',
-    '"biotechnology" breakthrough',
-    '"scientists developed" technology',
-    '"researchers developed" new'
+    'scientific breakthrough',
+    'scientific discovery',
+    'new discovery researchers',
+    'physics breakthrough',
+    'materials science breakthrough',
+    'new material scientists',
+    'space discovery',
+    'space mission',
+    'astronomy discovery',
+    'fusion research',
+    'quantum research breakthrough',
+    'medical technology breakthrough',
+    'biotechnology breakthrough',
+    'scientists developed technology',
+    'researchers developed new',
+    'physics research',
+    'materials research',
+    'space research'
   ],
 
 
   energy: [
-    '"energy technology"',
-    '"nuclear energy"',
-    '"nuclear reactor"',
-    '"small modular reactor"',
-    '"fusion energy"',
-    '"battery technology"',
-    '"battery breakthrough"',
-    '"energy storage" technology',
-    '"solar technology"',
-    '"wind energy" technology',
-    '"oil gas technology"',
-    '"oil sands" technology',
-    '"carbon capture" technology',
-    '"hydrogen technology" energy',
-    '"power grid" technology',
-    '"electricity generation" technology',
-    '"geothermal energy"'
-  ],
-
-
-  infrastructure: [
-    '"infrastructure project"',
-    '"major infrastructure project"',
-    '"construction megaproject"',
-    '"megaproject" engineering',
-    '"bridge project" engineering',
-    '"tunnel project" engineering',
-    '"rail project" construction',
-    '"high speed rail" construction',
-    '"airport expansion" project',
-    '"port expansion" project',
-    '"transit project" construction',
-    '"highway project" engineering',
-    '"hydroelectric project"',
-    '"power transmission" project',
-    '"data center" construction',
-    '"factory construction" technology',
-    '"semiconductor fab" construction',
-    '"major construction" engineering'
+    'energy technology',
+    'nuclear energy',
+    'nuclear reactor',
+    'small modular reactor',
+    'fusion energy',
+    'battery technology',
+    'battery breakthrough',
+    'energy storage technology',
+    'solar technology',
+    'wind energy technology',
+    'oil gas technology',
+    'oil sands technology',
+    'carbon capture technology',
+    'hydrogen energy technology',
+    'power grid technology',
+    'electricity generation technology',
+    'geothermal energy',
+    'natural gas infrastructure',
+    'power generation project',
+    'electric grid'
   ]
 
 };
 
 
-
-/* =====================================
+/* =========================
    TIME WINDOWS
-===================================== */
-
-/*
-  Stories progressively widen in age.
-
-  7 days
-  30 days
-  90 days
-  1 year
-
-  The one-year searches are only reached
-  after the earlier searches have been
-  consumed through scrolling.
-*/
+========================= */
 
 const timeWindows = [
-  {
-    label: "7 days",
-    query: "when:7d"
-  },
-  {
-    label: "30 days",
-    query: "when:30d"
-  },
-  {
-    label: "90 days",
-    query: "when:90d"
-  },
-  {
-    label: "1 year",
-    query: "when:1y"
-  }
+  { label: "7 days", query: "when:7d" },
+  { label: "30 days", query: "when:30d" },
+  { label: "90 days", query: "when:90d" },
+  { label: "1 year", query: "when:1y" }
 ];
 
 
-
-/* =====================================
+/* =========================
    BUILD SEARCH QUEUES
-===================================== */
+========================= */
 
 const searchQueues = {};
-
 
 Object.keys(baseSearches).forEach(category => {
 
@@ -918,13 +741,8 @@ Object.keys(baseSearches).forEach(category => {
     baseSearches[category].forEach(baseQuery => {
 
       searchQueues[category].push({
-        query:
-          baseQuery +
-          " " +
-          window.query,
-
-        windowIndex:
-          windowIndex
+        query: baseQuery + " " + window.query,
+        windowIndex: windowIndex
       });
 
     });
@@ -934,54 +752,34 @@ Object.keys(baseSearches).forEach(category => {
 });
 
 
-
-/* =====================================
+/* =========================
    CACHE
-===================================== */
+========================= */
 
 const categoryCache = {};
-
 
 Object.keys(searchQueues).forEach(category => {
 
   categoryCache[category] = {
-
     stories: [],
-
     searchIndex: 0,
-
     displayed: 0,
-
     finished: false,
-
     seenTitles: new Set(),
-
     seenLinks: new Set()
-
   };
 
 });
 
 
-
-/* =====================================
-   GLOBAL STATE
-===================================== */
-
-let currentNewsCategory =
-  "all";
-
-let activeRequestId =
-  0;
-
-let currentlyLoading =
-  false;
+let currentNewsCategory = "all";
+let activeRequestId = 0;
+let currentlyLoading = false;
 
 
-
-/* =====================================
-   GOOGLE NEWS
-===================================== */
+/* =========================
+   RSS HELPERS
+========================= */
 
 function googleNewsRSS(query) {
 
@@ -994,11 +792,6 @@ function googleNewsRSS(query) {
 }
 
 
-
-/* =====================================
-   RSS2JSON
-===================================== */
-
 function rss2json(feed) {
 
   return (
@@ -1008,11 +801,6 @@ function rss2json(feed) {
 
 }
 
-
-
-/* =====================================
-   CLEAN TITLES
-===================================== */
 
 function cleanNewsTitle(title) {
 
@@ -1026,24 +814,12 @@ function cleanNewsTitle(title) {
 }
 
 
-
-/* =====================================
-   SOURCE
-===================================== */
-
 function getNewsSource(title) {
 
-  const parts =
-    title.split(" - ");
+  const parts = title.split(" - ");
 
-  if (
-    parts.length > 1
-  ) {
-
-    return parts[
-      parts.length - 1
-    ].trim();
-
+  if (parts.length > 1) {
+    return parts[parts.length - 1].trim();
   }
 
   return "News";
@@ -1051,37 +827,20 @@ function getNewsSource(title) {
 }
 
 
-
-/* =====================================
-   REMOVE SOURCE
-===================================== */
-
 function removeNewsSource(title) {
 
-  const parts =
-    title.split(" - ");
+  const parts = title.split(" - ");
 
-  if (
-    parts.length > 1
-  ) {
+  if (parts.length > 1) {
 
     parts.pop();
 
-    return parts
-      .join(" - ")
-      .trim();
-
+    return parts.join(" - ").trim();
   }
 
   return title;
-
 }
 
-
-
-/* =====================================
-   NORMALIZE TITLE
-===================================== */
 
 function normalizeTitle(title) {
 
@@ -1089,61 +848,39 @@ function normalizeTitle(title) {
     .toLowerCase()
     .replace(/[^a-z0-9]/g,"")
     .slice(0,160);
-
 }
 
 
-
-/* =====================================
-   RELATIVE DATE
-===================================== */
-
 function relativeDate(dateString) {
 
-  const date =
-    new Date(dateString);
+  const date = new Date(dateString);
 
-  if (
-    isNaN(date)
-  ) {
+  if (isNaN(date)) {
     return "";
   }
 
   const hours =
     Math.floor(
-      (
-        Date.now() -
-        date.getTime()
-      ) /
+      (Date.now() - date.getTime()) /
       3600000
     );
 
-  if (
-    hours < 1
-  ) {
+  if (hours < 1) {
     return "Just now";
   }
 
-  if (
-    hours < 24
-  ) {
+  if (hours < 24) {
     return hours + "h ago";
   }
 
   const days =
-    Math.floor(
-      hours / 24
-    );
+    Math.floor(hours / 24);
 
-  if (
-    days === 1
-  ) {
+  if (days === 1) {
     return "Yesterday";
   }
 
-  if (
-    days < 30
-  ) {
+  if (days < 30) {
     return days + "d ago";
   }
 
@@ -1158,30 +895,19 @@ function relativeDate(dateString) {
 }
 
 
-
-/* =====================================
-   SAFE HTML
-===================================== */
-
 function escapeHTML(text) {
 
-  const div =
-    document.createElement(
-      "div"
-    );
+  const div = document.createElement("div");
 
-  div.textContent =
-    text || "";
+  div.textContent = text || "";
 
   return div.innerHTML;
-
 }
 
 
-
-/* =====================================
-   FETCH ONE SEARCH
-===================================== */
+/* =========================
+   FETCH ONE QUERY
+========================= */
 
 async function fetchNewsQuery(query) {
 
@@ -1208,9 +934,7 @@ async function fetchNewsQuery(query) {
         }
       );
 
-    if (
-      !response.ok
-    ) {
+    if (!response.ok) {
       return [];
     }
 
@@ -1226,15 +950,11 @@ async function fetchNewsQuery(query) {
 
     return data.items;
 
-  }
-
-  catch(error) {
+  } catch(error) {
 
     return [];
 
-  }
-
-  finally {
+  } finally {
 
     clearTimeout(timeout);
 
@@ -1243,42 +963,28 @@ async function fetchNewsQuery(query) {
 }
 
 
-
-/* =====================================
+/* =========================
    ADD STORIES
-===================================== */
+========================= */
 
-function addStories(
-  category,
-  items
-) {
+function addStories(category, items) {
 
   const cache =
-    categoryCache[
-      category
-    ];
-
+    categoryCache[category];
 
   items.forEach(item => {
 
     const fullTitle =
-      cleanNewsTitle(
-        item.title
-      );
+      cleanNewsTitle(item.title);
 
     const title =
-      removeNewsSource(
-        fullTitle
-      );
+      removeNewsSource(fullTitle);
 
     const normalizedTitle =
-      normalizeTitle(
-        title
-      );
+      normalizeTitle(title);
 
     const link =
       item.link || "";
-
 
     if (
       !title ||
@@ -1287,59 +993,24 @@ function addStories(
       return;
     }
 
-
-    /*
-      Remove duplicates returned again
-      by the 30d, 90d and 1y searches.
-    */
-
     if (
-      cache.seenTitles.has(
-        normalizedTitle
-      )
+      cache.seenTitles.has(normalizedTitle) ||
+      cache.seenLinks.has(link)
     ) {
       return;
     }
 
-
-    if (
-      cache.seenLinks.has(
-        link
-      )
-    ) {
-      return;
-    }
-
-
-    cache.seenTitles.add(
-      normalizedTitle
-    );
-
-    cache.seenLinks.add(
-      link
-    );
-
+    cache.seenTitles.add(normalizedTitle);
+    cache.seenLinks.add(link);
 
     cache.stories.push({
-
-      title:
-        title,
-
-      source:
-        getNewsSource(
-          fullTitle
-        ),
-
-      date:
-        item.pubDate,
-
-      link:
-        link
-
+      title: title,
+      source: getNewsSource(fullTitle),
+      date: item.pubDate,
+      link: link
     });
 
   });
-
 
   cache.stories.sort(
     (a,b) =>
@@ -1350,42 +1021,26 @@ function addStories(
 }
 
 
+/* =========================
+   WINDOW LABEL
+========================= */
 
-/* =====================================
-   CURRENT TIME WINDOW
-===================================== */
-
-function currentWindowLabel(
-  category
-) {
+function currentWindowLabel(category) {
 
   const cache =
-    categoryCache[
-      category
-    ];
+    categoryCache[category];
 
   const queue =
-    searchQueues[
-      category
-    ];
-
+    searchQueues[category];
 
   if (
-    cache.finished
+    cache.finished ||
+    cache.searchIndex >= queue.length
   ) {
     return "1 year";
   }
 
-
-  if (
-    cache.searchIndex >=
-    queue.length
-  ) {
-    return "1 year";
-  }
-
-
-  const search =
+  const item =
     queue[
       Math.max(
         0,
@@ -1393,18 +1048,16 @@ function currentWindowLabel(
       )
     ];
 
-
   return timeWindows[
-    search.windowIndex
+    item.windowIndex
   ].label;
 
 }
 
 
-
-/* =====================================
-   FETCH NEXT SEARCH BATCH
-===================================== */
+/* =========================
+   FETCH NEXT BATCH
+========================= */
 
 async function fetchNextBatch(
   category,
@@ -1412,159 +1065,98 @@ async function fetchNextBatch(
 ) {
 
   const cache =
-    categoryCache[
-      category
-    ];
+    categoryCache[category];
 
   const queue =
-    searchQueues[
-      category
-    ];
+    searchQueues[category];
 
-
-  if (
-    cache.finished
-  ) {
+  if (cache.finished) {
     return;
   }
-
 
   const start =
     cache.searchIndex;
 
   const end =
     Math.min(
-      start +
-      QUERIES_PER_BATCH,
+      start + QUERIES_PER_BATCH,
       queue.length
     );
 
-
   const searches =
-    queue.slice(
-      start,
-      end
-    );
+    queue.slice(start,end);
 
-
-  cache.searchIndex =
-    end;
-
+  cache.searchIndex = end;
 
   if (
-    cache.searchIndex >=
-    queue.length
+    cache.searchIndex >= queue.length
   ) {
-
-    cache.finished =
-      true;
-
+    cache.finished = true;
   }
-
 
   const results =
     await Promise.allSettled(
 
       searches.map(search =>
-        fetchNewsQuery(
-          search.query
-        )
+        fetchNewsQuery(search.query)
       )
 
     );
 
-
-  /*
-    User switched tabs while these
-    searches were loading.
-  */
-
   if (
-    requestId !==
-    activeRequestId
+    requestId !== activeRequestId
   ) {
     return;
   }
 
-
-  const combined =
-    [];
-
+  const combined = [];
 
   results.forEach(result => {
 
     if (
-      result.status ===
-        "fulfilled" &&
-      Array.isArray(
-        result.value
-      )
+      result.status === "fulfilled" &&
+      Array.isArray(result.value)
     ) {
-
-      combined.push(
-        ...result.value
-      );
-
+      combined.push(...result.value);
     }
 
   });
 
-
-  addStories(
-    category,
-    combined
-  );
+  addStories(category, combined);
 
 }
 
 
-
-/* =====================================
-   CREATE STORY CARD
-===================================== */
+/* =========================
+   STORY CARD
+========================= */
 
 function createStoryCard(story) {
 
   const card =
-    document.createElement(
-      "a"
-    );
+    document.createElement("a");
 
-  card.className =
-    "news-card";
-
-  card.href =
-    story.link;
-
-  card.target =
-    "_blank";
-
-  card.rel =
-    "noopener noreferrer";
-
+  card.className = "news-card";
+  card.href = story.link;
+  card.target = "_blank";
+  card.rel = "noopener noreferrer";
 
   card.innerHTML = `
 
     <div class="news-top">
 
       <div class="news-source">
-        ${escapeHTML(
-          story.source
-        )}
+        ${escapeHTML(story.source)}
       </div>
 
       <div class="news-date">
-        ${relativeDate(
-          story.date
-        )}
+        ${relativeDate(story.date)}
       </div>
 
     </div>
 
     <h3>
-      ${escapeHTML(
-        story.title
-      )}
+      ${escapeHTML(story.title)}
     </h3>
 
     <div class="news-link">
@@ -1573,20 +1165,15 @@ function createStoryCard(story) {
 
   `;
 
-
   return card;
-
 }
 
 
+/* =========================
+   RENDER STORIES
+========================= */
 
-/* =====================================
-   RENDER 10 STORIES
-===================================== */
-
-function renderStories(
-  reset = false
-) {
+function renderStories(reset = false) {
 
   const cache =
     categoryCache[
@@ -1598,18 +1185,12 @@ function renderStories(
       "newsList"
     );
 
-
-  if (
-    reset
-  ) {
+  if (reset) {
 
     list.innerHTML = "";
-
-    cache.displayed =
-      0;
+    cache.displayed = 0;
 
   }
-
 
   const end =
     Math.min(
@@ -1618,13 +1199,9 @@ function renderStories(
       cache.stories.length
     );
 
-
   for (
-    let i =
-      cache.displayed;
-
+    let i = cache.displayed;
     i < end;
-
     i++
   ) {
 
@@ -1636,20 +1213,15 @@ function renderStories(
 
   }
 
-
-  cache.displayed =
-    end;
-
+  cache.displayed = end;
 
   updateStatus();
-
 }
 
 
-
-/* =====================================
+/* =========================
    STATUS
-===================================== */
+========================= */
 
 function updateStatus() {
 
@@ -1668,10 +1240,7 @@ function updateStatus() {
       "newsEnd"
     );
 
-
-  if (
-    cache.displayed > 0
-  ) {
+  if (cache.displayed > 0) {
 
     status.textContent =
       cache.displayed +
@@ -1680,24 +1249,17 @@ function updateStatus() {
         currentNewsCategory
       );
 
-  }
-
-  else if (
-    currentlyLoading
-  ) {
+  } else if (currentlyLoading) {
 
     status.textContent =
       "Finding current stories…";
 
-  }
-
-  else {
+  } else {
 
     status.textContent =
       "No stories found yet.";
 
   }
-
 
   if (
     cache.finished &&
@@ -1705,120 +1267,72 @@ function updateStatus() {
       cache.stories.length
   ) {
 
-    endMessage
-      .classList
-      .remove(
-        "hidden"
-      );
+    endMessage.classList.remove(
+      "hidden"
+    );
 
-  }
+  } else {
 
-  else {
-
-    endMessage
-      .classList
-      .add(
-        "hidden"
-      );
+    endMessage.classList.add(
+      "hidden"
+    );
 
   }
 
 }
 
 
-
-/* =====================================
-   SHOW LOADING
-===================================== */
+/* =========================
+   LOADING
+========================= */
 
 function showLoading() {
 
-  currentlyLoading =
-    true;
+  currentlyLoading = true;
 
   document
-    .getElementById(
-      "newsLoading"
-    )
+    .getElementById("newsLoading")
     .classList
-    .remove(
-      "hidden"
-    );
+    .remove("hidden");
 
 }
 
-
-
-/* =====================================
-   HIDE LOADING
-===================================== */
 
 function hideLoading() {
 
-  currentlyLoading =
-    false;
+  currentlyLoading = false;
 
   document
-    .getElementById(
-      "newsLoading"
-    )
+    .getElementById("newsLoading")
     .classList
-    .add(
-      "hidden"
-    );
+    .add("hidden");
 
 }
 
 
+/* =========================
+   LOAD CATEGORY
+========================= */
 
-/* =====================================
-   INITIAL CATEGORY LOAD
-===================================== */
-
-async function loadCategory(
-  category
-) {
+async function loadCategory(category) {
 
   const cache =
-    categoryCache[
-      category
-    ];
-
-
-  /*
-    Already cached?
-    Show immediately.
-  */
+    categoryCache[category];
 
   if (
     cache.stories.length > 0
   ) {
 
-    renderStories(
-      true
-    );
-
+    renderStories(true);
     return;
 
   }
 
-
   const requestId =
     ++activeRequestId;
 
-
   showLoading();
-
   updateStatus();
-
-
-  /*
-    Keep trying small batches until
-    enough stories exist for the first
-    visible page.
-
-    This is only for the initial load.
-  */
 
   while (
     cache.stories.length <
@@ -1831,57 +1345,40 @@ async function loadCategory(
       requestId
     );
 
-
     if (
-      requestId !==
-      activeRequestId
+      requestId !== activeRequestId
     ) {
-
       return;
-
     }
 
   }
 
-
   if (
-    requestId !==
-    activeRequestId
+    requestId !== activeRequestId
   ) {
     return;
   }
 
-
   hideLoading();
 
-
-  renderStories(
-    true
-  );
+  renderStories(true);
 
 }
 
 
-
-/* =====================================
+/* =========================
    CHANGE CATEGORY
-===================================== */
+========================= */
 
 function changeNewsCategory(
   category,
   button
 ) {
 
-  /*
-    Cancel influence of old requests.
-  */
-
   activeRequestId++;
-
 
   currentNewsCategory =
     category;
-
 
   document
     .querySelectorAll(
@@ -1893,17 +1390,12 @@ function changeNewsCategory(
       )
     );
 
-
   button.classList.add(
     "active"
   );
 
-
   const info =
-    categoryInfo[
-      category
-    ];
-
+    categoryInfo[category];
 
   document
     .getElementById(
@@ -1912,7 +1404,6 @@ function changeNewsCategory(
     .textContent =
       info.title;
 
-
   document
     .getElementById(
       "categoryDescription"
@@ -1920,46 +1411,29 @@ function changeNewsCategory(
     .textContent =
       info.description;
 
-
   document
     .getElementById(
       "newsList"
     )
-    .innerHTML =
-      "";
-
+    .innerHTML = "";
 
   document
     .getElementById(
       "newsEnd"
     )
     .classList
-    .add(
-      "hidden"
-    );
-
+    .add("hidden");
 
   const cache =
-    categoryCache[
-      category
-    ];
-
-
-  /*
-    Cached category = instant switch.
-  */
+    categoryCache[category];
 
   if (
     cache.stories.length > 0
   ) {
 
-    renderStories(
-      true
-    );
+    renderStories(true);
 
-  }
-
-  else {
+  } else {
 
     document
       .getElementById(
@@ -1968,73 +1442,48 @@ function changeNewsCategory(
       .textContent =
         "Finding current stories…";
 
-
-    loadCategory(
-      category
-    );
+    loadCategory(category);
 
   }
 
 }
 
 
-
-/* =====================================
-   REFRESH CURRENT CATEGORY
-===================================== */
+/* =========================
+   REFRESH
+========================= */
 
 async function refreshNews() {
 
   const category =
     currentNewsCategory;
 
-
-  /*
-    Invalidate any old loading request.
-  */
-
   const requestId =
     ++activeRequestId;
 
-
-  categoryCache[
-    category
-  ] = {
+  categoryCache[category] = {
 
     stories: [],
-
     searchIndex: 0,
-
     displayed: 0,
-
     finished: false,
-
-    seenTitles:
-      new Set(),
-
-    seenLinks:
-      new Set()
+    seenTitles: new Set(),
+    seenLinks: new Set()
 
   };
-
 
   document
     .getElementById(
       "newsList"
     )
-    .innerHTML =
-      "";
-
+    .innerHTML = "";
 
   document
     .getElementById(
       "newsEnd"
     )
     .classList
-    .add(
-      "hidden"
-    );
-
+    .add("hidden");
 
   document
     .getElementById(
@@ -2043,15 +1492,10 @@ async function refreshNews() {
     .textContent =
       "Refreshing stories…";
 
-
   showLoading();
 
-
   const cache =
-    categoryCache[
-      category
-    ];
-
+    categoryCache[category];
 
   while (
     cache.stories.length <
@@ -2064,63 +1508,42 @@ async function refreshNews() {
       requestId
     );
 
-
     if (
-      requestId !==
-      activeRequestId
+      requestId !== activeRequestId
     ) {
       return;
     }
 
   }
 
-
   if (
-    requestId !==
-    activeRequestId
+    requestId !== activeRequestId
   ) {
     return;
   }
 
-
   hideLoading();
 
-
-  renderStories(
-    true
-  );
+  renderStories(true);
 
 }
 
 
-
-/* =====================================
+/* =========================
    INFINITE SCROLL
-===================================== */
+========================= */
 
 async function loadMoreNews() {
 
-  if (
-    currentlyLoading
-  ) {
+  if (currentlyLoading) {
     return;
   }
-
 
   const category =
     currentNewsCategory;
 
-
   const cache =
-    categoryCache[
-      category
-    ];
-
-
-  /*
-    First reveal anything already
-    downloaded but not displayed.
-  */
+    categoryCache[category];
 
   if (
     cache.displayed <
@@ -2128,48 +1551,24 @@ async function loadMoreNews() {
   ) {
 
     renderStories();
-
     return;
 
   }
 
-
-  /*
-    At this point we have displayed
-    everything cached.
-
-    If we've exhausted the 1-year
-    search queue, we're genuinely done.
-  */
-
-  if (
-    cache.finished
-  ) {
+  if (cache.finished) {
 
     updateStatus();
-
     return;
 
   }
-
 
   const requestId =
     ++activeRequestId;
 
-
   showLoading();
-
 
   const oldStoryCount =
     cache.stories.length;
-
-
-  /*
-    Fetch small search groups until
-    there are enough new stories for
-    another visible batch, or the
-    1-year queue is exhausted.
-  */
 
   while (
     cache.stories.length <
@@ -2183,37 +1582,30 @@ async function loadMoreNews() {
       requestId
     );
 
-
     if (
-      requestId !==
-      activeRequestId
+      requestId !== activeRequestId
     ) {
       return;
     }
 
   }
 
-
   if (
-    requestId !==
-    activeRequestId
+    requestId !== activeRequestId
   ) {
     return;
   }
 
-
   hideLoading();
-
 
   renderStories();
 
 }
 
 
-
-/* =====================================
-   INFINITE SCROLL OBSERVER
-===================================== */
+/* =========================
+   OBSERVER
+========================= */
 
 const newsObserver =
   new IntersectionObserver(
@@ -2225,9 +1617,7 @@ const newsObserver =
         if (
           entry.isIntersecting
         ) {
-
           loadMoreNews();
-
         }
 
       });
@@ -2235,23 +1625,13 @@ const newsObserver =
     },
 
     {
-      root:
-        null,
-
-      /*
-        Start loading before the user
-        actually reaches the bottom.
-      */
-
+      root: null,
       rootMargin:
         "900px 0px 900px 0px",
-
-      threshold:
-        0
+      threshold: 0
     }
 
   );
-
 
 newsObserver.observe(
   document.getElementById(
@@ -2260,52 +1640,35 @@ newsObserver.observe(
 );
 
 
-
-/* =====================================
-   IPHONE SCROLL FALLBACK
-===================================== */
+/* iPHONE FALLBACK */
 
 window.addEventListener(
-
   "scroll",
-
   () => {
 
     const distance =
-      document
-        .documentElement
-        .scrollHeight -
+      document.documentElement.scrollHeight -
       (
         window.innerHeight +
         window.scrollY
       );
 
-
     if (
       distance < 900
     ) {
-
       loadMoreNews();
-
     }
 
   },
-
   {
     passive: true
   }
-
 );
 
 
+/* START */
 
-/* =====================================
-   START NEWS IQ
-===================================== */
-
-loadCategory(
-  "all"
-);
+loadCategory("all");
 
 </script>
 
