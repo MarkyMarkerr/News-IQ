@@ -2,1869 +2,441 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0, viewport-fit=cover"
->
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>News IQ</title>
-
-<meta name="theme-color" content="#f3f0e8">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="News IQ">
-
 <style>
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
+* { box-sizing: border-box; }
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: #19231f;
-
-  background:
-    radial-gradient(circle at top left, #f7e7c5 0, transparent 27%),
-    radial-gradient(circle at top right, #dcece4 0, transparent 25%),
-    #f3f0e8;
-
-  min-height: 100vh;
+  background: #f3f0e8;
+  color: #1a1f1c;
 }
-
-button {
-  font: inherit;
-  cursor: pointer;
-}
-
 .app {
   max-width: 800px;
   margin: 0 auto;
-
-  padding:
-    calc(env(safe-area-inset-top) + 20px)
-    16px
-    calc(env(safe-area-inset-bottom) + 70px);
+  padding: 20px 16px 80px;
 }
-
-
 /* HEADER */
-
-.hero {
-  padding: 22px 4px 18px;
-}
-
-.eyebrow {
-  font-size: 12px;
-  font-weight: 850;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-  color: #6f7772;
-  margin-bottom: 11px;
-}
-
 h1 {
-  margin: 0;
-  font-size: clamp(52px, 15vw, 82px);
-  line-height: .92;
-  letter-spacing: -.065em;
-  font-weight: 900;
+  font-size: 48px;
+  margin: 10px 0;
 }
-
-.hero p {
-  max-width: 650px;
-  margin: 18px 0 0;
-  color: #68716c;
-  font-size: 16px;
-  line-height: 1.55;
-}
-
-
-/* CATEGORY NAV */
-
-.news-controls-wrap {
-  position: sticky;
-  top: 0;
-  z-index: 40;
-
-  padding: 9px 0 11px;
-
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(243,240,232,.97),
-      rgba(243,240,232,.90),
-      rgba(243,240,232,0)
-    );
-
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-.news-controls {
+/* TABS */
+.tabs {
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding: 2px 0 8px;
-  scrollbar-width: none;
+  padding: 10px 0;
 }
-
-.news-controls::-webkit-scrollbar {
-  display: none;
-}
-
-.news-controls button {
-  flex: 0 0 auto;
-  border: 1px solid rgba(25,40,32,.06);
-  border-radius: 999px;
-  padding: 10px 14px;
-  background: rgba(255,255,255,.88);
-  color: #425048;
-  font-size: 12px;
-  font-weight: 800;
-
-  box-shadow:
-    0 5px 18px rgba(30,45,37,.04);
-}
-
-.news-controls button.active {
-  background: #203128;
-  color: white;
-}
-
-
-/* HERO CARD */
-
-.news-hero {
-  background: #203028;
-  color: white;
-  padding: 22px;
-  border-radius: 26px;
-  margin: 10px 0 22px;
-
-  box-shadow:
-    0 10px 30px rgba(25,40,32,.10);
-}
-
-.news-hero-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-}
-
-.news-hero h2 {
-  margin: 0 0 7px;
-  font-size: 27px;
-  letter-spacing: -.03em;
-}
-
-.news-hero p {
-  margin: 0;
-  color: #c9d3ce;
-  line-height: 1.5;
-  font-size: 14px;
-}
-
-.refresh-news {
-  flex: 0 0 auto;
+.tabs button {
   border: 0;
-  background: rgba(255,255,255,.12);
-  color: white;
-  border-radius: 999px;
   padding: 10px 14px;
-  font-weight: 800;
-  font-size: 12px;
+  border-radius: 999px;
+  background: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
 }
-
-.refresh-news:active {
-  transform: scale(.97);
+.tabs button.active {
+  background: #1f2d25;
+  color: white;
 }
-
-
-/* FEED */
-
-.news-heading-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  gap: 15px;
-  margin: 4px 3px 12px;
-}
-
-.news-heading-row h3 {
-  margin: 0;
-  font-size: 22px;
-  letter-spacing: -.025em;
-}
-
-.news-status {
-  font-size: 12px;
-  color: #78817b;
-  margin: 5px 3px 14px;
-}
-
-.news-list {
-  display: grid;
-  gap: 12px;
-}
-
-.news-card {
+/* LIST */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 16px;
+  margin: 10px 0;
+  text-decoration: none;
   display: block;
   color: inherit;
-  text-decoration: none;
-
-  border:
-    1px solid rgba(25,40,32,.07);
-
-  border-radius: 23px;
-
-  background:
-    rgba(255,255,255,.89);
-
-  box-shadow:
-    0 9px 29px rgba(30,45,37,.05);
-
-  padding: 19px;
-
-  transition:
-    transform .12s ease;
 }
-
-.news-card:nth-child(4n+1) {
-  background:
-    linear-gradient(145deg,#fff9eb,#fff);
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
 }
-
-.news-card:nth-child(4n+2) {
-  background:
-    linear-gradient(145deg,#eef8f2,#fff);
-}
-
-.news-card:nth-child(4n+3) {
-  background:
-    linear-gradient(145deg,#edf4fb,#fff);
-}
-
-.news-card:nth-child(4n+4) {
-  background:
-    linear-gradient(145deg,#f7f1fa,#fff);
-}
-
-.news-card:active {
-  transform: scale(.986);
-}
-
-.news-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 10px;
-}
-
-.news-source {
+.meta {
   font-size: 12px;
-  font-weight: 850;
-  color: #627169;
-
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  opacity: 0.6;
 }
-
-.news-date {
-  flex: 0 0 auto;
-  font-size: 11px;
-  color: #969e99;
-  white-space: nowrap;
-}
-
-.news-card h3 {
-  margin: 0;
-  font-size: 21px;
-  line-height: 1.2;
-  letter-spacing: -.025em;
-}
-
-.news-link {
-  font-size: 13px;
-  font-weight: 800;
-  color: #355840;
-  margin-top: 13px;
-}
-
-
 /* LOADING */
-
-.news-loading {
-  padding: 30px 0;
-}
-
-.spinner {
-  width: 26px;
-  height: 26px;
-  border: 3px solid #d8ddda;
-  border-top-color: #203128;
-  border-radius: 50%;
-  margin: 0 auto 10px;
-  animation: spin .8s linear infinite;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.loading-text {
+.loading {
   text-align: center;
-  font-size: 13px;
-  color: #858d88;
+  padding: 20px;
+  opacity: 0.6;
 }
-
-.end-message {
-  text-align: center;
-  padding: 28px 10px;
-  color: #8a928d;
-  font-size: 13px;
-}
-
-#newsSentinel {
-  height: 20px;
-  width: 100%;
-}
-
-
-/* FOOTER */
-
-.footer {
-  text-align: center;
-  color: #929995;
-  font-size: 12px;
-  line-height: 1.5;
-  padding: 40px 10px 0;
-}
-
-.hidden {
-  display: none !important;
-}
-
 </style>
 </head>
-
 <body>
-
 <div class="app">
-
-<header class="hero">
-
-  <div class="eyebrow">
-    Engineering · Technology · Business · Valuation · Science
-  </div>
-
-  <h1>News IQ</h1>
-
-  <p>
-    Interesting news and insights across engineering, technology,
-    business valuation, finance, science, energy and the industries
-    shaping the world.
-  </p>
-
-</header>
-
-
-<div class="news-controls-wrap">
-
-  <div class="news-controls">
-
-    <button
-      class="active"
-      data-category="all"
-      onclick="changeNewsCategory('all',this)"
-    >
-      For You
-    </button>
-
-    <button
-      data-category="valuation"
-      onclick="changeNewsCategory('valuation',this)"
-    >
-      Business Valuation
-    </button>
-
-    <button
-      data-category="engineering"
-      onclick="changeNewsCategory('engineering',this)"
-    >
-      Engineering
-    </button>
-
-    <button
-      data-category="technology"
-      onclick="changeNewsCategory('technology',this)"
-    >
-      Technology
-    </button>
-
-    <button
-      data-category="business"
-      onclick="changeNewsCategory('business',this)"
-    >
-      Business
-    </button>
-
-    <button
-      data-category="finance"
-      onclick="changeNewsCategory('finance',this)"
-    >
-      Finance
-    </button>
-
-    <button
-      data-category="ma"
-      onclick="changeNewsCategory('ma',this)"
-    >
-      M&A
-    </button>
-
-    <button
-      data-category="science"
-      onclick="changeNewsCategory('science',this)"
-    >
-      Science
-    </button>
-
-    <button
-      data-category="energy"
-      onclick="changeNewsCategory('energy',this)"
-    >
-      Energy
-    </button>
-
-    <button
-      data-category="infrastructure"
-      onclick="changeNewsCategory('infrastructure',this)"
-    >
-      Infrastructure
-    </button>
-
-  </div>
-
+<h1>News IQ</h1>
+<div class="tabs">
+<button class="active" onclick="changeCategory('all', this)">For You</button>
+<button onclick="changeCategory('engineering', this)">Engineering</button>
+<button onclick="changeCategory('technology', this)">Technology</button>
+<button onclick="changeCategory('business', this)">Business</button>
+<button onclick="changeCategory('valuation', this)">Valuation</button>
 </div>
-
-
-<div class="news-hero">
-
-  <div class="news-hero-top">
-
-    <div>
-
-      <h2 id="categoryTitle">
-        Today's News
-      </h2>
-
-      <p id="categoryDescription">
-        A mix of interesting developments from engineering,
-        business valuation, technology, finance, science and industry.
-      </p>
-
-    </div>
-
-    <button
-      class="refresh-news"
-      onclick="refreshNews()"
-    >
-      Refresh
-    </button>
-
-  </div>
-
+<div id="list"></div>
+<div id="loading" class="loading">Loading…</div>
+<div id="sentinel"></div>
 </div>
-
-
-<div class="news-heading-row">
-  <h3>Latest</h3>
-</div>
-
-
-<div
-  class="news-status"
-  id="newsStatus"
->
-  Finding current stories…
-</div>
-
-
-<div
-  class="news-list"
-  id="newsList"
-></div>
-
-
-<div
-  id="newsLoading"
-  class="news-loading hidden"
->
-
-  <div class="spinner"></div>
-
-  <div class="loading-text">
-    Finding more stories…
-  </div>
-
-</div>
-
-
-<div id="newsSentinel"></div>
-
-
-<div
-  id="newsEnd"
-  class="end-message hidden"
->
-  You've reached the end of the stories currently available.
-</div>
-
-
-<div class="footer">
-  News IQ · External articles belong to their respective publishers.
-</div>
-
-</div>
-
-
 <script>
-
-
-/* =====================================
-   CATEGORY INFORMATION
-===================================== */
-
-const categoryInfo = {
-
-  all: {
-    title: "Today's News",
-    description:
-      "A mix of interesting developments from engineering, business valuation, technology, finance, science and industry."
-  },
-
-  valuation: {
-    title: "Business Valuation",
-    description:
-      "Business value, EBITDA multiples, private-company transactions, DCF, acquisitions, selling businesses and M&A valuation."
-  },
-
-  engineering: {
-    title: "Engineering",
-    description:
-      "Mechanical, electrical, civil, aerospace, manufacturing, robotics, materials and major engineering projects."
-  },
-
-  technology: {
-    title: "Technology",
-    description:
-      "AI, computing, semiconductors, robotics, software and emerging technologies."
-  },
-
-  business: {
-    title: "Business",
-    description:
-      "Companies, strategy, major investments, expansions and important business developments."
-  },
-
-  finance: {
-    title: "Finance",
-    description:
-      "Markets, investing, economics, capital and major financial developments."
-  },
-
-  ma: {
-    title: "Mergers & Acquisitions",
-    description:
-      "Acquisitions, mergers, private equity, buyouts and major corporate transactions."
-  },
-
-  science: {
-    title: "Science",
-    description:
-      "Research, discoveries, space, physics, materials and scientific breakthroughs."
-  },
-
-  energy: {
-    title: "Energy",
-    description:
-      "Oil and gas, nuclear, renewables, batteries, power generation and emerging energy technology."
-  },
-
-  infrastructure: {
-    title: "Infrastructure",
-    description:
-      "Major construction, transportation, bridges, tunnels, utilities and large-scale projects."
-  }
-
-};
-
-
-
-/* =====================================
-   SEARCHES
-===================================== */
-
-const newsSearches = {
-
-all: [
-  '"business valuation" when:30d',
-  '"engineering breakthrough" when:30d',
-  '"technology breakthrough" when:14d',
-  '"artificial intelligence" technology when:7d',
-  '"major acquisition" company when:14d',
-  '"scientific breakthrough" when:30d',
-  '"energy technology" when:30d',
-  '"infrastructure project" when:30d',
-  '"advanced manufacturing" when:30d',
-  '"semiconductor" technology when:14d',
-  '"business acquisition" valuation when:90d',
-  '"space technology" when:30d'
-],
-
-valuation: [
-  '"business valuation" when:30d',
-  '"private company valuation" when:90d',
-  '"private business valuation" when:90d',
-  '"small business valuation" when:90d',
-  '"middle market valuation" when:90d',
-  '"EBITDA multiple" acquisition when:90d',
-  '"EBITDA multiples" business when:90d',
-  '"valuation multiples" M&A when:90d',
-  '"transaction multiples" valuation when:90d',
-  '"enterprise value" acquisition when:90d',
-  '"free cash flow" business valuation when:90d',
-  '"discounted cash flow" business valuation when:90d',
-  '"DCF valuation" private company when:90d',
-  '"business appraisal" valuation when:90d',
-  '"buying a business" valuation when:90d',
-  '"business acquisition" valuation when:90d',
-  '"selling a business" valuation when:90d',
-  '"business sale" valuation when:90d',
-  '"company sale" EBITDA multiple when:90d',
-  '"business broker" valuation when:90d',
-  '"exit planning" business valuation when:90d',
-  '"private equity" acquisition valuation when:90d',
-  '"private equity" EBITDA multiples when:90d',
-  '"lower middle market" acquisition when:90d',
-  '"quality of earnings" acquisition when:90d'
-],
-
-engineering: [
-  '"engineering breakthrough" when:30d',
-  '"engineering innovation" when:30d',
-  '"mechanical engineering" when:30d',
-  '"electrical engineering" when:30d',
-  '"civil engineering" when:30d',
-  '"aerospace engineering" when:30d',
-  '"structural engineering" when:30d',
-  '"manufacturing engineering" when:30d',
-  '"robotics engineering" when:30d',
-  '"automotive engineering" when:30d',
-  '"advanced manufacturing" engineering when:30d',
-  '"additive manufacturing" when:30d',
-  '"materials engineering" when:30d',
-  '"construction engineering" when:30d',
-  '"engineering megaproject" when:90d',
-  '"industrial automation" engineering when:30d'
-],
-
-technology: [
-  '"technology breakthrough" when:14d',
-  '"new technology" when:7d',
-  '"artificial intelligence" when:7d',
-  '"AI technology" when:7d',
-  '"robotics" technology when:14d',
-  '"humanoid robot" when:30d',
-  '"semiconductor" when:14d',
-  '"computer chip" technology when:14d',
-  '"quantum computing" when:30d',
-  '"data center" technology when:30d',
-  '"cybersecurity" technology when:14d',
-  '"autonomous vehicle" technology when:30d',
-  '"space technology" when:30d',
-  '"satellite technology" when:30d',
-  '"advanced computing" when:30d'
-],
-
-business: [
-  '"business news" companies when:7d',
-  '"company expansion" when:14d',
-  '"major investment" company when:14d',
-  '"new factory" company when:30d',
-  '"manufacturing investment" when:30d',
-  '"business acquisition" when:30d',
-  '"company strategy" when:30d',
-  '"corporate investment" when:30d',
-  '"business growth" company when:30d',
-  '"industrial company" investment when:30d',
-  '"technology company" investment when:14d',
-  '"startup funding" technology when:14d'
-],
-
-finance: [
-  '"financial markets" when:7d',
-  '"stock market" companies when:7d',
-  '"investment markets" when:14d',
-  '"economic outlook" when:14d',
-  '"corporate earnings" when:7d',
-  '"company valuation" when:30d',
-  '"private markets" when:30d',
-  '"private equity" investment when:30d',
-  '"venture capital" technology when:30d',
-  '"capital markets" when:14d',
-  '"IPO" technology company when:30d'
-],
-
-ma: [
-  '"acquisition" company when:14d',
-  '"major acquisition" when:30d',
-  '"merger" company when:14d',
-  '"M&A" when:14d',
-  '"mergers acquisitions" when:30d',
-  '"private equity" acquisition when:30d',
-  '"buyout" company when:30d',
-  '"takeover" company when:30d',
-  '"strategic acquisition" when:30d',
-  '"technology acquisition" when:30d',
-  '"industrial acquisition" when:30d'
-],
-
-science: [
-  '"scientific breakthrough" when:30d',
-  '"scientific discovery" when:30d',
-  '"new discovery" researchers when:14d',
-  '"physics breakthrough" when:90d',
-  '"materials science" breakthrough when:90d',
-  '"space discovery" when:30d',
-  '"space mission" when:30d',
-  '"astronomy discovery" when:30d',
-  '"fusion research" when:90d',
-  '"quantum research" breakthrough when:90d',
-  '"medical technology" breakthrough when:30d'
-],
-
-energy: [
-  '"energy technology" when:30d',
-  '"nuclear energy" when:30d',
-  '"nuclear reactor" when:30d',
-  '"small modular reactor" when:90d',
-  '"fusion energy" when:90d',
-  '"battery technology" when:30d',
-  '"battery breakthrough" when:90d',
-  '"energy storage" technology when:30d',
-  '"oil gas technology" when:30d',
-  '"oil sands" technology when:30d',
-  '"carbon capture" technology when:30d',
-  '"power grid" technology when:30d'
-],
-
-infrastructure: [
-  '"infrastructure project" when:30d',
-  '"major infrastructure project" when:90d',
-  '"construction megaproject" when:90d',
-  '"bridge project" engineering when:90d',
-  '"tunnel project" engineering when:90d',
-  '"rail project" construction when:90d',
-  '"airport expansion" project when:90d',
-  '"port expansion" project when:90d',
-  '"transit project" construction when:90d',
-  '"highway project" engineering when:90d',
-  '"power transmission" project when:90d',
-  '"data center" construction when:30d'
-]
-
-};
-
-
-
-/* =====================================
-   CATEGORY CACHE
-===================================== */
-
-const categoryCache = {};
-
-Object.keys(newsSearches).forEach(category => {
-
-  categoryCache[category] = {
-    stories: [],
-    queryIndex: 0,
-    displayed: 0,
-    fullyLoaded: false
-  };
-
-});
-
-
-let currentNewsCategory = "all";
-
+/* =========================
+   STATE
+========================= */
+let currentCategory = "all";
 let activeRequestId = 0;
-
-let globalLoading = false;
-
-const newsBatchSize = 10;
-
-const searchesPerBatch = 4;
-
-
-
-/* =====================================
-   RSS HELPERS
-===================================== */
-
-function googleNewsRSS(query) {
-
+const cache = {};
+const BATCH_SIZE = 10;
+/* =========================
+   SEARCHES
+========================= */
+const searches = {
+  all: [
+    "technology news when:7d",
+    "engineering news when:7d",
+    "business news when:7d"
+  ],
+  engineering: [
+    "engineering breakthrough when:30d",
+    "mechanical engineering when:30d"
+  ],
+  technology: [
+    "AI news when:7d",
+    "robotics when:30d"
+  ],
+  business: [
+    "business news when:7d",
+    "company acquisition when:30d"
+  ],
+  valuation: [
+    "business valuation when:90d",
+    "EBITDA multiples when:90d"
+  ]
+};
+/* =========================
+   INIT CACHE
+========================= */
+Object.keys(searches).forEach(k => {
+  cache[k] = {
+    items: [],
+    index: 0,
+    done: false,
+    shown: 0
+  };
+});
+/* =========================
+   HELPERS
+========================= */
+function rss(query) {
   return (
     "https://news.google.com/rss/search?q=" +
-    encodeURIComponent(query) +
-    "&hl=en-CA&gl=CA&ceid=CA:en"
+    encodeURIComponent(query)
   );
-
 }
-
-
-function rss2json(feed) {
-
+function rss2json(url) {
   return (
     "https://api.rss2json.com/v1/api.json?rss_url=" +
-    encodeURIComponent(feed)
+    encodeURIComponent(url)
   );
-
 }
-
-
-function cleanNewsTitle(title) {
-
-  return (title || "")
-    .replace(/&amp;/g,"&")
-    .replace(/&#39;/g,"'")
-    .replace(/&quot;/g,'"')
-    .replace(/&apos;/g,"'")
-    .trim();
-
-}
-
-
-function getNewsSource(title) {
-
-  const parts =
-    title.split(" - ");
-
-  if (parts.length > 1) {
-
-    return parts[
-      parts.length - 1
-    ].trim();
-
-  }
-
-  return "News";
-
-}
-
-
-function removeNewsSource(title) {
-
-  const parts =
-    title.split(" - ");
-
-  if (parts.length > 1) {
-
-    parts.pop();
-
-    return parts
-      .join(" - ")
-      .trim();
-
-  }
-
-  return title;
-
-}
-
-
-function normalizeTitle(title) {
-
-  return title
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g,"")
-    .slice(0,140);
-
-}
-
-
-function relativeDate(dateString) {
-
-  const date =
-    new Date(dateString);
-
-  if (isNaN(date)) {
-    return "";
-  }
-
-  const hours =
-    Math.floor(
-      (
-        Date.now() -
-        date.getTime()
-      ) /
-      3600000
-    );
-
-  if (hours < 1) {
-    return "Just now";
-  }
-
-  if (hours < 24) {
-    return hours + "h ago";
-  }
-
-  const days =
-    Math.floor(hours / 24);
-
-  if (days === 1) {
-    return "Yesterday";
-  }
-
-  if (days < 30) {
-    return days + "d ago";
-  }
-
-  return date.toLocaleDateString(
-    "en-CA",
-    {
-      month: "short",
-      day: "numeric"
-    }
-  );
-
-}
-
-
-function escapeHTML(text) {
-
-  const div =
-    document.createElement("div");
-
-  div.textContent =
-    text || "";
-
-  return div.innerHTML;
-
-}
-
-
-
-/* =====================================
-   FETCH WITH TIMEOUT
-===================================== */
-
-async function fetchNewsQuery(query) {
-
-  const controller =
-    new AbortController();
-
-  const timeout =
-    setTimeout(
-      () => controller.abort(),
-      7000
-    );
-
+async function fetchQuery(query) {
   try {
-
-    const feed =
-      googleNewsRSS(query);
-
-    const response =
+    const res =
       await fetch(
-        rss2json(feed),
-        {
-          cache: "no-store",
-          signal: controller.signal
-        }
+        rss2json(
+          rss(query)
+        )
       );
-
-    if (!response.ok) {
-      return [];
-    }
-
     const data =
-      await response.json();
-
-    if (
-      data.status !== "ok" ||
-      !Array.isArray(data.items)
-    ) {
-      return [];
-    }
-
-    return data.items;
-
-  } catch(error) {
-
+      await res.json();
+    return data.items || [];
+  } catch {
     return [];
-
-  } finally {
-
-    clearTimeout(timeout);
-
   }
-
 }
-
-
-
-/* =====================================
-   ADD STORIES TO CACHE
-===================================== */
-
-function addStoriesToCategory(
-  category,
-  items
-) {
-
-  const cache =
-    categoryCache[category];
-
-  const existingTitles =
-    new Set(
-      cache.stories.map(
-        story =>
-          normalizeTitle(
-            story.title
-          )
-      )
+/* =========================
+   SAFE BATCH FETCH
+========================= */
+async function fetchBatch(category, requestId) {
+  const c =
+    cache[category];
+  const list =
+    searches[category];
+  if (c.done) return;
+  const slice =
+    list.slice(
+      c.index,
+      c.index + 2
     );
-
-  items.forEach(item => {
-
-    const fullTitle =
-      cleanNewsTitle(
-        item.title
-      );
-
-    const title =
-      removeNewsSource(
-        fullTitle
-      );
-
-    const normalized =
-      normalizeTitle(
-        title
-      );
-
-    if (
-      !title ||
-      !item.link ||
-      existingTitles.has(normalized)
-    ) {
-      return;
-    }
-
-    existingTitles.add(
-      normalized
+  c.index +=
+    slice.length;
+  if (
+    c.index >=
+    list.length
+  ) {
+    c.done = true;
+  }
+  const results =
+    await Promise.all(
+      slice.map(fetchQuery)
     );
-
-    cache.stories.push({
-
-      title: title,
-
-      source:
-        getNewsSource(
-          fullTitle
-        ),
-
-      date:
-        item.pubDate,
-
-      link:
-        item.link
-
+  /*
+    Ignore stale category requests.
+  */
+  if (
+    requestId !==
+    activeRequestId
+  ) {
+    return;
+  }
+  results
+    .flat()
+    .forEach(item => {
+      if (
+        !item.title ||
+        !item.link
+      ) {
+        return;
+      }
+      c.items.push({
+        title:
+          item.title,
+        link:
+          item.link,
+        date:
+          item.pubDate
+      });
     });
-
-  });
-
-
-  cache.stories.sort(
-    (a,b) =>
-      new Date(b.date) -
-      new Date(a.date)
-  );
-
 }
-
-
-
-/* =====================================
-   RENDER CURRENT CATEGORY
-===================================== */
-
-function renderCurrentCategory(
-  reset = false
-) {
-
+/* =========================
+   RENDER
+========================= */
+function render(reset = false) {
+  const c =
+    cache[
+      currentCategory
+    ];
   const list =
     document.getElementById(
-      "newsList"
+      "list"
     );
-
-  const cache =
-    categoryCache[
-      currentNewsCategory
-    ];
-
   if (reset) {
-
     list.innerHTML = "";
-
-    cache.displayed = 0;
-
+    c.shown = 0;
   }
-
   const end =
     Math.min(
-      cache.displayed +
-      newsBatchSize,
-      cache.stories.length
+      c.shown +
+      BATCH_SIZE,
+      c.items.length
     );
-
   for (
-    let i = cache.displayed;
+    let i = c.shown;
     i < end;
     i++
   ) {
-
-    const story =
-      cache.stories[i];
-
-    const card =
+    const item =
+      c.items[i];
+    const el =
       document.createElement(
         "a"
       );
-
-    card.className =
-      "news-card";
-
-    card.href =
-      story.link;
-
-    card.target =
+    el.className =
+      "card";
+    el.href =
+      item.link;
+    el.target =
       "_blank";
-
-    card.rel =
+    el.rel =
       "noopener noreferrer";
-
-    card.innerHTML = `
-
-      <div class="news-top">
-
-        <div class="news-source">
-          ${escapeHTML(
-            story.source
-          )}
-        </div>
-
-        <div class="news-date">
-          ${relativeDate(
-            story.date
-          )}
-        </div>
-
-      </div>
-
+    el.innerHTML = `
       <h3>
-        ${escapeHTML(
-          story.title
-        )}
+        ${item.title}
       </h3>
-
-      <div class="news-link">
-        Read story →
+      <div class="meta">
+        ${item.date || ""}
       </div>
-
     `;
-
     list.appendChild(
-      card
+      el
     );
-
   }
-
-  cache.displayed =
+  c.shown =
     end;
-
-  updateStatus();
-
 }
-
-
-
-/* =====================================
-   STATUS
-===================================== */
-
-function updateStatus() {
-
-  const cache =
-    categoryCache[
-      currentNewsCategory
-    ];
-
-  const status =
-    document.getElementById(
-      "newsStatus"
-    );
-
-  const end =
-    document.getElementById(
-      "newsEnd"
-    );
-
-  if (
-    cache.displayed > 0
-  ) {
-
-    status.textContent =
-      cache.displayed +
-      " stories shown";
-
-  }
-
-  else if (
-    globalLoading
-  ) {
-
-    status.textContent =
-      "Finding current stories…";
-
-  }
-
-  else {
-
-    status.textContent =
-      "No stories found yet.";
-
-  }
-
-
-  if (
-    cache.fullyLoaded &&
-    cache.displayed >=
-      cache.stories.length
-  ) {
-
-    end.classList.remove(
-      "hidden"
-    );
-
-  }
-
-  else {
-
-    end.classList.add(
-      "hidden"
-    );
-
-  }
-
-}
-
-
-
-/* =====================================
-   FETCH BATCH IN PARALLEL
-===================================== */
-
-async function fetchCategoryBatch(
-  category,
-  requestId
-) {
-
-  const cache =
-    categoryCache[
-      category
-    ];
-
-  const queries =
-    newsSearches[
-      category
-    ];
-
-  if (
-    cache.fullyLoaded
-  ) {
-    return;
-  }
-
-  const start =
-    cache.queryIndex;
-
-  const end =
-    Math.min(
-      start +
-      searchesPerBatch,
-      queries.length
-    );
-
-  const selectedQueries =
-    queries.slice(
-      start,
-      end
-    );
-
-  cache.queryIndex =
-    end;
-
-  if (
-    cache.queryIndex >=
-      queries.length
-  ) {
-
-    cache.fullyLoaded =
-      true;
-
-  }
-
-
-  const results =
-    await Promise.allSettled(
-
-      selectedQueries.map(
-        query =>
-          fetchNewsQuery(
-            query
-          )
-      )
-
-    );
-
-
-  if (
-    requestId !==
-    activeRequestId
-  ) {
-
-    return;
-
-  }
-
-
-  const combinedItems =
-    [];
-
-  results.forEach(result => {
-
-    if (
-      result.status ===
-        "fulfilled" &&
-      Array.isArray(
-        result.value
-      )
-    ) {
-
-      combinedItems.push(
-        ...result.value
-      );
-
-    }
-
-  });
-
-
-  addStoriesToCategory(
-    category,
-    combinedItems
-  );
-
-}
-
-
-
-/* =====================================
+/* =========================
    LOAD CATEGORY
-===================================== */
-
+========================= */
 async function loadCategory(
   category,
-  forceRefresh = false
+  reset = false
 ) {
-
   const requestId =
     ++activeRequestId;
-
-  const cache =
-    categoryCache[
-      category
-    ];
-
-  if (
-    forceRefresh
-  ) {
-
-    cache.stories = [];
-    cache.queryIndex = 0;
-    cache.displayed = 0;
-    cache.fullyLoaded = false;
-
+  const c =
+    cache[category];
+  if (reset) {
+    c.items = [];
+    c.index = 0;
+    c.done = false;
+    c.shown = 0;
   }
-
-
-  /*
-    If this category already has cached
-    stories, display them immediately.
-  */
-
-  if (
-    cache.stories.length > 0 &&
-    !forceRefresh
-  ) {
-
-    renderCurrentCategory(
-      true
-    );
-
-    return;
-
-  }
-
-
-  globalLoading =
-    true;
-
   document
     .getElementById(
-      "newsLoading"
+      "loading"
     )
-    .classList
-    .remove(
-      "hidden"
-    );
-
-  updateStatus();
-
-
-  await fetchCategoryBatch(
+    .style.display =
+      "block";
+  await fetchBatch(
     category,
     requestId
   );
-
-
+  /*
+    Ignore stale responses.
+  */
   if (
     requestId !==
     activeRequestId
   ) {
-
     return;
-
   }
-
-
-  globalLoading =
-    false;
-
   document
     .getElementById(
-      "newsLoading"
+      "loading"
     )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  renderCurrentCategory(
-    true
-  );
-
-
-  /*
-    If first group found almost nothing,
-    try one more parallel batch.
-  */
-
-  if (
-    cache.stories.length < 5 &&
-    !cache.fullyLoaded
-  ) {
-
-    globalLoading =
-      true;
-
-    document
-      .getElementById(
-        "newsLoading"
-      )
-      .classList
-      .remove(
-        "hidden"
-      );
-
-
-    await fetchCategoryBatch(
-      category,
-      requestId
-    );
-
-
-    if (
-      requestId !==
-      activeRequestId
-    ) {
-
-      return;
-
-    }
-
-
-    globalLoading =
-      false;
-
-    document
-      .getElementById(
-        "newsLoading"
-      )
-      .classList
-      .add(
-        "hidden"
-      );
-
-
-    renderCurrentCategory(
-      true
-    );
-
-  }
-
-
-  updateStatus();
-
+    .style.display =
+      "none";
+  render(true);
 }
-
-
-
-/* =====================================
+/* =========================
    CATEGORY SWITCH
-===================================== */
-
-function changeNewsCategory(
+========================= */
+function changeCategory(
   category,
-  button
+  btn
 ) {
-
   /*
-    Change selected tab immediately.
+    Invalidate any old request.
   */
-
-  currentNewsCategory =
-    category;
-
   activeRequestId++;
-
-
+  currentCategory =
+    category;
   document
     .querySelectorAll(
-      ".news-controls button"
+      ".tabs button"
     )
     .forEach(
-      btn =>
-        btn.classList.remove(
+      b =>
+        b.classList.remove(
           "active"
         )
     );
-
-  button.classList.add(
+  btn.classList.add(
     "active"
   );
-
-
-  const info =
-    categoryInfo[
-      category
-    ];
-
-  document
-    .getElementById(
-      "categoryTitle"
-    )
-    .textContent =
-      info.title;
-
-  document
-    .getElementById(
-      "categoryDescription"
-    )
-    .textContent =
-      info.description;
-
-
-  document
-    .getElementById(
-      "newsList"
-    )
-    .innerHTML =
-      "";
-
-
-  document
-    .getElementById(
-      "newsEnd"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  const cache =
-    categoryCache[
-      category
-    ];
-
-
+  const c =
+    cache[category];
   /*
-    Cached stories appear immediately.
+    Show cached stories immediately.
   */
-
   if (
-    cache.stories.length
+    c.items.length
   ) {
-
-    renderCurrentCategory(
-      true
-    );
-
+    render(true);
   }
-
   else {
-
     document
       .getElementById(
-        "newsStatus"
+        "list"
       )
-      .textContent =
-        "Finding current stories…";
-
+      .innerHTML =
+        "";
   }
-
-
   loadCategory(
     category
   );
-
 }
-
-
-
-/* =====================================
-   REFRESH
-===================================== */
-
-function refreshNews() {
-
-  loadCategory(
-    currentNewsCategory,
-    true
-  );
-
-}
-
-
-
-/* =====================================
+/* =========================
    INFINITE SCROLL
-===================================== */
-
-async function loadMoreNews() {
-
-  if (
-    globalLoading
-  ) {
-    return;
-  }
-
-  const cache =
-    categoryCache[
-      currentNewsCategory
+========================= */
+async function loadMore() {
+  const c =
+    cache[
+      currentCategory
     ];
-
-
   /*
-    Display already cached stories first.
+    Show already-downloaded
+    stories first.
   */
-
   if (
-    cache.displayed <
-    cache.stories.length
+    c.shown <
+    c.items.length
   ) {
-
-    renderCurrentCategory();
-
+    render();
     return;
-
   }
-
-
   /*
-    If no more cached stories, fetch
-    another parallel search group.
+    No more searches available.
   */
-
-  if (
-    !cache.fullyLoaded
-  ) {
-
-    const requestId =
-      ++activeRequestId;
-
-    globalLoading =
-      true;
-
-    document
-      .getElementById(
-        "newsLoading"
-      )
-      .classList
-      .remove(
-        "hidden"
-      );
-
-
-    await fetchCategoryBatch(
-      currentNewsCategory,
-      requestId
-    );
-
-
-    if (
-      requestId !==
-      activeRequestId
-    ) {
-      return;
-    }
-
-
-    globalLoading =
-      false;
-
-    document
-      .getElementById(
-        "newsLoading"
-      )
-      .classList
-      .add(
-        "hidden"
-      );
-
-
-    renderCurrentCategory();
-
+  if (c.done) {
+    return;
   }
-
-  updateStatus();
-
-}
-
-
-
-/* =====================================
-   OBSERVER
-===================================== */
-
-const newsObserver =
-  new IntersectionObserver(
-
-    entries => {
-
-      entries.forEach(
-        entry => {
-
-          if (
-            entry.isIntersecting
-          ) {
-
-            loadMoreNews();
-
-          }
-
-        }
-      );
-
-    },
-
-    {
-      root: null,
-      rootMargin:
-        "900px 0px 900px 0px",
-      threshold: 0
-    }
-
+  const requestId =
+    ++activeRequestId;
+  document
+    .getElementById(
+      "loading"
+    )
+    .style.display =
+      "block";
+  await fetchBatch(
+    currentCategory,
+    requestId
   );
-
-
-newsObserver.observe(
+  if (
+    requestId !==
+    activeRequestId
+  ) {
+    return;
+  }
+  document
+    .getElementById(
+      "loading"
+    )
+    .style.display =
+      "none";
+  render();
+}
+/* =========================
+   OBSERVER
+========================= */
+const observer =
+  new IntersectionObserver(
+    entries => {
+      if (
+        entries[0]
+          .isIntersecting
+      ) {
+        loadMore();
+      }
+    },
+    {
+      rootMargin:
+        "600px"
+    }
+  );
+observer.observe(
   document.getElementById(
-    "newsSentinel"
+    "sentinel"
   )
 );
-
-
-
-/* =====================================
-   IPHONE SCROLL FALLBACK
-===================================== */
-
-window.addEventListener(
-
-  "scroll",
-
-  () => {
-
-    const distance =
-      document
-        .documentElement
-        .scrollHeight -
-      (
-        window.innerHeight +
-        window.scrollY
-      );
-
-    if (
-      distance < 900
-    ) {
-
-      loadMoreNews();
-
-    }
-
-  },
-
-  {
-    passive: true
-  }
-
-);
-
-
-
-/* =====================================
+/* =========================
    START
-===================================== */
-
+========================= */
 loadCategory("all");
-
 </script>
-
 </body>
 </html>
