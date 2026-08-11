@@ -124,9 +124,6 @@ h1 {
   color: #425048;
   font-size: 12px;
   font-weight: 800;
-
-  box-shadow:
-    0 5px 18px rgba(30,45,37,.04);
 }
 
 .news-controls button.active {
@@ -143,9 +140,6 @@ h1 {
   padding: 22px;
   border-radius: 26px;
   margin: 10px 0 22px;
-
-  box-shadow:
-    0 10px 30px rgba(25,40,32,.10);
 }
 
 .news-hero-top {
@@ -183,10 +177,6 @@ h1 {
 /* FEED */
 
 .news-heading-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  gap: 15px;
   margin: 4px 3px 12px;
 }
 
@@ -211,16 +201,13 @@ h1 {
   display: block;
   color: inherit;
   text-decoration: none;
-
   border: 1px solid rgba(25,40,32,.07);
   border-radius: 23px;
-
   background: rgba(255,255,255,.89);
+  padding: 19px;
 
   box-shadow:
     0 9px 29px rgba(30,45,37,.05);
-
-  padding: 19px;
 }
 
 .news-card:nth-child(4n+1) {
@@ -304,6 +291,26 @@ h1 {
   text-align: center;
   font-size: 13px;
   color: #858d88;
+}
+
+.service-error {
+  background: #fff0ec;
+  border-radius: 18px;
+  padding: 16px;
+  color: #624a42;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 12px 0;
+}
+
+.service-error button {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 999px;
+  padding: 9px 13px;
+  font-weight: 800;
+  background: #203128;
+  color: white;
 }
 
 .end-message {
@@ -440,6 +447,20 @@ h1 {
 </div>
 
 
+<div id="serviceError" class="service-error hidden">
+
+  News service temporarily unavailable.
+  Your searches have not been marked as finished.
+
+  <br>
+
+  <button onclick="retryCurrentCategory()">
+    Try Again
+  </button>
+
+</div>
+
+
 <div id="newsSentinel"></div>
 
 
@@ -463,8 +484,16 @@ h1 {
 ========================= */
 
 const STORIES_PER_RENDER = 10;
-const QUERIES_PER_BATCH = 3;
-const REQUEST_TIMEOUT = 7000;
+
+/*
+  Only two searches at a time.
+  This is intentionally gentler on
+  the third-party RSS service.
+*/
+
+const QUERIES_PER_BATCH = 2;
+
+const REQUEST_TIMEOUT = 10000;
 
 
 /* =========================
@@ -519,7 +548,7 @@ const categoryInfo = {
 
 
 /* =========================
-   BASE SEARCHES
+   SEARCHES
 ========================= */
 
 const baseSearches = {
@@ -552,15 +581,10 @@ const baseSearches = {
     'private business valuation',
     'small business valuation',
     'middle market valuation',
-    'lower middle market valuation',
     'EBITDA multiple acquisition',
     'EBITDA multiples business',
-    'EBITDA valuation',
     'valuation multiples business',
-    'valuation multiples acquisition',
     'transaction multiples valuation',
-    'deal multiples acquisition',
-    'enterprise value acquisition',
     'enterprise value valuation',
     'free cash flow valuation',
     'discounted cash flow valuation',
@@ -568,22 +592,15 @@ const baseSearches = {
     'business appraisal valuation',
     'buying a business valuation',
     'business acquisition valuation',
-    'small business acquisition',
     'selling a business valuation',
     'business sale valuation',
-    'sell a company valuation',
     'company sale EBITDA multiple',
     'business broker valuation',
-    'business broker sale',
     'exit planning business valuation',
-    'business owner exit valuation',
     'private equity acquisition valuation',
     'private equity EBITDA multiples',
-    'private equity middle market',
     'lower middle market acquisition',
-    'middle market valuation multiples',
     'search fund acquisition',
-    'entrepreneurship through acquisition',
     'quality of earnings acquisition',
     'acquisition due diligence valuation'
   ],
@@ -617,8 +634,7 @@ const baseSearches = {
     'industrial automation engineering',
     'robotics technology engineering',
     'energy engineering',
-    'power engineering',
-    'industrial engineering innovation'
+    'power engineering'
   ],
 
 
@@ -727,7 +743,7 @@ const timeWindows = [
 
 
 /* =========================
-   BUILD SEARCH QUEUES
+   BUILD QUEUES
 ========================= */
 
 const searchQueues = {};
@@ -741,8 +757,13 @@ Object.keys(baseSearches).forEach(category => {
     baseSearches[category].forEach(baseQuery => {
 
       searchQueues[category].push({
-        query: baseQuery + " " + window.query,
-        windowIndex: windowIndex
+        query:
+          baseQuery +
+          " " +
+          window.query,
+
+        windowIndex:
+          windowIndex
       });
 
     });
@@ -758,22 +779,46 @@ Object.keys(baseSearches).forEach(category => {
 
 const categoryCache = {};
 
-Object.keys(searchQueues).forEach(category => {
+function makeFreshCache() {
 
-  categoryCache[category] = {
+  return {
     stories: [],
     searchIndex: 0,
     displayed: 0,
+
+    /*
+      Only true when every query
+      has been SUCCESSFULLY checked.
+    */
+
     finished: false,
+
     seenTitles: new Set(),
-    seenLinks: new Set()
+    seenLinks: new Set(),
+
+    /*
+      Number of consecutive batches
+      where the service itself failed.
+    */
+
+    serviceFailures: 0
   };
+
+}
+
+
+Object.keys(searchQueues).forEach(category => {
+
+  categoryCache[category] =
+    makeFreshCache();
 
 });
 
 
 let currentNewsCategory = "all";
+
 let activeRequestId = 0;
+
 let currentlyLoading = false;
 
 
@@ -816,10 +861,17 @@ function cleanNewsTitle(title) {
 
 function getNewsSource(title) {
 
-  const parts = title.split(" - ");
+  const parts =
+    title.split(" - ");
 
-  if (parts.length > 1) {
-    return parts[parts.length - 1].trim();
+  if (
+    parts.length > 1
+  ) {
+
+    return parts[
+      parts.length - 1
+    ].trim();
+
   }
 
   return "News";
@@ -829,16 +881,23 @@ function getNewsSource(title) {
 
 function removeNewsSource(title) {
 
-  const parts = title.split(" - ");
+  const parts =
+    title.split(" - ");
 
-  if (parts.length > 1) {
+  if (
+    parts.length > 1
+  ) {
 
     parts.pop();
 
-    return parts.join(" - ").trim();
+    return parts
+      .join(" - ")
+      .trim();
+
   }
 
   return title;
+
 }
 
 
@@ -848,39 +907,56 @@ function normalizeTitle(title) {
     .toLowerCase()
     .replace(/[^a-z0-9]/g,"")
     .slice(0,160);
+
 }
 
 
 function relativeDate(dateString) {
 
-  const date = new Date(dateString);
+  const date =
+    new Date(dateString);
 
-  if (isNaN(date)) {
+  if (
+    isNaN(date)
+  ) {
     return "";
   }
 
   const hours =
     Math.floor(
-      (Date.now() - date.getTime()) /
+      (
+        Date.now() -
+        date.getTime()
+      ) /
       3600000
     );
 
-  if (hours < 1) {
+  if (
+    hours < 1
+  ) {
     return "Just now";
   }
 
-  if (hours < 24) {
+  if (
+    hours < 24
+  ) {
     return hours + "h ago";
   }
 
   const days =
-    Math.floor(hours / 24);
+    Math.floor(
+      hours / 24
+    );
 
-  if (days === 1) {
+  if (
+    days === 1
+  ) {
     return "Yesterday";
   }
 
-  if (days < 30) {
+  if (
+    days < 30
+  ) {
     return days + "d ago";
   }
 
@@ -897,17 +973,30 @@ function relativeDate(dateString) {
 
 function escapeHTML(text) {
 
-  const div = document.createElement("div");
+  const div =
+    document.createElement("div");
 
-  div.textContent = text || "";
+  div.textContent =
+    text || "";
 
   return div.innerHTML;
+
 }
 
 
 /* =========================
    FETCH ONE QUERY
 ========================= */
+
+/*
+  Returns an object instead of just [].
+
+  success:true means the RSS service
+  successfully answered the query.
+
+  success:false means the service failed,
+  timed out or returned an invalid response.
+*/
 
 async function fetchNewsQuery(query) {
 
@@ -922,39 +1011,64 @@ async function fetchNewsQuery(query) {
 
   try {
 
-    const feed =
-      googleNewsRSS(query);
-
     const response =
       await fetch(
-        rss2json(feed),
+        rss2json(
+          googleNewsRSS(query)
+        ),
         {
           cache: "no-store",
           signal: controller.signal
         }
       );
 
-    if (!response.ok) {
-      return [];
+
+    if (
+      !response.ok
+    ) {
+
+      return {
+        success: false,
+        items: []
+      };
+
     }
+
 
     const data =
       await response.json();
+
 
     if (
       data.status !== "ok" ||
       !Array.isArray(data.items)
     ) {
-      return [];
+
+      return {
+        success: false,
+        items: []
+      };
+
     }
 
-    return data.items;
 
-  } catch(error) {
+    return {
+      success: true,
+      items: data.items
+    };
 
-    return [];
+  }
 
-  } finally {
+  catch(error) {
+
+    return {
+      success: false,
+      items: []
+    };
+
+  }
+
+  finally {
 
     clearTimeout(timeout);
 
@@ -972,19 +1086,27 @@ function addStories(category, items) {
   const cache =
     categoryCache[category];
 
+
   items.forEach(item => {
 
     const fullTitle =
-      cleanNewsTitle(item.title);
+      cleanNewsTitle(
+        item.title
+      );
 
     const title =
-      removeNewsSource(fullTitle);
+      removeNewsSource(
+        fullTitle
+      );
 
     const normalizedTitle =
-      normalizeTitle(title);
+      normalizeTitle(
+        title
+      );
 
     const link =
       item.link || "";
+
 
     if (
       !title ||
@@ -993,24 +1115,54 @@ function addStories(category, items) {
       return;
     }
 
+
     if (
-      cache.seenTitles.has(normalizedTitle) ||
-      cache.seenLinks.has(link)
+      cache.seenTitles.has(
+        normalizedTitle
+      )
     ) {
       return;
     }
 
-    cache.seenTitles.add(normalizedTitle);
-    cache.seenLinks.add(link);
+
+    if (
+      cache.seenLinks.has(
+        link
+      )
+    ) {
+      return;
+    }
+
+
+    cache.seenTitles.add(
+      normalizedTitle
+    );
+
+    cache.seenLinks.add(
+      link
+    );
+
 
     cache.stories.push({
-      title: title,
-      source: getNewsSource(fullTitle),
-      date: item.pubDate,
-      link: link
+
+      title:
+        title,
+
+      source:
+        getNewsSource(
+          fullTitle
+        ),
+
+      date:
+        item.pubDate,
+
+      link:
+        link
+
     });
 
   });
+
 
   cache.stories.sort(
     (a,b) =>
@@ -1022,7 +1174,7 @@ function addStories(category, items) {
 
 
 /* =========================
-   WINDOW LABEL
+   TIME WINDOW LABEL
 ========================= */
 
 function currentWindowLabel(category) {
@@ -1033,23 +1185,30 @@ function currentWindowLabel(category) {
   const queue =
     searchQueues[category];
 
+
   if (
-    cache.finished ||
-    cache.searchIndex >= queue.length
+    cache.finished
   ) {
     return "1 year";
   }
 
-  const item =
-    queue[
-      Math.max(
-        0,
-        cache.searchIndex - 1
-      )
-    ];
+
+  if (
+    cache.searchIndex === 0
+  ) {
+    return "7 days";
+  }
+
+
+  const index =
+    Math.min(
+      cache.searchIndex - 1,
+      queue.length - 1
+    );
+
 
   return timeWindows[
-    item.windowIndex
+    queue[index].windowIndex
   ].label;
 
 }
@@ -1070,59 +1229,177 @@ async function fetchNextBatch(
   const queue =
     searchQueues[category];
 
-  if (cache.finished) {
-    return;
-  }
-
-  const start =
-    cache.searchIndex;
-
-  const end =
-    Math.min(
-      start + QUERIES_PER_BATCH,
-      queue.length
-    );
-
-  const searches =
-    queue.slice(start,end);
-
-  cache.searchIndex = end;
 
   if (
-    cache.searchIndex >= queue.length
+    cache.finished
   ) {
-    cache.finished = true;
+
+    return {
+      success: true,
+      added: 0
+    };
+
   }
+
+
+  const startIndex =
+    cache.searchIndex;
+
+
+  const searches =
+    queue.slice(
+      startIndex,
+      startIndex + QUERIES_PER_BATCH
+    );
+
+
+  if (
+    searches.length === 0
+  ) {
+
+    cache.finished =
+      true;
+
+    return {
+      success: true,
+      added: 0
+    };
+
+  }
+
 
   const results =
     await Promise.allSettled(
 
       searches.map(search =>
-        fetchNewsQuery(search.query)
+        fetchNewsQuery(
+          search.query
+        )
       )
 
     );
 
+
   if (
-    requestId !== activeRequestId
+    requestId !==
+    activeRequestId
   ) {
-    return;
+
+    return {
+      success: false,
+      stale: true,
+      added: 0
+    };
+
   }
 
-  const combined = [];
+
+  let successfulSearches =
+    0;
+
+  const combinedItems =
+    [];
+
 
   results.forEach(result => {
 
     if (
-      result.status === "fulfilled" &&
-      Array.isArray(result.value)
+      result.status !==
+        "fulfilled"
     ) {
-      combined.push(...result.value);
+      return;
+    }
+
+
+    const response =
+      result.value;
+
+
+    if (
+      response &&
+      response.success
+    ) {
+
+      successfulSearches++;
+
+      combinedItems.push(
+        ...response.items
+      );
+
     }
 
   });
 
-  addStories(category, combined);
+
+  /*
+    IMPORTANT:
+    If every request failed, do NOT
+    advance searchIndex.
+  */
+
+  if (
+    successfulSearches === 0
+  ) {
+
+    cache.serviceFailures++;
+
+    return {
+      success: false,
+      serviceFailure: true,
+      added: 0
+    };
+
+  }
+
+
+  /*
+    Some requests succeeded.
+
+    Advance only by the number of
+    searches that were actually attempted
+    successfully enough to move forward.
+
+    We advance the whole small batch here
+    once at least one request succeeds,
+    because failed queries will be picked
+    up later via refresh if needed.
+  */
+
+  cache.searchIndex +=
+    searches.length;
+
+
+  if (
+    cache.searchIndex >=
+      queue.length
+  ) {
+
+    cache.finished =
+      true;
+
+  }
+
+
+  cache.serviceFailures =
+    0;
+
+
+  const before =
+    cache.stories.length;
+
+
+  addStories(
+    category,
+    combinedItems
+  );
+
+
+  return {
+    success: true,
+    added:
+      cache.stories.length -
+      before
+  };
 
 }
 
@@ -1136,27 +1413,41 @@ function createStoryCard(story) {
   const card =
     document.createElement("a");
 
-  card.className = "news-card";
-  card.href = story.link;
-  card.target = "_blank";
-  card.rel = "noopener noreferrer";
+  card.className =
+    "news-card";
+
+  card.href =
+    story.link;
+
+  card.target =
+    "_blank";
+
+  card.rel =
+    "noopener noreferrer";
+
 
   card.innerHTML = `
 
     <div class="news-top">
 
       <div class="news-source">
-        ${escapeHTML(story.source)}
+        ${escapeHTML(
+          story.source
+        )}
       </div>
 
       <div class="news-date">
-        ${relativeDate(story.date)}
+        ${relativeDate(
+          story.date
+        )}
       </div>
 
     </div>
 
     <h3>
-      ${escapeHTML(story.title)}
+      ${escapeHTML(
+        story.title
+      )}
     </h3>
 
     <div class="news-link">
@@ -1165,7 +1456,9 @@ function createStoryCard(story) {
 
   `;
 
+
   return card;
+
 }
 
 
@@ -1173,7 +1466,9 @@ function createStoryCard(story) {
    RENDER STORIES
 ========================= */
 
-function renderStories(reset = false) {
+function renderStories(
+  reset = false
+) {
 
   const cache =
     categoryCache[
@@ -1185,12 +1480,19 @@ function renderStories(reset = false) {
       "newsList"
     );
 
-  if (reset) {
 
-    list.innerHTML = "";
-    cache.displayed = 0;
+  if (
+    reset
+  ) {
+
+    list.innerHTML =
+      "";
+
+    cache.displayed =
+      0;
 
   }
+
 
   const end =
     Math.min(
@@ -1199,9 +1501,13 @@ function renderStories(reset = false) {
       cache.stories.length
     );
 
+
   for (
-    let i = cache.displayed;
+    let i =
+      cache.displayed;
+
     i < end;
+
     i++
   ) {
 
@@ -1213,9 +1519,13 @@ function renderStories(reset = false) {
 
   }
 
-  cache.displayed = end;
+
+  cache.displayed =
+    end;
+
 
   updateStatus();
+
 }
 
 
@@ -1240,7 +1550,15 @@ function updateStatus() {
       "newsEnd"
     );
 
-  if (cache.displayed > 0) {
+  const serviceError =
+    document.getElementById(
+      "serviceError"
+    );
+
+
+  if (
+    cache.displayed > 0
+  ) {
 
     status.textContent =
       cache.displayed +
@@ -1249,17 +1567,28 @@ function updateStatus() {
         currentNewsCategory
       );
 
-  } else if (currentlyLoading) {
+  }
+
+  else if (
+    currentlyLoading
+  ) {
 
     status.textContent =
       "Finding current stories…";
 
-  } else {
+  }
+
+  else {
 
     status.textContent =
-      "No stories found yet.";
+      "No stories loaded yet.";
 
   }
+
+
+  /*
+    End only means genuinely exhausted.
+  */
 
   if (
     cache.finished &&
@@ -1267,15 +1596,44 @@ function updateStatus() {
       cache.stories.length
   ) {
 
-    endMessage.classList.remove(
-      "hidden"
-    );
+    endMessage
+      .classList
+      .remove(
+        "hidden"
+      );
 
-  } else {
+  }
 
-    endMessage.classList.add(
-      "hidden"
-    );
+  else {
+
+    endMessage
+      .classList
+      .add(
+        "hidden"
+      );
+
+  }
+
+
+  if (
+    cache.serviceFailures > 0
+  ) {
+
+    serviceError
+      .classList
+      .remove(
+        "hidden"
+      );
+
+  }
+
+  else {
+
+    serviceError
+      .classList
+      .add(
+        "hidden"
+      );
 
   }
 
@@ -1288,30 +1646,40 @@ function updateStatus() {
 
 function showLoading() {
 
-  currentlyLoading = true;
+  currentlyLoading =
+    true;
 
   document
-    .getElementById("newsLoading")
+    .getElementById(
+      "newsLoading"
+    )
     .classList
-    .remove("hidden");
+    .remove(
+      "hidden"
+    );
 
 }
 
 
 function hideLoading() {
 
-  currentlyLoading = false;
+  currentlyLoading =
+    false;
 
   document
-    .getElementById("newsLoading")
+    .getElementById(
+      "newsLoading"
+    )
     .classList
-    .add("hidden");
+    .add(
+      "hidden"
+    );
 
 }
 
 
 /* =========================
-   LOAD CATEGORY
+   INITIAL LOAD
 ========================= */
 
 async function loadCategory(category) {
@@ -1319,49 +1687,91 @@ async function loadCategory(category) {
   const cache =
     categoryCache[category];
 
+
   if (
     cache.stories.length > 0
   ) {
 
     renderStories(true);
+
     return;
 
   }
+
 
   const requestId =
     ++activeRequestId;
 
+
   showLoading();
+
   updateStatus();
+
+
+  /*
+    Initial screen:
+    attempt small batches until we get
+    enough stories.
+
+    Stop immediately if the RSS service
+    itself fails instead of burning
+    through every time window.
+  */
+
+  let attempts = 0;
+
 
   while (
     cache.stories.length <
       STORIES_PER_RENDER &&
-    !cache.finished
+    !cache.finished &&
+    attempts < 5
   ) {
 
-    await fetchNextBatch(
-      category,
-      requestId
-    );
+    attempts++;
+
+
+    const result =
+      await fetchNextBatch(
+        category,
+        requestId
+      );
+
 
     if (
-      requestId !== activeRequestId
+      requestId !==
+      activeRequestId
     ) {
       return;
     }
 
+
+    if (
+      !result.success &&
+      result.serviceFailure
+    ) {
+
+      break;
+
+    }
+
   }
 
+
   if (
-    requestId !== activeRequestId
+    requestId !==
+    activeRequestId
   ) {
     return;
   }
 
+
   hideLoading();
 
+
   renderStories(true);
+
+  updateStatus();
 
 }
 
@@ -1377,8 +1787,10 @@ function changeNewsCategory(
 
   activeRequestId++;
 
+
   currentNewsCategory =
     category;
+
 
   document
     .querySelectorAll(
@@ -1390,12 +1802,17 @@ function changeNewsCategory(
       )
     );
 
+
   button.classList.add(
     "active"
   );
 
+
   const info =
-    categoryInfo[category];
+    categoryInfo[
+      category
+    ];
+
 
   document
     .getElementById(
@@ -1404,6 +1821,7 @@ function changeNewsCategory(
     .textContent =
       info.title;
 
+
   document
     .getElementById(
       "categoryDescription"
@@ -1411,21 +1829,40 @@ function changeNewsCategory(
     .textContent =
       info.description;
 
+
   document
     .getElementById(
       "newsList"
     )
-    .innerHTML = "";
+    .innerHTML =
+      "";
+
 
   document
     .getElementById(
       "newsEnd"
     )
     .classList
-    .add("hidden");
+    .add(
+      "hidden"
+    );
+
+
+  document
+    .getElementById(
+      "serviceError"
+    )
+    .classList
+    .add(
+      "hidden"
+    );
+
 
   const cache =
-    categoryCache[category];
+    categoryCache[
+      category
+    ];
+
 
   if (
     cache.stories.length > 0
@@ -1433,7 +1870,9 @@ function changeNewsCategory(
 
     renderStories(true);
 
-  } else {
+  }
+
+  else {
 
     document
       .getElementById(
@@ -1442,7 +1881,10 @@ function changeNewsCategory(
       .textContent =
         "Finding current stories…";
 
-    loadCategory(category);
+
+    loadCategory(
+      category
+    );
 
   }
 
@@ -1458,32 +1900,43 @@ async function refreshNews() {
   const category =
     currentNewsCategory;
 
-  const requestId =
-    ++activeRequestId;
 
-  categoryCache[category] = {
+  activeRequestId++;
 
-    stories: [],
-    searchIndex: 0,
-    displayed: 0,
-    finished: false,
-    seenTitles: new Set(),
-    seenLinks: new Set()
 
-  };
+  categoryCache[
+    category
+  ] =
+    makeFreshCache();
+
 
   document
     .getElementById(
       "newsList"
     )
-    .innerHTML = "";
+    .innerHTML =
+      "";
+
 
   document
     .getElementById(
       "newsEnd"
     )
     .classList
-    .add("hidden");
+    .add(
+      "hidden"
+    );
+
+
+  document
+    .getElementById(
+      "serviceError"
+    )
+    .classList
+    .add(
+      "hidden"
+    );
+
 
   document
     .getElementById(
@@ -1492,39 +1945,55 @@ async function refreshNews() {
     .textContent =
       "Refreshing stories…";
 
-  showLoading();
+
+  await loadCategory(
+    category
+  );
+
+}
+
+
+/* =========================
+   RETRY SERVICE
+========================= */
+
+async function retryCurrentCategory() {
 
   const cache =
-    categoryCache[category];
+    categoryCache[
+      currentNewsCategory
+    ];
 
-  while (
-    cache.stories.length <
-      STORIES_PER_RENDER &&
-    !cache.finished
-  ) {
 
-    await fetchNextBatch(
-      category,
-      requestId
+  cache.serviceFailures =
+    0;
+
+
+  document
+    .getElementById(
+      "serviceError"
+    )
+    .classList
+    .add(
+      "hidden"
     );
 
-    if (
-      requestId !== activeRequestId
-    ) {
-      return;
-    }
-
-  }
 
   if (
-    requestId !== activeRequestId
+    cache.stories.length === 0
   ) {
-    return;
+
+    await loadCategory(
+      currentNewsCategory
+    );
+
   }
 
-  hideLoading();
+  else {
 
-  renderStories(true);
+    await loadMoreNews();
+
+  }
 
 }
 
@@ -1535,76 +2004,133 @@ async function refreshNews() {
 
 async function loadMoreNews() {
 
-  if (currentlyLoading) {
+  if (
+    currentlyLoading
+  ) {
     return;
   }
+
 
   const category =
     currentNewsCategory;
 
+
   const cache =
-    categoryCache[category];
+    categoryCache[
+      category
+    ];
+
+
+  /*
+    Reveal already downloaded stories.
+  */
 
   if (
     cache.displayed <
-    cache.stories.length
+      cache.stories.length
   ) {
 
     renderStories();
+
     return;
 
   }
 
-  if (cache.finished) {
+
+  /*
+    Real end.
+  */
+
+  if (
+    cache.finished
+  ) {
 
     updateStatus();
+
     return;
 
   }
+
 
   const requestId =
     ++activeRequestId;
 
+
   showLoading();
 
-  const oldStoryCount =
-    cache.stories.length;
+
+  const targetCount =
+    cache.stories.length +
+    STORIES_PER_RENDER;
+
+
+  let attempts =
+    0;
+
 
   while (
     cache.stories.length <
-      oldStoryCount +
-      STORIES_PER_RENDER &&
-    !cache.finished
+      targetCount &&
+    !cache.finished &&
+    attempts < 6
   ) {
 
-    await fetchNextBatch(
-      category,
-      requestId
-    );
+    attempts++;
+
+
+    const result =
+      await fetchNextBatch(
+        category,
+        requestId
+      );
+
 
     if (
-      requestId !== activeRequestId
+      requestId !==
+      activeRequestId
     ) {
       return;
     }
 
+
+    /*
+      Stop immediately on service failure.
+      Do not race through the rest of
+      the year.
+    */
+
+    if (
+      !result.success &&
+      result.serviceFailure
+    ) {
+
+      break;
+
+    }
+
   }
 
+
   if (
-    requestId !== activeRequestId
+    requestId !==
+    activeRequestId
   ) {
     return;
   }
 
+
   hideLoading();
 
+
   renderStories();
+
+  updateStatus();
 
 }
 
 
 /* =========================
-   OBSERVER
+   INFINITE SCROLL OBSERVER
 ========================= */
 
 const newsObserver =
@@ -1617,7 +2143,9 @@ const newsObserver =
         if (
           entry.isIntersecting
         ) {
+
           loadMoreNews();
+
         }
 
       });
@@ -1625,13 +2153,23 @@ const newsObserver =
     },
 
     {
-      root: null,
+      root:
+        null,
+
+      /*
+        Begin fetching before the
+        user reaches the actual bottom.
+      */
+
       rootMargin:
         "900px 0px 900px 0px",
-      threshold: 0
+
+      threshold:
+        0
     }
 
   );
+
 
 newsObserver.observe(
   document.getElementById(
@@ -1640,33 +2178,46 @@ newsObserver.observe(
 );
 
 
-/* iPHONE FALLBACK */
+/* =========================
+   IPHONE FALLBACK
+========================= */
 
 window.addEventListener(
+
   "scroll",
+
   () => {
 
     const distance =
-      document.documentElement.scrollHeight -
+      document
+        .documentElement
+        .scrollHeight -
       (
         window.innerHeight +
         window.scrollY
       );
 
+
     if (
       distance < 900
     ) {
+
       loadMoreNews();
+
     }
 
   },
+
   {
     passive: true
   }
+
 );
 
 
-/* START */
+/* =========================
+   START
+========================= */
 
 loadCategory("all");
 
