@@ -12,7 +12,6 @@
 <meta name="apple-mobile-web-app-title" content="News IQ">
 
 <style>
-
 * {
   box-sizing: border-box;
 }
@@ -49,7 +48,6 @@ button {
     calc(env(safe-area-inset-bottom) + 70px);
 }
 
-
 /* HEADER */
 
 .hero {
@@ -81,14 +79,12 @@ h1 {
   line-height: 1.55;
 }
 
-
 /* TABS */
 
 .news-controls-wrap {
   position: sticky;
   top: 0;
   z-index: 40;
-
   padding: 9px 0 11px;
 
   background:
@@ -131,7 +127,6 @@ h1 {
   color: white;
 }
 
-
 /* HERO CARD */
 
 .news-hero {
@@ -173,7 +168,6 @@ h1 {
   font-size: 12px;
 }
 
-
 /* FEED */
 
 .news-heading-row {
@@ -205,9 +199,7 @@ h1 {
   border-radius: 23px;
   background: rgba(255,255,255,.89);
   padding: 19px;
-
-  box-shadow:
-    0 9px 29px rgba(30,45,37,.05);
+  box-shadow: 0 9px 29px rgba(30,45,37,.05);
 }
 
 .news-card:nth-child(4n+1) {
@@ -224,6 +216,10 @@ h1 {
 
 .news-card:nth-child(4n+4) {
   background: linear-gradient(145deg,#f7f1fa,#fff);
+}
+
+.news-card:active {
+  transform: scale(.986);
 }
 
 .news-top {
@@ -264,20 +260,22 @@ h1 {
   margin-top: 13px;
 }
 
-
 /* LOADING */
 
-.news-loading {
-  padding: 28px 0;
+.loading {
+  text-align: center;
+  padding: 32px 10px;
+  color: #7d8580;
+  font-size: 13px;
 }
 
 .spinner {
-  width: 26px;
-  height: 26px;
+  width: 27px;
+  height: 27px;
   border: 3px solid #d8ddda;
   border-top-color: #203128;
   border-radius: 50%;
-  margin: 0 auto 10px;
+  margin: 0 auto 11px;
   animation: spin .8s linear infinite;
 }
 
@@ -287,42 +285,34 @@ h1 {
   }
 }
 
-.loading-text {
-  text-align: center;
-  font-size: 13px;
-  color: #858d88;
-}
-
-.service-error {
+.error-box {
   background: #fff0ec;
-  border-radius: 18px;
-  padding: 16px;
+  border-radius: 19px;
+  padding: 18px;
   color: #624a42;
-  font-size: 13px;
   line-height: 1.5;
-  margin: 12px 0;
+  font-size: 14px;
 }
 
-.service-error button {
-  margin-top: 10px;
+.error-box button {
+  margin-top: 12px;
   border: 0;
-  border-radius: 999px;
-  padding: 9px 13px;
-  font-weight: 800;
   background: #203128;
   color: white;
+  border-radius: 999px;
+  padding: 10px 15px;
+  font-weight: 800;
 }
 
 .end-message {
   text-align: center;
-  padding: 28px 10px;
+  padding: 30px 10px;
   color: #8a928d;
   font-size: 13px;
 }
 
 #newsSentinel {
-  width: 100%;
-  height: 24px;
+  height: 25px;
 }
 
 .footer {
@@ -336,7 +326,6 @@ h1 {
 .hidden {
   display: none !important;
 }
-
 </style>
 </head>
 
@@ -364,31 +353,31 @@ h1 {
 
   <div class="news-controls">
 
-    <button class="active" onclick="changeNewsCategory('all',this)">
+    <button class="active" onclick="changeCategory('all', this)">
       For You
     </button>
 
-    <button onclick="changeNewsCategory('valuation',this)">
+    <button onclick="changeCategory('valuation', this)">
       Business Valuation
     </button>
 
-    <button onclick="changeNewsCategory('engineering',this)">
+    <button onclick="changeCategory('engineering', this)">
       Engineering
     </button>
 
-    <button onclick="changeNewsCategory('business',this)">
+    <button onclick="changeCategory('business', this)">
       Business
     </button>
 
-    <button onclick="changeNewsCategory('finance',this)">
+    <button onclick="changeCategory('finance', this)">
       Finance
     </button>
 
-    <button onclick="changeNewsCategory('science',this)">
+    <button onclick="changeCategory('science', this)">
       Science
     </button>
 
-    <button onclick="changeNewsCategory('energy',this)">
+    <button onclick="changeCategory('energy', this)">
       Energy
     </button>
 
@@ -408,13 +397,13 @@ h1 {
       </h2>
 
       <p id="categoryDescription">
-        A mix of engineering, business, valuation, finance,
-        science and energy news.
+        A mix of engineering, business, valuation,
+        finance, science and energy news.
       </p>
 
     </div>
 
-    <button class="refresh-news" onclick="refreshNews()">
+    <button class="refresh-news" onclick="loadNews(true)">
       Refresh
     </button>
 
@@ -429,32 +418,34 @@ h1 {
 
 
 <div class="news-status" id="newsStatus">
-  Finding current stories…
+  Loading News IQ…
 </div>
 
 
-<div class="news-list" id="newsList"></div>
+<div id="newsList" class="news-list"></div>
 
 
-<div id="newsLoading" class="news-loading hidden">
+<div id="loading" class="loading">
 
   <div class="spinner"></div>
 
-  <div class="loading-text">
-    Finding more stories…
-  </div>
+  Loading stories…
 
 </div>
 
 
-<div id="serviceError" class="service-error hidden">
+<div id="errorBox" class="error-box hidden">
 
-  News service temporarily unavailable.
-  Your searches have not been marked as finished.
+  News IQ couldn't load its news file.
+
+  <br><br>
+
+  If you just installed the new version, run the
+  <strong>Update News IQ</strong> action on GitHub once.
 
   <br>
 
-  <button onclick="retryCurrentCategory()">
+  <button onclick="loadNews(true)">
     Try Again
   </button>
 
@@ -465,7 +456,7 @@ h1 {
 
 
 <div id="newsEnd" class="end-message hidden">
-  You've reached the end of available stories from the past year.
+  You've reached the end of the available stories from the past year.
 </div>
 
 
@@ -478,27 +469,16 @@ h1 {
 
 <script>
 
-
-/* =========================
+/* ======================================
    SETTINGS
-========================= */
+====================================== */
 
-const STORIES_PER_RENDER = 10;
-
-/*
-  Only two searches at a time.
-  This is intentionally gentler on
-  the third-party RSS service.
-*/
-
-const QUERIES_PER_BATCH = 2;
-
-const REQUEST_TIMEOUT = 10000;
+const STORIES_PER_BATCH = 10;
 
 
-/* =========================
-   CATEGORY INFO
-========================= */
+/* ======================================
+   CATEGORY INFORMATION
+====================================== */
 
 const categoryInfo = {
 
@@ -547,880 +527,289 @@ const categoryInfo = {
 };
 
 
-/* =========================
-   SEARCHES
-========================= */
+/* ======================================
+   STATE
+====================================== */
 
-const baseSearches = {
+let newsData = null;
 
-  all: [
-    'engineering breakthrough',
-    'engineering innovation',
-    'business valuation',
-    'EBITDA multiples',
-    'major business investment',
-    'company expansion',
-    'financial markets',
-    'corporate earnings',
-    'scientific breakthrough',
-    'science discovery',
-    'energy technology',
-    'nuclear energy',
-    'advanced manufacturing',
-    'robotics engineering',
-    'business acquisition valuation',
-    'private equity acquisition',
-    'new material engineering',
-    'aerospace engineering'
-  ],
+let currentCategory = "all";
 
+let displayed = 0;
 
-  valuation: [
-    'business valuation',
-    'private company valuation',
-    'private business valuation',
-    'small business valuation',
-    'middle market valuation',
-    'EBITDA multiple acquisition',
-    'EBITDA multiples business',
-    'valuation multiples business',
-    'transaction multiples valuation',
-    'enterprise value valuation',
-    'free cash flow valuation',
-    'discounted cash flow valuation',
-    'DCF private company valuation',
-    'business appraisal valuation',
-    'buying a business valuation',
-    'business acquisition valuation',
-    'selling a business valuation',
-    'business sale valuation',
-    'company sale EBITDA multiple',
-    'business broker valuation',
-    'exit planning business valuation',
-    'private equity acquisition valuation',
-    'private equity EBITDA multiples',
-    'lower middle market acquisition',
-    'search fund acquisition',
-    'quality of earnings acquisition',
-    'acquisition due diligence valuation'
-  ],
+let loadingMore = false;
 
 
-  engineering: [
-    'engineering breakthrough',
-    'engineering innovation',
-    'engineering technology',
-    'mechanical engineering innovation',
-    'electrical engineering innovation',
-    'civil engineering project',
-    'aerospace engineering',
-    'structural engineering',
-    'chemical engineering technology',
-    'manufacturing engineering',
-    'robotics engineering',
-    'automotive engineering',
-    'marine engineering',
-    'engineering project',
-    'advanced manufacturing engineering',
-    '3D printing engineering',
-    'additive manufacturing',
-    'materials engineering',
-    'new material engineering',
-    'construction engineering',
-    'bridge engineering',
-    'tunnel engineering',
-    'engineering megaproject',
-    'engineering prototype',
-    'industrial automation engineering',
-    'robotics technology engineering',
-    'energy engineering',
-    'power engineering'
-  ],
+/* ======================================
+   LOAD NEWS.JSON
+====================================== */
 
+async function loadNews(force = false) {
 
-  business: [
-    'business news companies',
-    'company expansion',
-    'major investment company',
-    'new factory company',
-    'manufacturing investment',
-    'business acquisition',
-    'company acquisition',
-    'company strategy',
-    'corporate investment',
-    'business growth company',
-    'industrial company investment',
-    'startup funding',
-    'private company investment',
-    'business expansion manufacturing',
-    'new facility company',
-    'factory expansion',
-    'industrial expansion',
-    'corporate strategy'
-  ],
+  const loading =
+    document.getElementById("loading");
 
+  const errorBox =
+    document.getElementById("errorBox");
 
-  finance: [
-    'financial markets',
-    'stock market companies',
-    'investment markets',
-    'economic outlook',
-    'corporate earnings',
-    'company valuation',
-    'enterprise value company',
-    'private markets',
-    'private equity investment',
-    'venture capital',
-    'capital markets',
-    'IPO company',
-    'market valuation company',
-    'investment fund acquisition',
-    'institutional investors company',
-    'interest rates economy',
-    'corporate debt markets',
-    'credit markets'
-  ],
+  const end =
+    document.getElementById("newsEnd");
 
+  loading.classList.remove("hidden");
+  errorBox.classList.add("hidden");
+  end.classList.add("hidden");
 
-  science: [
-    'scientific breakthrough',
-    'scientific discovery',
-    'new discovery researchers',
-    'physics breakthrough',
-    'materials science breakthrough',
-    'new material scientists',
-    'space discovery',
-    'space mission',
-    'astronomy discovery',
-    'fusion research',
-    'quantum research breakthrough',
-    'medical technology breakthrough',
-    'biotechnology breakthrough',
-    'scientists developed technology',
-    'researchers developed new',
-    'physics research',
-    'materials research',
-    'space research'
-  ],
-
-
-  energy: [
-    'energy technology',
-    'nuclear energy',
-    'nuclear reactor',
-    'small modular reactor',
-    'fusion energy',
-    'battery technology',
-    'battery breakthrough',
-    'energy storage technology',
-    'solar technology',
-    'wind energy technology',
-    'oil gas technology',
-    'oil sands technology',
-    'carbon capture technology',
-    'hydrogen energy technology',
-    'power grid technology',
-    'electricity generation technology',
-    'geothermal energy',
-    'natural gas infrastructure',
-    'power generation project',
-    'electric grid'
-  ]
-
-};
-
-
-/* =========================
-   TIME WINDOWS
-========================= */
-
-const timeWindows = [
-  { label: "7 days", query: "when:7d" },
-  { label: "30 days", query: "when:30d" },
-  { label: "90 days", query: "when:90d" },
-  { label: "1 year", query: "when:1y" }
-];
-
-
-/* =========================
-   BUILD QUEUES
-========================= */
-
-const searchQueues = {};
-
-Object.keys(baseSearches).forEach(category => {
-
-  searchQueues[category] = [];
-
-  timeWindows.forEach((window, windowIndex) => {
-
-    baseSearches[category].forEach(baseQuery => {
-
-      searchQueues[category].push({
-        query:
-          baseQuery +
-          " " +
-          window.query,
-
-        windowIndex:
-          windowIndex
-      });
-
-    });
-
-  });
-
-});
-
-
-/* =========================
-   CACHE
-========================= */
-
-const categoryCache = {};
-
-function makeFreshCache() {
-
-  return {
-    stories: [],
-    searchIndex: 0,
-    displayed: 0,
-
-    /*
-      Only true when every query
-      has been SUCCESSFULLY checked.
-    */
-
-    finished: false,
-
-    seenTitles: new Set(),
-    seenLinks: new Set(),
-
-    /*
-      Number of consecutive batches
-      where the service itself failed.
-    */
-
-    serviceFailures: 0
-  };
-
-}
-
-
-Object.keys(searchQueues).forEach(category => {
-
-  categoryCache[category] =
-    makeFreshCache();
-
-});
-
-
-let currentNewsCategory = "all";
-
-let activeRequestId = 0;
-
-let currentlyLoading = false;
-
-
-/* =========================
-   RSS HELPERS
-========================= */
-
-function googleNewsRSS(query) {
-
-  return (
-    "https://news.google.com/rss/search?q=" +
-    encodeURIComponent(query) +
-    "&hl=en-CA&gl=CA&ceid=CA:en"
-  );
-
-}
-
-
-function rss2json(feed) {
-
-  return (
-    "https://api.rss2json.com/v1/api.json?rss_url=" +
-    encodeURIComponent(feed)
-  );
-
-}
-
-
-function cleanNewsTitle(title) {
-
-  return (title || "")
-    .replace(/&amp;/g,"&")
-    .replace(/&#39;/g,"'")
-    .replace(/&quot;/g,'"')
-    .replace(/&apos;/g,"'")
-    .trim();
-
-}
-
-
-function getNewsSource(title) {
-
-  const parts =
-    title.split(" - ");
-
-  if (
-    parts.length > 1
-  ) {
-
-    return parts[
-      parts.length - 1
-    ].trim();
-
-  }
-
-  return "News";
-
-}
-
-
-function removeNewsSource(title) {
-
-  const parts =
-    title.split(" - ");
-
-  if (
-    parts.length > 1
-  ) {
-
-    parts.pop();
-
-    return parts
-      .join(" - ")
-      .trim();
-
-  }
-
-  return title;
-
-}
-
-
-function normalizeTitle(title) {
-
-  return (title || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g,"")
-    .slice(0,160);
-
-}
-
-
-function relativeDate(dateString) {
-
-  const date =
-    new Date(dateString);
-
-  if (
-    isNaN(date)
-  ) {
-    return "";
-  }
-
-  const hours =
-    Math.floor(
-      (
-        Date.now() -
-        date.getTime()
-      ) /
-      3600000
-    );
-
-  if (
-    hours < 1
-  ) {
-    return "Just now";
-  }
-
-  if (
-    hours < 24
-  ) {
-    return hours + "h ago";
-  }
-
-  const days =
-    Math.floor(
-      hours / 24
-    );
-
-  if (
-    days === 1
-  ) {
-    return "Yesterday";
-  }
-
-  if (
-    days < 30
-  ) {
-    return days + "d ago";
-  }
-
-  return date.toLocaleDateString(
-    "en-CA",
-    {
-      month: "short",
-      day: "numeric"
-    }
-  );
-
-}
-
-
-function escapeHTML(text) {
-
-  const div =
-    document.createElement("div");
-
-  div.textContent =
-    text || "";
-
-  return div.innerHTML;
-
-}
-
-
-/* =========================
-   FETCH ONE QUERY
-========================= */
-
-/*
-  Returns an object instead of just [].
-
-  success:true means the RSS service
-  successfully answered the query.
-
-  success:false means the service failed,
-  timed out or returned an invalid response.
-*/
-
-async function fetchNewsQuery(query) {
-
-  const controller =
-    new AbortController();
-
-  const timeout =
-    setTimeout(
-      () => controller.abort(),
-      REQUEST_TIMEOUT
-    );
 
   try {
 
+    /*
+      Timestamp prevents Safari/GitHub Pages
+      from giving us an old cached JSON file
+      when Refresh is tapped.
+    */
+
+    const suffix =
+      force
+        ? "?v=" + Date.now()
+        : "";
+
     const response =
       await fetch(
-        rss2json(
-          googleNewsRSS(query)
-        ),
+        "news.json" + suffix,
         {
-          cache: "no-store",
-          signal: controller.signal
+          cache: force ? "no-store" : "default"
         }
       );
 
 
-    if (
-      !response.ok
-    ) {
+    if (!response.ok) {
 
-      return {
-        success: false,
-        items: []
-      };
+      throw new Error(
+        "news.json not found"
+      );
 
     }
 
 
-    const data =
+    newsData =
       await response.json();
 
 
-    if (
-      data.status !== "ok" ||
-      !Array.isArray(data.items)
-    ) {
+    loading.classList.add("hidden");
 
-      return {
-        success: false,
-        items: []
-      };
-
-    }
-
-
-    return {
-      success: true,
-      items: data.items
-    };
+    renderCategory(true);
 
   }
 
   catch(error) {
 
-    return {
-      success: false,
-      items: []
-    };
+    console.error(error);
 
-  }
+    loading.classList.add("hidden");
 
-  finally {
+    errorBox.classList.remove("hidden");
 
-    clearTimeout(timeout);
+    document
+      .getElementById("newsStatus")
+      .textContent =
+        "News file unavailable.";
 
   }
 
 }
 
 
-/* =========================
-   ADD STORIES
-========================= */
+/* ======================================
+   CHANGE CATEGORY
+====================================== */
 
-function addStories(category, items) {
+function changeCategory(
+  category,
+  button
+) {
 
-  const cache =
-    categoryCache[category];
+  currentCategory =
+    category;
 
 
-  items.forEach(item => {
+  document
+    .querySelectorAll(
+      ".news-controls button"
+    )
+    .forEach(btn => {
 
-    const fullTitle =
-      cleanNewsTitle(
-        item.title
+      btn.classList.remove(
+        "active"
       );
-
-    const title =
-      removeNewsSource(
-        fullTitle
-      );
-
-    const normalizedTitle =
-      normalizeTitle(
-        title
-      );
-
-    const link =
-      item.link || "";
-
-
-    if (
-      !title ||
-      !link
-    ) {
-      return;
-    }
-
-
-    if (
-      cache.seenTitles.has(
-        normalizedTitle
-      )
-    ) {
-      return;
-    }
-
-
-    if (
-      cache.seenLinks.has(
-        link
-      )
-    ) {
-      return;
-    }
-
-
-    cache.seenTitles.add(
-      normalizedTitle
-    );
-
-    cache.seenLinks.add(
-      link
-    );
-
-
-    cache.stories.push({
-
-      title:
-        title,
-
-      source:
-        getNewsSource(
-          fullTitle
-        ),
-
-      date:
-        item.pubDate,
-
-      link:
-        link
 
     });
 
-  });
+
+  button.classList.add(
+    "active"
+  );
 
 
-  cache.stories.sort(
-    (a,b) =>
-      new Date(b.date) -
-      new Date(a.date)
+  const info =
+    categoryInfo[category];
+
+
+  document
+    .getElementById(
+      "categoryTitle"
+    )
+    .textContent =
+      info.title;
+
+
+  document
+    .getElementById(
+      "categoryDescription"
+    )
+    .textContent =
+      info.description;
+
+
+  renderCategory(true);
+
+}
+
+
+/* ======================================
+   CATEGORY STORIES
+====================================== */
+
+function getCurrentStories() {
+
+  if (
+    !newsData ||
+    !newsData.categories
+  ) {
+
+    return [];
+
+  }
+
+
+  return (
+    newsData.categories[
+      currentCategory
+    ] || []
   );
 
 }
 
 
-/* =========================
-   TIME WINDOW LABEL
-========================= */
+/* ======================================
+   RENDER CATEGORY
+====================================== */
 
-function currentWindowLabel(category) {
+function renderCategory(reset = false) {
 
-  const cache =
-    categoryCache[category];
-
-  const queue =
-    searchQueues[category];
-
-
-  if (
-    cache.finished
-  ) {
-    return "1 year";
+  if (!newsData) {
+    return;
   }
 
 
-  if (
-    cache.searchIndex === 0
-  ) {
-    return "7 days";
+  const list =
+    document.getElementById(
+      "newsList"
+    );
+
+
+  const endMessage =
+    document.getElementById(
+      "newsEnd"
+    );
+
+
+  const stories =
+    getCurrentStories();
+
+
+  if (reset) {
+
+    list.innerHTML = "";
+
+    displayed = 0;
+
+    endMessage.classList.add(
+      "hidden"
+    );
+
   }
 
 
-  const index =
+  const end =
     Math.min(
-      cache.searchIndex - 1,
-      queue.length - 1
+      displayed +
+      STORIES_PER_BATCH,
+      stories.length
     );
 
 
-  return timeWindows[
-    queue[index].windowIndex
-  ].label;
-
-}
-
-
-/* =========================
-   FETCH NEXT BATCH
-========================= */
-
-async function fetchNextBatch(
-  category,
-  requestId
-) {
-
-  const cache =
-    categoryCache[category];
-
-  const queue =
-    searchQueues[category];
-
-
-  if (
-    cache.finished
+  for (
+    let i = displayed;
+    i < end;
+    i++
   ) {
 
-    return {
-      success: true,
-      added: 0
-    };
-
-  }
-
-
-  const startIndex =
-    cache.searchIndex;
-
-
-  const searches =
-    queue.slice(
-      startIndex,
-      startIndex + QUERIES_PER_BATCH
-    );
-
-
-  if (
-    searches.length === 0
-  ) {
-
-    cache.finished =
-      true;
-
-    return {
-      success: true,
-      added: 0
-    };
-
-  }
-
-
-  const results =
-    await Promise.allSettled(
-
-      searches.map(search =>
-        fetchNewsQuery(
-          search.query
-        )
+    list.appendChild(
+      createStoryCard(
+        stories[i]
       )
-
     );
-
-
-  if (
-    requestId !==
-    activeRequestId
-  ) {
-
-    return {
-      success: false,
-      stale: true,
-      added: 0
-    };
 
   }
 
 
-  let successfulSearches =
-    0;
-
-  const combinedItems =
-    [];
+  displayed =
+    end;
 
 
-  results.forEach(result => {
-
-    if (
-      result.status !==
-        "fulfilled"
-    ) {
-      return;
-    }
+  updateStatus();
 
 
-    const response =
-      result.value;
+  if (
+    displayed >=
+      stories.length &&
+    stories.length > 0
+  ) {
 
-
-    if (
-      response &&
-      response.success
-    ) {
-
-      successfulSearches++;
-
-      combinedItems.push(
-        ...response.items
+    endMessage
+      .classList
+      .remove(
+        "hidden"
       );
 
-    }
-
-  });
-
-
-  /*
-    IMPORTANT:
-    If every request failed, do NOT
-    advance searchIndex.
-  */
-
-  if (
-    successfulSearches === 0
-  ) {
-
-    cache.serviceFailures++;
-
-    return {
-      success: false,
-      serviceFailure: true,
-      added: 0
-    };
-
   }
-
-
-  /*
-    Some requests succeeded.
-
-    Advance only by the number of
-    searches that were actually attempted
-    successfully enough to move forward.
-
-    We advance the whole small batch here
-    once at least one request succeeds,
-    because failed queries will be picked
-    up later via refresh if needed.
-  */
-
-  cache.searchIndex +=
-    searches.length;
-
-
-  if (
-    cache.searchIndex >=
-      queue.length
-  ) {
-
-    cache.finished =
-      true;
-
-  }
-
-
-  cache.serviceFailures =
-    0;
-
-
-  const before =
-    cache.stories.length;
-
-
-  addStories(
-    category,
-    combinedItems
-  );
-
-
-  return {
-    success: true,
-    added:
-      cache.stories.length -
-      before
-  };
 
 }
 
 
-/* =========================
+/* ======================================
    STORY CARD
-========================= */
+====================================== */
 
 function createStoryCard(story) {
 
   const card =
-    document.createElement("a");
+    document.createElement(
+      "a"
+    );
+
 
   card.className =
     "news-card";
 
+
   card.href =
     story.link;
 
+
   card.target =
     "_blank";
+
 
   card.rel =
     "noopener noreferrer";
@@ -1432,7 +821,7 @@ function createStoryCard(story) {
 
       <div class="news-source">
         ${escapeHTML(
-          story.source
+          story.source || "News"
         )}
       </div>
 
@@ -1462,705 +851,244 @@ function createStoryCard(story) {
 }
 
 
-/* =========================
-   RENDER STORIES
-========================= */
-
-function renderStories(
-  reset = false
-) {
-
-  const cache =
-    categoryCache[
-      currentNewsCategory
-    ];
-
-  const list =
-    document.getElementById(
-      "newsList"
-    );
-
-
-  if (
-    reset
-  ) {
-
-    list.innerHTML =
-      "";
-
-    cache.displayed =
-      0;
-
-  }
-
-
-  const end =
-    Math.min(
-      cache.displayed +
-      STORIES_PER_RENDER,
-      cache.stories.length
-    );
-
-
-  for (
-    let i =
-      cache.displayed;
-
-    i < end;
-
-    i++
-  ) {
-
-    list.appendChild(
-      createStoryCard(
-        cache.stories[i]
-      )
-    );
-
-  }
-
-
-  cache.displayed =
-    end;
-
-
-  updateStatus();
-
-}
-
-
-/* =========================
+/* ======================================
    STATUS
-========================= */
+====================================== */
 
 function updateStatus() {
 
-  const cache =
-    categoryCache[
-      currentNewsCategory
-    ];
+  const stories =
+    getCurrentStories();
+
 
   const status =
     document.getElementById(
       "newsStatus"
     );
 
-  const endMessage =
-    document.getElementById(
-      "newsEnd"
-    );
-
-  const serviceError =
-    document.getElementById(
-      "serviceError"
-    );
-
 
   if (
-    cache.displayed > 0
+    stories.length === 0
   ) {
 
     status.textContent =
-      cache.displayed +
-      " stories shown · searching up to " +
-      currentWindowLabel(
-        currentNewsCategory
-      );
+      "No matching stories currently available.";
 
-  }
-
-  else if (
-    currentlyLoading
-  ) {
-
-    status.textContent =
-      "Finding current stories…";
-
-  }
-
-  else {
-
-    status.textContent =
-      "No stories loaded yet.";
+    return;
 
   }
 
 
-  /*
-    End only means genuinely exhausted.
-  */
-
-  if (
-    cache.finished &&
-    cache.displayed >=
-      cache.stories.length
-  ) {
-
-    endMessage
-      .classList
-      .remove(
-        "hidden"
-      );
-
-  }
-
-  else {
-
-    endMessage
-      .classList
-      .add(
-        "hidden"
-      );
-
-  }
+  let text =
+    displayed +
+    " of " +
+    stories.length +
+    " stories";
 
 
   if (
-    cache.serviceFailures > 0
+    newsData.updated
   ) {
 
-    serviceError
-      .classList
-      .remove(
-        "hidden"
+    const updated =
+      new Date(
+        newsData.updated
       );
+
+
+    if (
+      !isNaN(updated)
+    ) {
+
+      text +=
+        " · updated " +
+        relativeDate(
+          updated
+        );
+
+    }
 
   }
 
-  else {
 
-    serviceError
-      .classList
-      .add(
-        "hidden"
-      );
-
-  }
+  status.textContent =
+    text;
 
 }
 
 
-/* =========================
-   LOADING
-========================= */
+/* ======================================
+   RELATIVE DATE
+====================================== */
 
-function showLoading() {
+function relativeDate(dateString) {
 
-  currentlyLoading =
+  const date =
+    new Date(
+      dateString
+    );
+
+
+  if (
+    isNaN(date)
+  ) {
+
+    return "";
+
+  }
+
+
+  const diff =
+    Date.now() -
+    date.getTime();
+
+
+  const hours =
+    Math.floor(
+      diff / 3600000
+    );
+
+
+  if (
+    hours < 1
+  ) {
+
+    return "Just now";
+
+  }
+
+
+  if (
+    hours < 24
+  ) {
+
+    return hours +
+      "h ago";
+
+  }
+
+
+  const days =
+    Math.floor(
+      hours / 24
+    );
+
+
+  if (
+    days === 1
+  ) {
+
+    return "Yesterday";
+
+  }
+
+
+  if (
+    days < 30
+  ) {
+
+    return days +
+      "d ago";
+
+  }
+
+
+  return date.toLocaleDateString(
+    "en-CA",
+    {
+      month: "short",
+      day: "numeric"
+    }
+  );
+
+}
+
+
+/* ======================================
+   SAFE HTML
+====================================== */
+
+function escapeHTML(text) {
+
+  const div =
+    document.createElement(
+      "div"
+    );
+
+
+  div.textContent =
+    text || "";
+
+
+  return div.innerHTML;
+
+}
+
+
+/* ======================================
+   INFINITE SCROLL
+====================================== */
+
+function loadMore() {
+
+  if (
+    loadingMore ||
+    !newsData
+  ) {
+
+    return;
+
+  }
+
+
+  const stories =
+    getCurrentStories();
+
+
+  if (
+    displayed >=
+      stories.length
+  ) {
+
+    return;
+
+  }
+
+
+  loadingMore =
     true;
 
-  document
-    .getElementById(
-      "newsLoading"
-    )
-    .classList
-    .remove(
-      "hidden"
-    );
 
-}
+  renderCategory(false);
 
 
-function hideLoading() {
-
-  currentlyLoading =
+  loadingMore =
     false;
 
-  document
-    .getElementById(
-      "newsLoading"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
 }
 
 
-/* =========================
-   INITIAL LOAD
-========================= */
-
-async function loadCategory(category) {
-
-  const cache =
-    categoryCache[category];
-
-
-  if (
-    cache.stories.length > 0
-  ) {
-
-    renderStories(true);
-
-    return;
-
-  }
-
-
-  const requestId =
-    ++activeRequestId;
-
-
-  showLoading();
-
-  updateStatus();
-
-
-  /*
-    Initial screen:
-    attempt small batches until we get
-    enough stories.
-
-    Stop immediately if the RSS service
-    itself fails instead of burning
-    through every time window.
-  */
-
-  let attempts = 0;
-
-
-  while (
-    cache.stories.length <
-      STORIES_PER_RENDER &&
-    !cache.finished &&
-    attempts < 5
-  ) {
-
-    attempts++;
-
-
-    const result =
-      await fetchNextBatch(
-        category,
-        requestId
-      );
-
-
-    if (
-      requestId !==
-      activeRequestId
-    ) {
-      return;
-    }
-
-
-    if (
-      !result.success &&
-      result.serviceFailure
-    ) {
-
-      break;
-
-    }
-
-  }
-
-
-  if (
-    requestId !==
-    activeRequestId
-  ) {
-    return;
-  }
-
-
-  hideLoading();
-
-
-  renderStories(true);
-
-  updateStatus();
-
-}
-
-
-/* =========================
-   CHANGE CATEGORY
-========================= */
-
-function changeNewsCategory(
-  category,
-  button
-) {
-
-  activeRequestId++;
-
-
-  currentNewsCategory =
-    category;
-
-
-  document
-    .querySelectorAll(
-      ".news-controls button"
-    )
-    .forEach(btn =>
-      btn.classList.remove(
-        "active"
-      )
-    );
-
-
-  button.classList.add(
-    "active"
-  );
-
-
-  const info =
-    categoryInfo[
-      category
-    ];
-
-
-  document
-    .getElementById(
-      "categoryTitle"
-    )
-    .textContent =
-      info.title;
-
-
-  document
-    .getElementById(
-      "categoryDescription"
-    )
-    .textContent =
-      info.description;
-
-
-  document
-    .getElementById(
-      "newsList"
-    )
-    .innerHTML =
-      "";
-
-
-  document
-    .getElementById(
-      "newsEnd"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  document
-    .getElementById(
-      "serviceError"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  const cache =
-    categoryCache[
-      category
-    ];
-
-
-  if (
-    cache.stories.length > 0
-  ) {
-
-    renderStories(true);
-
-  }
-
-  else {
-
-    document
-      .getElementById(
-        "newsStatus"
-      )
-      .textContent =
-        "Finding current stories…";
-
-
-    loadCategory(
-      category
-    );
-
-  }
-
-}
-
-
-/* =========================
-   REFRESH
-========================= */
-
-async function refreshNews() {
-
-  const category =
-    currentNewsCategory;
-
-
-  activeRequestId++;
-
-
-  categoryCache[
-    category
-  ] =
-    makeFreshCache();
-
-
-  document
-    .getElementById(
-      "newsList"
-    )
-    .innerHTML =
-      "";
-
-
-  document
-    .getElementById(
-      "newsEnd"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  document
-    .getElementById(
-      "serviceError"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  document
-    .getElementById(
-      "newsStatus"
-    )
-    .textContent =
-      "Refreshing stories…";
-
-
-  await loadCategory(
-    category
-  );
-
-}
-
-
-/* =========================
-   RETRY SERVICE
-========================= */
-
-async function retryCurrentCategory() {
-
-  const cache =
-    categoryCache[
-      currentNewsCategory
-    ];
-
-
-  cache.serviceFailures =
-    0;
-
-
-  document
-    .getElementById(
-      "serviceError"
-    )
-    .classList
-    .add(
-      "hidden"
-    );
-
-
-  if (
-    cache.stories.length === 0
-  ) {
-
-    await loadCategory(
-      currentNewsCategory
-    );
-
-  }
-
-  else {
-
-    await loadMoreNews();
-
-  }
-
-}
-
-
-/* =========================
-   INFINITE SCROLL
-========================= */
-
-async function loadMoreNews() {
-
-  if (
-    currentlyLoading
-  ) {
-    return;
-  }
-
-
-  const category =
-    currentNewsCategory;
-
-
-  const cache =
-    categoryCache[
-      category
-    ];
-
-
-  /*
-    Reveal already downloaded stories.
-  */
-
-  if (
-    cache.displayed <
-      cache.stories.length
-  ) {
-
-    renderStories();
-
-    return;
-
-  }
-
-
-  /*
-    Real end.
-  */
-
-  if (
-    cache.finished
-  ) {
-
-    updateStatus();
-
-    return;
-
-  }
-
-
-  const requestId =
-    ++activeRequestId;
-
-
-  showLoading();
-
-
-  const targetCount =
-    cache.stories.length +
-    STORIES_PER_RENDER;
-
-
-  let attempts =
-    0;
-
-
-  while (
-    cache.stories.length <
-      targetCount &&
-    !cache.finished &&
-    attempts < 6
-  ) {
-
-    attempts++;
-
-
-    const result =
-      await fetchNextBatch(
-        category,
-        requestId
-      );
-
-
-    if (
-      requestId !==
-      activeRequestId
-    ) {
-      return;
-    }
-
-
-    /*
-      Stop immediately on service failure.
-      Do not race through the rest of
-      the year.
-    */
-
-    if (
-      !result.success &&
-      result.serviceFailure
-    ) {
-
-      break;
-
-    }
-
-  }
-
-
-  if (
-    requestId !==
-    activeRequestId
-  ) {
-    return;
-  }
-
-
-  hideLoading();
-
-
-  renderStories();
-
-  updateStatus();
-
-}
-
-
-/* =========================
-   INFINITE SCROLL OBSERVER
-========================= */
-
-const newsObserver =
+/* ======================================
+   OBSERVER
+====================================== */
+
+const observer =
   new IntersectionObserver(
 
     entries => {
 
-      entries.forEach(entry => {
+      if (
+        entries[0] &&
+        entries[0].isIntersecting
+      ) {
 
-        if (
-          entry.isIntersecting
-        ) {
+        loadMore();
 
-          loadMoreNews();
-
-        }
-
-      });
+      }
 
     },
 
     {
-      root:
-        null,
-
-      /*
-        Begin fetching before the
-        user reaches the actual bottom.
-      */
-
       rootMargin:
         "900px 0px 900px 0px",
 
@@ -2171,21 +1099,17 @@ const newsObserver =
   );
 
 
-newsObserver.observe(
+observer.observe(
   document.getElementById(
     "newsSentinel"
   )
 );
 
 
-/* =========================
-   IPHONE FALLBACK
-========================= */
+/* Extra iPhone fallback */
 
 window.addEventListener(
-
   "scroll",
-
   () => {
 
     const distance =
@@ -2202,24 +1126,22 @@ window.addEventListener(
       distance < 900
     ) {
 
-      loadMoreNews();
+      loadMore();
 
     }
 
   },
-
   {
     passive: true
   }
-
 );
 
 
-/* =========================
+/* ======================================
    START
-========================= */
+====================================== */
 
-loadCategory("all");
+loadNews();
 
 </script>
 
