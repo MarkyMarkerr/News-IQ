@@ -1,7 +1,25 @@
 {
-  "updated": "2026-08-29T08:25:36.585820+00:00",
+  "updated": "2026-08-29T09:25:51.791771+00:00",
   "categories": {
     "valuation": [
+      {
+        "title": "Eurazeo stock holds steady as investors look to private equity exposure",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSlNIY1daNjB5WXpRMURTeWd3RWNqaDRDbzFXZTZGc2ZYbGlYcW14a0NRWjhKSW85bVpweDVrOWQtME1zaDBkczF5OGZTRHk4bzVNandvcGpxZnp6M3BOckpnYWZNLVBkSDdxa0I3SXNMeXdXTFI3ZC1jb1ZLVDVGQnpUOUZ1S1h4RVgwQnFtQml0WUdodnctSER3Y3ZGeHdfXzhIdzVvT203VHVjdkhxdjBCWDdFTVhYV2J4TnRHcUhfNHlybnVmZGt0MlE1NFE?oc=5",
+        "date": "2026-08-29T08:35:01+00:00"
+      },
+      {
+        "title": "Tecan stock holds steady as investors look to latest earnings and life sciences demand",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYUlKQWgydDBmVDlPUnZ2U1VIdmNWVTVnQzVlZXZmUHp0c0NCeHh4TnNrUWlrS3JyX3lSRVh2Q3VvM083SlNlX29Jb2d3ZFJnMk9nbFZhcVJnRHQwZHhoQXF4LUtUdTFvbmNmNmxjLXhSRHR2dUE4UWg5a0F3eS0tVW5WVkpsLWVPZm9IaHR2YWdydU90QzlYc01HQnFyN2RERWRLR1V4cTBPbjdhNjN5NGJMWHpUZmVXc1RKQ2I4NUhiMVlJZ01XNkg1OHlvQQ?oc=5",
+        "date": "2026-08-29T08:26:31+00:00"
+      },
+      {
+        "title": "Enterprise value to EBITDA forward of D. Boral ARC Acquisition I Corp. – NASDAQ:XLAB",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU1hPWGZPNGszWWMyQTh4eGpuMHloaG1Gc3ExaVFJN2o4dDBvUjlGMFB1QU96Rl9sNHA4WGNHaHN6Z04wQ1hBR1RFdERJdk5JenpOeHQxajkwLXZucWN4UDVacnVERFdyVnh1NVVyemg1cVRqYjR1SEJrOEdROFIxTk1DWllmS0hZRXdDVURRUEhLdTlaOVRhLXhYakd2SkJFd0g4djVjai1BY1FqMkE?oc=5",
+        "date": "2026-08-29T08:21:30+00:00"
+      },
       {
         "title": "AXL stock overview focuses on fundamentals and valuation",
         "source": "Ad-hoc-news.de",
@@ -31,6 +49,12 @@
         "source": "TradingView",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmtGN0dyVHQza2NXRkJWRDYzY2FUUWo0cXdTMHhtME9HLUtyS3M4TGNnOEUwdU9tY2FGN25EOTYzUWVwOUZfUkRoaEl1S2R6WjkwSENJaEtSTXBJSUZuMVkyQUo5Q2ZCNEdDSHYwODV5ZUZLb0wtanp3VUJjU0xVQ1l2Mlp1TjZzQmlkR1dlcWNvNnFpM1JEVWZIT1hfWVJMUW9BVUtBRzE?oc=5",
         "date": "2026-08-29T06:35:21+00:00"
+      },
+      {
+        "title": "Edwards Lifesciences (EW) Insider Sells 2,644 Shares; Valuation Remains Fairly Valued",
+        "source": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc2Z5THBPMGstbmE2U2VrWWp5WG9PaC1LNkRvQ0UtNVRpbjFIbks4Z2VTQXhXRm1GU25RakZiWTRyQkJKM2RqNTZkdG1fcUNGb2tyR1Y1LV9qWkNFNkx1MWRuWEVkYUZsRV8yS0ZCTHJzTU1qaGwwTkR0ZmtCREJzeXJ4bjdCM29EMk1peS13dTZhX29LejVGZ2NLU09iV2NkNlQzZGItUUZ4ZFJxN3pTeGlXcHIweU04OEpkaA?oc=5",
+        "date": "2026-08-29T06:33:31+00:00"
       },
       {
         "title": "TJX (TJX) Stock Looks Expensive On Cash Flow But Fair On Earnings",
@@ -201,12 +225,6 @@
         "date": "2026-08-28T21:30:34+00:00"
       },
       {
-        "title": "Franklin Electric: Resilient Replacement Demand Supports Earnings Growth; Valuation Limits Upside",
-        "source": "Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSzB2TTZsak9KSFhaM0taMlBxTVVpSWJZemhEVE9kLTQyOHM4YlJxVmZtX2ZXUFFYY2JzeC1zM2t2ZXhWTEMtS1NpcV9TTFZXcDdZc0tCRi10NVBObEQ4ekxiX1QxVzJpbmZOeE85MVFRb3prdjdJTXdkX3pTQUFza1N3UXF4bW10ajJQamxqNUF6UzJKaUVJeGpLQ2JEYktERUZka3hSLTNBSkRVRUFzZFZGRm5aQ3k0TDV2V2VST1kwNTI1NXB2RnFZWXV2YllRTW5CZWRTNA?oc=5",
-        "date": "2026-08-28T21:15:30+00:00"
-      },
-      {
         "title": "Private equity firm Advent and payment processor Stripe abandon over $50 billion acquisition of PayPal",
         "source": "ababnews.com",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hWmlSTXJYZzJPalEzMHJPSjUwY0V6bHVIVkFjbmRtMmp2Zks1dDRTeUVCLUJEdUZ1bHFhaVIyaVRsNzRJUXpLNW03ZHFpX2dWeHVHYlRMVmNROEx4SEhzXzNiRDFKRzFfNEZUdWk0WUFRVGEz?oc=5",
@@ -247,6 +265,12 @@
         "source": "dakota.com",
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX1NQYTZxZDg5RmRjbmlXbDBEb1BpXzE4d3NZXzdUbFJFeHMyTk1fQ0hETGVpaGtLMTJWWkt0ZWNsWU45blNfbXVGT1Z1SklrZkpzcEllaFBOS3ljUEpWU3dlbVNrdjFTYmEyMlVSYVpMV1hodXc2MDh4cnBidU5NOEpfNHdJZE1oOXdFWEtkcTZleWJ1ZGN1QWxRVWk?oc=5",
         "date": "2026-08-28T20:18:54+00:00"
+      },
+      {
+        "title": "JNJ Looks 38.5% Overvalued on GF Value™ Amid Dividend Strength a",
+        "source": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLW1tNzFOY0FNbkgtc3JaS3h5WGtlNVpMeGdzXzNUQ1NIeGZ0dW1wMzdXX0prNkZ2RVdUcVQwZC0zdHVJZjRmV0FqNEQ0SXpTRF8tRmFXUzIxVVRhNWpCdFRxaUt5SkxGMEQwWHFKRF9oRkk2dWVxMGtkYkdobzVXN1F5Rm5ac1lkWFNJT3FnMDJkNWp1NlBhQlJMM29zWnF2NW1yX0dEbm9HVzZqVkZWTHB3VUhtY2xtRUE?oc=5",
+        "date": "2026-08-28T20:06:39+00:00"
       },
       {
         "title": "Waaree Energies Ltd Valuation Shifts Signal Price Attractiveness Amid Market Volatility",
@@ -423,12 +447,6 @@
         "date": "2026-08-28T13:40:00+00:00"
       },
       {
-        "title": "USA Compression Partners (USAC) Stock Looks Priced At A Premium As Its 179% Five Year Run Continues",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSzVHMVBQWi1hLVU5ZFBIWk9xYzdtSGZ6RzZYOWtWSi1hNXpURGV2bElGbHJ6UDBTTFZpSVdmUFM3TnhOeGxKMTZMLVYtV29xME1OU0hvMGo2Q0xVZFlQV1Vrcl90ZnFlQmFRT1VacGNBMlhpWGYxdjVMMVhmSm84OEU1R3NQWHlDZUFDcXdlQW9QU0luT01SMEMwWlBBdllLODVDUzdYZWthLXRRR2p1VXp5ME9UZjhHM0tSck1WWndCNTZtaFpVVDZJNUYzSW1EbXVDUGF30gHbAUFVX3lxTE5PUzFJRXlrek5UOEZ0ZTRONUJDbUVTZUJCUktqNkdMamV6UFNkVTJrZmRkeGRRLWdrMVM0T0N6MDVhYUdhMHVQNUx1VUFRNk5pMUJvQThwZGE1cTJIQzh4V2VqZ3BFMDhneFQ5Wi1BTFZNQ2NuWHZtNzFYME10d3ZSY2lCTkhvREM1Q1ViU0l6U2kweTJXZndzNVAzWGd4UF9wRzM5SC1LUjlES2dvZmpGd21mQWJfX2JkRjE3LUYxYUxqNlVBQU9OSmMwZlVKUTNqMmw3b2NjV2JKRQ?oc=5",
-        "date": "2026-08-28T13:29:34+00:00"
-      },
-      {
         "title": "Musk dismisses Tesla China sale rumors as valuation debate intensifies",
         "source": "scanx.trade",
         "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd1VGRnNrclNXYjdsUmNMR0QxTWg5OG1NRU1LS1hibXBXLWdGaWI3bWVaQjc3WTZ5eXBuN2RMYlhtN0d2UU9FSXgtLWVtbS02OHNaR1dKSloyRHRvOTI0NkNlNjZib1IySXNQZnRRdXdlOUlSNXlpTzdhUkJ1YVBBNXNWMGgzU2FXaTVUcnBvLU5LSHpFai1rNVdUYTNMcVpvZUtXaHVnVVgwYTlxRW50TG13QXF3S3ZaVlE4SGE5aENzd19wR3c?oc=5",
@@ -471,6 +489,18 @@
         "date": "2026-08-28T12:32:59+00:00"
       },
       {
+        "title": "South32 (ASX:S32) Shares May Be A Bargain On Cash Flow Potential",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdUU3SHpqbF9PTzJwbDVNMnMzM3JZemZTT0tubTV3VkNBZFFxZTN4UVZPbm9RN2RXcW5wc2wyeHh5LS1RQW1tTFhJZGdYN1pxQ1VkWEtJTTM1V2xSX3lJdmJzcnRoRWFwM3hwVlpkLU9sUWRvUDk4VW5meFlqaUpRRURjem9WbndlOW1mUGR3Z2NXUEc2S0NkeldXUXYwdTl5Tks5Q0R4V0pVQTY5X1VMUWZhcnNwV0I5ZkdVT29oUU9YTno0ZHdvanVR0gHPAUFVX3lxTFBsS0RVZnhFbnYxT0dTT1FkSlZKRUxUOFJpMlNCNTlVVGZZTjZWREVZdUdwbzE2WUtUMTlzSW1scVdNQWdVRnBhN3QxajNmZ196Wkp6a1k0SzhINDJQM2JCcjVrRWRtVzFrTUNGZjRtbENOazdGXzhoc0oyQVZuQXdJUmlYYkgwOFF5R2VsQXNwMWdNYVZOdmFjalp5LXJ3UlI4TFNWaVdsdUFDVkZRWGQtaDN1bEVvU3dfNFl2OW1TbHR5WGx3eGtmRjFvbU9EUQ?oc=5",
+        "date": "2026-08-28T12:30:10+00:00"
+      },
+      {
+        "title": "Pot grower Glass House wins partial victory in property tax dispute",
+        "source": "Ventura County Star",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOFA4bnNocjVPdEJPZXBLdWJDc0JHejg3VTBRS09LT292RTNZOUFzZ21xc1hZNkQyLVpvY0p2RERlckwyYzZNVl9SUkRwV19uMEF6cWVTSzA4MTNJQzY4SkR3S3dXNl9JcktNak5xUGd3Y3dSWGVzMG5fclREODVtQW5NTHoxRmt6RGYtYTBEbE04VmZBeE1jdmJHQmhkVEIyMWIzbEtsdFpKTXo2UEt1MmRXOV84M2tr?oc=5",
+        "date": "2026-08-28T12:30:00+00:00"
+      },
+      {
         "title": "How Financing Structures Shape the Success of Lower-Middle-Market Acquisitions",
         "source": "BBN Times",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS2NhaW5RdWxuT0dWNEVfd25XQXBKQWUyUXBxZmJZaGtOVV9MTXY5UlhhTUJFdWd6c055bUR5RXBZbWpOUUg3bm1tb3NCakFGTGVvMDhMdEpFU29DdDBxel9LdHoxWVRIMFdQZG8zRVE5NUNzakNxdDY5RGtkdU41UnNwLUhZQVpteFJlSFVyRTdtRFlQWTRyWnJFVHBudFlQcXV1MjlkaFlLSEVrWmNmcVZCbw?oc=5",
@@ -507,10 +537,10 @@
         "date": "2026-08-28T12:04:00+00:00"
       },
       {
-        "title": "Rustic property of 4,8626 ha for sale in Morón de la Frontera, Seville",
-        "source": "Cocampo",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZjhsdVctUVpLTWtUTXI0dXFIVjY3aF8xb0tLZ0VHZzhNVnFJQld5NVFzNjF4SVBIMWdOMW52amcyUXFxMkJHNGFEVkhpM3VVd3ZBMnlKZHJXS1RJY3A4cEhCTmJXNkM5d2tJVFcwamVXRG5WNElmZmRsVGVMVmFkZnZuRUg?oc=5",
-        "date": "2026-08-28T11:47:37+00:00"
+        "title": "Anthropic’s $2 Trillion Token Trade Is Here",
+        "source": "NAI500",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR09ZQjg2WHhEOXB5RUdvSkxRaUdhelBoUTRoUDRGNWstNEhQOWhOMHMtZS1BbkxNV29QTnNLVnFMVHZXWWZGSmNQT1pKb0h0NGRKdzlYZGJwWl80Y00tS1JOQVhCUjRhWVpveHQtLVd5T1BfR2NQandLV0lRWWRpbg?oc=5",
+        "date": "2026-08-28T11:49:09+00:00"
       },
       {
         "title": "Valuation in Crypto Grows Beyond Simple Metrics, Experts Say",
@@ -585,6 +615,18 @@
         "date": "2026-08-28T10:00:00+00:00"
       },
       {
+        "title": "‘Buying opportunity’: Sembcorp’s India unit IPO could lift group value by up to 10%",
+        "source": "The Business Times",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONF96TEp0QUcwejVIMzM4YkNlcjlSUWJ6b2tobWYySnBOdHdHdFdxWl96c21XdGlnOXlpSWtEY3JiZmdJUG11SW5wY09Jc1JKZXJVSWNPSVUxTmt2YmVuVzBSblRnVGxEMjZ5QlYwNmhRa0c5Q1RMVmRFSkgxQ2RTNWdqRXdBaTlrcW4yZ0dkczNmcmFSdVFqeDY5RVRyRjE4UmFzbjBueXlsbWctSVZCN3NQVU1FZTBvVmVjQQ?oc=5",
+        "date": "2026-08-28T09:52:00+00:00"
+      },
+      {
+        "title": "Socure hits $5.2bn valuation in fraud-fighting AI push",
+        "source": "FinTech Global",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR3dyeUZmSG56TkFyeEYta1d1WDZxMUdmOHpEXzlzbHNLUG93c2o0cFU0SjU0Q2N0ZXlwYUNYMldkYWxjN0RyMmJPMkFGRFpGc084cGFndGNWTXBraURmLXEyM0FDLXd5eml0Zi1Cc0MtUlN6VVdIN09nVFphVWRkSV9vMzNDLVhkT0J5Vjc5bExNUQ?oc=5",
+        "date": "2026-08-28T09:23:59+00:00"
+      },
+      {
         "title": "XPENG Robotics' first round of financing exceeds 900 million US dollars: Sexiness and danger coexist",
         "source": "36 Kr",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wMExIUW9sdXVIUms2NS1NdEw0ZE5wVGJhTEVDYXl3RFY2b2c0N3QwcDB4SzRXemhNZEY5R0U0UGdfdTliUjhBd2NKWXgzVG9kODhB?oc=5",
@@ -615,6 +657,12 @@
         "date": "2026-08-28T09:00:00+00:00"
       },
       {
+        "title": "Helcim Raises C$53M at Reported C$250M Valuation",
+        "source": "quasa.io",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMFNnU2Zlck5yY1lnRkdvWVhkOGJkSFFWV1lPdWYwX3NlYXFsdWJPeVQ3YXVKczZQOHgtTUZMeXFZbkxTeDNuWkhVS0g4eHpIWU9RUmxCbzcyRHpnSTJGWktPZlNKa29mcGZZOFdJeGhnRXI0N0d3V1BKdUFpRDVKQ3liREo1TzRtM1VuWTdn?oc=5",
+        "date": "2026-08-28T09:00:00+00:00"
+      },
+      {
         "title": "Unisound 2026 Interim Results: Revenue Up 38.7% YoY, Token Business Surges 760%, Large-Model Commercialization Accelerates Across the Board",
         "source": "Taiwan News",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CMXlmOG54WmxvTWVxWHk4WUo5bHpNQmNwQk9KbExpLXFLMGVaV2pCWVZpZGZEdmplZ0pVTWx0bHBVektRak5VTFYtaHB6NVJKZlFHRXkyWGg?oc=5",
@@ -631,6 +679,12 @@
         "source": "Ad-hoc-news.de",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSy1uR2w0Z0o1SjNzZElTSlMwcXhBMlNkbU5RbDN3RFFqVHpaTFV6a00ta29QRm9EOXpoc2l5Tm1jcWdUaWh2V2NGdUJHaUh0MUREWmxwakcyRHZwdDNRVFdONnRkNm5EcXA5UlhnbTlNZG9tVlN4MmNJYnVWeFV3TWxla1VPd3phcTBUd3lycGZ5aW1feWFOOS1sREV2R2N2eTZnR3ZZMEZXYjhWRU1TVWxOR3JBTnhhZkNuSEpYcGJVTjNz?oc=5",
         "date": "2026-08-28T08:43:48+00:00"
+      },
+      {
+        "title": "Eastern Gas (ASX:EGA) Advances Venus-2H Appraisal Well as Gas Testing Phase Approaches",
+        "source": "Kalkine",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeGtvRlY3NHkzMjRERzBGSWNqMWE3R0c5eEhJWVhlcTY1Z0JLZHVqanhFWTFTcFlJQVhTUnZrVHZBVld4YUZBR3N0RkFyeE04bHpmRFM0V2ZwTmw2bDB0eEUyRDFYYWlVNmphRXg0SFM1VjIwVDUwM0RtYVRWbThETnpXNy1CYWs1dGVDVDI3QVV3ZVpSeGR5QVIzckxfTjBMNWRpcXg4R095Sk1hcW51QnQ5MWhFZ2hnTGc?oc=5",
+        "date": "2026-08-28T08:33:00+00:00"
       },
       {
         "title": "Elevate Service Group Stock Slips 4.19% — Is Acquisition Momentum Meeting Execution Risk?",
@@ -825,6 +879,12 @@
         "date": "2026-08-28T02:43:55+00:00"
       },
       {
+        "title": "Leggett & Platt (LEG) As Somnigroup Merger And Delisting Recast Its Valuation Story",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTTI3akNXdmZkYzdvQnZUczZvMXpmYzQ0SVFoeHpiTmVyUmlHMTJROFlHSFJXQ0U4SmZKTGR5QTg0TjFid0RaUm40Rm4tbFpSbHNEaDRCNl9ydUxXenYwOWdJZHlaRTNKWEtZVFVGZFZKMnJfN0FTSlA1ZURrRmNPS2ZCQ25Ic0pOOEJVTy1nS2VRZ0ZDalVMMGNSbW1lLVdLRWN3R25Db0Jrb3U3SldJb3hqU3NtWlBnWUhNZnZUNTAxeERNY0pnbkpUYjlvbWZBeUVZ0gHYAUFVX3lxTE9iRWNPLXRHN0Zkd1JtZkNHUEhyZGxES0JHVFhTeFhrR052ZGM4WWxyVy1VaWVRcDBlOWEyVkZYekk0TEMwNjVrUFdqYjk0NGJJTlR4YzZhX0tvaUtUWGFKck9qN1FLSERCWmxwOWUyRHhCNDI1NHVHelpBUjVPRmltdU4zUUdHc1lyajFoVlk2REktbUYxQkpSQTIzeGo5TDBhTEttaDdNcUxxckZ6TmpyUlNCR1lyMWtqMko4aXM0bFVlQ0Z4ZFYtWkhSX3JrRmVfNkJVNkFfMQ?oc=5",
+        "date": "2026-08-28T02:43:55+00:00"
+      },
+      {
         "title": "California Software Company Ltd: Valuation Shift Signals Renewed Price Attractiveness",
         "source": "MarketsMojo",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYmxTY05LTzVCMWE2bkIzNjZxSjFJSXptUWNEVWhLdVZBNExnaTJYY3lDdjJZbUI2WDVlMTh5UHlla0I0RWlobU5Vd2QtX2Q4cEFQZ1pKV0RyQ2IzR3JwaUM3cHJiY1JkVVQzR0NrdmtwS2lvUHE0RjlDTkRUWW9ZTlNVR19DQkxLdDI2VGxpa002UjhoV3FfVEY4cWRwN3B2bjQwTFNvb19pWmx3MHZPRElTRHVNZTJQaENQY19VMldXSmljSV95dkU4Vnd4cG94YTQ5eFRtNTBuQQ?oc=5",
@@ -969,6 +1029,12 @@
         "date": "2026-08-27T22:25:29+00:00"
       },
       {
+        "title": "Mutual Federal Bancorp, Inc. Announces Adoption of Plan of Conversion and Reorganization to Undertake Second Step Conversion",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOR2NLeGJOeUUzWEtUZThTb2RyMVpNQ0FYbVpEa2s5VzBpZHNaV1BWNkNleXhSSHJmMW1PU1FMZGNkNTJWQmc1bGtFcFJ3cEk3eVkxOU9mWkpOVkV6aFFOVS1QSTk2MEFSZ2E2WGZhdkhxRzlmWFU4aWZHWUZBTHM0ZlR3X2VwbmtiY1NfMlRGMUxOb2dwREozUTZRM1N0VVR6bk5QV0ltRVozRXp3MDMtSnVxZXE3RDZGZFpXamQ4WE9HeGwxc2NodnY0ZGRraHdubmlrcFFXbUFMWWFoUVEycmxSeFpEWjFWUjFJNFgxWUhLTFlEeWFwVUhHWk1RNnJpS0Jsb1VRVFRMTzEtS0lEVQ?oc=5",
+        "date": "2026-08-27T22:06:00+00:00"
+      },
+      {
         "title": "The Top Private Equity Firms of 2026",
         "source": "GrowthCap",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CbGllbW5pWWNudjByZEhjc0ZwWkFPNU9DdGlwZU1qcEs5NHpiWXdyNU42MFJlUXg1blFySUFHVDF0WFJralRlSkJSWExEc0t1cDdqS3dpai1xeHZpbXVzRU5YLTNUTkw1cEUtWWJVNUtiMk5QMVE?oc=5",
@@ -985,18 +1051,6 @@
         "source": "Reuters",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVG5SUDh0c0lLWkFTNWlLWmMtdnhHOXZHMC1zMmlTNFZnTG9CZnpXUG1QbnRZMmFCQTJ5QkhCdzVkX3JtWWNWbFNtSmpNVTJqTERPLWVKbXdxSV9oc2tKdm95YTZnX1B2YXlrRmptRGNqOUZUenctc2dTQi1TdGtnR1NZQXRSVmJMVS1QZWhnX1V0dHAyVG01RVIyQmtQd1VqQnJVcEIxYXBuOVlpeXE2SWxPTEVlcHhIeG9rSlln?oc=5",
         "date": "2026-08-27T21:22:00+00:00"
-      },
-      {
-        "title": "Grainger stock steady as investors digest latest technology asset deal",
-        "source": "Ad-hoc-news.de",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ1FEUUw4NnhzYkpzQkpCLVlmYTFlSnhlY1dZa1AzSEJWdHVQUFhxY2pQY3RuU3N1UmVVUXZvM0FBMGdMOVZMdW5YSmhicl9iVzJHWlFwbzBGaHNDWkZMbEp6YmZIb0NoRFRxcDNFcGxaNGpaR3U4dEF2SU9mUkVNNUFHanpzQnhtdVJYWllHYjE4UWpyUVIwTXVfWWJkcHdscXRuVUFVRGhraWlSQjNNcGZGV2FJeU9rWVNzTnM1NlhZUnBtZTN2Q0w4SDlLdw?oc=5",
-        "date": "2026-08-27T21:00:01+00:00"
-      },
-      {
-        "title": "GBA Holdings Raises HK$8.66 Million via Share Placing to Fund Expansion",
-        "source": "TipRanks",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdXVNVjZTOEF2ZFdkVjdFMFEwU2tyNGRnOU9mWmJwX25zNGRlMlNKM2Mxb0xzczN5YS1raVF0alBEdGFRQnNPdUc5Rzk5cFNwYU9GNGVETzBKb1hrM2ppYzJEVDNZbGxHclRQTXJOMWpqT29ISXhDaWk0dHBjTERWdC04a2hhdWJhZWM4NzBZbnh1Q0N4VUJ3OHlibUN5NW1yVV8wUE54SzR3MFZzbGEySkxYWnhLeTRfS0tFTzlTMA?oc=5",
-        "date": "2026-08-27T20:54:05+00:00"
       },
       {
         "title": "CGT changes bring valuation headaches for small businesses",
@@ -1027,63 +1081,15 @@
         "source": "Ad-hoc-news.de",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMEMxX0NwQURaRGNmdU5CRGpUVDluUTFaUGNfVWVHcTcwYS1hRElEbnpYMUE1NXVJVTl1cFVTeHNNZGNTbE43cUIzZXozUkdUbFVpLWhTRExoS0dwYmNzOG9WbWpsQmdFYllQZS1ObHUzVUxpTUVHUnVsZlJma0RITmpZSnBTelpiczFwU1VhQkFVN1czYm9PYmVRXy1Zc1hISWtvcWlDWkdCbFRZTWVWRXl4N1Z1Z1RkQ1B0TUNnaUVBdER0bHpXbE1wY3k2UQ?oc=5",
         "date": "2026-08-27T19:35:25+00:00"
-      },
-      {
-        "title": "Washington Adopts Final Claims Handling Rule With New Requirements for Repair Facility Communication",
-        "source": "Autobody News",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdEtRTEdPS2V2NC1ESmJoZ0ZzMDlMeVBmVHpLTzNoeUtnMlJxUmg5SnA0NW0tSmRhSnhKeU1qUTVRTlVMYWlHMm9nVldTbkxlNHlBV3VkT3NVSHF1SlRUQ2hCNWozeTlmaVZaMGJmYnFnREhYTjhsX1lJM0k5bjJ2eERqdmZnbVdHX01XYXBBMjBVeUxqbTgzWHhZRXpmaEpPc243M3RBVGN4eUNuOUhZZGQzd1FKSlBIQ19KajVHX2ZfQkNBaG9RQXdWcjB1ZXM?oc=5",
-        "date": "2026-08-27T19:33:34+00:00"
-      },
-      {
-        "title": "In 2018, Kevin Durant Invested $100k In A Tech Company Called Hugging Face. Nvidia Just Bought Hugging Face For $12.9 Billion",
-        "source": "Celebrity Net Worth",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmlOSkRPM2EyZmxpUDN6X1FmZ1V6SW5uS01ydkhmU0VoWjFQY2VTY2k2UUFaTTQwX2k0eVUyeXAxNGdKMGxxRlNjQmExbk1heU4wLVhYTUc4V3hRN3NmN3IxUEZBdVlQZThPYTFfTUpOTVdTT0lyWU5LTEx6d2o0WndkeXQ1Zw?oc=5",
-        "date": "2026-08-27T19:30:49+00:00"
-      },
-      {
-        "title": "Apollo, KKR Partner With Atlantic Aviation At $10B Valuation",
-        "source": "Law360",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWnZTdndSZDBQdFQ5cVRubEV4eW13SUdoNnhCbDl1SEJEdnlPaG81bjBFQnFwWXBpYllINzJ3X1BQdGxtTy1MbTg1U01CaUMyUnBBSzlJSXZ1aHVfb05xMjBvS0Y4SVhuMXRnYUxPS3c0RDNtQ3FrVURPWWdqc2xVeGs4RjM0dzNQc3R0OXJNYTN2TjQ4U3hfSk5BYmVKVFnSAVZBVV95cUxNSnJKX1hGR3BHakY0WmtXRnlVaENDd3dqSW9XZzQ5XzVfQ294V1Fucm1RSVFZWFp1cTVMUGdONGtwQ1NzRzVydkZvTDJZQUJlNmNWT25jQQ?oc=5",
-        "date": "2026-08-27T19:25:00+00:00"
-      },
-      {
-        "title": "Kenvue Just Sold Its Brazilian Business. Here’s How That Fits the Bigger Kimberly-Clark Story",
-        "source": "TIKR.com",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbGRsa0hyTGJCOER6cTEzcWQwcFo0WWRweV9raDdlcnIzWVZUdmpQTmoxUGlXLUFJeTBmOWdwSXNqUUd3REJzUGJSa3BEYUUtbzBDcU1TZVhjZUI0Rkl6ODh6cVRBRnRqU1JSRVRLcGZITWhPZDRzZ1k2TDhSbnhLMEVNN19lRmdIdXRpZFRWd3ZzcEtpV05waEhTZ3NGWWMxeUFoZklVWURsTTIxTUtHMTUta2RZc3Rn?oc=5",
-        "date": "2026-08-27T19:14:43+00:00"
-      },
-      {
-        "title": "Ford (F) Stock Looks Like A Bargain On Sales Yet Full On Cash Flow",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM0NlU0ZUTHA5eEt1XzFHWkRERGp3NlVNbi1YejRLVW9URjJIazhNUFNKcW4zeEFYZ1BFUHFvVF9JUDdKb1hOenVqOFhCSVFZVURoQTkxMWI5M1NlckdVLWR0eTlCQllDbjREYTFBbG1oRC1tcG9Dcm9vUm10ajlDcERYNDJ1aHVnTnNUODNMRzFjRTQ3UzVGNFZDMGFsVlpqbW1QX1VoVDVTeENzZGtLOXV3b05XWkxpalRCMk1TaVhiWmhPSkJKdnZn0gHKAUFVX3lxTE8zQ2VTRlRMcDl4S3VfMUdaREREanc2VU1uLVh6NEtVb1RGMkhrOE1QU0pxbjN4QVhnUEVQcW9UX0lQN0pvWE56dWo4WEJJUVlVRGhBOTExYjkzU2VyR1UtZHR5OUJCWUNuNERhMUFsbWhELW1wb0Nyb29SbXRqOUNwRFg0MnVodWdOc1Q4M0xHMWNFNDdTNUY0VkMwYWxWWmptbVBfVWhUNVN4Q3Nka0s5dXdvTldaTGlqVEIyTVNpWGJaaE9KQkp2dmc?oc=5",
-        "date": "2026-08-27T19:01:35+00:00"
-      },
-      {
-        "title": "Two high-yield ETFs offer 11%+ income without c...",
-        "source": "Pluang",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZDRJdGRqSy1ZM0tSN3dGbUlEMzBpQUtzWDQ4eXgxdVF2MVRrVHc0VFR2Zy1wc1U3YTBoSkg5VlRCUXZDYWd1MHRwX1RFWTFxVnNLUVpCaDc3My1lc2N0eFNXRzNjakh0TXpsRXhSbU5FLUtQU2pDNlFTQlhmcGstaUxuMHh0WF94UnY0YURGX2duM0E?oc=5",
-        "date": "2026-08-27T18:47:27+00:00"
-      },
-      {
-        "title": "Private Equity's Aerospace and Defense Deal Count Doubled. Total Deal Value Fell Nearly 58%",
-        "source": "Benzinga",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd0NUc0RPMDhBUWJUYU8tdjN0c1RsVG1oazQwWF9aMlIxTEhLRXVHMXViLUd6M0c0ak9SYUVGSzg2TE5mVHpaVHpLM3EwZ3VsTWR4TW5sc2VkU25IcnZOUEN3bldqS0JpemxPa1k0YmF4X1pZRmNEQV9nYnVNXzZZVnVLYWYtQ0YtcnNtenVRRG5YcjVVNkl1SDNiN3JDWTNfQndVV29hRXBxcUZmaWUzZ0ZNTmF5OFBvZTVQNjZmeU0tVmNfYWpYNG9hWE01cXp0MTJLRUswT1N4MzdmbzV2SVpqYjJ4anM?oc=5",
-        "date": "2026-08-27T18:33:56+00:00"
-      },
-      {
-        "title": "Enterprise value to EBITDA forward of Meridian3 Industrials Acquisition Corp – BOATS:MIACW",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT2JWcHc4YU00cmhlUlNEd3hFV1dxaHpRNVJtVlFhWFNidTdZOWtqMTNCVHo3Rk05aUYxQzkyWjYwdDBYM2Q0bFFjRTFsQV9nNjVJcDQtdm9wbVVKckNGU2hzLWFhUmEwb0ozMFo2SXNlbzZRbkJZQW1nQU1vQ2lYR1pjeW1yWi1GbDdlbkJwRnNqeXVsMjNoV3pBWnVhWHRSVWFCU0N4RGs1NThKdXc?oc=5",
-        "date": "2026-08-27T18:19:06+00:00"
-      },
-      {
-        "title": "Medtech M&A: choosing between private equity and strategic buyers",
-        "source": "Today's Medical Developments",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVWR6MEQzc2kyOGlaWHg3VlJMN2xDcTlQbW1VSHI1djFvOHNMZzBwcllnUURJeDFKZ0lUaGdkVERUSW5aUVRqY2dDZmZkZzNHNlBZZGVrMldiOXNhYlhGd3BuSGdZX1NnV3QyaHFrSTVDdHVxOE5pc2dnNFVBS0NPamlwaGNackt4SWpKNm9ReDVaRXlJZXdYMw?oc=5",
-        "date": "2026-08-27T18:16:00+00:00"
       }
     ],
     "engineering": [
+      {
+        "title": "From working student to engineer with 8 PRC licenses",
+        "source": "The Summit Express",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVDVZaW5TVUhVbkJNUEtaVFNQZTJnZU5VZ2JWR0ExWEVfMER6Yi1hNkxqT1NqTXJnanBWb1ZORmRwVXpvbXhvbVdFRm1yUnI3V1JHcWJZYVBMX1lEd2gweUg2S0JmbE1xV1B3SXNCcGRDelVKSFN2QTM3dFhKQ0FVbE00MzI3NFYyS2YtLVhDSDRnSnpGTjVHNGVuaFV1N0U?oc=5",
+        "date": "2026-08-29T08:41:00+00:00"
+      },
       {
         "title": "SAMPLE FORMAT FOR STRUCTURAL STABILITY CERTIFICATE",
         "source": "ctn press",
@@ -1095,6 +1101,12 @@
         "source": "The Times of India",
         "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNMTFHWUVXRWFTSElHY19vT3ZwMEc0QjdFaGV2aGVDWm13SmxfclY2UHJlU3NnaWJxbVUxTExvZ2o2NlYzdm5LV3A3TFh6RkQ3WjlhTjZ0T2M1MXd5UEdwSlpXZVBRekkyeTBUS0lSTGNMYVlsWEltbFhaRUZYUTJ5X3NBM2dlaUdNWHFSM1ZCQ2wxa0o4U2UycllEbG9TMWlnSm9qZWJCUk1VVFJQQXF3M3pFRVgwSDM4UWZLejRLQ2tndzYxY3VBZlFZSElEQTNzaEZMTjFHWHNVT0l4cWJJQkkwR1dnZnlvQnlELThuSHFjRGlCajNISTJwaXVEcV85djFQWXNpWlVWZDNFcVU1NEpfblcyY2JNN2dKc2F0RlHSAaYCQVVfeXFMUEQ1djlIYVlURnhDeXNUVEJGdUFFQ1JFWmIzTTVGd2JFNnZ6T0VHRlkxOXhMalBGbVQ2SlUzZjhhMVdXTDBMVURVWV9vSVNJVE5NeGdYUTNHYVlFOUN2RFdpQXl4SjFKQzdEcm9VVUh0VmYtYmNON29XWXhDWlc5UzZPT1FhaUF0UUZKeU5BSFFfd0RlRWFkNDdyOV9EYVoxaHhiMEJGSk5YQW1iVlhsRDNVSk5mMHZUWjFFYW02U195c2lBQWFoV0QxTWg1X1p5c1BzZWxTVW93clRXVWRMRnRDODF4YkhmWmk5X2ZUQXJLdEdPR2JFc2U3RGdScnpaRkZ0anBWUV9qSEtyVVpJVS1WSlpiR2piQ3k4a1FJdEc5TU9sQzZB?oc=5",
         "date": "2026-08-29T07:05:00+00:00"
+      },
+      {
+        "title": "‘Not going away’: Walkway champions vow to keep fighting",
+        "source": "The Mercury",
+        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPQ1hka0RLY2FJWEh6TzRMbVlwOVJoR2JGRi1IeThaUjRjRFJiWTdadjI4d05IcUk5RlcyZVBYSVJjVHluYmFLZFZlS0Z2Zm00alJST0RKVjJwNmw5c3hEMFg5QXhXNGRKNjFTa2lLbVE2cWUxTUZJTzJ2VnNqV2wyMktRRmVVRThmUVhYeUFqSnlnRVRxZVFWaFV3ZlVNeU5lWFBtT180eHpKM3AxNnpuMFE3eHg1SEtSY05TRWVhd2pIVHA5MUFNbWpsYWpjb2VGWmF1bFZGVzlhRTZfR1JlaEZ6M2F2LVVRRk9RTE8wMlgtaGhSc2FUTWFSNlVVNURzYkN5N2VwNG5tcjJpYnc?oc=5",
+        "date": "2026-08-29T07:04:44+00:00"
       },
       {
         "title": "US Joint Effort Tests At-Sea Metal 3D Printing, RIMPAC 2026",
@@ -1131,12 +1143,6 @@
         "source": "Newswise",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPekpSZ2UwUkMxRVV0MUFxVkUweXpIcjNKcl9kaVU2MFVLeFJsY0VpUkg2S0dibjFqc1dES0lLZ01henN3M2RidkRPbkw4eVFlWWJJVTdoazg1cmdIWGk2bEpQWjlXTkJnT2FseHlXaEZCTWVNTjcydURPZGIzV0tuYVREUjBYMjhXX1oxdDFXeHBqRUlNaXZSUWU5QUgzMnhWTGExMtIBpAFBVV95cUxPekpSZ2UwUkMxRVV0MUFxVkUweXpIcjNKcl9kaVU2MFVLeFJsY0VpUkg2S0dibjFqc1dES0lLZ01henN3M2RidkRPbkw4eVFlWWJJVTdoazg1cmdIWGk2bEpQWjlXTkJnT2FseHlXaEZCTWVNTjcydURPZGIzV0tuYVREUjBYMjhXX1oxdDFXeHBqRUlNaXZSUWU5QUgzMnhWTGExMg?oc=5",
         "date": "2026-08-29T01:20:00+00:00"
-      },
-      {
-        "title": "‘Not going away’: Walkway champions vow to keep fighting",
-        "source": "The Mercury",
-        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPQ1hka0RLY2FJWEh6TzRMbVlwOVJoR2JGRi1IeThaUjRjRFJiWTdadjI4d05IcUk5RlcyZVBYSVJjVHluYmFLZFZlS0Z2Zm00alJST0RKVjJwNmw5c3hEMFg5QXhXNGRKNjFTa2lLbVE2cWUxTUZJTzJ2VnNqV2wyMktRRmVVRThmUVhYeUFqSnlnRVRxZVFWaFV3ZlVNeU5lWFBtT180eHpKM3AxNnpuMFE3eHg1SEtSY05TRWVhd2pIVHA5MUFNbWpsYWpjb2VGWmF1bFZGVzlhRTZfR1JlaEZ6M2F2LVVRRk9RTE8wMlgtaGhSc2FUTWFSNlVVNURzYkN5N2VwNG5tcjJpYnc?oc=5",
-        "date": "2026-08-29T01:04:43+00:00"
       },
       {
         "title": "What Is Taiwan Semiconductor Manufacturing (TSM) Getting From Its 3nm Chip Partnership?",
@@ -1179,12 +1185,6 @@
         "source": "Advanced Manufacturing",
         "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPc2o4cDdIblZpcmdEc2RaYXNFc3ZHSWxFcDJoTTZTRFNIOXNUWW1kLWhBV1dkRGplcVJZSVU0ay1qb09GTTB2S2E0VmZ3MlMzYnl4VkRfRmJCSW8tVW9Wa19ZbkVrc1d1WUdYLWREYVFVTF9WbDRCUDJEOGtzNDUwVG5CQTdNRnNRVmJaX2ZHOFYwQllTRURnWHEtaWRtVHBVbV9HX0xPeGdXYVhVQU5NWW54dkx3b3FHa0pJMl9PakNkdkloRlBoLXZlcXI1eHAxMFlyandHYUhkd095NFNYVDdUTGhfUFI5blp5LWdRWmNuUUJDa2hHd3otVTZ5WGM?oc=5",
         "date": "2026-08-28T20:00:00+00:00"
-      },
-      {
-        "title": "Michigan Plasma Prize honors helicon plasma pioneer Rod Boswell",
-        "source": "University of Michigan",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaFNaNTVXaG1TUXVTdHFaZkRSb3FHVWZTUU8yQkQ2Sldsa2FUT3YxRFh0T0l4THZOX1llckt6MV9oM0NxcmZJcUgzSmxKTFREZUdxQzBNZVNlY1NNQnkyMmxhSlpzaGpUVnkzOTMxNUtVc1ZvQ1ZLWUtCbHVlWFJJcENNejJDd25CSnByRkZSYXlYRHh6Rkk3YzM3bXc0cF9r?oc=5",
-        "date": "2026-08-28T19:48:04+00:00"
       },
       {
         "title": "Canada Invests $195M In Xanadu For Quantum Computer Manufacturing",
@@ -1355,6 +1355,12 @@
         "date": "2026-08-28T16:09:30+00:00"
       },
       {
+        "title": "New Las Vegas Stadium reaches Construction Milestone on Las Vegas Strip",
+        "source": "travelhost.com",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNemFxamliTGRvVjdraUpWY0hGR0x5MkloMGc4N2lZRTh3eHRKN1l5T1dwd1JaS2QxOWt4cTNCTDBRU2o5bjZfMlZsc29SUG5vcVJadE1yV2pRUl9qaVBTZWpnY0pQQzQ1YWJ2cURSVy1UVWdTYTBTR05pY2RVYmNlMGkxRmFDSElvaThxd0ZDN3hzRGl2TWZnQ3JtYmd3SEJsN3NjTjJQWmdhNVJpNUE?oc=5",
+        "date": "2026-08-28T15:33:00+00:00"
+      },
+      {
         "title": "Thirty-four exceptional global projects announced as the shortlist for the 2026 IStructE Structural Awards",
         "source": "Premier Construction News",
         "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMmFXa2F5VjFQUVRRQlhOajFHNVdKYUtVRHhHaHNabjF3aWdIRkd6ZVROeTVaOUd4cHlETDZrbm1qakZBWm9qTzFnR1IwbnEtR0psa2QwUUh6QmZlUm5xdk5VSjNJRkRyNWluQ09FNW5LT1UxRzZnSkRXM1J4N1RLOF9VYjZISmhNM3F5cHBFdVdwdlUzcnVXWG9qbE9qUENidXB0ZVFQZE52N1RPM0RmYmM1cE5tbmpKZXdYZmVsODVwRHZVZXEwTW5VYURWcVJFVjUyZlRCb194eDVjT1ZJWk14MFY4a2lsX2c?oc=5",
@@ -1503,6 +1509,12 @@
         "source": "Texas A&M",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1Y2Q1VyeXV2d25IWjljTkdTd01BNjBBMHc0MXVVdHJLZUdwbW1XRkhKU3NQNzJlRGJzMy1RZ2kxRXBOVHJCMGJWSXJ2bDdwbWtKZUhmWmJEVjJCWmRvQl8yUXVPbjNGaEppTV9Ya2t4cXhDR0U0a2JtWlZrV0FNeTdfeFcyRENfTGR1UU1yX2xqT1l3RHhhcV95cTJUeC0zVklyT2NlZEdnZHVUTWVJWA?oc=5",
         "date": "2026-08-28T12:30:00+00:00"
+      },
+      {
+        "title": "How WEITAI Hydraulic Advances Damper Actuator ODM Manufacturing Through Hydraulic Innovation and Custom Engineering",
+        "source": "Issuewire.com",
+        "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQRE9aeG5QZURndkNFYUJkRnRFaDdYYnQ4VjFFZ1R3VGtCcGhydVpNRUY3UUh3eDdtZy1VWXVMblBaZEszNy1zdTVqdWR0SzBvdk1aeUdLZXJSZjM5TkZsOFFPM0xHUlVkSnZpUUdFYl9Ebm1yMFI5T0tCRDZfYU81aUczeXp1RUJXb0RhbXctMlRObkJPbE90UUsweE5TdElDQnhmSFo3SUlibHBqNGVjVE42V2x6VkZnMVRDUVVvdWMxZHdmTkh0Vnh3UGFIcEJZWElvWmo3STB6dk9LUjFLV3VwZVVVbXFxazRLUVFYRQ?oc=5",
+        "date": "2026-08-28T12:04:59+00:00"
       },
       {
         "title": "Rockwell Automation Expands Remote Support with TechConnectIQ",
@@ -1979,12 +1991,6 @@
         "date": "2026-08-27T19:23:11+00:00"
       },
       {
-        "title": "Anthropic unveils new framework allowing AI agents to operate physical devices",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTWhmNnhIejBEcG1zQWRzeWtHbVZCOUtZZmtraGJiNHdjVzdpU3liY2VfZTF0X3pUUl8tNWN1TXMxcTNqRk9xRXRTZ3VGQUV2MVl1MllqWHpCby1ua2R2VWJJR1hRUi1aTWJxQ1lXWHBEcklUb1hZS3dkTEZkSDFxUjNzbFFiZUktaXJ3WGJRUjF5RHROREJSd2c3N0RfRkNIbzNxd05GdnJ4VnZma0R5QU5QTEJwOG1aUmZuaERmMA?oc=5",
-        "date": "2026-08-27T19:20:09+00:00"
-      },
-      {
         "title": "MIT's New Excavator Simulator Uses Mechanical Arm, Not Joysticks",
         "source": "Equipment World",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZFFrYXhQelhHTHZsT0t6d0gxZV9oSFBnbG1EcXhQVElzTHZQMDEtbDNDMEphTlVGOHQwTUZOVjU4eEx4ZzdOYkFGT0J5R3JPdHkwYkpTM3YxaFJUZ2NoRDdpVF9FbFE1N3VJbjdmWG1SNkpxc3NISURVSWZ0MGlXU1JSaWRDT3pnQkdobnhCNG9jVlVQNjhWOVRUdWltVlJ3TDRKcTJ1YjNNQjFvQUZxRmVkMVZCR2xUQ1JZQ2tn?oc=5",
@@ -2157,15 +2163,27 @@
         "source": "Tech Xplore",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa0xVdDJlZEVid1lkemRzSV9Ha1k3NDR1V0x2RDBFdUR6azFxRmZaQ3FpNDRCaWxJeWlfQlNrQlZ4U3pRamxxdEd6VlhrQmdyOTdiWXJsYURScC1pTzNKZlVxRHZjYWhmRUwxTlY4d0puVkozYkFpM1BQNjlTUmd1MzNfV3BNS3hk?oc=5",
         "date": "2026-08-27T16:00:48+00:00"
-      },
-      {
-        "title": "Vattiyoorkavu road project moves into construction phase after years of delay",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQc2FKT2hJZzhmemo5UEVxLU9WeE44Uk1hSGNhY1Q4anI3d3B2WDl2RFdPSDVtNy1pZXZla2V2cFBiSTg5OEtFeXRYdUgxXzRNLUJWeHFwX1c1ZmtHaTVrUGRxSTIteHJHOWNLcGZBZXE4WDgwR0tOdUpWUENTV09fdnJvSFFKU1l2NW1jMkhJRV9rQ3VSTXFUaHpMVVU4bV82WlZtSUJTOU9XLTVhWE5Ud24xc3RDVEQ3RUtoQW9UdDlibDZhUEcyY3o3UVk2TFBpUUZUOVFYblNzUDVCWENucVZZMHB5dVBRXzNRZHBUNXRHXzJJZEHSAfsBQVVfeXFMTWpqc05UYWFMZE9VY0lGUUxpdGl1N2pyeTQ2aUh4VXlfb2loTXlTMGV1X0NpYTdIWk1XSnYwOTdCeXp5b3ZlM0FETTh2T2o2M2dyc2JLbGJjNmRNUmpzSWxfa1c0UF9UTGFXNEQ1X0FUSS1GLTd3bllKYl9YbjJBVnNXeUhsWEtJWjlza2xBbGY5Z3djNjlGMk0tbHpUMnBSY0hRQmtFbHRnS3Z1X2lUSVVVU3cwUFgwMEgzcVN6T1dXaUFXYzdHeWNSbEVUT0FZdkJUYjF5VHVUODlMRElfUkVpWFhXSlF5RWFHM3hUc0loamtaX3VFc0p3SUk?oc=5",
-        "date": "2026-08-27T15:53:00+00:00"
       }
     ],
     "business": [
+      {
+        "title": "Netra Gowda Rejoins Airbus as VP HR Transformation, Digital & AI",
+        "source": "hrtoday.in",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGVaSXVGWEU5NXNPTlhjN2VwejRVYWhXOWxHdjlnUFVYLVBrb0tMTjY0Q2swbmZmRWZONkhBRF94VzZiM1ZCZ0xJUlRfTXMwLUJ2akFvN0pjMzJEcmtRT3VwTGVLTWFfNG1saEhvWElrNWkwOVJBdDdhdV9OLWtPQUFrdUFMaVQ5?oc=5",
+        "date": "2026-08-29T08:54:45+00:00"
+      },
+      {
+        "title": "Consumer Protection is Becoming a Business Growth Strategy",
+        "source": "Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFFpT2hxOHozb3RUNnRpZVJjWXpOMnRXY205T1lQaWV0TERoOC1HMlZwY2wtS1NleFVQc1BybW95YTBJQUw2Ny01bE84QTlJemRzeGpmcGUzbWI1Unk5VElvR3FTUHRfNFNYY0Vha1hRTUpCM3hnUy1TX1A0UzdveENtamFmUHRuakZyRzZGZGpKbkxoMWdWdzQ5TnlLT0ZueFBOMDBQUWtzaGg2elAyU0lKcHlSUQ?oc=5",
+        "date": "2026-08-29T08:53:41+00:00"
+      },
+      {
+        "title": "Pasqal Shares Nearly Double in Nasdaq Debut",
+        "source": "The Quantum Insider",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ2trVFI0czZpUUpsaE5pbVowVTZiWEdIWlFSVFVMWXB2WEdIMEFVajlmN3dwRFJJdzNpZnFRRTlzTVFpS2lJVXBTeXFrSmQ3dEFxT2FncTZIdFJ4Q0I5R0kxSVJ0NHBCQV9QdjY4UGhSU3BYOXVoWE5EbHAyVWE5THZqaV9iOVFXamtPNDh3?oc=5",
+        "date": "2026-08-29T08:40:55+00:00"
+      },
       {
         "title": "The four-day work week is officially moving from a radical experiment to a permanent corporate strategy",
         "source": "Dagens.com",
@@ -2173,16 +2191,16 @@
         "date": "2026-08-29T08:12:00+00:00"
       },
       {
-        "title": "Consumer Protection is Becoming a Business Growth Strategy",
-        "source": "Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFFpT2hxOHozb3RUNnRpZVJjWXpOMnRXY205T1lQaWV0TERoOC1HMlZwY2wtS1NleFVQc1BybW95YTBJQUw2Ny01bE84QTlJemRzeGpmcGUzbWI1Unk5VElvR3FTUHRfNFNYY0Vha1hRTUpCM3hnUy1TX1A0UzdveENtamFmUHRuakZyRzZGZGpKbkxoMWdWdzQ5TnlLT0ZueFBOMDBQUWtzaGg2elAyU0lKcHlSUQ?oc=5",
-        "date": "2026-08-29T07:23:41+00:00"
-      },
-      {
         "title": "I’ve Built Companies in 6 Industries. The Same 5 Patterns Determine Success Every Time.",
         "source": "entrepreneur.com",
         "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMzF5VzljY2dSVTdhVm5lNzExc3prZ1FjekZMOEowZFkzU1JVN0tSejZ6a0J1Y01SRlRrdGFfNjdsSGprSVdnYzlYYm5Nak1mdkQ5OG9EbG4xODc4SGxmQjVDQm1ZNjQ4Q3c1SzVUZklBQjloZmFldEFfNnJQZXZnZFJiUWZGbTV5YzdGZEhVck00TEtFX081a1FKY1Nvd2xIWWE4Mm1sZGVsRzNEcjhJaDZTNXViOVlmSHo0TzJwNE1lZDdKNC1kVnppSTBXd0QyZ3hUdkVUYm5uRGdmZlhCOUFkWUlhMFk?oc=5",
         "date": "2026-08-29T04:54:35+00:00"
+      },
+      {
+        "title": "Manufacture in India, build for the world: Sitharaman urges global investors",
+        "source": "ET CIO",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSmxaYWl4NWtQbGNrUUFLTVgwVWJDRkM4UThGcnJ3N3dBVFJRZFJ2OGJmTHRkUW1mM2JOWkREQ3NSZ3FQVGFLYnB0WDNzNnVmNDV2ZGJ0MkpqS3hqa2owM2w3eXozTFFIZzJ5UnQ0RHNZMTN5MDU2Q1ZzOHpYQ1RVQVFWbXBLdGljQkw0WUF5RWdQTzVFbktsY081R2dJa0tiWHNUX0dpaGx1ZWZ1RE9YNmJCSW9HUXl1VEhXdXlMT1d6aF9OUEZaZzhuOVdzX0l1WlVrOFZTRkR0OXNJd214bDdfMNIB4wFBVV95cUxOSmxaYWl4NWtQbGNrUUFLTVgwVWJDRkM4UThGcnJ3N3dBVFJRZFJ2OGJmTHRkUW1mM2JOWkREQ3NSZ3FQVGFLYnB0WDNzNnVmNDV2ZGJ0MkpqS3hqa2owM2w3eXozTFFIZzJ5UnQ0RHNZMTN5MDU2Q1ZzOHpYQ1RVQVFWbXBLdGljQkw0WUF5RWdQTzVFbktsY081R2dJa0tiWHNUX0dpaGx1ZWZ1RE9YNmJCSW9HUXl1VEhXdXlMT1d6aF9OUEZaZzhuOVdzX0l1WlVrOFZTRkR0OXNJd214bDdfMA?oc=5",
+        "date": "2026-08-29T04:51:08+00:00"
       },
       {
         "title": "Trump says he has secured a vast U.S. stake in Venezuelan oil industry",
@@ -2281,21 +2299,21 @@
         "date": "2026-08-28T22:00:00+00:00"
       },
       {
+        "title": "Foster Fuels to be acquired by Ga. company",
+        "source": "Virginia Business",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKMGdCV0xQUWdfVmtEbGtUM3YzZ3hNM2lnZ2xDM1BRRFo4RUQ0dVRnN0hyZTZwdVMwbGI0TnBOdTVVZDN4OHhTaVVGdjNpbktteGRpdGVmTTNjQ2FVNGs1a1RHZVc1N3lBWWZkXzZtU0dXT0d4R21GbGh2RQ?oc=5",
+        "date": "2026-08-28T21:47:41+00:00"
+      },
+      {
         "title": "Cactus Acquisition Corp. 1 Ltd 1Q 2026: Net loss $(168K), (Loss) per share $(0.05) — 10-Q Summary",
         "source": "TradingView",
         "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdE92X1RNcFVYcFB2R2FSUXBYMDZCdDFWMVBpcWNRR1RHbEFUenJHczgzVFc2MW9ZX2I3UkE4WlBHeWlFRFR2bEFOUnd4U2QtQVpTSWZQbzlLcnNLdWJBQkhOMldVZHp5SDVZeGxaU253TG5Tajh4LTFla2ZsTkZhaGNHOFM0WjU4T1UzOFBiaVNiS2gtZzFjTXljYlVzNW55eXF6aUFyVjR1bm52bVhlUXNYempyS09Wano4MUUzU2pKXzR4WmV2anprWC0ybzBfbjlzYWhoS2xISU90SWJj?oc=5",
         "date": "2026-08-28T21:31:04+00:00"
       },
       {
-        "title": "Demand for AI data centres forecast to drive industry tech investment",
-        "source": "Confectionery Production",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWEQ4V0lQbW5BNnZ2WGxhTlhzdVVvTkRzUzBlMWVpNGpWZ1lueVI4SUlZc2doQnNfVm43aW5CYzgzUklPOUlrcXktZFNlSHE5Nkl6dDJjVXUwcEUwa2MxcnI5b0h0X1VMSGJFWS1FUVUwQ2FFbHBSeWJyd0tOR3RpSkd5M183MzJMenBlTHVhUzMxZnNIVGlnRGljYjItVTBVc3lLcmF4VW1SeXFrNFduWlNFX01ZMUhCYUx2NlVoVGVxMlNpUk0wRkFXWjY0RjJCT21ESjVsNlQxbElvUEt1a09pVE9iaU82Tnc?oc=5",
-        "date": "2026-08-28T21:12:08+00:00"
-      },
-      {
         "title": "Sindh seeks Hidan Block rights",
         "source": "The Express Tribune",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hNzIxa0hHUzRVSGY2MG5aNVlxSTAtc3lkXzdoUnNEWlFFMkRLcG44NE5zWFA2cjB1U2JRTndXOV9Xbkp5TTFFQ2VqUFIyMWswdFlMelQ1cmlyOVVpTzllTHEtZm92TVJNZEpMckZ0RzFtckI1REE?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hNzIxa0hHUzRVSGY2MG5aNVlxSTAtc3lkXzdoUnNEWlFFMkRLcG44NE5zWFA2cjB1U2JRTndXOV9Xbkp5TTFFQ2VqUFIyMWswdFlMelQ1cmlyOVVpTzllTHEtZm92TVJNZEpMckZ0RzFtckI1REHSAX5BVV95cUxNdWpxSkV6WGM1amNndW0yT1ZNWlNnSV9lVm12RnFHN05OeVRleXNwTUQxY3AtdF9MdnRmOVRLbUhBNHMwQlpJSjJRZ2Y1dF8wLVFkQjZrWUhBTURDZjlEQmpjdTQ0MTlKcmFmaWVuV0N6T3pfallXWU5KVXFJSGc?oc=5",
         "date": "2026-08-28T21:08:41+00:00"
       },
       {
@@ -2665,12 +2683,6 @@
         "date": "2026-08-28T14:08:38+00:00"
       },
       {
-        "title": "Exclusive | Chevron, Other U.S. Firms Near Deal to Invest Billions in Venezuelan Oil Fields",
-        "source": "WSJ",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSEcxQ19lTUtfZV93ZVhlWDZtTHVVY3hucGJSUGV6RnFVXzdVUG5xem4tWG4wRGhaT0VNaDZJODNlY0UtMGhTS3JyMUVtUDdHQ01ud2YtRlFfMHJHekR0M1hWQldwdU1kVnVwSlVDN0RxNnZuZ0hmeVdYa2JIQUw5UUhQZnQ0aE8xRUk1dlRnWnB5c0xGdzJzbV9DaG1lLXpWM3lsSUlHYTFia0wtNVZFWW1TTkZBRG13d0xJZmZnWS1TTlct?oc=5",
-        "date": "2026-08-28T14:08:00+00:00"
-      },
-      {
         "title": "Prediction: Applied Digital Stock Will Jump 156% in 3 Years. Here’s the Math.",
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOeFZUdUZhMzlqVTJtTlBTMFFxbzI1bkFzTUZHejlCTTJqdWlGOVZaMGRGVVdXekhmVGFyekdadVd5VmxCOEczNWw1TE1UTXNFY1Y0MTdoMjRUc193OU5RSmRQUlJUdDVJdTBVbHpTajVBX05SX2NaLVF6WndtckRvRHk3VTRUODZZalBNQ3dhdmNVOWZObUdYOWlub0tUdEFRLXRoTVQyLVFVbmdFZGd0VWxtVkozdXRVdUFFUVZTTVJNdWI4WmltNmVHblY5a3ZJdG9zRmg2c1FOdXQzVnl0RkNqYWE5TXFvZGQyMXRn?oc=5",
@@ -2785,16 +2797,16 @@
         "date": "2026-08-28T12:26:13+00:00"
       },
       {
+        "title": "Chung JYE Investment Holding Turns Profitable in Q2 with EPS of NT$0.3; New Indonesia Plant Becomes Expansion Focus",
+        "source": "finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4NVllRnJ2YVg2NVRmYzZCb0gwNHVuMTc3NG8yMTllWXctck5HakFMeVF1RkNMNk9UU2JiSkJSU0laeFBRak4zR1FRR1VqZENfR3NTdGJNZWl5Sm5rX2FCMVVTRzQxQ1VucS15cDZHLTY4YlBnemc?oc=5",
+        "date": "2026-08-28T12:25:00+00:00"
+      },
+      {
         "title": "Core AI Holdings Reports 56% Q2 Revenue Growth, Near-Breakeven Gross Margin and Progress on AI Infrastructure Expansion",
         "source": "Quiver Quantitative",
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNU183c2I2azlyOERTTXZnUEZ4VGEyblA5bXluNU5GQXRvUXpWbkNjX2Iybjd1N1F0RkJNUGJpN0hPYXpXRVM0Z3FVdnc2ZHlWR3lVQkhDZmdkSjR0dUpiTHFlYXFCMERLRGVnUEJoamMyRFdVRGxUVlFvSjA4NzlYZFN1S2JBUGRaUUlPcndRZUxIeWpIQ3FVRUgwYVUtMlM3YmFVWVVPOWwyRHR0RFpwM3hzdENaYWozMWM4TTgya3BVWHZaVkNYZUE5YWN4X2R3el8tZFVJOUVDblRSaWp4elB0d19iclZXdkJpVw?oc=5",
         "date": "2026-08-28T12:00:00+00:00"
-      },
-      {
-        "title": "Life Time CEO Bahram Akradi on company growth, expansion beyond fitness and impact of GLP-1s",
-        "source": "CNBC",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeWJtLWpsNmtiMjlSb0JhcnhLeGZtNENUWlIxd281WllrUlM0WERBUjA4ZjB3VjhRSmtlbVY3U29vWTlHdEk5QUJOaE1rNVF3YUZWejBBZ191eHZSUFdmR2I4STRQd1JpS09jclZOelh4MzFBY0VTNWphaEQwbHBPSElzeEdndlJDYjVvT2dMV1dJQ3ZDRS1pOWxmcUtCUDFjZkYxaGQ3WmMwNmNGWGRLS3hBNFg4S2NXQXg3cU5RUE1SeWlLWkNNWC1kVjhMTGs?oc=5",
-        "date": "2026-08-28T11:56:47+00:00"
       },
       {
         "title": "Hecate Energy and EGH Acquisition Corp. Provide Update on Path to Planned Nasdaq Listing and Progress Toward Business Combination",
@@ -2813,6 +2825,12 @@
         "source": "Firstpost",
         "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbkhNT01WRFdGRU1lVjdkY1FNMVFaUjFTeVh5alpURDdzT2JYQ1hmd2p5eEY1Qks5ZnlOc0tQWlhPS2VJbGh6RnNZSU1SZ0N4RWc5LTVON0hFNXdnRUxlUUdOLWM5UFlTY09mVmVrWUc2X1BOUGRqdUJqRVVONk5vMWNGNjhqUWRGM3BmMUZ3RUFyR2xFZ0JFQ9IBngFBVV95cUxOcHgxcFBLdlZ5WW0tbFFLUkhSRnNuMGhKTHdKUkF5WVBlelRsd2tBSV9EOHJJQ3J6b3RuT3NXNWc4Qnp3UFVSRzNxWVZOMkw5LUoweTEzeXBXTGFrWU9YcE45aXl1bmZNcDBuQm5wTXg4Rlctc0dRb1JtLWtDTXg3eGNFRjgzYWEzTTRFUHhUdTBZOG9xZXU2Zk52TmZJQQ?oc=5",
         "date": "2026-08-28T11:19:19+00:00"
+      },
+      {
+        "title": "BYD’s Overseas Push Drives Quarterly Profit Growth",
+        "source": "WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdVlpRHptcFlNN0dkRjhNXzM3dngzb2hKT29QYk5uanFVd0JZZF9DcjN4cmd4OWxDRnAyRG5CSDIxNDRVM01BZk5oZlFlRTRTOUxlS1BDTHFmMnBCSDhETGdZUk1RRkdFX0RRQVB2bGtzbHo2aVZ1VnktOGlLdHpGdnJaUE1IbW9zakN0WTl4Rnc3YmViSWlnTEZaQkg?oc=5",
+        "date": "2026-08-28T11:19:00+00:00"
       },
       {
         "title": "Nvidia Will Be The Most Profitable Company In The U.S. Next Year",
@@ -2905,6 +2923,12 @@
         "date": "2026-08-28T10:27:56+00:00"
       },
       {
+        "title": "Brazil’s private equity investment volume plunges 94%",
+        "source": "Valor International",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORzk3eVFXeWFENEpKSkRTRGdSOE9jZFBMV1I1blNHU0VoLU4tWGk3eEtKRGstUXA5NDZnQlBMUmoxMmdvTjNmZUhZRnlHM21YeGlCLUlNdFBnRGlUSHljczdGM2ZHekw1elhlRDlzRjlJYkx6RURMdmt6bER3Ym02SFNMa09vMmtBd0xMY2tCMWFaM2F4SG9iMlhHWDY4ZF9Takx5X2hkZDZJWWxrMDhwMTJqcktjT3NvOUkxYkpReWtZSTTSAdIBQVVfeXFMT2xTenNHamQ1aWd1QXdZdl9lajFCWjhvUkJDUFJqcTVBQmEwbDBCYXdCOXVNV2pGUXVhQV9DWU04ZUFYNWlhOWpieDJFMVk1dHBrOGFxWUZSQTFvVVdSV09kalZOS01tVkNDRDNQVGlMUmdJNF8tX1QtT0RpWWs0MERmVkZaLVFTbzRsNzdWcm5FNDJpS2kyNWp1NG4yN2hDRmRKT0diUUJYS0hqQldVZjB0N3JHVWJIa01EVzZiRVFsU25jYnJrY2JMNmFUYk5MbVdB?oc=5",
+        "date": "2026-08-28T10:27:52+00:00"
+      },
+      {
         "title": "Teva Announces Proposed Acquisition of a Novel Neuroscience Product Reinforcing Disciplined Business Development Approach Under Pivot to Growth Strategy",
         "source": "The Spec",
         "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNcmttQ1dGRW81ZWd5YlRFUkhjRjJhc2ZHenVTVFY1YmpXbS1VcHlyaHE2OXpya0FvenpRTnI3RDFoTVRXNEZqZGRhRTVLUUNmUGZTblJHS3NITmx0aW1ONG9Id0JDMmk1SmVxZWJmZDc5eFhFVW44c002S0plTmt5MTJCRkVYQkFyOS1TWXhNVWM3M3dpTm1Va21aZUNKaWV1T2lQYi1ocVJDM0hYdFBMQURWa01vTnZIUUZIWl9GVUk4eWpER29qRmhKNlZqX0gyUDFBV0FyZVA0RE9LVDhjQUtmVENDbjdCOHBnNnl4NG1FMkZOSDZzOEt6c01pV0taTm15SUVZMjdYZ1diOW5rWHo3anZKV3ZCN0pXb04xRG1FMmEyUVBoNkxDNHFCdF9EYW1UejJWTS1hd1lOVWFWRVpwcFpYVW4yak11WXc2MA?oc=5",
@@ -2965,10 +2989,10 @@
         "date": "2026-08-28T09:26:00+00:00"
       },
       {
-        "title": "Bitzero Holdings Stock Falls 2.68%: AI Infrastructure Expansion Faces Valuation and Execution Risks on CN:AIBZ.U",
+        "title": "Tidewater Renewables Stock Falls 2.60%: Can TSX:LCFS Balance Renewable Growth Ambitions With Execution and Policy Risks?",
         "source": "kalkine.ca",
-        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQR0dueXE1aF9EZXJVTTg0M0pkQ1ByclFRS0FjRWVKVndtOWFjUUwyZHZTc0JNdVJBbUtyVW9tZndVa1NCZzhYeWZIQ3JvOTdlR0pFMHZsYjh0cmhTdDM3RTREaUJuYmI1cUNuUHZJclJsRVpxNTJOMm1vb1p4U2Q4NnAwMkFRQ0dYTG0yS1A1akJBaUxYejJnVm1meHFlMDE3U3Ayb2ZITnBuMW1CWlJTSEZIemJFMjlvWWxwR1VLWEc4cXFJQ0lmeWVzNDFqSkJfUzQ5RnN0T3NMb1M5R1RCdC1pWXg2QldYU3Jn?oc=5",
-        "date": "2026-08-28T09:24:00+00:00"
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRlNFNHRXS3pFbUJCYjM3eDlrN19Qc1RkaWxEOXcyaWg4YVpCZThHYzBGVy1lM1ZBVEViNlduM0JleTlKUmNoamtJMDRwbUx5bUVWaHlMWGROMU4ybEhLY2pEdnBNOG94cXlWNWNyZWExX0QzSnFHMFF6VlVCVE1RUGluZV9FVndabTYzeWNsUEFiMGlvdmtFaHFUMEJOdE1jYlVLdG9CUHdSWTFGbl9XYU5WT2JyRW5nYVF3N1Z1cmx4NHBjYjdEVVZHZGhFYnZEcHNuemJCS2hFeGtVX0Uw?oc=5",
+        "date": "2026-08-28T09:25:00+00:00"
       },
       {
         "title": "Quarterhill Stock Falls 2.58%: Acquisition Execution and Profitability Concerns Pressure TSX:QTRH Sentiment",
@@ -2980,6 +3004,12 @@
         "title": "CyberCatch Stock Falls 2.73%: Can TSXV:CYBE Navigate Acquisition Uncertainty and Cybersecurity Market Competition?",
         "source": "kalkine.ca",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOem5CNXdxd1BYZnJyRHZ0cS15Z0pLSk93bG5rVlRLY0p4ZmxLR0M4V0FPNFM3Q0xGYU5GTWZOaGlkX25lOE1yRWQ5eV9hYXhMeW5sTHJwWkRDOG12alo1Vy1keDR2RUJWRzdYSTVvT3hNbkVYQ3RuaWcyOVNnOWJoNEVLMHZvREdxYnhiUFVDNFJnMlNWWE1TM0xtZFBCNk1fZkdJdkREN1lPUUJYNVRTMF9vMW9tczJHdVQ0RHlpTk56eVFBTkowQ1Q5MkY1dlZpS1pTOUdBUldlUDZSR3IxVURtb3hJYmY3NXpFLV93?oc=5",
+        "date": "2026-08-28T09:24:00+00:00"
+      },
+      {
+        "title": "Bitzero Holdings Stock Falls 2.68%: AI Infrastructure Expansion Faces Valuation and Execution Risks on CN:AIBZ.U",
+        "source": "kalkine.ca",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQR0dueXE1aF9EZXJVTTg0M0pkQ1ByclFRS0FjRWVKVndtOWFjUUwyZHZTc0JNdVJBbUtyVW9tZndVa1NCZzhYeWZIQ3JvOTdlR0pFMHZsYjh0cmhTdDM3RTREaUJuYmI1cUNuUHZJclJsRVpxNTJOMm1vb1p4U2Q4NnAwMkFRQ0dYTG0yS1A1akJBaUxYejJnVm1meHFlMDE3U3Ayb2ZITnBuMW1CWlJTSEZIemJFMjlvWWxwR1VLWEc4cXFJQ0lmeWVzNDFqSkJfUzQ5RnN0T3NMb1M5R1RCdC1pWXg2QldYU3Jn?oc=5",
         "date": "2026-08-28T09:24:00+00:00"
       },
       {
@@ -3019,12 +3049,6 @@
         "date": "2026-08-28T09:00:45+00:00"
       },
       {
-        "title": "Businesses are getting tariff refunds. Why aren't consumers getting their cut?",
-        "source": "NPR",
-        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT1M2UThDZ0VSdUJZVjFjNzNSUW1EdWVXUE9OWmNrZGRkTjZUMDJwWjZWMnQyeTA1Nm9JcDhSQXJ1bW1BNS1rRnBEQ2VkZENmcDdtYmhQdS1XWFJFSDBUcTh4SHdNTm1nVF9hNWsxMWV4dkV6cWM2ZC1WeXY0cVZqamhvTzV2N3BacUlQb2g1LWFhMHhTTXB0ZmpqS3NIcnozeGNCSzVWeXNka1N4dDdvU2stYkQwOE0?oc=5",
-        "date": "2026-08-28T09:00:00+00:00"
-      },
-      {
         "title": "Samsung Biologics announces 3 trillion won rights offering for expansion - Vietnam Investment Review",
         "source": "VIR",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnNHZml2VjZ6WmlyZkRfbWpsM0w2ZGliWkdQRlBFZjZhMFdPQ2gzLWEwTUFidDk2VmhoRDhGek9oMTBQU1RIa29YMEU5WUVSR3J4RUYyZDBIeklKeGtyODVaY0d1OEVsR2lWYVFFSzRsZ3FIT21EUkxkWWdPUmwyOC1Fb1FKY2R1cFhMdENYMjNKMGVjRGdnSmdONHpTZDF6SldXNXln?oc=5",
@@ -3061,15 +3085,15 @@
         "date": "2026-08-28T08:28:28+00:00"
       },
       {
-        "title": "TelyRx Holdings Stock Slides 7.27% — Growth Story Meets Profitability and Execution Pressure",
-        "source": "kalkine.ca",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNGRYQm52ekxfWHkzLWdxNDU1VURNa3BuMmdURWpMQnNPcDNqam10ZE5oM1VpUGV3bFhGWkRvczNLcUtfSV94MWtOcnpHM205NHlENkxuQTBlNEhoWnVVcVRRaUZoT09JbGx5QTZvQkNHbzBJVnRyVFV6enQwbkZabEFkdjZoNE5TbU5xN0tPeERFcnQ1X3U4bFZwa1ZqMmpiU2xyMG1lODhWQlhNWThqSGxwSWp0aWx1OHZhMmRBcGY?oc=5",
-        "date": "2026-08-28T08:23:00+00:00"
-      },
-      {
         "title": "Hydreight Technologies Stock Faces Fresh Pressure as Growth Momentum Meets Valuation and Execution Risk",
         "source": "kalkine.ca",
         "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQTdrU3U4NUNVZE1zTkQ4R2VCRlVnOW80N18xTFlJZnFONi1xZGthUzJNbnh6bWU4b0dUNWw4Qk55cXY3d3loeDNfdFNPYks5ODFZcXloeThyR1dUemVHc0g4M2pqY19Wd1A1RGhyMldkeUktb25oVVV4YzZsX255YmFrU0tZOEJ3WXNnbHR4blVKOTJmOC1wdkIxNDJPV3V1ZVhLR3dVd0MtY29FU2t6dUFLZzg4RlgycWdfMnFlTEQzRHlWYnFSd2dtRkJ5MVZqdWV0Wg?oc=5",
+        "date": "2026-08-28T08:23:00+00:00"
+      },
+      {
+        "title": "TelyRx Holdings Stock Slides 7.27% — Growth Story Meets Profitability and Execution Pressure",
+        "source": "kalkine.ca",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNGRYQm52ekxfWHkzLWdxNDU1VURNa3BuMmdURWpMQnNPcDNqam10ZE5oM1VpUGV3bFhGWkRvczNLcUtfSV94MWtOcnpHM205NHlENkxuQTBlNEhoWnVVcVRRaUZoT09JbGx5QTZvQkNHbzBJVnRyVFV6enQwbkZabEFkdjZoNE5TbU5xN0tPeERFcnQ1X3U4bFZwa1ZqMmpiU2xyMG1lODhWQlhNWThqSGxwSWp0aWx1OHZhMmRBcGY?oc=5",
         "date": "2026-08-28T08:23:00+00:00"
       },
       {
@@ -3085,12 +3109,6 @@
         "date": "2026-08-28T08:07:51+00:00"
       },
       {
-        "title": "Paysign Targets $117M Revenue as Patient-Affordability Business Surges",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTFM0NE5Qd1pnS3NMWHI5aC1pRkxwSkk1UXNxQTRxUG16VmFOWVRvQmwxUGhpc1pBZHZsTFJNbnFWM0FHWHpwalQ3WjktekJQYWVWTnNtd2FDS0UyZUlkcV9aT0RjaHVUU19VWnZzQUo2NUprTEdvWHlGQjlyLTVUbS1YdjdOakRFeXk5YmZQUWFEX0JmUzNBVnFINmVXRHNzbC1tSW1Uc1pZR3A1b0xLOTNEbFBaWTZhMXkxdDNib3pkamk2YkFRa1R3?oc=5",
-        "date": "2026-08-28T08:02:18+00:00"
-      },
-      {
         "title": "Shengyi Electronics' Unit To Invest In Circuit Board Manufacturing Project",
         "source": "TradingView",
         "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYWNhNUtvbC14NEJ5UzMtSEpXT3hrVHlqM3dKd0NIVFl3NWZUZXVUOUJUblhCb21yMUtQZVlVRHpPT2ozX0dqVVdVdVlsUUlzbmpWVlRCb2ZfaDJHdWxTVFFMTTY1dlRvZ2pTbmZDVUtQN29pLThnZ3ZPRTduYklueVJKVVVvZGo4ckJleWllZEVOZ21XeFNfU25TTkE1cnFjWlY0S1RFa09PWGJPNU5jM2x2cnZfekRSQzk5OXM5OWlhclF2X0RKeDkxUVNvNHpxaTlPRlZOMVE3SHM?oc=5",
@@ -3103,15 +3121,15 @@
         "date": "2026-08-28T07:44:47+00:00"
       },
       {
-        "title": "Earnings call transcript: CodeLab Capital posts strong Q2 2026 growth, shares rise 7.8%",
-        "source": "Investing.com Canada",
-        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQVdnWkRCUkJNUF90a2hicFJNamozekh2cG0yZWJTbGl6S1hBMTM4dmdMQldjRXNLdUg0NXF2YXpXdWZRanE1YlFmVkUtMkQxUDVQRUptQ0ZNUFNVb29xZ3pPNndXQVJNQ0MtUXFScVAyNmhpTkVmX0F4SC1IdmhwNTcwWWJXbVhuOE5UdXAtOHY5MEhpNk9ZOEM4WWlQTmlaYTlIeHh6aTF5MFFMc0pHbmFWZHNCU3g4N214bjFHbVlXQWpaSEdFYTVTc0UyQWJRQ24yZWlwZ2oyejN3?oc=5",
-        "date": "2026-08-28T07:43:20+00:00"
-      },
-      {
         "title": "CodeLab Q2 2026 slides: ARR surges 53%, acquisition pipeline expands By Investing.com",
         "source": "Investing.com Canada",
         "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcVlkdjNWWndBalh5bkdOZjA2MGpudVdPY3Z4Q3VTQUdhazRoaDQxcTlfWkRNR1kydF9DUlg4d0Y4Q200djlyenZDbUJXdUMxTkZlS2NHbWhFVkJWQm1hQmcxU1Via1BIRlVhRVkyNENpVHo3Tl9GX2p2bGZKX0dnTmc0eEVaRG9HUkZkYVlIc0l4ZzhJc0UyMUpPeEt2eFFEUk1JU3hCaEJMbDhsVTl6cmxQbkhULVFlOGtrbnZMMFp2QVR2?oc=5",
+        "date": "2026-08-28T07:43:20+00:00"
+      },
+      {
+        "title": "Earnings call transcript: CodeLab Capital posts strong Q2 2026 growth, shares rise 7.8%",
+        "source": "Investing.com Canada",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQVdnWkRCUkJNUF90a2hicFJNamozekh2cG0yZWJTbGl6S1hBMTM4dmdMQldjRXNLdUg0NXF2YXpXdWZRanE1YlFmVkUtMkQxUDVQRUptQ0ZNUFNVb29xZ3pPNndXQVJNQ0MtUXFScVAyNmhpTkVmX0F4SC1IdmhwNTcwWWJXbVhuOE5UdXAtOHY5MEhpNk9ZOEM4WWlQTmlaYTlIeHh6aTF5MFFMc0pHbmFWZHNCU3g4N214bjFHbVlXQWpaSEdFYTVTc0UyQWJRQ24yZWlwZ2oyejN3?oc=5",
         "date": "2026-08-28T07:43:20+00:00"
       },
       {
@@ -3227,27 +3245,21 @@
         "source": "simplywall.st",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX3BsSWJyeUptTVVzaDIxbDl3WllfLWo4UTVrV3Ffc09iM3Q0VUJKTmJsVmNtemJ0d3hhZmJFbkxCS2FCLTVlbS1rS1NGLVpSalZmQ0NhQ2ZVTWFYNlZ3aHczMnRnUU5UZFdmY05yN2phNEVDdUpCcFVwVVVmcjl4R0NJejg5S01SNWdnaFE5dFJSNG8zREVxRjJiZV9NWmlZY2pHd0pyajllVEJuOU9VNW53VkkzenZ2ZkdpeVFQaFhXVEl3cEpBTV9ubllUc3fSAdQBQVVfeXFMUHdIZHFCNF9pTVJ1TXd6WlcxZ0lJaFExOWZ1M2g0WHR3bG5LWEpTUDRYWWlIeEF1VlZtR01QdUxsVG9Ed0ktVndjSFBndS1HZGVKall6TDNiVXJjVlEtbVl5RGdpeWwzRzJXSmw1dU5PMVlRR2RibHRGLV9abGpCTDViQXU5NVpZb2hjUU1IZlFnc1RBSmFzZzB4Q0ZodkNVREZHSFlLMWEyUmtJNHRISi1XNDVPcDNPb2xfTUFfQzNFeE1RTXFvOVFZcmdFbXhUZGNJcG4?oc=5",
         "date": "2026-08-28T04:51:19+00:00"
-      },
-      {
-        "title": "2 Growth Stocks with Explosive Upside and 1 We Question",
-        "source": "The Globe and Mail",
-        "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOTc1SHJ2Ujdtb2d2VGVoMkYwR2t6S3JxdG1kOVIzdmZidjh4ZjNNVFBYc2ctc1FxOFdrdHJtcE9YZ3NOcEh5OVRSaFRTdV80U1FDY213R2UtUmNzNGxla3U5WWQxS2tJWVBiT0ZVcTBLVWd2ajd2Zmp5d09zYTVzcXU2UFR6VTN3Mm1jamtMMVgxQUpkdXNIc3ZjOWEycmo0bEE5dmdWNG85WWxabGhtQTZNcGk2c2VGbmhJSXZkeGltVFlkLVFXbGtQTUFFdU0xSmFzRA?oc=5",
-        "date": "2026-08-28T04:32:00+00:00"
-      },
-      {
-        "title": "3 Growth Stocks to Add to Your Roster",
-        "source": "The Globe and Mail",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNUg3LVF1NFVSNWtXTk1fVDhwcEFPb1hTOUVvTzNSb0Z0MVZKY2RIZU01bDc1WmFKUUg0ZEY4QmU1TXoyd3dWRmsxMkt5UzRnVG5PTjRGQ3JERURXYnNOZ0FOZWNpOC1XYTdGUWJtMWdCNlJ1LUpDRk1iTV93azVsXzlxQzR1U3pQQmgwVHhiaWlJaXJoVHNwaFBUN1prUzFTOTBvVTljTmJ6dGRNdWlQcVdvcFA1dVZfcVdEaTJPTQ?oc=5",
-        "date": "2026-08-28T04:31:00+00:00"
-      },
-      {
-        "title": "EMERGE reports 7.4% revenue growth in Q2 2026",
-        "source": "retail-insider.com",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUnQ1MkVCWXhkaF9fUTZLOEdrT3lILVgwcWFob0toRmU5YzhlNVlKaGI0N3dwSW9HbU9CTmtVQ1lCWmJBVU1JWmJBSW9mZS10R0JUSm5LUENOOUtKZHp6WUtzSFViRDlBSC1lZ3dLLU5rM2VJeEhKSGNfajFlZmdkREw2R2NvZDVmODRhS19FMndoVlRiM0kxVFZLaw?oc=5",
-        "date": "2026-08-28T04:30:00+00:00"
       }
     ],
     "finance": [
+      {
+        "title": "Elisa stock holds steady as investors look to recent earnings and guidance",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNTdPbjgwS2UwamZWdDhWdHpOOVRVZFU4RmxIOG8zbFFoOVN3MHVNLWhtYWtwb2t3bUtJdGFOOEdXZTEzTmFzeFZWS0hHTFdlbnRQZ0tkcU8tdzRiOXRTSVc4ZkZpa3pUWTdLVTUtR1RIWVZ6Y3pXR3ljdHItZFVpZF8zUXptSEZIdDdhRjQwcmFnSk9iekdCR3RlZENjS05SQVpLczlmb2dKNGlISjU2Y0RYSmtOaDVWelMtWlRUVVRwYkFtOXlIWkd2Wkg5X2dhbjRR?oc=5",
+        "date": "2026-08-29T08:39:32+00:00"
+      },
+      {
+        "title": "After CrowdStrike’s “Best Quarter in Company History” and Explosive Stock Market Gains, Is It Too Late to Buy?",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ0VoYzZGUGJJT3dXMmhoaHZ3djkzRDMyZVhxbUdKT3BVQTRnQ3lLR0NOU2J6a1c3TS1RZXlSamUyeGRTSVRaUjBGZVYxVlR5UmlCMGZWYzJZMUhaWGNfNU4zWGhJTi14WnNJbTZ4VlNMV0ViNW5JSUM1UjRRODJMaENlZ1RkaTNnZnZKcGt6MW1QZ3UyRTREOU1NM2N2YkphT0d3dm1FVHVkbm80d0Q2QTJKdWVjTmxTZ0lITHRBOTRUSVJ5WU1MZTE2WEY1YW14TXVJaG9hSG9LVVN6emVza3dfTTBWNDdOLUpvSm9Kckg1bGJpUXp6SG43YjNuRURHRjg0QWJUZFAxRHN4aEQxMWN6X21BUDNTakE?oc=5",
+        "date": "2026-08-29T08:31:36+00:00"
+      },
       {
         "title": "Credit And Credibility",
         "source": "Seeking Alpha",
@@ -3259,6 +3271,12 @@
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdGo3NDRqbHpLcFpvd0c4RHNmMm1iR2JuTVNobFVsMWlIclcyQWl1TWZsWlloRTc4QlNEcEVLTlhLcGQ0dHVqY2dUVW9TTjhBMnNSaDd2bmRhY1VzeXhpeHota19DNkYxTGNZSG9PeU5ia3Zfc1VJODF3SzZ3RGtKb2x3a3F3WmdyVUpUZlhxSHJSelI1SXB6NW5XUDdUejVBWDI1UVVSd2lLNDdtUFhKT1RwTnR5Zlg1RFhOZXEyQzNIRV9UajN3MHhQQUd1MVZDeUxES2w1QWJ1dw?oc=5",
         "date": "2026-08-29T07:32:46+00:00"
+      },
+      {
+        "title": "Turkey’s Markets Regulator Tightens Rules for Hedge Funds",
+        "source": "Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORjJaenRXbDFZTXMyM0wxSDgzeWV6VmZCYkdyYV9TMjhYc2VsczQ2X1hoY2pUNVd6b3Z3Tnl6LXdwcG41MW9EN2NSLVRZcFBqMXJjeHdZbzNKTndSb1p5eWdHWFVEVE5jYmVmRmJhMEduVEFTU1ozWEgtTW1kVUV1SDVwYTZiRmkzczEwZFNwVUw1UWVvMHc4MVVmR053bm4zQzB1NzQ5R0RUQktS?oc=5",
+        "date": "2026-08-29T07:10:13+00:00"
       },
       {
         "title": "Sezzle director Kyle Brehm sells $125,920 in company stock By Investing.com",
@@ -3283,6 +3301,12 @@
         "source": "Norton Rose Fulbright",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQelF0MjZ3Q1BZLXhya3hCcF9PeVhnQUd0MzVqVVdZNVVuYjYwclhGR2ZlYXVIdXU0QXdpOG1WMzNnNUNudjZkZWxjVXItV3B4T1RCZTA0R0NpQnNIRTBUTjlGX2hLSHVjV0Zyakk2YXVOZ0JWaWpXc1hRdkVKVGxMWnRHQ0lHX3prS3dsdkM4NU5zd1RTNXZiQUtmUlNDR0MxNkdTRTdWM1l3dTBtd3gtWGx0VHRINUI4MHdBYjJhZHBfdWRSLWR5ekQwenBLdUtWQkF2bllmWEFYQQ?oc=5",
         "date": "2026-08-29T04:10:19+00:00"
+      },
+      {
+        "title": "Daesung Private Equity Calls Extraordinary Meeting to Vote on Reverse Stock Split",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTFBnamRIV0EwSXV0d29RZlV2dUIyNnBxSHBVd3NqQkxtZjZEMjd4S2RHalRHckhJc2RhaVVaQTVjbXlETkZuSi1vZThtNmd0UjZrRWFBN2xnemt6S2U3TnZZM21iUE5fb3BzNU5PZU9la21mODR4cUVqc1BMX1gxenVDYnh5cG56RUd4eW93MG5QZmlsMnFTZnBPYXNRY2c1aFhMbkR6ejByWVlnS1B4aHNtN0JlamQxVjVGcDQyTW5qTUR3U2ZZbE1VYWF0eHgtazVscThPVmFyUUJWZTJZQ1k4bjhDdGlfNWJwOTlBY2F0S2Nw?oc=5",
+        "date": "2026-08-29T02:56:02+00:00"
       },
       {
         "title": "Alert on ‘distortion economy’: Bernstein warns govt support may mask economic weakness",
@@ -3315,12 +3339,6 @@
         "date": "2026-08-28T23:51:37+00:00"
       },
       {
-        "title": "Oliver Haarmann Net Worth",
-        "source": "Celebrity Net Worth",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUTRJQV9LUHlQNFRVRnNCekthdVMxNXBSYmR1NjdTMHpBZ3R0SlkxanVYVlFSaGxiN2VXZTJ3SmdzdFh2WVBaN1otbXcyOWRVX0ZiNFd5X1Jjb1RPWHM0cDFiQ0JwYkU2dGQ1N3MtaHlFQ0ZjOUpHREctVE1iSUZkOEVZOUVvSGNtMVRXc01XVG1GT3VLc0Mw?oc=5",
-        "date": "2026-08-28T23:05:49+00:00"
-      },
-      {
         "title": "Epoxy Thermosetting Resins Market Outlook to 2035",
         "source": "IndexBox",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVThzSDRUWW9PR0N3MERBSnR4Ykt0YndTWVdjc1hOSHdSOHNRamxtM0piUlhXNnZWMWtvdDVjaWNBQXhhSGRyaDF4SklLRjdaMC1faTllNTNzcW9xajZyNnExTE9YcV9EQlB6NXpXS1lRbkl0YkN4dk1jR2VENkxMZ240anRiUQ?oc=5",
@@ -3337,6 +3355,12 @@
         "source": "Investing.com Canada",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNlZwamVkQV9udHpxUTZMOEttVk03R0tOVzVrWXJDeF95STlSel9wQXZpWWZpVmI0WFlYb2JaMDlzWGJ3SjdKQzJKNk9HazdieVJmUzhBcU01VkNzcFZNZThxS2ljQjNsVTExdWNjNDM3dXZUbEx2T0ctb2N4anRPWnBaM0c5NGZ1SE1BOWdTZXEzNVE2RmtNaXB2UDNqSWhKaG1lYThjSFFZZU5tZGQ2N0hySmhkdnZXSWJwMg?oc=5",
         "date": "2026-08-28T22:28:15+00:00"
+      },
+      {
+        "title": "Tannin Extract Additive Market Outlook to 2035",
+        "source": "IndexBox",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOckh3NEdaWDBoSm12ZWdhQnBNMmhQUGhzb0dVeHpJNlY2LVJmRkF3bG4tcG5jaUU3d01RQzY2aVBjak9JNmRDVG1VeUlMRExKSGRONS0teHJjNmxWVnRXRzlTNzRrMWxOTmtIZm9VSTJGQ0QzRGZoa2dtUHpsTERVOFZ3?oc=5",
+        "date": "2026-08-28T22:01:16+00:00"
       },
       {
         "title": "Pacific Northwest Pension Slates Private Markets Commitments",
@@ -3393,12 +3417,6 @@
         "date": "2026-08-28T20:05:42+00:00"
       },
       {
-        "title": "In the Loop: Private funds, public enemies",
-        "source": "Private Funds CFO",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BSS0yejdPN2N0U09SVHpxZXUzazFZS21kemxzQ3NnNDlEZElDQlJWRjNzR2FhelJQbkdWUjRMTmRDc2J1VVhJQ2t5SUxfZXJKLUNMcUxCZ2ExZnJYQWZBeUVvd0ZRd2JvYWlLYkU5UzMxVm16Vl9UaktHdUIwdw?oc=5",
-        "date": "2026-08-28T20:00:06+00:00"
-      },
-      {
         "title": "CIBC Just Reported Q3 Results: What Investors Need to Know",
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVDZUVUw2N3BVZXI1OXF0U1ppQVFnNFFwMllGUVVHSU5uMkRPLVBuTWJKbUtRVnk4UDRuSlFjRWVPMERNaGk3aV8zcHlNNXVqVTF3OU41ZHRTcV9SeTl3cEh6TVc1OHctNEVWX2ItV2x1VnFmdC10ZFZFMm5adGRLcGtITWsyU01TR01MMUVvdXZSNUl1MW9xc1cwalIxTGM1UDNmaVY2NXdmaEtOWkh2dml5YUNjVkx3dVo4NmFqcGs5UDRSem1QSU9BM1FhaW5JOThlYzlyRktFUQ?oc=5",
@@ -3445,12 +3463,6 @@
         "source": "Andreessen Horowitz",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IMmZINEV6emFzdGhhYWRIb0NfMUtHOHF6cmFpWGpiWklYQVZhT1ZLSG1EaDZMbDFKZExoUGJ1S0F0aHhGVWl3cDZ5M252Ym8?oc=5",
         "date": "2026-08-28T18:57:07+00:00"
-      },
-      {
-        "title": "Greenberg Traurig Nabs Private Funds Lawyer Laing from Kirkland",
-        "source": "Bloomberg Law News",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcTY5ZHE3MFBFZzY1U1laTVB1Q25GeGw1bU10OEtHa2N5STVTTWxzeHFwNEk4eS05YUpUbFlVSk4tVl9vS0s4NjgwNkNHMnEza0NVcEVpWHlUTGVLdm55Y1p1YjFCYmh0c0UwREtWb2lKaWVKOVlaeHVmeWhiNmlFckhYdW1UeTFWYl8zOFJPbW95a1BETlM3ZXpQck80Szd0SVdQbEppWlBDMlUyTDd2UGppaGV3QQ?oc=5",
-        "date": "2026-08-28T18:57:00+00:00"
       },
       {
         "title": "🎥 ‘The whole system is now more investable’: Reservoir makes the case for ag robotics",
@@ -3645,34 +3657,16 @@
         "date": "2026-08-28T15:12:09+00:00"
       },
       {
-        "title": "African Pension Funds shift more capital into private equity",
-        "source": "Pension Policy International",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOWVXaVEwdmVUemJhU0djNGpuN0FMdjNBUnRmdWtHTnNHZmlBdE5XdzgzRV9ia3JVaHpuVVJyeHNQbFR3cWl1LTB5SGQ3LUhNcXh6M2lGWlhrZmVvS2hZRzhWdXlPc1NtQ0x6UVliUjExbHpVTkdEV3Z4TTNlYy1qV3dCTGZaWTJTY2NPS08xRzZ0UXdERGF4WlNiM0FjMG9PWlBGOV9nWQ?oc=5",
-        "date": "2026-08-28T15:11:55+00:00"
-      },
-      {
         "title": "Fed Chair Warsh signals rate hikes may be needed with inflation still elevated",
         "source": "The Washington Post",
         "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbGdkU05nc1VOOGQ2QmNkNnRpYWRpSjJUZ2hJazRkLW9iYWwzQkhWbUgtb3VvaWRGOHRFRFpBVTZndkJMaHd2aGZ4OW16Ti1kWncxMklGcnZDV2dlVHRSWE1SQTdFdm9nN0ZuSTZveWRBVVNfNzhGemtWdWFlMG1HVDhZOVdySTlxYVA5LU9zRE5iUFFPajZoeG80UFZTTUNVd3pyWmZubWJCZ0NFSzNqS0pJSk5PUVNUWGtjenF2NnVmZ0dqaEhuX29JRUw0NkdxWDhiS3BOaHZyVXA0SGc?oc=5",
         "date": "2026-08-28T15:10:33+00:00"
       },
       {
-        "title": "Arvind Krishnamurthy Joins SEDA as a Private Credit, Specialty Finance and Alternative Investments Expert",
-        "source": "The Manila Times",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNSnRGbV9fbkUtcEtXS2Q1SmVveFN3eFU3MHJPazYyOW9hZkh3aG85RW9KUmZmRVhnMFUyMEFZOFNYSURlZzFQU2pDd25tSVRaZE8tQmdxUG4zdGlxRVNhaV9pS3RBUTZyWmI2R2lDZTRlWmh0TlhmZFg0andCMzY5QnZIcUtjU3l4Z1hWU0MxTjJGREJiN3dJWFE3NVRMWkhEeDlDakgxR0dpR3FNUFRyRWEtdTFZaHpyMC1HUFBxS2R3NnRGdHZwZ0wtcW5EcXJUT0I1WEdRUkFrWk96UVh0Z01tY3BjQXhIRFdiSFJPV0RtRVd0Y0lrYzc1RFlha1dtZnFaQkt0dEstQdIBjwJBVV95cUxQeXhMZ0pCREk4Q1F2b2pTVC02T08zcExQVWRpcVVCR21vSFo2dVVXbkx1ZzdCVEZCdHV3NHp6VEJsNmF3YlZiR28xVzVzRWRxRjMwSnc4dFB1dWxIZVhOMUZIX2FETzdqRlZCaGhMdFczYXdpZnE2ZzNtZzZiZUhKQzBQRjNzVkcwSUV2alBaUTQwQ2JGTzMzS0s2NWZ5R0wyQnlMbm1aYkpwYzdPSGJJTWIzM1NKRmplSlZKb2ZRQW11Yl9Sam9PZ243aS16LXYxRXV6UGNDWTZQdWEyWVliajZGOXh3Y2dmeUVocTVvcEllMXhfZzc0MUVfNXQwenlESTI1SW1hbWJFeEZoTDFj?oc=5",
-        "date": "2026-08-28T15:04:34+00:00"
-      },
-      {
         "title": "Global Markets: Canada’s economy strengthens",
         "source": "Manitoba Co-operator",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVFQeDhKRmU0ZTFSU3o5NmtBQ3NYeHBsMWhtemVMLVJkWEZRVnVGU0Nab1FKY0g4NHVOaUdJQzBxMEQ1eTYwUTVhdGxFTHFQYkxNZzVsVVljdnltQ1VmRzJxXzlFMnN4TWlKbnBYeThfRGc0UmU0dWFoLWhyRThvTTc5ZVZoM0VNcjNkNm5aNjFpNUFDUmc?oc=5",
         "date": "2026-08-28T14:56:57+00:00"
-      },
-      {
-        "title": "Vibration-Locking Split Ring Washers Market Outlook to 2035",
-        "source": "IndexBox",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUkJlS1VPSmY3STZJVFlzdi1pWmZZbndWakdocU1IbHRYcllONkZGVjBNeDBWOFNvM2NZRzVnMDlCOGVNeVV6V1VJQ0pyRkVLZ3otTjRjUUxCMUpjUTlNU3RIb3RURUtFSjNZMl8xTE44OVhyUkxRVmlCN1ZZeEtpLXlJQ1VkSXVDU2hYb0VIaU1ETWc?oc=5",
-        "date": "2026-08-28T14:36:16+00:00"
       },
       {
         "title": "Şeker Finansal Kiralama Doubles Issued Capital to Support Leasing Growth",
@@ -3685,6 +3679,12 @@
         "source": "The Real Economy Blog",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcFMxWEhpLU1YanZ4VTVrVEZvXzVUanNvNjVzbERaQTJWVGp5dHBLS3h2azVHWjBhSUxMcE1FZFBHWEx5MGpBZG5TNEVackdpelZPeXJ6T0FNOWlwdmVJMEJFZE9FOVpZVlV3YkdoVHV6OEJVN3A0Y1RrS001SnRCazZLZzZKc1lQaVhkeWFmT0tfWkljeWc?oc=5",
         "date": "2026-08-28T14:28:35+00:00"
+      },
+      {
+        "title": "Companies Can Tell Investors Less Under Proposed S.E.C. Rules",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN1VfSndrcV8wT0Rrd29uUVhaSkxvX3dqc0NsMjFYaGI3Vzdrdk95UDZhS1JER2R4UjZBa05yb05GQVNKWUViTVRGRU9wNUJyamJPQ3ZGU0hLT0VWd3pOZUZwRk82am1acEdLd2hIN1JmNlNmdGhJY1ZCVmpxNEo5UTZnR0pEMmc?oc=5",
+        "date": "2026-08-28T14:27:31+00:00"
       },
       {
         "title": "Weyco group VP Dustin Combs sells $48,925 in company stock By Investing.com",
@@ -3721,12 +3721,6 @@
         "source": "PBS",
         "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeTZYd1JtU2tpSmRvbTJqT2J5VHpCQzJMVFR5WWJlZ3ppLTNjU3prR01jeUtWSXVEbWZScmw5S2RfdmVES3dEOThSeGwwMGVvOWs5NWpjNjU3M3JFdmpsVlRyaFJ6cEU4SWptdUM2MWotckR3dDYzSkxzUUJyOEtWbDFkMzJWZG1sSWd3d3Q3d3BndjlIb2ZfaGthSDlWdFZESEpkdERKbEJ4VnVGRmJGZFRR?oc=5",
         "date": "2026-08-28T14:00:04+00:00"
-      },
-      {
-        "title": "Hartford’s Tecton Architects acquired by national private equity-backed firm",
-        "source": "Hartford Business Journal",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmJPX1pRRnZWcTZ3TzNadHNPdHpYRENLUVJmVV9zaEROeW9tMC0tMThxdmZENm1hNmk2QXhkbUxpZ2RiYVQxYV9IWVo1OFJJb0gzdmotRWdLamZvRy1FOWlNbnlrbndlbUJMSG91TkhEWTVydF9OeGtEaXNEU280eUpXRFk5R0diSzV3dnlMU1llaC1OdUNXRE4yb1JDdzI2clVSUzdEWVBHbUg2dTdiM0NJbw?oc=5",
-        "date": "2026-08-28T13:53:50+00:00"
       },
       {
         "title": "India's NBFC body asks RBI to ease restrictions on revolving credit",
@@ -3781,12 +3775,6 @@
         "source": "Private Capital Journal",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMGhJSVlwYXJTWUpsYk83VmNFUmxENi14V2VaU1VKOGx2QjhEV09uUlVUVDRieVZodHJRZUtHOEh6R1dramhVMGJtWHdDQnFNS2I5cXMxZ09OYUFhdXh3c2ZmZXItWWxTclhYT3d2bnBMaDltR18xTGdsSVNGaExob01nanEzdUNMWnJXcThtLUJZTy1QRjFTRUJBZjhUOVRFanlzQjZ1U3VLTkdvYjhuUE5jSEhvYnpkcy16enQwVVU?oc=5",
         "date": "2026-08-28T13:27:59+00:00"
-      },
-      {
-        "title": "HSE set to pay €3.5m to private equity-backed British investment fund",
-        "source": "Irish Examiner",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00TkJNRWtPdEduTkNNaUVybXJ6cW04VjZmLXljNFZjNGlQRUFfemowSG9FLXFJZkFHZk1YZDg1bmdxWU9GUGoxMnJlWnRTd2ExN1QzSldQc1oyQ3RCc2VlYU1nUWwzdERiU2RWa0hB?oc=5",
-        "date": "2026-08-28T13:12:00+00:00"
       },
       {
         "title": "Sebi Exempts Merchant Bankers for Small Bonds: Boosts Retail",
@@ -3847,6 +3835,12 @@
         "source": "Business News Nigeria",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNTNVQjl5V2lnZEg0NUdQWUlWUktRLVZGTmk2TTE5Y2w4S0NXZWxiM0R4NktCZF9CS2Z2QnIxNE9Od2NyZ3ktZ2FSTDF3dFhORG05LS1Fdmd0UWRRWkdIR0J6UTBldUluVjNyOFZham1RbXJQUFlQc0xaRmgyeGVwNUNKUDBwWU0zaFNWeF9hMTdwVnRUNXktUkl6cDhOZ2tzdGxEaU5UcmJ6ZWdHYVNNTVdTaTYzRG8?oc=5",
         "date": "2026-08-28T11:22:12+00:00"
+      },
+      {
+        "title": "BYD’s Overseas Push Drives Quarterly Profit Growth",
+        "source": "WSJ",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdVlpRHptcFlNN0dkRjhNXzM3dngzb2hKT29QYk5uanFVd0JZZF9DcjN4cmd4OWxDRnAyRG5CSDIxNDRVM01BZk5oZlFlRTRTOUxlS1BDTHFmMnBCSDhETGdZUk1RRkdFX0RRQVB2bGtzbHo2aVZ1VnktOGlLdHpGdnJaUE1IbW9zakN0WTl4Rnc3YmViSWlnTEZaQkg?oc=5",
+        "date": "2026-08-28T11:19:00+00:00"
       },
       {
         "title": "Retail Advisers Ditching Private Assets as Workload Outstrips Fees",
@@ -3927,22 +3921,10 @@
         "date": "2026-08-28T10:20:56+00:00"
       },
       {
-        "title": "UK Venture Capital Reaches £14.4 Billion in H1 2026, AI Sector L",
-        "source": "GuruFocus",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaEUtMnFRTEdvWXktb3g3dUJlVHNoU2M2SkVfR2NvUlFGRUFWTzRFTXNtLXF5a0xCelhxdS0yYUY1dUo5S2VPRndSS1BFUVRoWU5SaVQ0TU96UXdObEZfMTFnUk5IZmdmbWxmbW14VTM0UEpHWnFILWIwN0c3Y0ZpWjlPa0RzTDM4Q3pER3hCc2dOMmNLd1NZWW51N0dvYWFSUDRJUnExeUZaZ2FTVmNNSQ?oc=5",
-        "date": "2026-08-28T10:13:15+00:00"
-      },
-      {
         "title": "Wall St Week Ahead Jobs report, Broadcom results pose next hurdles for stock market rally",
         "source": "Reuters",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjVfaWU5QkF5T0paRm0xSHdteDJHZjB1YTVMcmNZcjVWNHQzcWV2Rm1FaVd3RFN5OHFndERRRUljQ2dYMjhJQXdER21XMEJjQThvN0JONTRJNlpNUEt2V2xCWGtFdmJQcVMydi1MSEtDd1lsQVR4Q2ZYZDlldFI0VE5odDc3LVU1NDB5SlRQVlh3NWg4Tjl1Y2J0blJxczFyVUNmYlZ2b0hCZ1o1SzdiMFdEUHRfWlBWUTlCLVRtN3g?oc=5",
         "date": "2026-08-28T10:02:00+00:00"
-      },
-      {
-        "title": "Alternative assets aren’t always alternatives: Devina Mehra warns investors against ‘exotica’",
-        "source": "Business Today",
-        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaFF6X25rRDF6WnBZbXJvaXFnb3paVGNLOVZyZF9jQ2IzMEFwVUtrUDMyN0RQRGlWVzlCeXF2SnhxcUl0Q21pay15NW5LX1hSQTBaR2pmV3VhbDdnTDlxRUhOdGJFaUJ1d3ZNbC1mdXRGWWlxOU5LMWR1VWc1cDNENUw2RUJILVFuLUtIY29LRlJwS284b2Z0d2xVZ056QTE4dzBmX3Z1NkdYdXlEQ1lsVzVDVlRLUVJnR3lkeFN2aE9DSlFUOTFidWRhVDJLcGM1OHJSTE9kRnV4UGN0bDFDUC1xdmZOeTl4RXA3bFVwY2LSAfYBQVVfeXFMTnhfR056OWpQUFhXZHJRbV9paTV5WUR5ZkpPNURwODRlZW9fMUI1NVpBRm1iYzN6Z3RvUG1tbGxRR1o3RmloR0xZYTl5dlQwZWZVTDhkUEpfM0hIcXhvZXoySVlweXRQY3FheGpIc2g1NzkxWU1XSVBDbUJmUWk3QUpWZ0p3cEsteVJTTWMyeWluVHZQV1JMdmxMT3ZCeEdZVEtlS0R4dGFiNXQxSEc2WHM4OXVwWlJYdllDTDNXODdIMnhETkI4Mzl3Zy1xSGRsQkJWQ1U0eHZLSWV1Sm9iREtXU3pzeVozek5kZmNOV1dLZS0tZmpR?oc=5",
-        "date": "2026-08-28T09:50:19+00:00"
       },
       {
         "title": "Brainport remains a magnet for acquisitions and private equity",
@@ -4005,12 +3987,6 @@
         "date": "2026-08-28T08:55:30+00:00"
       },
       {
-        "title": "Singapore's Aura launches private equity evergreen fund",
-        "source": "TNGlobal",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVVNnYk5jZVJHYTI2Q1ZEWGpyRW9Ya3ZCSUEtMVlKdlZpaks4U1NEYWVzYnkwVVhDMk9wa3Z5cEtkR29ObkNjYTYtUGluYXk2TGYtaWxaQllVWjBCeXA5QmpQbWc3ZlNKdXJLZldhQ3g5VjhHV0VaRGdRdF9VdXJHV0VmOFZVa0k3bDd6ZzBtS0k4MUhn?oc=5",
-        "date": "2026-08-28T08:46:31+00:00"
-      },
-      {
         "title": "CT Private Equity forecasts more uplifts to come as mature portfolio spies “meaningful pipeline” of exits",
         "source": "QuotedData",
         "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQUlSQnYtTmV3Q3pjNDVJUWV3aXVjbFBDM3ZJemlyczNKcENJR1F2MnVqdkhpS2F2UHFPTEFTX1NRcC1VY3FXcHJ5ODUtb3RPV3JLa0VKQ1p0NGJWNWJNUEpwWVhLb05hTnVpZWdLUXhEY3N4eEhFeTB1RTZuTno4VFNFZ1lnVkl2U3VxUGNfbXlfbmF5ZHhsQ0N3MWxJMzlRaGVQbkFDdzZhX0VWYXdnZFdQcGVieWhTLWJ4TmM4WFh2b2JaOHpld2xxMWNrMTNf?oc=5",
@@ -4045,12 +4021,6 @@
         "source": "Moneycontrol.com",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQWRCcy0zaHlfZko0ckFHTmZwQTN2Sy1lc2ZidjFTdlV6dnVmMzZIdXlFQW5JV1lxYjFiVjQ4NVVqWVdEV1k1VVlzUmp4VTFYWmxuLXpEN2pEUFhjcGhWRjVVRkY0aUpKRTZzcGlBb1ZUTkkwUFlVR0xIS3owdElfUmk3MjJTaFVucC15ZWZuT3lDUndDN2RvZUp5Q2hqV1VwVGQ5TXpZeHlrZFJ5R2JPQ05qaHphSW1JTEtEX182b2psYjMwdXN4TlhVLVlwSWpCMS1xeUxn0gHbAUFVX3lxTFBXR1A0X2NYUW91M0R1Z0JvTzI1UW9UUklRbEE3YndJV3Nqbnp6aGhBSk53S2piT1J5UzQ1QnNjRnI2TTRuWkNVUkYwdmdxcDM0ZlJRUnJCMmhNN1ZFOF91ZXVWeExzX1VRcmJ0d3VVWGVON2RMXzJVSXkzNEVJOUpyLXpUdTNORWtxeGdpd1Z2ak5fb2dQSTdsanJER0hiVHE5TWxHR1c5bTV0Um93NDJ0WW9xdlVqWWJZLXNhaGU2NlhwZFEza3A0R2ctTTdBTUhUZW16VThCTFVZTQ?oc=5",
         "date": "2026-08-28T08:10:59+00:00"
-      },
-      {
-        "title": "India's PE investments may reach USD 28.79 bn in 2026 despite exits worth USD 2.89 bn in H1: Report",
-        "source": "ANI News",
-        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZlZaTTF4ejZjMURsWmxzVDZEXzJWSmZ4NXhPaUNuSm1wcmFxZEg0RkdmRW90OHBuNC1leGlPb3ctQzVPdmcyTFlrQmhpRWlXQTBSTkxOZ05oOURCV0plV0xmT3NsUVlvMHBtRzVzV1BVOTdzcVg1a3lab20xQmxmcnNqLWlreHdxS3BlY2lwb1RIYkY1WkxuNm9velM2UXM4dTdKY3M2WUIxaHEyUXRwLXlac2dWNFQ0MHJpZVQ2V2VUQWQ2d0pGTDY1aVNqNTAxSjdVTmFVc0QwcWlTcWRZ?oc=5",
-        "date": "2026-08-28T07:34:00+00:00"
       },
       {
         "title": "Pimco Warns AI Debt Issuance Is Growing Too Fast For Bond Markets",
@@ -4099,6 +4069,12 @@
         "source": "Portal ERP",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYXdBX0lrRU5BNTU3c0QybTZKa01LVkNCSXJZUV9lcEpFZzc5SF9Pa19JWkxuaG8tT0p4Z0VjOEtMdTVTTEFCWVRvbkgtM2EwcFpBNXZMTDBMdG9pZnQ4UHRIWWxOOFRfcTR5V3FTUHB4VzRtSzdINkVMbm1reFlZMGZuNzk3Vl9BX1pVNEFFbWEzOWk1YkE?oc=5",
         "date": "2026-08-28T06:19:17+00:00"
+      },
+      {
+        "title": "Japan Hybrid Bond Market Surges to KES 2.7 Trillion on M&A Demand",
+        "source": "streamlinefeed.co.ke",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdktwbVViWEo0aGJRQ3dhUE5ZMkhfOHNzM3dub2hVUUdjcUViTXRoNV91Tm5VX3FyMGlYQnlobkNBenNReF9TLW9xc2pxSTFEeE9VcXcwNGR4cVR3bnhLZkZXVjJzM3Z5V2xybmR4cE1UMFU1T0ZoNEZRSm8xSUlFczRDcG9UMmFkZ2l5WXN3VDF2UU1GLXRKRQ?oc=5",
+        "date": "2026-08-28T05:59:03+00:00"
       },
       {
         "title": "Sumitomo joins $582M race for FleetPartners",
@@ -4161,15 +4137,15 @@
         "date": "2026-08-28T05:00:00+00:00"
       },
       {
-        "title": "US corporate profits surge to record as worker payouts wilt",
-        "source": "Financial Times",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVnJfcnFMSnlCanJzQTQxNE5qaHRGSUFObzNFczdxdWlsSGY5T0h3cU9zQjRYRVFkQkpyMDJuSUQzSzUwaUFTX1BrLXpJUTQ2M0diamNHMnB4M2h2OFZCbGNZT0hiWGxtcVJGamhjcFM2eXZpNDVfWG9FSGVseWhCQmc4U3Q?oc=5",
-        "date": "2026-08-28T04:02:04+00:00"
-      },
-      {
         "title": "UK venture capital investment rebounds as software and biotech attract funding",
         "source": "Financial Times",
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNWFVdFE4VS15NURrSUQ5ZDc2WlpUV0VKamFGclVCRTRYRWJzTU1aY0JDY1RibXR5cENGVHEtR0hWNTJXS3NPQTU4WnRTR2d5TnQ3dWVDaWlwSU0xdXYxY3JvbTB3U01udll3YnE1YWgtYnBtQThMeHd4Z3pHVHJQVGZ3YWI?oc=5",
+        "date": "2026-08-28T04:02:04+00:00"
+      },
+      {
+        "title": "US corporate profits surge to record as worker payouts wilt",
+        "source": "Financial Times",
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVnJfcnFMSnlCanJzQTQxNE5qaHRGSUFObzNFczdxdWlsSGY5T0h3cU9zQjRYRVFkQkpyMDJuSUQzSzUwaUFTX1BrLXpJUTQ2M0diamNHMnB4M2h2OFZCbGNZT0hiWGxtcVJGamhjcFM2eXZpNDVfWG9FSGVseWhCQmc4U3Q?oc=5",
         "date": "2026-08-28T04:02:04+00:00"
       },
       {
@@ -4221,12 +4197,6 @@
         "date": "2026-08-28T02:20:42+00:00"
       },
       {
-        "title": "Daesung Private Equity Calls Extraordinary Meeting to Vote on Reverse Stock Split",
-        "source": "TipRanks",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUtsY0NGVWFBcG5RZVItcTRtYTd0dFJtUEFpX09HSkt1bm5iNWFMSUU3bFRHbUhnUmt6X2k1cE4tdS0wQklTdFBmSTZzRXZoQlFlMUVBQVljZHhjZ2lrYndRaFR0V3RzNDEtcGlPSXIyVFAtdTB5TzVUc0tsZ3hpWjhuWWpVRVRVS0JsQklQa3prTVhwdWdJSlEtdmY3VFNTYjB2SUIwNHFwcEhtLVdaeHlGMzdnYl9uX0FVRFpiRWVDX2E3Wno1eVVuRHdwZw?oc=5",
-        "date": "2026-08-28T02:18:03+00:00"
-      },
-      {
         "title": "Federal Canadian Regulators Reject Sports Prediction Markets",
         "source": "Canadian Gaming Business",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYVVSRllDaHJCUzNlbnlZaVdVbXdYX05qU3d2Ri14TUdFR3kzcGt6N0xOVzJndTlvOEItdlNZRzR6OWYzTVBaOU5PWklINHNiRkRKTGo3M1V0S1NVODMtVGc0bzNsQVNRdUF5TVJTREN0ZzBYMFhPczZCeVBwTHd5ZkMxUmd0SGVESGh3?oc=5",
@@ -4249,12 +4219,6 @@
         "source": "IndexBox",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWlaN0pHd3A0ZUJlWFMzY2hldXRBaVlOT2JsMnk2cm9lRHhhaHpLSkFFbUNZU1JydjlYVk9oQ3pjNmxyLS15dFZ1cm8xeTV4UlotMGJfaE03X0xlMVlLd1NRaWtqU2Y1b2pYSTlHVUFQUjRxbUIxSXNQeklpeWptRDZ2eS1GcE5YSFR0aTR3?oc=5",
         "date": "2026-08-28T00:36:19+00:00"
-      },
-      {
-        "title": "PE investment expected to remain steady in Q3 2026: KPMG",
-        "source": "Deccan Herald",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNDZIS0J6OWFHbjRqZ0ZfVHZnQkhsdFRLNnNodUNHWm5vOTlCbUIyLU56S0hRTDZJNm5tWXNScTZkNDZrS250NnNwMENlNmRWOTJhdktfR083TW9WNHhvS1VuZnhPcUF0QWZxS1BFVEZIYW5FSWh2LVRSNUpMRGJ3RndJYXZyLV9Yang1cm85UmsxU0xHOEFpWDF3SFhyUmM4dGJB?oc=5",
-        "date": "2026-08-28T00:32:29+00:00"
       },
       {
         "title": "Defoamers for Water Treatment Systems Market Outlook to 2035",
@@ -4327,14 +4291,62 @@
         "source": "Calgary Herald",
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPV2JRWjBfb3JtR3dwajFINXpVdlJobE9yblZxQWNGMEJUMEZBb0EtTEN6d09OTDZJZWY5Qml5RkhPNy1xVlhpbzhjOUgyN1hNcm85WW9oanRVek54WHcwbTM4Z3loV2dpbndvN19YcnVWR180S0xFeW5yOHVvUWhRWjB6R3JVUlNBbE42NjZfZjd3eW5GQ1ZidEtDS0xuM2JudFZDN0kxR1kydkZYam1DeUFJRjVIRlJ3MnRLOUctT2Jsazc1ZWJILWt3cWhaSGFObjFVYUNYSGtlWXhyZ25ZcS1xQQ?oc=5",
         "date": "2026-08-27T23:23:54+00:00"
+      },
+      {
+        "title": "Workday Reports Higher Profit, Revenue on AI Agent Adoption",
+        "source": "WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUdCRFNhZ0RXLVBBMUM3MDdmNXBzcGpzZkt0aTc2ajU0dERnWjQ0bHY0aE0xdjE1aG5rLTItallReVBWc1hoRG5ITkhHeW1wQ0tfNHBOaTd3TVR1ZmkzTkxWOElyYlVRZWk0Vk44YXprYzlUelREVGRGWXExZUhyVmFvSVh3VmRJdDlJSlVrb0FpTmlRWkxqUnJNSVRETEU2bW1zOUF5Mk0?oc=5",
+        "date": "2026-08-27T22:48:00+00:00"
+      },
+      {
+        "title": "Marvell Lifts Long-Term Targets as AI Demand Boosts Second-Quarter Profit, Revenue",
+        "source": "WSJ",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSm5ndVJNUnpKaEZfa2FiT1FPV2Z4WV9KcTVTSkt3am9sNVBZQWRzMnVrYXJYbVBTOEtjVXNfRkZuTG45eVVtbWxocVRjMFo0Qm8yRXJGdkxWOVNQZXRfSkdXRlE3WHQyZFNnRmMxWEtpT1VjeDJqZDJtSEFpZk1HQVFOQnVDZEVwWTM2VmJESFdHQlEyeTdvTF9DZnZKY3ZBWjlQd0tmOGNXY29DR2w0UElwTlFnR1k2Q2FvWWdrUEQyRnR4NGx5UQ?oc=5",
+        "date": "2026-08-27T22:39:00+00:00"
+      },
+      {
+        "title": "Creative Capital Announces Appointment of Sam Keisner as Partner",
+        "source": "markets.businessinsider.com",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcThxbFZoT0FhcGJIdnNyWlNZTzhTNGNIby1SbGdCdm92QzNROUlfYS1qTlZCdzZfeXlhNjZEVFZIc3c0Y0hUWFJRbUVDSzMycVBsVVJXOXNQVlpkTERTcmlOWllnQktJTWJPaEZYLUVVM2dMSUFoN2QwdmVSM3VTVGxTS29HV0hsTUJxanJEd2FPRzN1SkZyTWpJWkNwbWt6TFdFMTlYYTliSENzdXNGamp1RVRnMmhKSTlIZGV1UDQ?oc=5",
+        "date": "2026-08-27T22:36:29+00:00"
+      },
+      {
+        "title": "The Top Private Equity Firms of 2026",
+        "source": "GrowthCap",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CbGllbW5pWWNudjByZEhjc0ZwWkFPNU9DdGlwZU1qcEs5NHpiWXdyNU42MFJlUXg1blFySUFHVDF0WFJralRlSkJSWExEc0t1cDdqS3dpai1xeHZpbXVzRU5YLTNUTkw1cEUtWWJVNUtiMk5QMVE?oc=5",
+        "date": "2026-08-27T21:53:53+00:00"
+      },
+      {
+        "title": "Analysts' Top S&P 500 Stocks to Buy Now",
+        "source": "Kiplinger",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYW5qQ0x0SWZLc3hMbjJHYmxtWTc2SFhQNi1TU0xlUU45U2h0UW96Y2FTczFFVENRVFRZTC1VdDJpSlZjOWo2dWZMUUs4UU5neTFNdTZJVWQwWTdEVWdTdjlidjByUlA5dENjNGVyV1ZHWVNaWEpnNkEtUmswQlgtVnR3?oc=5",
+        "date": "2026-08-27T21:47:29+00:00"
+      },
+      {
+        "title": "Will Dividend Hike, Beam Deal, and Private Markets Push Principal Financial Group's (PFG) Resilience Narrative Higher?",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNVVMbFZpRk1CUEo4S2hSTk84X0thbmdfTmg2ZGMxSUp4TEVCYm5EeTRtUzhzdmNnbEc5cXFIaDdNbVdSQlJldnNkY0dNQWE1TEpaSXFXMlJkVW1oNU5xM212YlRLamFEOVF5eVdVUVNhcjlqUmo0Z2w4Smtfa29uMEJGTUlNc1Z6RHpzMFNSbEtkV2VSY25HeFBTWkVwY0pwZk9QcE9ud1R2ZmdqSHM1Ym5uYXl1UzJtN2VzTUx2SjE2MHI0alBFODVUQkFMd3NGLW5INmMtb3BLaHFO0gHiAUFVX3lxTE80cXdfeTkzTnluOERIQm9lcDZBSFNoaGRENDY0TzlGNU9CUmw0bGJOWEN1ZWZ4Q3lMVXRLak5ERE1yeVl6S1Y2SFhiWHN6TVR5SGh6U0J5Ty05MDZWYlFWZjU5R1lsWmhxMGRtY1ZpamY5SjM5WllaVVdPNy1MeGwwUHQ0ekJkZGllemZ6eDlpSnBHYm5ZYm9CX0VCc3Vldjkyc2F6bEQyVVZ4cVFUMkVkLV9taGlMcW95bXBNbzJ1VGdubm43NWhuN21BSUZGeXByUlE4X2RXRDdRZGdPdUJ1amc?oc=5",
+        "date": "2026-08-27T21:34:48+00:00"
       }
     ],
     "science": [
+      {
+        "title": "Nasa to launch one of the most ambitious missions of the century so far in just days",
+        "source": "GB News",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVTRWX1Q4alM2V1JwZWVtRmRlVVpOa2hnNno0eG1yWFdrcmhpT3haRFg5dnRFeG5wRmQ5eU9hVm15RzJ1UHNxckRUbE5Mb3p3X0d2bTB3bTNidkRSR3JzNEhIRkhOUlhDVngtc0dISDNfdTQtUWRUNVBad2h6LUU0M2t3?oc=5",
+        "date": "2026-08-29T08:17:44+00:00"
+      },
       {
         "title": "Nancy Grace Roman Space Telescope",
         "source": "NASA Science (.gov)",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
         "date": "2026-08-29T08:09:07+00:00"
+      },
+      {
+        "title": "In July 2025, a telescope in Chile spotted a tiny moving dot inside Jupiter’s orbit. Within hours, astronomers realized it was only the third object ever confirmed to enter our Solar System from interstellar space—and barely a year later, it had already raced back",
+        "source": "ScienceBlog.com",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85U2RIWUVTaVl2OW5xdGtBdDUyZzY2LXFFWkJ4YWNFZktkQmdDeDAwd2s5RWZCdGdrT3MwVDFrVTJVVmx4MU1MOUE0RlhCbmtIOVN5VVpPcFlNM3FjeDNueW0wX0drVjIyUW5Salc0NXM?oc=5",
+        "date": "2026-08-29T06:00:00+00:00"
       },
       {
         "title": "OMEGA and MBRSC launch exhibition celebrating UAE’s space milestones and Moon landing anniversary",
@@ -4353,12 +4365,6 @@
         "source": "The Standard (HK)",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaVFZWlNnV0VaU0RwRHFGZVhtYnVtUmJCWnBDbW4xNkVDdEtHU2FrM3NmNGFMOGxYWnJBdmRUOWxfMnJ5eDN1aE5WZi1nSXBaenpLZjJVdjhSekxGZVhuT3VuZjJGby1OVkVnTU93eWpfTi1tYVlfM2tCbzdaTHd3bnFRY0x3SHoxZC1tR1paN3BoUQ?oc=5",
         "date": "2026-08-29T05:28:44+00:00"
-      },
-      {
-        "title": "In July 2025, a telescope in Chile spotted a tiny moving dot inside Jupiter’s orbit. Within hours, astronomers realized it was only the third object ever confirmed to enter our Solar System from interstellar space—and barely a year later, it had already raced back",
-        "source": "ScienceBlog.com",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85U2RIWUVTaVl2OW5xdGtBdDUyZzY2LXFFWkJ4YWNFZktkQmdDeDAwd2s5RWZCdGdrT3MwVDFrVTJVVmx4MU1MOUE0RlhCbmtIOVN5VVpPcFlNM3FjeDNueW0wX0drVjIyUW5Salc0NXM?oc=5",
-        "date": "2026-08-29T05:27:52+00:00"
       },
       {
         "title": "Artemis II astronauts receive nation's highest space honor",
@@ -4463,10 +4469,10 @@
         "date": "2026-08-28T20:52:06+00:00"
       },
       {
-        "title": "Artemis II crew honored after record-setting journey around the moon",
-        "source": "The Daily News | Texas' Oldest Newspaper",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYWw4NTRHUGpWM3FPTDd6VWJIQ3I4cWM3WnAxbHBaZkRwWW15ZDgzX05vMlNNMHhuWGtLRGw4WVJDckRwcXlQZkF4ZTNib0Rxa0ZsN2ZZdE10Q2RQTGNNTUxiVGlUN1hxR253dlVxSXFVd1hLbXVwNGJFLTUxaHllOTFHazdRd1I1eDJpdGhNOUtlclczUTlneFdrdEd5RHVHaHI5WENEV0JZQkhRd1ROUTVWazBzVkRNeXdNR1BvRE5pUkRWUDhXQ1QwN0RUX01HYU9rZFJfajZIV3pobUM2WFlR?oc=5",
-        "date": "2026-08-28T20:44:00+00:00"
+        "title": "\"Making Resistance Economy the central focus\": Ayatollah Mojtaba Khamenei outlines economic roadmap to phase out US dollar, boost production",
+        "source": "Dailyhunt",
+        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYWVNUzNjN1ZVMFJqYWlndTd3SDJ4ckFybEEtNzhZV05UY2ZfLVVVb2x2UVFMVU51LUUxT0FXcVpUSGRDOGgxQ01NY1lqU2s1QXlacjNHWXJmNXplREt0dTlKamprNXJtMlEydmFsbkpTZ25DS1BBczM5VjE1SUhoSWtKNzNlNDg2YW9ReElLM0xCT1ZnQllNeEpLdHNaM2tlczdBSVdYYUlOcXVISngybG9PaDhjTVA4bmhab3BuaDFtRmEtb2F6UkhWVmRaMjRCd2ZTQ2RqbVZJU2s5WlhWSU5FOE81cDEtLVBhOGR6djZyZzcyVFBFUDRQRTNjMkwzZlBySmV5RUhEYXRqZlg0Ylc1bTVXbnJiTnQzZVBZaEhmTnRFTlg0TTdQT2lFbnAxTUlVZlZjaC1VdHV4UzZ3Qm5VWWpzV0E?oc=5",
+        "date": "2026-08-28T20:50:30+00:00"
       },
       {
         "title": "Trump Plans Nuclear-Powered Mars Mission, Announces Space Academy",
@@ -4559,6 +4565,12 @@
         "date": "2026-08-28T18:33:16+00:00"
       },
       {
+        "title": "Trump Creates a Space Academy and Honors the Artemis Astronauts",
+        "source": "The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDBfMkVXcHFQY2ZGVXZidC1adEVzenFuY2JhT1RTeEhyblppS3VTOWdpWWdlRkZsSmVObi0xRGdnRzl1UEFvZmZ5TUx4V1NmTDh3ajU2RkxYZDdQYzFWdl9XbTJZdzRrRWJVeDVsZUFpMWVpMkdkTWlRN2FTRHFOME84YnZzNEo3WEU2ZWV3eEtVRWg2?oc=5",
+        "date": "2026-08-28T18:25:12+00:00"
+      },
+      {
         "title": "Artemis II astronauts receive nation's highest space honor for successful moonshot",
         "source": "The Norfolk Daily News",
         "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPS0l2STI1QktYWkk1bk5WdUY2YUhwSXNSUTBfNl9vSVRPMFhXa1Z6a1NBTjk3N2M4dHJ0LVZHeFlqNVlYbWl5XzRuam1wQjA2WUgwUTZDdlZUWTB4NkhHWE95OVozLThic25XZ2xPUkc3anFMUndnQVpvVmwwbS1XSVVZLTktdjkwZU5UY3ZlYWFXSDB3ejVrTi1VQTVMaHRVVlpoX1R6M1N4TUNjU0FRWDNaR0E0TlJibndnSGZxWlVmc3JyRGVLclVfRFR3UWoyOUFlNUNwUktEZzljRTdBY2pHNmdyUm1OVThJTXNhdXRnVjJQRGFVeGtGSWxpdXVycUMwNUd6aEtCcnhGWTFSemUyVEo2UQ?oc=5",
@@ -4625,15 +4637,15 @@
         "date": "2026-08-28T17:00:00+00:00"
       },
       {
-        "title": "Relive private Chinese rocket's explosive 1st landing attempt (video)",
-        "source": "Space",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUGliQjdNVVhOUVgwWHI2TjU0TWpxTjRpY0E3THNsRnByczBQTnlkMHE1VTFlcDR3OHNfTzBQUFB2bFBmXzJZWG5ITFFqVEZyY21JR0pIaWZZTk5xQXM1dzl5Q1NHcllIUGhmc2xvbUFwMDFkVlJ2ei04OWh2dmk1SmQ1YVM4aERHTU9ScEhhbVlYUEFIcnZWWElEZ2F2U09JUklmQk1zbmtOSjcxUnlfR2pXV0k1RE5qOGt6dlJ5NDRFV05z?oc=5",
-        "date": "2026-08-28T17:00:00+00:00"
-      },
-      {
         "title": "The Ohio State University joins Midwest Quantum Collaboratory",
         "source": "Ohio State News",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObmExN2Job2kweExySFg3bGt5QVc1U0RaQ1pBLTB3SkVBZkFxaldJdm9TdEVhdzVITnBJS0tSTGJMVVhkLUFFVE9BMUthQ09UTnBmektCVzNPaEVsLXlucl9fZEZQdVRJR2F6WENOVjJMX2lsSFRGOVo0eE9WWl8xT3d5Qlo1NlJmX1pV?oc=5",
+        "date": "2026-08-28T17:00:00+00:00"
+      },
+      {
+        "title": "Relive private Chinese rocket's explosive 1st landing attempt (video)",
+        "source": "Space",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUGliQjdNVVhOUVgwWHI2TjU0TWpxTjRpY0E3THNsRnByczBQTnlkMHE1VTFlcDR3OHNfTzBQUFB2bFBmXzJZWG5ITFFqVEZyY21JR0pIaWZZTk5xQXM1dzl5Q1NHcllIUGhmc2xvbUFwMDFkVlJ2ei04OWh2dmk1SmQ1YVM4aERHTU9ScEhhbVlYUEFIcnZWWElEZ2F2U09JUklmQk1zbmtOSjcxUnlfR2pXV0k1RE5qOGt6dlJ5NDRFV05z?oc=5",
         "date": "2026-08-28T17:00:00+00:00"
       },
       {
@@ -4745,6 +4757,12 @@
         "date": "2026-08-28T14:01:23+00:00"
       },
       {
+        "title": "Curiosity climbs to new heights on Mars photo of the day for Aug. 28, 2026",
+        "source": "Space",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTlVnNnZtV0dOdzVrVG9Nd3laQVFJUzBWTWtCaTlpSkdiaVVHc3lfaUl0dVJNT2ZzT3RRcDZUOTk0bXdmSWxlMnhpOVc0RURSS2tsUHoyYTB4YVZVMG5Lb1I4bTNVTWxfcUtpRkFGWWFvZS1jMzF3eGN1aHYxTHNFNmV1WXlEUi11djItZmJOVFg5M2h2UXBscG5nM2FBM0lHVHJPRFFaZTlPZUszQURXVmw4dnBjaTJnYVR3V3VZT1JQYnNSRW42WFNR?oc=5",
+        "date": "2026-08-28T14:00:00+00:00"
+      },
+      {
         "title": "New Engineering Undergrad Degree Blends Multiple Areas",
         "source": "The University of Texas at Dallas",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX09DRGpvT2N0dmlaNHJpR2hIR3poLWxqLWxWXzlhZ3lBY0N4Ry1ib2xOVjNXcWY5cWotNHh4MDE5Zk5qdGlJUlEybmNMYUVZWDJCNFdNbXZwWTFvZGJJRng5VVFibVdtZVl3aEtWa0JMNXg1enlrcmx6TUN2MnJ0TnF6WnRfblY5RXRhNTMtM0MzOXRK?oc=5",
@@ -4809,6 +4827,18 @@
         "source": "PravdaReport",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81bzc4T3p4ZllwVUlLQWNoRVZlMktyUHE5OEdyTV9mMzhEbVFlTkxlVXlCb25RUUV6QzN2YTV1a0xfQVlHUGw3bUNaWkNQWm1NZEVZX0VJMDJxSEtvWmowa2x0elN0clByYjVIVXN5aEs4ZEE5SS1PWENvdzBOSmc?oc=5",
         "date": "2026-08-28T10:50:00+00:00"
+      },
+      {
+        "title": "Creates to Receive $1.25 Million as Part of the National MARQUIS Initiative Uniting Leading Research Institutions and Industry Partners",
+        "source": "AZoQuantum",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QdFFXV3FmOVJhRUFaTWotSHhXN2dKMS1WUWhpUEVRLUdyUElYdERXSUxBb0pORmdwT3JQRzBWdUFMRDIzS09Dd2ZvTzZYWlBwNWdXcmxOMlZETkJBeEE?oc=5",
+        "date": "2026-08-28T10:05:00+00:00"
+      },
+      {
+        "title": "[Sci-Tech NOW] GIST designs tumor-activated HER2 antibodies and more",
+        "source": "DongA Science",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MSlBwcUpZOVdsLU9RbS1nSGJ2NnJ6TERId2tPa2QtSVJWOG00ZXBkVG0yNHhUSWNWOWxjMHdwZGd5SUt2WER4aVRNUWpfYnExT2F6Zw?oc=5",
+        "date": "2026-08-28T09:48:00+00:00"
       },
       {
         "title": "Shear-flow-induced assembly of 2D nanosheets for the fabrication of composite films with high tensile strength",
@@ -5379,39 +5409,15 @@
         "source": "Science News",
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zVXYzZjJGSEhIRlptNDllMmMzZm9lVzN1NDFUcjlGMndzMFIzTXU4TDB6V2g0dUVDemdyNERYbjBXaTRJYzRiZDk5YXVQV2JQNkZLNkZyUUttY3kxUmN1eE1jdW1GMm0wNTVocEs3bEZmMVNYd0xMeTF1TQ?oc=5",
         "date": "2026-08-27T14:00:00+00:00"
-      },
-      {
-        "title": "New Method Transmits Data via Atmosphere",
-        "source": "Root-Nation.com",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQa0g5WHlVVmptemIxMTAwQ3d5SDk0OVREcWt6eHdKY1RyaXB1b0h5QllfUFZrNktVM3lpcG81VXlyRWJWT1ZfZHE4OEdScDRrSU54LVM2VGdMWkswdUJ5Z0lmdGhCZ3lEOXNOc1h4QTliUW5UdEpsanR5Tzh2S3NwZExCaDl2amNwZ0xoSEZKZTF6TjNx?oc=5",
-        "date": "2026-08-27T13:55:32+00:00"
-      },
-      {
-        "title": "FAU Researchers Develop Quantum Framework to Predict Heart Disease",
-        "source": "Florida Atlantic University",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUko3OHdtZjFiTlc3bUhYeHI3eXlaLUlNTHQ2ZWllOTZjQ1Jvc3FkMWFuUTV1UGhLTmpDdTlTT1RpZkdncVY2R1NCbVpiMGhYOVV3d2NSY3lmczRKZTlCLXVXVkVhMC1kV2NvUkszbTF4ZkVSbFgtYnZOZ1R1MWM3OERyaUkwaFk?oc=5",
-        "date": "2026-08-27T13:46:17+00:00"
-      },
-      {
-        "title": "How Innovation Could Reshape Chemistry by 2050",
-        "source": "National Academies of Sciences, Engineering, and Medicine",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVm4yZUc0V2dxUGlEUTVKZUUzWGdxaFZMVnAxZ3RtZjVqYTV2TnY0MlRDaFlnY05FVUJNUDZ1enFyLVVkLXoxejR6SkRPOHBSNkRRSlAzQXJaRUM1VU5Ga2wzMTFGU1ZhWlpKQUFXTnc3eGVOS2FLS2U0MUdtZlUwRjhnVmlIZ2N0R3NZc3NR?oc=5",
-        "date": "2026-08-27T13:39:32+00:00"
-      },
-      {
-        "title": "ColibriTD closes €4m seed round for quantum simulation platform",
-        "source": "Dealroom",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWFVIbzdMOEpZVzFfQzBHMDk1SExWOER5WGxYTFhXUXh1cWJQcXRMWUxjbWN3YThnZmprcjZFa2VfQms3NVo1cTJPa294MXFFMTU1b09qVnhCUkpCeFZnbVhFc3JQeFFfWEhkOWh5NDNMLW9yb05WZVFlVi0tWW1xaE9oSUVON1lsbjkxVUJ1SXZMSE01UGV6NWdsaEY?oc=5",
-        "date": "2026-08-27T13:38:08+00:00"
-      },
-      {
-        "title": "“I jumped from my chair” – Astronomers spot Betelgeuse’s hidden companion",
-        "source": "Science Daily",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZOHc1cU1LVk5QUS1ZQW0ySEk5LXpNbktUcldheVFpel9IOHdnNFRkbVJ5UHpVYURERDVEODRuNVY0STlIcVRkRU9IQV9MMG1qeXVveWFqRThSS3NQYzVSaWZtVG1VUlRxWFpZMHliOA?oc=5",
-        "date": "2026-08-27T13:13:12+00:00"
       }
     ],
     "energy": [
+      {
+        "title": "NuScale's SMR Progress Hinges on Key Agreement",
+        "source": "Intellectia AI",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GNEczZk83LUlVZVFjUF9VOTB2OGJpOUVjUXpONmxUWDB6Y2dGVHlBb1E1bmE1cDJjMHpxM2FTeHJFUEZWWHNpQl9DMjQ3eEFndF9jVkxJVWtBRjR1aGwzNndmcU80S3hkdDlTMEJ1WVJxM2lNZWxpclludWp3dw?oc=5",
+        "date": "2026-08-29T08:35:55+00:00"
+      },
       {
         "title": "Offshore nuclear barges could power ports and data centers—starting with California, where nuclear is banned",
         "source": "Fortune",
@@ -5435,6 +5441,12 @@
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdnRHRjJhMjBoRzdrNzlUV0VlR2JfZnVhNDEtRFpIWGYxOEgzMDFLMVZLNGI5UnVkdWRVWVBoeHdHaEZwVXpQNHB0amtjaUdXOFFzd0wzblZXY0M1ci1TNFVmTkVTMlBxcFZGOF9sNmJlVFlsUFhKRDBIM0l1TDQwRW9FcXN2V0t0LWR1QXVkcTZmQzFwbFZvZ3VWa1ZWa0ctY2pjN3ptZnFRNFIyRXA3cTNJM2RyRWxpRHROdEF3OTJTbUNxM1BGMjlvS0YyZ0ZUTUN2akJVY2tWajllZ2daLWo2b1FwYUVEQkFoSQ?oc=5",
         "date": "2026-08-29T06:42:14+00:00"
+      },
+      {
+        "title": "Kenya’s Transition from Clean Energy to Economic Opportunity",
+        "source": "Vellum Kenya",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWnhxRFRYYmF1TlZKLXJRdDdhd2REbHVOdWlOTUNXRTlHZUZwX0kzRHBmYUo2V0h0dklxWDZqLTJIN0M2MVRVVWN1cC15a3V1bHM1Y1FFSkdwR3hqSFNTX2tQb3c4cjJ2eVdpLThrZGluS0dCejBhblRDSjlLb1Q5MG55bWZxUzNk?oc=5",
+        "date": "2026-08-29T06:31:20+00:00"
       },
       {
         "title": "PowerX and ITOCHU Secure Order for 75.2 MWh Grid-Scale BESS Project in Japan",
@@ -5467,6 +5479,18 @@
         "date": "2026-08-29T04:55:16+00:00"
       },
       {
+        "title": "BLM approves 2026 geothermal lease sale for nearly 75,000 acres in Utah and two oil well drilling permits",
+        "source": "Energies Media",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qT2M0SEJLOGZmU1l0Nm0zQXBZbE9jMXdRZnhrZW5pbTJScTg3OUszUzhXWnhUYXlJdEo2QTdNMDMtOUVSUWx5SG90RUd4ZElsdDktREYwZkJMdWgtUlhPa1BVWjd4NWVZcWRlZ1daNzlGNmtnZ3VsdW5ucw?oc=5",
+        "date": "2026-08-29T03:46:01+00:00"
+      },
+      {
+        "title": "How Small Modular Reactors Could Redefine the Canadian North",
+        "source": "EnergyNow",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNkl5SFJ6ZC1TdUtJSlRQcXBiOUJiZ1JYVTZkQ2NlcFNaWl9vNGZ4eWp5WHlNeV9hbEtmRk1VRUJYbTRicThBVFBrNVZJdnZTNHRVTGFTMkhWOUZ5U2hEZWN3RGhwOC1zb19FR016UVRSdjVGaDBRVTJWV0pfNlM2U3ZIaVprZ3dUcTdtdlVPT1pGR0kzM21Uc2pwbVpZaTJwUFpudkZWTmI?oc=5",
+        "date": "2026-08-29T03:00:25+00:00"
+      },
+      {
         "title": "Oil Refining Has Been Underinvested, Saudi Aramco Says",
         "source": "EnergyNow.com",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMjNXek5NcE9IU0RFMzRjcFJnTjNjVnBibWpEMGpiTnFyUGhScVh5bTBJbjZVUmFHaUhDNTJfRFFjQTJxVTVrSnpzMWpCc2xxS25YaWVKNFE4eGFVZFlFd0c2dVhoR05WVW9KNGoxRFFhLWptWFBtbUNhMUgzZ2Rfb2FxVXlsME5GTGlzTw?oc=5",
@@ -5489,6 +5513,18 @@
         "source": "EnergyNow.com",
         "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbHlPNnRFRUJ1Qnh5azFRSVRfdmx2YjNXakw0UUFQTTJhM2VLMTlRcERENlRycTFVRWgzNTNZUlpvRklJWFBvSW1BZU5XeUtzTG8zLU5wTWJHOHk1NndIYWJwWjZpWWoxYVBWdFZCVnZVUWR3Q3M4NlI2cTB0Z2N4T2Z6aWIwck03Y09RZmlwYmg?oc=5",
         "date": "2026-08-29T02:40:05+00:00"
+      },
+      {
+        "title": "INSIGHT: Alberta is Building the Energy Machine. The Question is Whether BC Shows Up to Run It - Stewart Muir",
+        "source": "EnergyNow",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSjc4OUY1bUphRHlOYUxXNmJDUG1FSnBEMFBLY08yQlpQc0pqZGRYYjhTZW10MDBma2hkZDFJYWRudmR2SVA0TmtBNjhJNjVhb0F0MnRxSEhlcUhGYnctbzRGOVRWRDBlRWNpQXRybTJxTWdaWFl6NURvTlFIUC0xV1E0eFlvOWtITjNZd3FqZkVMZ19CbTdOX3IyaWVzZWxNLWNaLWE3dnNWZGtmb2dyYl90R2FzdTNXU1A4UFRYWHJmRUY0aFY0?oc=5",
+        "date": "2026-08-29T02:39:24+00:00"
+      },
+      {
+        "title": "Nigeria, China deepen energy ties with oil, gas investment push",
+        "source": "Vanguard News",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYmxUWGxPVXJuS3JrYThoZWpuUnVtZXlBYUtzbmRubDVfOS05UWcyVmdxUGMtR1pzRUcxUlQ1OWdVNmJ2UVZ3SHJsaHBmNmwzRFZmZkZTdWQ3NmJWeERTT0FFbmY1OWJueGZjV2JkSl9lOEFLTzg3SjA3M01JaWpERUdtc3BROXU3bVJMX052VjJDSUZqUjdBa20xQ3ZiT0nSAaQBQVVfeXFMUE5va2JjdGNuZjBiNHF4N0NoQW1rdU1aV3g0ZTM1aFFHd3pVdUtDejVUWVpVT1BqZDhadjZra0RnNG8wQXdMQVB1MTFBby1LYW9HaW5jYVRCeVNFNkppa2RlaTQ2TjRlbjN6WUd5VHl1RnpmQzZkWjBubDFGWmd0c1I5MHZTamowOEpQOVQ3WFJQVm81RmljUHpFNnV4QXhqR05TaFk?oc=5",
+        "date": "2026-08-29T01:59:54+00:00"
       },
       {
         "title": "CATL Announces Local Partnership, Showcases Full-Chain Storage at The Smarter E South America 2026",
@@ -5527,6 +5563,12 @@
         "date": "2026-08-28T23:58:06+00:00"
       },
       {
+        "title": "Sercel sells 6,000 Accel seismic nodes to DMT for geothermal exploration survey near Munich",
+        "source": "Energies Media",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3REpBelh6cEd1WlpuSFZSMWZMSy1yakU0aXUwTnlTMXQtYVJpbTBwWlo3cEgxbm52YlhjR2E2OHlNbW5mMUp6bWNQbEtpYUZ6ZWFhcmZ6bU9COE9tdm52X1FlaDZueG56NGt2aTQzb1l1R21FNWc?oc=5",
+        "date": "2026-08-28T23:11:23+00:00"
+      },
+      {
         "title": "AtkinsRealis Gains on Canada’s Expanded Nuclear Strategy",
         "source": "EnergyNow",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXJLU2duS1NuSUU0d0JJajlKQ0VjNVpYQ0gzTnh0bDYySktSeGFydmdYNjlUSjZmMmNVTkVHTUMtSE9ONERkeFlrNFpBYTZVNVZUNm83WndsdlM3TFdzUzFRNGlDR2c5VkRhMk5aMHRKN1FFWExkUTRrTXVnRlpaM0d5cWhDNGtVLWFfNUtB?oc=5",
@@ -5543,6 +5585,12 @@
         "source": "American Nuclear Society -- ANS",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN3V6X29WQkRxMFVUNS1UejdfVHF0aFczc2xYdmdyTU5NVGNaNlZCdEQ2ckpkb0EwWmxMdWVzM2ZjOGFRSlIxZXNJSTZKeU1BNENPLVl5RlpicWVKTUVDNFhJaW9tQTZTdlMxY3VPRmEwZ0pacVR3T0xrbV8tSXR3SWxuWTVOMjg?oc=5",
         "date": "2026-08-28T23:02:38+00:00"
+      },
+      {
+        "title": "DOE approves Xcimer’s laser fusion power plant design",
+        "source": "American Nuclear Society -- ANS",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc2FaUVZMWUstREpCWjB0UXFVNFBzVDBiVWRuUkd5OXVsSGRNR25ORnluOXo0ZVZjYVRXYU9tYlVjcjFWSThHN293QzJMM1FVR2JMa0RTZEJwM19nd1o4TEE2dWFTc19OamFfbEVxVVRWS1dPTWtBZVJ1WjloR0ZnVGtBb2pleWl5YVdRWWk4eUQtYlA4?oc=5",
+        "date": "2026-08-28T22:55:26+00:00"
       },
       {
         "title": "Empty Promise? US Energy Secretary Proposes Nuclear Energy Cooperation for Iran",
@@ -5695,6 +5743,12 @@
         "date": "2026-08-28T19:43:33+00:00"
       },
       {
+        "title": "Transformative Courts: From Geothermal Sports Hubs to Mobile Playgrounds",
+        "source": "freeyork",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12MW9vYnNQbmJ1QnNQMVN6Nkh2SjRkbERoQjJScFNmT0tGQkstMzJiTjdkcHV0Q3FQVEMtWEhrYTZNTU1hMFRYMFpjRVhzamlQRkx4dGwweGQ1bXVQZGVnZmtZdG43WDJ0LVFzRTNPdXlRYzJDZFlpZUlqNEU0eUE?oc=5",
+        "date": "2026-08-28T19:31:25+00:00"
+      },
+      {
         "title": "Banking on a connection: Europe’s 1,700 GW grid backlog",
         "source": "Factor This",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlA2Smtsa09iTXl0a01uQnJqOTBLX1Q2bUc3SnFoZnVVMXF2Q3k1TFR2SWZOQWswUUpIRS1QNTkwOTV4UUdpYlcxbFhCYU1fZlpWclVPRl9HSHlpZGVEQmgtUXRjUXNMOFFhRlhzNDRNbjd2anc2Qk5hZktGcl9ORkFkNlFPYlBZMV85NmlpMHU1YXpXeEJhVHpMOEU3bE1xYXdyWmRDSDVDNk1uZjgtWEkxRGU2cnk3THFISQ?oc=5",
@@ -5777,6 +5831,12 @@
         "source": "Vertical Farm Daily",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWHhUdGppVDRvRmtQQnFrMlliTzBZUmh4VFctdUltOFY5OFJNdURvQWtTX2hDaHU1WGtMVGNjbS1fTUY1OXAwV0dnYlAtempuZUVIcEU1eGdaeTZhLTdRUEl6WjE1aENyWm5hRGZlZGJqdlVfaU9ZS29BSjJQTTU4TkVWVVp1T21LWERYZGNIZ1V5MlJiSkdvTzVNZnpnUXpaSVNETDVCb1pvOElDSi1semxQRzNDbGEzUTFQTDRiRXBnMlZJT01na1RQMjRHdw?oc=5",
         "date": "2026-08-28T17:13:55+00:00"
+      },
+      {
+        "title": "Sulphur Springs in Soufriere and Saint Lucia’s geothermal heart",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdE5IRmNXdUpKRzk4OGZNTWlsRVhCZFFRdWFoSUxiRzh6YlNYNVdSLU5LNVJkOWYzNmJidlVhQ0xZLTF5V2otQUtIZ3J6ZFI0bFlnY3JxbUJRaHpmYXBHTWNFeUNuQnA3RW5WR28yT2V1S09tOEw5aE4tVHV0VFRLMWxMTEhOWktOV05UMWRKQUFpeEpvaEt3RWxHNGhCa1h5azIxZVEtaU96LTZJWlJJcDhabENscmpvN1Jj?oc=5",
+        "date": "2026-08-28T17:09:41+00:00"
       },
       {
         "title": "Equinix’s AI Power-Grid Push Might Change The Case For Investing In Equinix (EQIX)",
@@ -6001,6 +6061,12 @@
         "date": "2026-08-28T14:00:03+00:00"
       },
       {
+        "title": "Chile's renewables share climbs to 41.9% in July",
+        "source": "Renewables Now",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRWFqcnhVa0NPMHFQcFBkUDQ1LWd6R1M3VE9QSTNaVl95ZDR2TFdKUmpZQnZ6SzVISXg2T3FpRlZvMWVoZEx1NmpINVk4OXVWYlNJTmExVjgxLVlrZFpqazRFNU1IVm9JX3dFOHRhQlZWa3lQUlJIRnZRbXB3bmtoTGxaekF6OFhCTlpBd2xsUkRZQmFhU0tTVnJB?oc=5",
+        "date": "2026-08-28T13:57:06+00:00"
+      },
+      {
         "title": "Vallvik Energy Hub Feasibility Study",
         "source": "Fuel Cells Works",
         "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRFE2NXNjdGtxWDRBR2VSbXM3bVZzWHlRQnIxMlI1SWtXbGJuM0RnUk5BY0VodWZsb0dOaEJCQldObVlFTnMwSEtIM3J5S2dfSi1GM3dxRVpSdHhIMEZoRHRoSWtGcHhJV1F3NGtyN1VLX2lNYS1HYnh6dnYyZlN2dnBEc29LVm5tZGVzWm4xUVA4MlZqYklYSjhJWGhjV3NWRFMyRExYU1dYU1B3RDRGa1hiLS1vOXdKaGR2bE0yaGdWTDJQek5pVXUyd3NhdXNTb1JkUUZkMXVxY3E2SUo1RGJLTEVkN0RoZDZiZGVR?oc=5",
@@ -6079,6 +6145,12 @@
         "date": "2026-08-28T13:34:15+00:00"
       },
       {
+        "title": "Voya Energy Secures $35M for Aluminum-Based Energy Storage",
+        "source": "mvapulse.com",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZnpBamoxaGRyS2ZaQ19tUk5RYUFQQlRMaGVJNXVyWklWN0JZY3QzMmFBM3EtWTZFNHVFNU9fNlI4V2lLNmhwaFdHbkZmMGhaS1B6Q0hEMkhsX3RDRWo5cXFOakVoOExSRnp6RkdNaWlvY0wwYXY3ZjVZVm9zOVN6NDd6UkhPRDM1TVpJ?oc=5",
+        "date": "2026-08-28T13:32:19+00:00"
+      },
+      {
         "title": "Swiss nuclear power plant fully back online after heatwaves",
         "source": "Euronews.com",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVlQ1Y2FUbHpVTUFQVWc0ZWRnX0JScnBqNXo4d041ejF1WnZpa2R2TjlNdWs0bU1UaEU5VmVuNFBwNnBVZzhpaGhEeGduWkZZRHdzUnl4LWF2VkZYTDBKSzcwUnNtRW9Ic3loNUY5N3FLcjJ6MVJOUU5MckVKV0Fta0tKSkd6cUVDVExGbjVzNnlOWFMwbkplX21XaUhnOGo2a2xQSzA5Rmo4QkVVS1pOdk02RHB4NEVVRTd3MDRZZkNIclJMT2M4?oc=5",
@@ -6121,15 +6193,15 @@
         "date": "2026-08-28T13:08:33+00:00"
       },
       {
-        "title": "Nabors expands geothermal growth platform with US$35 million investment",
-        "source": "Energy Global",
-        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVFQTXhyR0F5MXpGeWZkZ0ZDYzJuTVMxd1p0ck5Ndk81UHRMWWtiUFVpQ2JwMHIzM29BRlBSeVUyWXhhOVVfZGpmUDJwMzlnUl9vYmd4U2V0azBONndIY1lJdFJLR2tPeHVLTjZIdUhoWl9UWG01T2NLMHZuTm53MGFHQ3lLeV82MnlXb0lsdmd4UkcwSXd2c0h2VEU0ZlZGRkh0cXVDd0U4a0l2WDRUNEtlOXlPNnlRLVBFOTNxREdfZ09r?oc=5",
-        "date": "2026-08-28T13:04:00+00:00"
-      },
-      {
         "title": "The World Is Racing to Bottle a Star. One Company Is Trying to Do It Without High-Powered Lasers or Exotic Magnets",
         "source": "GlobeNewswire",
         "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQeUR3WEc5SWh5a3hMOWUtSzdNZDk5VGVPOUc2Zi1KRzNud1FHQnNZdG5LNGhHRGRKZXdUdTdqYkViWnRKYUd4WEk5ZS02MFFOMFF6aHF4SVIzb19ZcjRLRHBOcHZIc2F1TGpFQnJ5c3ZLR09BZlFtQ3RUN1FtU3hLTVRMYmN2UTNzTURfWmFUbFhUM2J2akJfMlNYQ0Y4MzFfdzIyTmd2UTU2M1FoV2lObTBoRDZsaC12RFpnVFdSYlJVSVNYMGZuckN1X0o5bEdSaEJGWkczVkdnOEtXczh0U2ZPd1lNMmNrbkNfZ0VUbFJHLW5keWp0aGVZRXc4U3pXcGVmLUROTFgxSE9LVk5ndHpCSQ?oc=5",
+        "date": "2026-08-28T13:04:00+00:00"
+      },
+      {
+        "title": "Nabors expands geothermal growth platform with US$35 million investment",
+        "source": "Energy Global",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNVFQTXhyR0F5MXpGeWZkZ0ZDYzJuTVMxd1p0ck5Ndk81UHRMWWtiUFVpQ2JwMHIzM29BRlBSeVUyWXhhOVVfZGpmUDJwMzlnUl9vYmd4U2V0azBONndIY1lJdFJLR2tPeHVLTjZIdUhoWl9UWG01T2NLMHZuTm53MGFHQ3lLeV82MnlXb0lsdmd4UkcwSXd2c0h2VEU0ZlZGRkh0cXVDd0U4a0l2WDRUNEtlOXlPNnlRLVBFOTNxREdfZ09r?oc=5",
         "date": "2026-08-28T13:04:00+00:00"
       },
       {
@@ -6181,16 +6253,16 @@
         "date": "2026-08-28T12:29:53+00:00"
       },
       {
+        "title": "Sealmatic Positioned to Support Indias Expanding Nuclear Energy Programme with Indigenous Mechanical Seal Technology",
+        "source": "The Tribune",
+        "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPMlZmcHhyQTdYTGptQXEzaEFyVVhiUFhrTzZsbEdXR3JJOVJyeW9BOTBPOEtxVXVTdF9Ud2VYSlVvdTR1M3o5VkZTU01ockhtOWhFVHE0eE5SWWpxWnNwUHFWUXlxaTFRa09DUnhzWDl5NndLOG5acVZBUlBlYU9RZWtkTEJYeF9OTEI4VnRCQlRiM1J1dGZZQ2h0aFZBVGRjRVhFenpnSHZaODFQMXg5OEpPMVpQaVJNTlhkUF9aM1VlRTcyU0s5dUJ6NG1sT0x2cWg2ZEYtVjBUU1Fjem1pUG9WMzdhUmlzb0xfYXRFSmhkWWxnSnfSAfYBQVVfeXFMTzJWZnB4ckE3WExqbUFxM2hBclVYYlBYa082bGxHV0dySTlScnlvQTkwTzhLcVV1U3RfVHdlWEpVb3U0dTN6OVZGU1NNaHJIbTloRVRxNHhOUllqcVpzcFBxVlF5cWkxUWtPQ1J4c1g5eTZ3SzhuWnFWQVJQZWFPUWVrZExCWHhfTkxCOFZ0QkJUYjNSdXRmWUNodGhWQVRkY0VYRXp6Z0h2WjgxUDF4OThKTzFaUGlSTU5YZFBfWjNVZUU3MlNLOXVCejRtbE9MdnFoNmRGLVYwVFNRY3ptaVBvVjM3YVJpc29MX2F0RUpoZFlsZ0p3?oc=5",
+        "date": "2026-08-28T12:28:23+00:00"
+      },
+      {
         "title": "InCapture and Yara to explore Pilbara carbon storage hub in Western Australia",
         "source": "Hydrocarbon Processing",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdkIzeEZfaHhWX18ycWRZamZNRFB2MGliRDJiNUNiOUJQcjBjUlFMMnUwNWF1TVhmTTN2bEhBV2J6V0x1alJ2RDB3ejAzQWdhbWJJSUdVTUNuZlJNeHdXSV9RWlZPeXZBS01LQ3g1VGthSEI0NE5aOHZlNTNzeUdkbmI1VzM2em03WFNKc3JtM0VVR3R2QW5SbERlTW8yV3hnY0tvSC1nWnp6VkZXRjhsY0VEVkhPdXFzTVhpd3dWWEZ2UTlIUXo3NQ?oc=5",
         "date": "2026-08-28T12:27:49+00:00"
-      },
-      {
-        "title": "China Nuclear Energy Technology (SEHK:611) Stock Trails Profit Slump And Margin Pressure",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZGhwOEFaekNLdlNwNkgxeVExVWZ0ZGZlMGJETTI4Y3dXc2dHUTl2cWoxaUpLNlJWTi1HN0g3ak83SGktLXJlLWtSand2bWZvUEdTNUp3MTgtb2pMLUZUUnpjdDQ2b1ZoTE5wM0RKQzFMNWVVMEhab19rbWg1NUlKemVTZldyc3pDNDJyMThvYWpMdExTd0txc3lQeG1GMHR4WFRWUU9nWWw5U0lyRm4yX0F5dkpEcHNCVUROWEhXZDRHa1EtZWR5WV9ZRTMyUWJUWVpWcVRvRUdhZUlCNzVJaHlic01VOXpLZk5yQTd30gHzAUFVX3lxTE9sWUlDT2VHRS1rTmJmVzVZaUJlUE1BYjc1SXVieFF1T01TeWkyWVNadWU1amlyRmNQOWotYlYxQkhzb2FvOGJkWlFLZWF2MjdwTmNUZGJSQ0VUQXRreFR4M051WERWZklkU1p2TWlGZmRXUVhhQzl2MGVkUzBXLXkwZTRORHVLNkg1d2Fob1REMElvQnBlTTJpSE1keTRpeWhWV3hCcGI3VktjTS1ESWlSWDNwSUh0ZHRZV0hWUzN6WWFWal9vaXFFSTdhX2FPWHFadVlKeFh2SkxVMkRNdlV6SU9Pam1aTVp6WHNFUF9XWGVSdw?oc=5",
-        "date": "2026-08-28T12:22:39+00:00"
       },
       {
         "title": "CNTE equips two 50-MW energy storage plants in Merseburg",
@@ -6199,10 +6271,22 @@
         "date": "2026-08-28T12:18:57+00:00"
       },
       {
+        "title": "China Nuclear Energy Technology (SEHK:611) Stock Trails Profit Slump And Margin Pressure",
+        "source": "simplywall.st",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbFlJQ09lR0Uta05iZlc1WWlCZVBNQWI3NUl1YnhRdU9NU3lpMllTWnVlNWppckZjUDlqLWJWMUJIc29hbzhiZFpRS2VhdjI3cE5jVGRiUkNFVEF0a3hUeDNOdVhEVmZJZFNadk1pRmZkV1FYYUM5djBlZFMwVy15MGU0TkR1SzZINXdhaG9URDBJb0JwZU0yaUhNZHk0aXloVld4QnBiN1ZLY00tRElpUlgzcElIdGR0WVdIVlMzellhVmpfb2lxRUk3YV9hT1hxWnVZSnhYdkpMVTJETXZVeklPT2ptWk1aelhzRVBfV1hlUnfSAfMBQVVfeXFMT2xZSUNPZUdFLWtOYmZXNVlpQmVQTUFiNzVJdWJ4UXVPTVN5aTJZU1p1ZTVqaXJGY1A5ai1iVjFCSHNvYW84YmRaUUtlYXYyN3BOY1RkYlJDRVRBdGt4VHgzTnVYRFZmSWRTWnZNaUZmZFdRWGFDOXYwZWRTMFcteTBlNE5EdUs2SDV3YWhvVEQwSW9CcGVNMmlITWR5NGl5aFZXeEJwYjdWS2NNLURJaVJYM3BJSHRkdFlXSFZTM3pZYVZqX29pcUVJN2FfYU9YcVp1WUp4WHZKTFUyRE12VXpJT09qbVpNWnpYc0VQX1dYZVJ3?oc=5",
+        "date": "2026-08-28T12:18:53+00:00"
+      },
+      {
         "title": "EGAT explores SMRs to bolster Thailand’s energy security",
         "source": "Bangkok Post",
         "link": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxOQXVqZ3pNbWpVZXdpSENVSzl3RTFvZ2lzQnpHbkZ6SC1CNkcwZ0gyNUJSSTMtVGYyUGhoeHFtZUxSclE1eTBfMzI1UGRRRnhPOEtLSTFNLUFXM0FRZWFvS2gwQ0RybDViODFBRHd5ZHVQZklUTzV6ekNEbEZ1SEFGenpGcGVsVG9qRnJYM0VtM3JDRklLdEZwUUZYbmI1bUJKOXpWSXRxNHd5WDNYTEF4eGNRS1paM1J0eG5zOTRiSmlXd2htcmdVdkRSZ2RBa2FINkpERGtjZFBGM0VNNVRwRTRPa2tObkpucmdhNGhVdW9yeWhEZHlDYlZwNGJaVHc1VUstOEFZMjZJRDVlVHNCQk9JSEdhLVdVQ2FRMlhWYTNncHRfSUtpbXFOZERPUzc2SnJsSEdIR2RtdU9OcEd5TWNVZjg4Vl9WTmZqaWFlbVdfMENPVkt5UlVtQ2x6MW5QVlBDUjZybFZqR0tqa21Id2lJQXBnZzR2RUN3?oc=5",
         "date": "2026-08-28T12:12:00+00:00"
+      },
+      {
+        "title": "BLM accepts $1.15 million in bids for geothermal leases on Oregon's Mount Hood National Forest",
+        "source": "Energies Media",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE41czZhbEZNRlAwclVGb2JNUHFva0RZYldaOUkydUN3WER1TER2eEZ2SHQ5eEdWN0paRnhVT3VqZEJKN2JCNlhoZkQ0Nk9BQ1BJSUhnQXZSLV9hQkw1TGhTVklVWmstVEV5VmNiRTZYenVZWXRY?oc=5",
+        "date": "2026-08-28T12:09:54+00:00"
       },
       {
         "title": "Third geothermal plant on Notre Dame’s campus set to go online this year",
@@ -6407,93 +6491,75 @@
         "source": "iGrow News",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BQ2I0WHNpX21hYV92UVlZMFZ1NkxtNmt3UXR0dHplbHZrTzhWaHE1aXh1bE9oMkI1YmtQOE5pb2hQVFFRYWp2ejZ0VW1Fa2RPU3lHWldBbEtEMVJIM1E?oc=5",
         "date": "2026-08-28T09:04:48+00:00"
-      },
-      {
-        "title": "Lorde and FORWARDS Festival powered by green hydrogen",
-        "source": "renewableenergymagazine.com",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb1d6c0VRaUdLWlp2dEZFRUl2aURmcU9RYTdCTlVNckFnXzlQNFI4MlUwbXBRTXRFdDY5R2NRcVRQT0xwNzd4ME9yZVpabmlEdTdMVEFaSWcwQzFkazBpQnhqMi1NclNzMkluMlhCdU82NUl1SFlZWVFpRGs4YnN4dkxmT2hzNTdKZHQ5WlBxTUd1RUpLamFaM2tlTkw2ZkdDeDgwVA?oc=5",
-        "date": "2026-08-28T09:04:20+00:00"
-      },
-      {
-        "title": "Marine microbe engineered in US makes rocks absorb CO2 faster",
-        "source": "Interesting Engineering",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHRFc3hFSE1iRVRHXzdLQkEzWTJIa3ZOUWs2M3ludHhJTDVHdFBYNW9HNUpiUko2QVBMb3pLQ1hSYjBnQndha0VXRWZEMUYzYWJXaFA2Um1rYmRQNFZ2N19ucUM4ZHRfemgwU0dLeUV5Zkd0aVFkN0RWT3VHRVZfeW5GeXdENVRxbHhCUlFKWVk?oc=5",
-        "date": "2026-08-28T09:04:00+00:00"
-      },
-      {
-        "title": "Green hydrogen to replace diesel at festival",
-        "source": "Energy Live News",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWhaTlhvQ3VhUmRhUWhZOE5YNkpYNFRveVFPTG9Gdm41U0l1TUtuYUxrMVVNeHp4dFdsWWRMbThqcWNFTkpmUlNLaE1DeHhpN2NzLUtOUWMxckJoX2N1NFc2SjhOMVZkd2IxcXBUMDhybGJsNUZXZHB6bUhoVG9Pc05RX19idXo2TGhWQ3lEVkw?oc=5",
-        "date": "2026-08-28T09:03:50+00:00"
-      },
-      {
-        "title": "Quaise Energy Closes $180M Series B to Commercialize Ultradeep Geothermal Power",
-        "source": "Wowtale",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1raGxERE1CV2FhVGs1dFFvS1FBVjNSR2pNN0FRX2VtQ1l2UXI0Q1BDVlQ2aWdVLWJ0ZTZLZFg3MFd6TjFxV0RMRTFRRl94R1Zud1FZ?oc=5",
-        "date": "2026-08-28T08:57:51+00:00"
-      },
-      {
-        "title": "Jan De Nul enters North Sea CCS market",
-        "source": "gasworld",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPREkyemQ3a3ptQ2g5UDZNcGk5R2lzeDVYZUxKX0h3YjlGbHFxZzJOXy0ySER6Y1JmTzFfaHZlY3VTdU94QWJIZG5CRkVteG9FdGRzMWdhR25RUFViRkpsS3o0dGV5Sy1vZzgzbWxzTnhPem52SDdxRDh4VENVNDIwRHcwZy1EM0phS0hGblpLWQ?oc=5",
-        "date": "2026-08-28T08:54:35+00:00"
-      },
-      {
-        "title": "Nuclear power: a solution to the energy crisis, or a global threat?",
-        "source": "Ξεκίνημα",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQk1EZVpQaEExenhoS3ZyTDRsQk9pOE5Icm1TNGQyUHZYVTNtNW40NVJjdV93QUltQ3R4VmJXWVhjaEVJQU5LLUVuQXBrOWRzR1R0QU9vUW5WUE5yWi1OX0l4Rnd1bk9NWUJQT3lZV2lDS2FWS0Y1eUczWUNFNDFvSE9VTmduUHhaU3hOY3kzWQ?oc=5",
-        "date": "2026-08-28T08:49:58+00:00"
-      },
-      {
-        "title": "The rush to power data centers is weakening the Clean Air Act",
-        "source": "grist.org",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOenJZM2twZ2I0dGlKMU4tLTFsbXVENTFyTnI0Wjg4cThHZzl5eWRoZDE0bHJRSzR3N1pqa2dRbS1ta19rRTFSdk5samtzSGlicTlWSzAwRF9nejZyUmZ1VkUzMUtRRlZGSGpYQWpPcWJ4N3hoTE1jUEd0QTlhdEE2ZlB5SGdZUzlfMlVtb3p2bE5QazM2Rnc?oc=5",
-        "date": "2026-08-28T08:45:45+00:00"
-      },
-      {
-        "title": "Oil Technology to Combat Sea Urchin Barrens in Northern Norway",
-        "source": "High North News",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOenJ2enM2SE01N2t3N2hMaHctQjN3MGlOUnF3UW5FaHE1d0NfR2hZbjgtNzBaLXRFNWhtVlJOdVN4bWJZQ29lZFlieGU0SHFUWWdyWFJJYXBBY2NNc08wYnc0Q2RTbm83LXJDUVgxRTNPZ3lQQUFCSm1FR0RaME1sck8xV0gxQVp5Nk5tX0pLc0p3T29kT191WWQ5S3p0WXdkTlVKZFE0MmIwbTA?oc=5",
-        "date": "2026-08-28T08:41:51+00:00"
-      },
-      {
-        "title": "Morocco Leads Africa’s EV Battery Race",
-        "source": "CIO Africa",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNTTBwODVqdGplcGVaX296eHF4bHRhVE0tY3FlLUVxV1hMcFZ0VS03REhaWlJwZm8yTmdBNERBWnBadGFwSHJ5U1FrMkl4R2RWRXRhOHZkaXZLUUl1Q1VMZThlbHlOUEZ0Q2hJ?oc=5",
-        "date": "2026-08-28T08:36:44+00:00"
-      },
-      {
-        "title": "Standard Energy Makes First VIB UPS Supply to LB Hunet",
-        "source": "thelec.net",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93QmFseWxSLW10THpPNldIQWhQaXhBUXhWQjRpVVZsTTIxa3NzdEJHMTFtMXM2WS1hLUxGdHBtcE1xU2ZWMWgxR2NYRXFJaldsTVduVk9QUlNTUGZ1ZTBIZGMwQjl0NVU?oc=5",
-        "date": "2026-08-28T08:35:40+00:00"
-      },
-      {
-        "title": "Astral Systems opens up fusion validation facility",
-        "source": "Enlit World",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQT2p6YnVVUDg2amRDTUk0UWN1MkNrUWc5QlRKRTZwSmRMTGRuNW9odU4wOGlaQzF5anJZeTlpZV9JQ3A5NnJpSGF2XzU1QUxQY3VvekpneU9lSzVEUFBxNnpyQ1Yyb08teWxsYXJ3NTZlQnZDT0FiQjByOEZTSzBKMFdkQVRvczI3VHc?oc=5",
-        "date": "2026-08-28T08:31:36+00:00"
-      },
-      {
-        "title": "Hubei Wanrun New Energy Technology H1 Net Profit At 602.1 Million Yuan",
-        "source": "TradingView",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUVg4LWVuR1RRR0hFaTlhUTR5R1pIcXBhM1d5VkRDa0xWbDR6YnF0SVZzb0VDb2xVZ1A1MzkwZWlFNGRtbl9BNk1UV1ZCN1lTVktTazRUa2lsSUp6VTYtSEQ0QjhKT2VCUGRHX1hpb2ZQVy1sVlgtdzhzVWxOTEI3TDBwRFlJYkQ0MFRpVWJkREdkbm5UZWN0TlNRTHJidnZvNmRkd0p5THdKMURUdHRKOGkyaExCQ3ZjV1lIeWY0QkFzY01VdkpFem42WXRkSkwyem5vSVN6dw?oc=5",
-        "date": "2026-08-28T08:25:21+00:00"
-      },
-      {
-        "title": "Trump bans some foreign electric equipment in US energy grid",
-        "source": "Renewables Now",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMVdNQzV3ai0zb29FaUxoc05wdjBqWkdHZ3d3M0pISTVaRzJZTy1GbTNrRmozSDVfa2NpSTQ0NDhzWmc5VldtekMwSHpQU0pxbGRTQkJVVk1kcU5IOF9CNjVWR0hPeTZjUkpFUXlrTjRGZjVpa0xhY2FhcWtHVnd4SV9YRXFhcFNlR0dDZGFmWmlEd1p6MzJ3Tlktd2hXTkFzMFE?oc=5",
-        "date": "2026-08-28T08:17:45+00:00"
-      },
-      {
-        "title": "Nuclear Energy Stocks With Real Exposure To Power Demand Growth",
-        "source": "simplywall.st",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWU01SWxQQXBGM3VMd2d4eTAyT0dMZEU1NEM5azlON2lJN1R1OXpnN092UGFnMHcwWENCOTl1Y1R4UzRSTXJNQ0V6MjBEUzUtWFhiaHBoWnNqZmtzcWJJY0JkaTI1enhXT1lWT3VVUmZjQ1N0UlZxSVlLUTlSVjdKSFBPN1Z5ZTBqUDFic1hucHc0b2JaRXNiWXlCaTFKRGtfcVNGclU0R3E2Q3NzNmozbWVuUG5rbXREbk5EcGZYbGpRaTZDMkl0am80d3BlZ9IB0wFBVV95cUxPS2czWGg0VnZjQ2J3TUJGejFCMm9PNF9lOXdUdm40MW5HaGFWbXk1VUw4NlJtZTlFN2p3TEVFUk9RVXZyVUhtUWhWX2hzeHMyeU5Ba2hSYjhSQTZ6U1BnLV9LbzBfejRoQVZRNnJDRlVkbkRBMWtzVS1sT0pVUUxXd19GOS1Fa2pGYi1wTlBEbi0wU2dPTV81c3dQTnBBSU53STFxbDVRd2pXVHdmc190SWU5Mlp6UUMzVHNiSWQyYUNPWHN5VTJXTmJDWVd1aVJaUFRV?oc=5",
-        "date": "2026-08-28T08:17:39+00:00"
       }
     ],
     "all": [
+      {
+        "title": "Netra Gowda Rejoins Airbus as VP HR Transformation, Digital & AI",
+        "source": "hrtoday.in",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGVaSXVGWEU5NXNPTlhjN2VwejRVYWhXOWxHdjlnUFVYLVBrb0tMTjY0Q2swbmZmRWZONkhBRF94VzZiM1ZCZ0xJUlRfTXMwLUJ2akFvN0pjMzJEcmtRT3VwTGVLTWFfNG1saEhvWElrNWkwOVJBdDdhdV9OLWtPQUFrdUFMaVQ5?oc=5",
+        "date": "2026-08-29T08:54:45+00:00"
+      },
+      {
+        "title": "Consumer Protection is Becoming a Business Growth Strategy",
+        "source": "Business Daily",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFFpT2hxOHozb3RUNnRpZVJjWXpOMnRXY205T1lQaWV0TERoOC1HMlZwY2wtS1NleFVQc1BybW95YTBJQUw2Ny01bE84QTlJemRzeGpmcGUzbWI1Unk5VElvR3FTUHRfNFNYY0Vha1hRTUpCM3hnUy1TX1A0UzdveENtamFmUHRuakZyRzZGZGpKbkxoMWdWdzQ5TnlLT0ZueFBOMDBQUWtzaGg2elAyU0lKcHlSUQ?oc=5",
+        "date": "2026-08-29T08:53:41+00:00"
+      },
+      {
+        "title": "From working student to engineer with 8 PRC licenses",
+        "source": "The Summit Express",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVDVZaW5TVUhVbkJNUEtaVFNQZTJnZU5VZ2JWR0ExWEVfMER6Yi1hNkxqT1NqTXJnanBWb1ZORmRwVXpvbXhvbVdFRm1yUnI3V1JHcWJZYVBMX1lEd2gweUg2S0JmbE1xV1B3SXNCcGRDelVKSFN2QTM3dFhKQ0FVbE00MzI3NFYyS2YtLVhDSDRnSnpGTjVHNGVuaFV1N0U?oc=5",
+        "date": "2026-08-29T08:41:00+00:00"
+      },
+      {
+        "title": "Pasqal Shares Nearly Double in Nasdaq Debut",
+        "source": "The Quantum Insider",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ2trVFI0czZpUUpsaE5pbVowVTZiWEdIWlFSVFVMWXB2WEdIMEFVajlmN3dwRFJJdzNpZnFRRTlzTVFpS2lJVXBTeXFrSmQ3dEFxT2FncTZIdFJ4Q0I5R0kxSVJ0NHBCQV9QdjY4UGhSU3BYOXVoWE5EbHAyVWE5THZqaV9iOVFXamtPNDh3?oc=5",
+        "date": "2026-08-29T08:40:55+00:00"
+      },
+      {
+        "title": "Elisa stock holds steady as investors look to recent earnings and guidance",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNTdPbjgwS2UwamZWdDhWdHpOOVRVZFU4RmxIOG8zbFFoOVN3MHVNLWhtYWtwb2t3bUtJdGFOOEdXZTEzTmFzeFZWS0hHTFdlbnRQZ0tkcU8tdzRiOXRTSVc4ZkZpa3pUWTdLVTUtR1RIWVZ6Y3pXR3ljdHItZFVpZF8zUXptSEZIdDdhRjQwcmFnSk9iekdCR3RlZENjS05SQVpLczlmb2dKNGlISjU2Y0RYSmtOaDVWelMtWlRUVVRwYkFtOXlIWkd2Wkg5X2dhbjRR?oc=5",
+        "date": "2026-08-29T08:39:32+00:00"
+      },
+      {
+        "title": "NuScale's SMR Progress Hinges on Key Agreement",
+        "source": "Intellectia AI",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GNEczZk83LUlVZVFjUF9VOTB2OGJpOUVjUXpONmxUWDB6Y2dGVHlBb1E1bmE1cDJjMHpxM2FTeHJFUEZWWHNpQl9DMjQ3eEFndF9jVkxJVWtBRjR1aGwzNndmcU80S3hkdDlTMEJ1WVJxM2lNZWxpclludWp3dw?oc=5",
+        "date": "2026-08-29T08:35:55+00:00"
+      },
+      {
+        "title": "Eurazeo stock holds steady as investors look to private equity exposure",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSlNIY1daNjB5WXpRMURTeWd3RWNqaDRDbzFXZTZGc2ZYbGlYcW14a0NRWjhKSW85bVpweDVrOWQtME1zaDBkczF5OGZTRHk4bzVNandvcGpxZnp6M3BOckpnYWZNLVBkSDdxa0I3SXNMeXdXTFI3ZC1jb1ZLVDVGQnpUOUZ1S1h4RVgwQnFtQml0WUdodnctSER3Y3ZGeHdfXzhIdzVvT203VHVjdkhxdjBCWDdFTVhYV2J4TnRHcUhfNHlybnVmZGt0MlE1NFE?oc=5",
+        "date": "2026-08-29T08:35:01+00:00"
+      },
+      {
+        "title": "After CrowdStrike’s “Best Quarter in Company History” and Explosive Stock Market Gains, Is It Too Late to Buy?",
+        "source": "The Globe and Mail",
+        "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ0VoYzZGUGJJT3dXMmhoaHZ3djkzRDMyZVhxbUdKT3BVQTRnQ3lLR0NOU2J6a1c3TS1RZXlSamUyeGRTSVRaUjBGZVYxVlR5UmlCMGZWYzJZMUhaWGNfNU4zWGhJTi14WnNJbTZ4VlNMV0ViNW5JSUM1UjRRODJMaENlZ1RkaTNnZnZKcGt6MW1QZ3UyRTREOU1NM2N2YkphT0d3dm1FVHVkbm80d0Q2QTJKdWVjTmxTZ0lITHRBOTRUSVJ5WU1MZTE2WEY1YW14TXVJaG9hSG9LVVN6emVza3dfTTBWNDdOLUpvSm9Kckg1bGJpUXp6SG43YjNuRURHRjg0QWJUZFAxRHN4aEQxMWN6X21BUDNTakE?oc=5",
+        "date": "2026-08-29T08:31:36+00:00"
+      },
+      {
+        "title": "Tecan stock holds steady as investors look to latest earnings and life sciences demand",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYUlKQWgydDBmVDlPUnZ2U1VIdmNWVTVnQzVlZXZmUHp0c0NCeHh4TnNrUWlrS3JyX3lSRVh2Q3VvM083SlNlX29Jb2d3ZFJnMk9nbFZhcVJnRHQwZHhoQXF4LUtUdTFvbmNmNmxjLXhSRHR2dUE4UWg5a0F3eS0tVW5WVkpsLWVPZm9IaHR2YWdydU90QzlYc01HQnFyN2RERWRLR1V4cTBPbjdhNjN5NGJMWHpUZmVXc1RKQ2I4NUhiMVlJZ01XNkg1OHlvQQ?oc=5",
+        "date": "2026-08-29T08:26:31+00:00"
+      },
+      {
+        "title": "Enterprise value to EBITDA forward of D. Boral ARC Acquisition I Corp. – NASDAQ:XLAB",
+        "source": "TradingView",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU1hPWGZPNGszWWMyQTh4eGpuMHloaG1Gc3ExaVFJN2o4dDBvUjlGMFB1QU96Rl9sNHA4WGNHaHN6Z04wQ1hBR1RFdERJdk5JenpOeHQxajkwLXZucWN4UDVacnVERFdyVnh1NVVyemg1cVRqYjR1SEJrOEdROFIxTk1DWllmS0hZRXdDVURRUEhLdTlaOVRhLXhYakd2SkJFd0g4djVjai1BY1FqMkE?oc=5",
+        "date": "2026-08-29T08:21:30+00:00"
+      },
+      {
+        "title": "Nasa to launch one of the most ambitious missions of the century so far in just days",
+        "source": "GB News",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVTRWX1Q4alM2V1JwZWVtRmRlVVpOa2hnNno0eG1yWFdrcmhpT3haRFg5dnRFeG5wRmQ5eU9hVm15RzJ1UHNxckRUbE5Mb3p3X0d2bTB3bTNidkRSR3JzNEhIRkhOUlhDVngtc0dISDNfdTQtUWRUNVBad2h6LUU0M2t3?oc=5",
+        "date": "2026-08-29T08:17:44+00:00"
+      },
       {
         "title": "The four-day work week is officially moving from a radical experiment to a permanent corporate strategy",
         "source": "Dagens.com",
@@ -6501,15 +6567,15 @@
         "date": "2026-08-29T08:12:00+00:00"
       },
       {
-        "title": "AXL stock overview focuses on fundamentals and valuation",
-        "source": "Ad-hoc-news.de",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdGphcmZEUXpsMlZJcHBOWTQ4cUs4dXplbFZwSTlJelpWZTMxSkJPYU13VnNYRS1SR01xbmp1UFhDSEI2bUJFY0thOUxFU1lpa0IxQ0RIcEdWZ3R5enlISnNIUU81Y3dELUdPR0VuYWFQV0RoYlU3M3c2MlFud3dKWjluaW5ObzdxV1ZtSDVBNnR6X01BTHNxODgtZ01uVHJEMlp1ZzZ2ZlJweVJ0Vm5pVnBfdGxVdw?oc=5",
-        "date": "2026-08-29T08:09:07+00:00"
-      },
-      {
         "title": "Nancy Grace Roman Space Telescope",
         "source": "NASA Science (.gov)",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
+        "date": "2026-08-29T08:09:07+00:00"
+      },
+      {
+        "title": "AXL stock overview focuses on fundamentals and valuation",
+        "source": "Ad-hoc-news.de",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdGphcmZEUXpsMlZJcHBOWTQ4cUs4dXplbFZwSTlJelpWZTMxSkJPYU13VnNYRS1SR01xbmp1UFhDSEI2bUJFY0thOUxFU1lpa0IxQ0RIcEdWZ3R5enlISnNIUU81Y3dELUdPR0VuYWFQV0RoYlU3M3c2MlFud3dKWjluaW5ObzdxV1ZtSDVBNnR6X01BTHNxODgtZ01uVHJEMlp1ZzZ2ZlJweVJ0Vm5pVnBfdGxVdw?oc=5",
         "date": "2026-08-29T08:09:07+00:00"
       },
       {
@@ -6531,12 +6597,6 @@
         "date": "2026-08-29T07:32:46+00:00"
       },
       {
-        "title": "Consumer Protection is Becoming a Business Growth Strategy",
-        "source": "Business Daily",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFFpT2hxOHozb3RUNnRpZVJjWXpOMnRXY205T1lQaWV0TERoOC1HMlZwY2wtS1NleFVQc1BybW95YTBJQUw2Ny01bE84QTlJemRzeGpmcGUzbWI1Unk5VElvR3FTUHRfNFNYY0Vha1hRTUpCM3hnUy1TX1A0UzdveENtamFmUHRuakZyRzZGZGpKbkxoMWdWdzQ5TnlLT0ZueFBOMDBQUWtzaGg2elAyU0lKcHlSUQ?oc=5",
-        "date": "2026-08-29T07:23:41+00:00"
-      },
-      {
         "title": "Viscofan stock steadies as investors digest latest half-year earnings and valuation",
         "source": "Ad-hoc-news.de",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONHVyN2dTVHdoXzZGenQ3NUJZcUhqc2w2QzdtZDFxbDZKbEVNTzBfLTUtU1lUdS1jMUtjZ1hKWEV0NXVXWDhwMW4tb3lyLXZkcmpFMjVHS1ZKSlZYaF9Ed29qQm44SFRJTFdNb1d2OU90VFN6ZTlOQjNrcUQ2WE9sNXR4YkVoWkV5NkpQVndfdXMxTVVLLWhMb2RPcWxucHZBMkhaWG1HVndhZy12YUtTTUZETm9YWm5vVDJVVnFJS25SY0hHM1lxdU9reHZtbFVyNlE?oc=5",
@@ -6549,10 +6609,22 @@
         "date": "2026-08-29T07:12:00+00:00"
       },
       {
+        "title": "Turkey’s Markets Regulator Tightens Rules for Hedge Funds",
+        "source": "Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORjJaenRXbDFZTXMyM0wxSDgzeWV6VmZCYkdyYV9TMjhYc2VsczQ2X1hoY2pUNVd6b3Z3Tnl6LXdwcG41MW9EN2NSLVRZcFBqMXJjeHdZbzNKTndSb1p5eWdHWFVEVE5jYmVmRmJhMEduVEFTU1ozWEgtTW1kVUV1SDVwYTZiRmkzczEwZFNwVUw1UWVvMHc4MVVmR053bm4zQzB1NzQ5R0RUQktS?oc=5",
+        "date": "2026-08-29T07:10:13+00:00"
+      },
+      {
         "title": "Great Pyramid of Giza can withstand earthquakes remarkably well; ancient Egyptian engineering may hold th",
         "source": "The Times of India",
         "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNMTFHWUVXRWFTSElHY19vT3ZwMEc0QjdFaGV2aGVDWm13SmxfclY2UHJlU3NnaWJxbVUxTExvZ2o2NlYzdm5LV3A3TFh6RkQ3WjlhTjZ0T2M1MXd5UEdwSlpXZVBRekkyeTBUS0lSTGNMYVlsWEltbFhaRUZYUTJ5X3NBM2dlaUdNWHFSM1ZCQ2wxa0o4U2UycllEbG9TMWlnSm9qZWJCUk1VVFJQQXF3M3pFRVgwSDM4UWZLejRLQ2tndzYxY3VBZlFZSElEQTNzaEZMTjFHWHNVT0l4cWJJQkkwR1dnZnlvQnlELThuSHFjRGlCajNISTJwaXVEcV85djFQWXNpWlVWZDNFcVU1NEpfblcyY2JNN2dKc2F0RlHSAaYCQVVfeXFMUEQ1djlIYVlURnhDeXNUVEJGdUFFQ1JFWmIzTTVGd2JFNnZ6T0VHRlkxOXhMalBGbVQ2SlUzZjhhMVdXTDBMVURVWV9vSVNJVE5NeGdYUTNHYVlFOUN2RFdpQXl4SjFKQzdEcm9VVUh0VmYtYmNON29XWXhDWlc5UzZPT1FhaUF0UUZKeU5BSFFfd0RlRWFkNDdyOV9EYVoxaHhiMEJGSk5YQW1iVlhsRDNVSk5mMHZUWjFFYW02U195c2lBQWFoV0QxTWg1X1p5c1BzZWxTVW93clRXVWRMRnRDODF4YkhmWmk5X2ZUQXJLdEdPR2JFc2U3RGdScnpaRkZ0anBWUV9qSEtyVVpJVS1WSlpiR2piQ3k4a1FJdEc5TU9sQzZB?oc=5",
         "date": "2026-08-29T07:05:00+00:00"
+      },
+      {
+        "title": "‘Not going away’: Walkway champions vow to keep fighting",
+        "source": "The Mercury",
+        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPQ1hka0RLY2FJWEh6TzRMbVlwOVJoR2JGRi1IeThaUjRjRFJiWTdadjI4d05IcUk5RlcyZVBYSVJjVHluYmFLZFZlS0Z2Zm00alJST0RKVjJwNmw5c3hEMFg5QXhXNGRKNjFTa2lLbVE2cWUxTUZJTzJ2VnNqV2wyMktRRmVVRThmUVhYeUFqSnlnRVRxZVFWaFV3ZlVNeU5lWFBtT180eHpKM3AxNnpuMFE3eHg1SEtSY05TRWVhd2pIVHA5MUFNbWpsYWpjb2VGWmF1bFZGVzlhRTZfR1JlaEZ6M2F2LVVRRk9RTE8wMlgtaGhSc2FUTWFSNlVVNURzYkN5N2VwNG5tcjJpYnc?oc=5",
+        "date": "2026-08-29T07:04:44+00:00"
       },
       {
         "title": "ZeroAvia’s Hydrogen Engine Nears FAA Certification",
@@ -6597,6 +6669,18 @@
         "date": "2026-08-29T06:35:21+00:00"
       },
       {
+        "title": "Edwards Lifesciences (EW) Insider Sells 2,644 Shares; Valuation Remains Fairly Valued",
+        "source": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc2Z5THBPMGstbmE2U2VrWWp5WG9PaC1LNkRvQ0UtNVRpbjFIbks4Z2VTQXhXRm1GU25RakZiWTRyQkJKM2RqNTZkdG1fcUNGb2tyR1Y1LV9qWkNFNkx1MWRuWEVkYUZsRV8yS0ZCTHJzTU1qaGwwTkR0ZmtCREJzeXJ4bjdCM29EMk1peS13dTZhX29LejVGZ2NLU09iV2NkNlQzZGItUUZ4ZFJxN3pTeGlXcHIweU04OEpkaA?oc=5",
+        "date": "2026-08-29T06:33:31+00:00"
+      },
+      {
+        "title": "Kenya’s Transition from Clean Energy to Economic Opportunity",
+        "source": "Vellum Kenya",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWnhxRFRYYmF1TlZKLXJRdDdhd2REbHVOdWlOTUNXRTlHZUZwX0kzRHBmYUo2V0h0dklxWDZqLTJIN0M2MVRVVWN1cC15a3V1bHM1Y1FFSkdwR3hqSFNTX2tQb3c4cjJ2eVdpLThrZGluS0dCejBhblRDSjlLb1Q5MG55bWZxUzNk?oc=5",
+        "date": "2026-08-29T06:31:20+00:00"
+      },
+      {
         "title": "UTA engineering faculty earn national composites honors",
         "source": "uta.edu",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFRDV0NNRUFjN0VTNjQ5OTBmYnZyVWJNOUw3azdNTk9UcWl6azZvQUUwczVhSkdRSkdiTm1LeEJpeXN0UTJEcEpUX3VYYUdqcXVPMVBNdURBMmFNZHFnR1hydzFoSnI2dUk5SlRxMk5jVHQyRTZ4WkRnS0I1UXplYlNpOFJDSVFCTFlqX2xHdnhCa0EwNEJ1c05JakVlVGZfeWY1eVlrV1FYQQ?oc=5",
@@ -6619,6 +6703,12 @@
         "source": "Ad-hoc-news.de",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVFYwVF9uUUNHeXd2OTdfYUdUeU9FWllZZ09iX2RyT0RXUTlGREJpNGtxWlFhUEpYZ0gzNnIyaFlycld3QnhtZmVDWDJ3S3dvMHJ6SEJSR291T3Vhdnl3UkNwYTZHUXhHZFp0M08wM3E0UjQ0LU0xbWM1RFlPWVY2SGkzSTJ6cWRnQ2hBMGNJYW1xM2wzeXNDdkdlR2hKYmlHa3dGYXo5YXU0QjRKZnRTazhUR3dZVk1LdGN5LWtZMDhtcGM?oc=5",
         "date": "2026-08-29T06:00:21+00:00"
+      },
+      {
+        "title": "In July 2025, a telescope in Chile spotted a tiny moving dot inside Jupiter’s orbit. Within hours, astronomers realized it was only the third object ever confirmed to enter our Solar System from interstellar space—and barely a year later, it had already raced back",
+        "source": "ScienceBlog.com",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85U2RIWUVTaVl2OW5xdGtBdDUyZzY2LXFFWkJ4YWNFZktkQmdDeDAwd2s5RWZCdGdrT3MwVDFrVTJVVmx4MU1MOUE0RlhCbmtIOVN5VVpPcFlNM3FjeDNueW0wX0drVjIyUW5Salc0NXM?oc=5",
+        "date": "2026-08-29T06:00:00+00:00"
       },
       {
         "title": "3M stock valuation debate grows as cash flow and earnings outlook diverge",
@@ -6655,12 +6745,6 @@
         "source": "The Standard (HK)",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaVFZWlNnV0VaU0RwRHFGZVhtYnVtUmJCWnBDbW4xNkVDdEtHU2FrM3NmNGFMOGxYWnJBdmRUOWxfMnJ5eDN1aE5WZi1nSXBaenpLZjJVdjhSekxGZVhuT3VuZjJGby1OVkVnTU93eWpfTi1tYVlfM2tCbzdaTHd3bnFRY0x3SHoxZC1tR1paN3BoUQ?oc=5",
         "date": "2026-08-29T05:28:44+00:00"
-      },
-      {
-        "title": "In July 2025, a telescope in Chile spotted a tiny moving dot inside Jupiter’s orbit. Within hours, astronomers realized it was only the third object ever confirmed to enter our Solar System from interstellar space—and barely a year later, it had already raced back",
-        "source": "ScienceBlog.com",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85U2RIWUVTaVl2OW5xdGtBdDUyZzY2LXFFWkJ4YWNFZktkQmdDeDAwd2s5RWZCdGdrT3MwVDFrVTJVVmx4MU1MOUE0RlhCbmtIOVN5VVpPcFlNM3FjeDNueW0wX0drVjIyUW5Salc0NXM?oc=5",
-        "date": "2026-08-29T05:27:52+00:00"
       },
       {
         "title": "PowerX and ITOCHU Secure Order for 75.2 MWh Grid-Scale BESS Project in Japan",
@@ -6735,6 +6819,12 @@
         "date": "2026-08-29T04:54:35+00:00"
       },
       {
+        "title": "Manufacture in India, build for the world: Sitharaman urges global investors",
+        "source": "ET CIO",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSmxaYWl4NWtQbGNrUUFLTVgwVWJDRkM4UThGcnJ3N3dBVFJRZFJ2OGJmTHRkUW1mM2JOWkREQ3NSZ3FQVGFLYnB0WDNzNnVmNDV2ZGJ0MkpqS3hqa2owM2w3eXozTFFIZzJ5UnQ0RHNZMTN5MDU2Q1ZzOHpYQ1RVQVFWbXBLdGljQkw0WUF5RWdQTzVFbktsY081R2dJa0tiWHNUX0dpaGx1ZWZ1RE9YNmJCSW9HUXl1VEhXdXlMT1d6aF9OUEZaZzhuOVdzX0l1WlVrOFZTRkR0OXNJd214bDdfMNIB4wFBVV95cUxOSmxaYWl4NWtQbGNrUUFLTVgwVWJDRkM4UThGcnJ3N3dBVFJRZFJ2OGJmTHRkUW1mM2JOWkREQ3NSZ3FQVGFLYnB0WDNzNnVmNDV2ZGJ0MkpqS3hqa2owM2w3eXozTFFIZzJ5UnQ0RHNZMTN5MDU2Q1ZzOHpYQ1RVQVFWbXBLdGljQkw0WUF5RWdQTzVFbktsY081R2dJa0tiWHNUX0dpaGx1ZWZ1RE9YNmJCSW9HUXl1VEhXdXlMT1d6aF9OUEZaZzhuOVdzX0l1WlVrOFZTRkR0OXNJd214bDdfMA?oc=5",
+        "date": "2026-08-29T04:51:08+00:00"
+      },
+      {
         "title": "Trump says he has secured a vast U.S. stake in Venezuelan oil industry",
         "source": "The Washington Post",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWjd6UjZsY3dQMU9aQlhpdlJnVThVYzdPRTNOXzJjMjVTN09NdnlvV2JYdmh6YlR4aXlpSjd2VFNxMkVaQl92S19sSFRZZ3FwUi13MTRnNWltMmk0dENxOFVUNFE3U1VTMzcteURHUnBQRW53TFNKRUg5bUJaTm1ndC0yVldFQzhWaTd4UnVac1V5M21xNV9DcGpPT0xNTzBjQXBOVHVqOXZiaXk3bnk0MnJnVFR1Y1UxeS14Zw?oc=5",
@@ -6795,6 +6885,12 @@
         "date": "2026-08-29T04:07:07+00:00"
       },
       {
+        "title": "BLM approves 2026 geothermal lease sale for nearly 75,000 acres in Utah and two oil well drilling permits",
+        "source": "Energies Media",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qT2M0SEJLOGZmU1l0Nm0zQXBZbE9jMXdRZnhrZW5pbTJScTg3OUszUzhXWnhUYXlJdEo2QTdNMDMtOUVSUWx5SG90RUd4ZElsdDktREYwZkJMdWgtUlhPa1BVWjd4NWVZcWRlZ1daNzlGNmtnZ3VsdW5ucw?oc=5",
+        "date": "2026-08-29T03:46:01+00:00"
+      },
+      {
         "title": "Ronald E. McNair scholar, engineering student earns international recognition for advanced energy systems research",
         "source": "Georgia Southern University",
         "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUFFzcEcwblpyaWRNWXJLTndncVFsemt1UUVpbXBwNmxCQnFiLS1fbndOcWwtdWt2MHZKMGZsS2lTdTFXbW1xQVZrTXhiZ1QyaXdzRmxBUXhtZlJJbmRfTnJ0Y25oVEFsOWs4RW9zak1KVTNLc0d4SC1SdlgzR0FCTU1MenpzVkJ6T19CZG5XMmJvcUlRQ1NXXzF6ZGVhZW1ZLVRiQUd4eGY0RUNhb1EwZzYwaThuVnlYVGVCLWhRblktSldqa2VSSWJ0d2t1RTl3SjE4WXFkMWE5V3dTOTZ6OXY5T1BMMHF3ZXVn?oc=5",
@@ -6805,6 +6901,12 @@
         "source": "Universe Today",
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdmFWY2NNVGtIczBGYzl1blIyUmt5Q2R5aE5uQW05RnZSZU1yU1U3TE1sM01US2tNYlJxbU5oeHAxVzBTaklkcFNZMGpINmZiMU1kXzRhbzdrdy1Qd013UkJEbkFKQVZWRklhUmVPaVJrWWxYTlYzYmR6LUNIcE9yQ0dCeGVCOFpQSGMxcXBKWFhTYU42TjFRdUozTmlyLTQ?oc=5",
         "date": "2026-08-29T03:27:00+00:00"
+      },
+      {
+        "title": "How Small Modular Reactors Could Redefine the Canadian North",
+        "source": "EnergyNow",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNkl5SFJ6ZC1TdUtJSlRQcXBiOUJiZ1JYVTZkQ2NlcFNaWl9vNGZ4eWp5WHlNeV9hbEtmRk1VRUJYbTRicThBVFBrNVZJdnZTNHRVTGFTMkhWOUZ5U2hEZWN3RGhwOC1zb19FR016UVRSdjVGaDBRVTJWV0pfNlM2U3ZIaVprZ3dUcTdtdlVPT1pGR0kzM21Uc2pwbVpZaTJwUFpudkZWTmI?oc=5",
+        "date": "2026-08-29T03:00:25+00:00"
       },
       {
         "title": "Daesung Private Equity Calls Extraordinary Meeting to Vote on Reverse Stock Split",
@@ -6849,6 +6951,12 @@
         "date": "2026-08-29T02:40:05+00:00"
       },
       {
+        "title": "INSIGHT: Alberta is Building the Energy Machine. The Question is Whether BC Shows Up to Run It - Stewart Muir",
+        "source": "EnergyNow",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSjc4OUY1bUphRHlOYUxXNmJDUG1FSnBEMFBLY08yQlpQc0pqZGRYYjhTZW10MDBma2hkZDFJYWRudmR2SVA0TmtBNjhJNjVhb0F0MnRxSEhlcUhGYnctbzRGOVRWRDBlRWNpQXRybTJxTWdaWFl6NURvTlFIUC0xV1E0eFlvOWtITjNZd3FqZkVMZ19CbTdOX3IyaWVzZWxNLWNaLWE3dnNWZGtmb2dyYl90R2FzdTNXU1A4UFRYWHJmRUY0aFY0?oc=5",
+        "date": "2026-08-29T02:39:24+00:00"
+      },
+      {
         "title": "First Solar (FSLR) Stock Looks Cheap On Cash Flow But Earnings Lag",
         "source": "simplywall.st",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOdmhSNnB4NWNfS1VuUkxHeGZ1VVI5ZkZZcHR1V2tWV280dFFUcFZ0MXUxdHNFekppTXVmRGZOX0wzdTc1Q2N5cGY3eDR6UnBnZEZIQVFvUlVGZFBOclZVZjFRWUJkVTY3blhwWGpwcGRvSG5VWmNNdFUyNjNWVjBQUzA1ZlloUmk4YTItWHNMdFdtRk02ZEwtUGJJbUpIWXExcHF6bXQ5NFZrclZ5SWVKZldGX1hrRjJ2SUNRWWQxdllZSUU5TWRhSUF6blVYZ3U2ajNKMFNJWdIB1wFBVV95cUxOdmhSNnB4NWNfS1VuUkxHeGZ1VVI5ZkZZcHR1V2tWV280dFFUcFZ0MXUxdHNFekppTXVmRGZOX0wzdTc1Q2N5cGY3eDR6UnBnZEZIQVFvUlVGZFBOclZVZjFRWUJkVTY3blhwWGpwcGRvSG5VWmNNdFUyNjNWVjBQUzA1ZlloUmk4YTItWHNMdFdtRk02ZEwtUGJJbUpIWXExcHF6bXQ5NFZrclZ5SWVKZldGX1hrRjJ2SUNRWWQxdllZSUU5TWRhSUF6blVYZ3U2ajNKMFNJWQ?oc=5",
@@ -6871,6 +6979,12 @@
         "source": "WTVB",
         "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYTZZNzJZWm9SM0w5R29zVndMREZyOUxHMnF2WmdIRW50RklOOVdnbnFCSHQtZ0lfVXBubzQ2UjlJY2R6MDdrdFIxRDNTLTRrSGVSZ2g3LTVQeXlGM21VTGc5VWZ5WDZpYlNjWkpTYjljb0ZMNHF0OW9fUzR1VHFPcmRTQWR3U0ZUV3VySUE1ZW9hRGFUSGg2X0h1TURFdUM5S21MV3YtcGNlNFBFWUJoT3NseDFocVU?oc=5",
         "date": "2026-08-29T02:10:53+00:00"
+      },
+      {
+        "title": "Nigeria, China deepen energy ties with oil, gas investment push",
+        "source": "Vanguard News",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYmxUWGxPVXJuS3JrYThoZWpuUnVtZXlBYUtzbmRubDVfOS05UWcyVmdxUGMtR1pzRUcxUlQ1OWdVNmJ2UVZ3SHJsaHBmNmwzRFZmZkZTdWQ3NmJWeERTT0FFbmY1OWJueGZjV2JkSl9lOEFLTzg3SjA3M01JaWpERUdtc3BROXU3bVJMX052VjJDSUZqUjdBa20xQ3ZiT0nSAaQBQVVfeXFMUE5va2JjdGNuZjBiNHF4N0NoQW1rdU1aV3g0ZTM1aFFHd3pVdUtDejVUWVpVT1BqZDhadjZra0RnNG8wQXdMQVB1MTFBby1LYW9HaW5jYVRCeVNFNkppa2RlaTQ2TjRlbjN6WUd5VHl1RnpmQzZkWjBubDFGWmd0c1I5MHZTamowOEpQOVQ3WFJQVm81RmljUHpFNnV4QXhqR05TaFk?oc=5",
+        "date": "2026-08-29T01:59:54+00:00"
       },
       {
         "title": "CATL Announces Local Partnership, Showcases Full-Chain Storage at The Smarter E South America 2026",
@@ -6925,12 +7039,6 @@
         "source": "simplywall.st",
         "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSzFJMFN2VlM1UU5mbW1hOFNIbi1Uem9EdWpuWmJxeWJMaHlSQmlQbVJpZzd5MURzdkJLdEFIaGg1dnVmSTFVeXB5QU5pQ2lsUkRqa3lMaTg5ZDc4TkNTSC1QN2VnZF9IeW0zb0Q5Qy1zajlvNmFVb1RGU3JWQWpWcVlRYVpGdXd0YnBzZTVMcmtZdEhIcnkxdjAwOVF1RTlpZzM3a3diM1cwWGE3VnRRUTdqX0pxNzRJSlJkYUVrUkHSAcYBQVVfeXFMUHpBOUx0c2NUcFJ0X2JfblphRUxRTGFzUS0zX0FQa01UNktMUU9VNTNxSHJDU25XTy1sSDYtT1VRNVVwRFlGSXZ5eG45a05BalAzY01PZzk3NkpaV3k3cVl4bUQyaHVQTVZnSzczVDdqcDlTMXBFTTAweHFtQXZhUkw2RGx4V085YmVGR0xPYXNyNGszcktyMWNGN0VBSmU5dExhc1FvQVdCUk1KX2tENlBZSjF2Z2JOUVlsalJNVkN5NTlJS2Fn?oc=5",
         "date": "2026-08-29T01:06:57+00:00"
-      },
-      {
-        "title": "‘Not going away’: Walkway champions vow to keep fighting",
-        "source": "The Mercury",
-        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPQ1hka0RLY2FJWEh6TzRMbVlwOVJoR2JGRi1IeThaUjRjRFJiWTdadjI4d05IcUk5RlcyZVBYSVJjVHluYmFLZFZlS0Z2Zm00alJST0RKVjJwNmw5c3hEMFg5QXhXNGRKNjFTa2lLbVE2cWUxTUZJTzJ2VnNqV2wyMktRRmVVRThmUVhYeUFqSnlnRVRxZVFWaFV3ZlVNeU5lWFBtT180eHpKM3AxNnpuMFE3eHg1SEtSY05TRWVhd2pIVHA5MUFNbWpsYWpjb2VGWmF1bFZGVzlhRTZfR1JlaEZ6M2F2LVVRRk9RTE8wMlgtaGhSc2FUTWFSNlVVNURzYkN5N2VwNG5tcjJpYnc?oc=5",
-        "date": "2026-08-29T01:04:43+00:00"
       },
       {
         "title": "Jiayin (JFIN) Q2 2026 Earnings Call Transcript",
@@ -7029,6 +7137,12 @@
         "date": "2026-08-28T23:35:36+00:00"
       },
       {
+        "title": "Sercel sells 6,000 Accel seismic nodes to DMT for geothermal exploration survey near Munich",
+        "source": "Energies Media",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3REpBelh6cEd1WlpuSFZSMWZMSy1yakU0aXUwTnlTMXQtYVJpbTBwWlo3cEgxbm52YlhjR2E2OHlNbW5mMUp6bWNQbEtpYUZ6ZWFhcmZ6bU9COE9tdm52X1FlaDZueG56NGt2aTQzb1l1R21FNWc?oc=5",
+        "date": "2026-08-28T23:11:23+00:00"
+      },
+      {
         "title": "Aguascalientes Strengthens Security, Talent for Investment",
         "source": "Mexico Business News",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYnVEZkZRYVU1UzZWeENWMGlGLUR1S1FBYWNTRlB2dkV2dktlOGJXSmhlYWI1TzlPMFAtanNwbDRJWDJ0UV9VcXM3TFdjNXRYSHJncDFBV2dYU2E4Z1RHa29OQzk5eC1zak55LW1yeUwwYkNoaTBZMFlJSmZ4VHBjdng3REc2X0Vqcm9XYVNTcFBjTG9ic25uZDdIdWo1QnNKdjIxbmxZQVRfcDA?oc=5",
@@ -7039,12 +7153,6 @@
         "source": "EnergyNow",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXJLU2duS1NuSUU0d0JJajlKQ0VjNVpYQ0gzTnh0bDYySktSeGFydmdYNjlUSjZmMmNVTkVHTUMtSE9ONERkeFlrNFpBYTZVNVZUNm83WndsdlM3TFdzUzFRNGlDR2c5VkRhMk5aMHRKN1FFWExkUTRrTXVnRlpaM0d5cWhDNGtVLWFfNUtB?oc=5",
         "date": "2026-08-28T23:06:05+00:00"
-      },
-      {
-        "title": "Oliver Haarmann Net Worth",
-        "source": "Celebrity Net Worth",
-        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUTRJQV9LUHlQNFRVRnNCekthdVMxNXBSYmR1NjdTMHpBZ3R0SlkxanVYVlFSaGxiN2VXZTJ3SmdzdFh2WVBaN1otbXcyOWRVX0ZiNFd5X1Jjb1RPWHM0cDFiQ0JwYkU2dGQ1N3MtaHlFQ0ZjOUpHREctVE1iSUZkOEVZOUVvSGNtMVRXc01XVG1GT3VLc0Mw?oc=5",
-        "date": "2026-08-28T23:05:49+00:00"
       },
       {
         "title": "NANO Nuclear Energy (Ondo Tokenized) Analytics",
@@ -7069,6 +7177,12 @@
         "source": "IndexBox",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVThzSDRUWW9PR0N3MERBSnR4Ykt0YndTWVdjc1hOSHdSOHNRamxtM0piUlhXNnZWMWtvdDVjaWNBQXhhSGRyaDF4SklLRjdaMC1faTllNTNzcW9xajZyNnExTE9YcV9EQlB6NXpXS1lRbkl0YkN4dk1jR2VENkxMZ240anRiUQ?oc=5",
         "date": "2026-08-28T22:56:15+00:00"
+      },
+      {
+        "title": "DOE approves Xcimer’s laser fusion power plant design",
+        "source": "American Nuclear Society -- ANS",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc2FaUVZMWUstREpCWjB0UXFVNFBzVDBiVWRuUkd5OXVsSGRNR25ORnluOXo0ZVZjYVRXYU9tYlVjcjFWSThHN293QzJMM1FVR2JMa0RTZEJwM19nd1o4TEE2dWFTc19OamFfbEVxVVRWS1dPTWtBZVJ1WjloR0ZnVGtBb2pleWl5YVdRWWk4eUQtYlA4?oc=5",
+        "date": "2026-08-28T22:55:26+00:00"
       },
       {
         "title": "Empty Promise? US Energy Secretary Proposes Nuclear Energy Cooperation for Iran",
@@ -7227,6 +7341,12 @@
         "date": "2026-08-28T22:02:40+00:00"
       },
       {
+        "title": "Tannin Extract Additive Market Outlook to 2035",
+        "source": "IndexBox",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOckh3NEdaWDBoSm12ZWdhQnBNMmhQUGhzb0dVeHpJNlY2LVJmRkF3bG4tcG5jaUU3d01RQzY2aVBjak9JNmRDVG1VeUlMRExKSGRONS0teHJjNmxWVnRXRzlTNzRrMWxOTmtIZm9VSTJGQ0QzRGZoa2dtUHpsTERVOFZ3?oc=5",
+        "date": "2026-08-28T22:01:16+00:00"
+      },
+      {
         "title": "LiCap Technologies gets permits for Sacramento battery manufacturing site",
         "source": "The Business Journals",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeWJmOGhYMzJtY0NQMGIzZldWS0M4cjVKa1RwbHM2YlpYZC1Ka2RYRy1tcm9ZYTBsNEQ5VTJVOUhiZmV2RURzdlczaXNQVzhWMDZJN19xWFVwdzJxQ1A5TVo1RjI0UzAwbTJtRkVRX2MwbjgxemVOeFVKU2ZRYmJZZjhKQ3c4Rnp0TUd6eHNBSk5vVm5NVlFqNVpR?oc=5",
@@ -7261,6 +7381,12 @@
         "source": "Mining.com",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTm9ITEpCenRZNGpadHZzRlZ2OGlXMUJDdWpZa0h4R3UxX1dncDZQUFJRcGQyRGZCMlBuazJoQ2M2b1FVMGZxV28zUkpxa240UzdtSENCLWZvUlRPTllNd2FEOGxadkFvZzNpZ1V3Nmg3cVIzNkVaWEtoSlZBdi1YUE8zeUZYNTdxRkF1ems1RnNSRld6V282ekFiSk1mdw?oc=5",
         "date": "2026-08-28T21:49:15+00:00"
+      },
+      {
+        "title": "Foster Fuels to be acquired by Ga. company",
+        "source": "Virginia Business",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKMGdCV0xQUWdfVmtEbGtUM3YzZ3hNM2lnZ2xDM1BRRFo4RUQ0dVRnN0hyZTZwdVMwbGI0TnBOdTVVZDN4OHhTaVVGdjNpbktteGRpdGVmTTNjQ2FVNGs1a1RHZVc1N3lBWWZkXzZtU0dXT0d4R21GbGh2RQ?oc=5",
+        "date": "2026-08-28T21:47:41+00:00"
       },
       {
         "title": "CapTrust hits $3.7B valuation as BCF Group buys minority stake",
@@ -7359,27 +7485,9 @@
         "date": "2026-08-28T21:16:22+00:00"
       },
       {
-        "title": "Franklin Electric: Resilient Replacement Demand Supports Earnings Growth; Valuation Limits Upside",
-        "source": "Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSzB2TTZsak9KSFhaM0taMlBxTVVpSWJZemhEVE9kLTQyOHM4YlJxVmZtX2ZXUFFYY2JzeC1zM2t2ZXhWTEMtS1NpcV9TTFZXcDdZc0tCRi10NVBObEQ4ekxiX1QxVzJpbmZOeE85MVFRb3prdjdJTXdkX3pTQUFza1N3UXF4bW10ajJQamxqNUF6UzJKaUVJeGpLQ2JEYktERUZka3hSLTNBSkRVRUFzZFZGRm5aQ3k0TDV2V2VST1kwNTI1NXB2RnFZWXV2YllRTW5CZWRTNA?oc=5",
-        "date": "2026-08-28T21:15:30+00:00"
-      },
-      {
-        "title": "Demand for AI data centres forecast to drive industry tech investment",
-        "source": "Confectionery Production",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWEQ4V0lQbW5BNnZ2WGxhTlhzdVVvTkRzUzBlMWVpNGpWZ1lueVI4SUlZc2doQnNfVm43aW5CYzgzUklPOUlrcXktZFNlSHE5Nkl6dDJjVXUwcEUwa2MxcnI5b0h0X1VMSGJFWS1FUVUwQ2FFbHBSeWJyd0tOR3RpSkd5M183MzJMenBlTHVhUzMxZnNIVGlnRGljYjItVTBVc3lLcmF4VW1SeXFrNFduWlNFX01ZMUhCYUx2NlVoVGVxMlNpUk0wRkFXWjY0RjJCT21ESjVsNlQxbElvUEt1a09pVE9iaU82Tnc?oc=5",
-        "date": "2026-08-28T21:12:08+00:00"
-      },
-      {
-        "title": "CANADIAN ENERGY ON THE ROAD TO RECOVERY: Global Energy Show Canada 2026 Signals Renewed Confidence in Canada’s Energy Future",
-        "source": "EnergyNow",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPU01DemxNajZSR01KczhNdk1UYkdmeGgtVkVkNGlVcFVkLTZ5a1I4VTVURy0weEJPY2R5MUNQNC1MQVB0SF9WZUZPRUNNV3AyaWtUemFMVGsya1dfODdBaXVwOWNST3huUVJ0MG12R3BmSGh0WVg0ZkdIOFZRQXdOYTN5LVVmMlNpLS0ybHZwMU1LNk5aS2hjT2ZESGM5RWhpUy02X25EZjJUeF8zaTRPcXh5VWhFb1NEcm1sRHVlT1FJWlZkUm1lem9kWTNyRTFGaFB0NllPM2E3VFB2OXBRMDFtcG0zQ3M?oc=5",
-        "date": "2026-08-28T21:09:23+00:00"
-      },
-      {
         "title": "Sindh seeks Hidan Block rights",
         "source": "The Express Tribune",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hNzIxa0hHUzRVSGY2MG5aNVlxSTAtc3lkXzdoUnNEWlFFMkRLcG44NE5zWFA2cjB1U2JRTndXOV9Xbkp5TTFFQ2VqUFIyMWswdFlMelQ1cmlyOVVpTzllTHEtZm92TVJNZEpMckZ0RzFtckI1REE?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hNzIxa0hHUzRVSGY2MG5aNVlxSTAtc3lkXzdoUnNEWlFFMkRLcG44NE5zWFA2cjB1U2JRTndXOV9Xbkp5TTFFQ2VqUFIyMWswdFlMelQ1cmlyOVVpTzllTHEtZm92TVJNZEpMckZ0RzFtckI1REHSAX5BVV95cUxNdWpxSkV6WGM1amNndW0yT1ZNWlNnSV9lVm12RnFHN05OeVRleXNwTUQxY3AtdF9MdnRmOVRLbUhBNHMwQlpJSjJRZ2Y1dF8wLVFkQjZrWUhBTURDZjlEQmpjdTQ0MTlKcmFmaWVuV0N6T3pfallXWU5KVXFJSGc?oc=5",
         "date": "2026-08-28T21:08:41+00:00"
       },
       {
@@ -7437,10 +7545,10 @@
         "date": "2026-08-28T20:51:14+00:00"
       },
       {
-        "title": "Artemis II crew honored after record-setting journey around the moon",
-        "source": "The Daily News | Texas' Oldest Newspaper",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYWw4NTRHUGpWM3FPTDd6VWJIQ3I4cWM3WnAxbHBaZkRwWW15ZDgzX05vMlNNMHhuWGtLRGw4WVJDckRwcXlQZkF4ZTNib0Rxa0ZsN2ZZdE10Q2RQTGNNTUxiVGlUN1hxR253dlVxSXFVd1hLbXVwNGJFLTUxaHllOTFHazdRd1I1eDJpdGhNOUtlclczUTlneFdrdEd5RHVHaHI5WENEV0JZQkhRd1ROUTVWazBzVkRNeXdNR1BvRE5pUkRWUDhXQ1QwN0RUX01HYU9rZFJfajZIV3pobUM2WFlR?oc=5",
-        "date": "2026-08-28T20:44:00+00:00"
+        "title": "\"Making Resistance Economy the central focus\": Ayatollah Mojtaba Khamenei outlines economic roadmap to phase out US dollar, boost production",
+        "source": "Dailyhunt",
+        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPYWVNUzNjN1ZVMFJqYWlndTd3SDJ4ckFybEEtNzhZV05UY2ZfLVVVb2x2UVFMVU51LUUxT0FXcVpUSGRDOGgxQ01NY1lqU2s1QXlacjNHWXJmNXplREt0dTlKamprNXJtMlEydmFsbkpTZ25DS1BBczM5VjE1SUhoSWtKNzNlNDg2YW9ReElLM0xCT1ZnQllNeEpLdHNaM2tlczdBSVdYYUlOcXVISngybG9PaDhjTVA4bmhab3BuaDFtRmEtb2F6UkhWVmRaMjRCd2ZTQ2RqbVZJU2s5WlhWSU5FOE81cDEtLVBhOGR6djZyZzcyVFBFUDRQRTNjMkwzZlBySmV5RUhEYXRqZlg0Ylc1bTVXbnJiTnQzZVBZaEhmTnRFTlg0TTdQT2lFbnAxTUlVZlZjaC1VdHV4UzZ3Qm5VWWpzV0E?oc=5",
+        "date": "2026-08-28T20:50:30+00:00"
       },
       {
         "title": "Mark Walter's insurer Delaware Life sees two banks pause sale of its products amid probes",
@@ -7465,12 +7573,6 @@
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPZDlLRm5jYlR4a1hjcGRpTjNpNXR0Z2VYRTVFYXE3NVlTeGVnaWt3cGo2by1aTlJDa0J2a2xIZ2tOQUUwRldtbUJfRFB1QzhZYzlCNEZCRTVVeW96MGpzTlg0X3hyVm9sWTVYc21LdnBud0xVNkVRbUg5NVlZcnhFallxRmUxTXBRanJvYl9Ob0lweXE1RV9mWWpPSElFZWo3ZWVNZXBCSmRpV014cEtteUJoWjNQRXJoXzhwWFpuVktic09qem4yczZiX0p2V3pYLXExNElwZ2w5cEh5VndmZ0p5WFh0d0E1aDJ6bUJQSVdaLVB4YWlDYk9R?oc=5",
         "date": "2026-08-28T20:38:39+00:00"
-      },
-      {
-        "title": "Deployable Energy, Horneck Offshore to partner on nuclear technology demo",
-        "source": "WorkBoat",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbHI4a0lRY2FEYXlEWnQ3U2JOamZYSTVZemdWSVFUQkdyQmt2bGFhOFRWaVd1Nk1wdDllZWhocGtxM0JVbUpIYmREZGlFNjdMbzRRWlNESG1VVVNQMGh5cEVld1dtbnItMXVmLVpXVHdKZkZHekU1cWo2ZkdZNHZHTVlheWtHYUxSTmdJUGFmUG1LZmtMdzNIdW9IR0NzQQ?oc=5",
-        "date": "2026-08-28T20:31:29+00:00"
       },
       {
         "title": "Is Viavi Solutions (VIAV) Stock Overvalued Or Still Undervalued?",
@@ -7515,6 +7617,12 @@
         "date": "2026-08-28T20:07:14+00:00"
       },
       {
+        "title": "JNJ Looks 38.5% Overvalued on GF Value™ Amid Dividend Strength a",
+        "source": "GuruFocus",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLW1tNzFOY0FNbkgtc3JaS3h5WGtlNVpMeGdzXzNUQ1NIeGZ0dW1wMzdXX0prNkZ2RVdUcVQwZC0zdHVJZjRmV0FqNEQ0SXpTRF8tRmFXUzIxVVRhNWpCdFRxaUt5SkxGMEQwWHFKRF9oRkk2dWVxMGtkYkdobzVXN1F5Rm5ac1lkWFNJT3FnMDJkNWp1NlBhQlJMM29zWnF2NW1yX0dEbm9HVzZqVkZWTHB3VUhtY2xtRUE?oc=5",
+        "date": "2026-08-28T20:06:39+00:00"
+      },
+      {
         "title": "Bull Market or Bear Market: The Real Difference Is What You Do Next",
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNYnhNVnlMQnFPdGdlZUgwVXBYVTNFaWpIT1hnRXU1TFlpNERHNVNwQjVjdXRyeExaVU1wWmlWaTE2by1XZlI1YjBrQnBYWnEzUENzeU9EZHFsZWtMSk93SnRYaDlRYWttOGo4RHU5WEt0Qzl0MnZoUGtTamZ1VzYzTjB0WlBxTTZCSzhNQVJFSjhqRHJ5dkRBUVRwTTlleDd0QkI0aEFqQ3ZIQm52RUFkbmdBOTBLOFlRcm1tNEhLaXp3Wk1WVWtVc1R1ZEJUUDBZWXpDQzlJMWVDVTI4UTZpZ09ydXQ?oc=5",
@@ -7527,22 +7635,10 @@
         "date": "2026-08-28T20:03:44+00:00"
       },
       {
-        "title": "Applying Onboard Carbon Capture and Storage to Ships",
-        "source": "Lloyd's Register",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQzgzNGVWakJ4QldHU2k5bTh3ZjU5VU00cXFUd0hqWkt3OGlvYlduMjZ3MVhScnBXeThFUDZPYS1kd3FIMUVVZEphVkNTMnpMT3RYR2ZtMTh0ZWVCcUpSZDBLUzdfUzJraHJjUU9EQ0dCRGVRUVZKU1lMdVZ6ak9LNTBDdVkxeFlVTEZKY0NsbUhjLWlia2d5VXFUbHA4NGd1aDljNXltQzV0WUk?oc=5",
-        "date": "2026-08-28T20:00:40+00:00"
-      },
-      {
         "title": "Companies create AI committees to guide decisions",
         "source": "Valor International",
         "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV1R6VUxsUTc3TG8xVFAyTVhPU1BqNlY1ZXBMMm5wbDhqYW83b29ld1c1dVJYLS1rZmVVNFdEaGlsY0NWNWl4Zk9sU3V0ZTkzcGtNZ3BHRFJpOUt4YzE2dEtJanRES2V2bS0yRVRTeVpVWmtvdzFOT2VDdXBqUG5GYWF4TEJYem5nNkUxZ2lWd1k0Y2owTXZtYlVVUi1RMDY3SnZla3h4X3dEMlhvOTNhQUxES2FqUnlxTXdYOTIzaEl6UXc1MXE40gHHAUFVX3lxTE5XVHpVTGxRNzdMbzFUUDJNWE9TUGo2VjVlcEwybnBsOGphbzdvb2V3VzV1UlgtLWtmZVU0V0RoaWxjQ1Y1aXhmT2xTdXRlOTNwa01ncEdEUmk5S3hjMTZ0S0lqdERLZXZtLTJFVFN5WlVaa293MU5PZUN1cGpQbkZhYXhMQlh6bmc2RTFnaVZ3WTRjajBNdm1iVVVSLVEwNjdKdmVreHhfd0QyWG85M2FBTERLYWpSeXFNd1g5MjNoSXpRdzUxcTg?oc=5",
         "date": "2026-08-28T20:00:19+00:00"
-      },
-      {
-        "title": "In the Loop: Private funds, public enemies",
-        "source": "Private Funds CFO",
-        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5BSS0yejdPN2N0U09SVHpxZXUzazFZS21kemxzQ3NnNDlEZElDQlJWRjNzR2FhelJQbkdWUjRMTmRDc2J1VVhJQ2t5SUxfZXJKLUNMcUxCZ2ExZnJYQWZBeUVvd0ZRd2JvYWlLYkU5UzMxVm16Vl9UaktHdUIwdw?oc=5",
-        "date": "2026-08-28T20:00:06+00:00"
       },
       {
         "title": "Fuchs Lubricants Opens Technology Center in Massachusetts",
@@ -7575,12 +7671,6 @@
         "date": "2026-08-28T19:48:04+00:00"
       },
       {
-        "title": "Bizarre new floating nuclear power plants set to light up off California beach town’s coast",
-        "source": "Yahoo",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeU9KNEZmNW1rWWFnQ1RNbk03UTRpUEl1TUpvRFdrV2JHaFNmRThETVZILTNIa0xCeEJIR0hBLVU1T2VwbURFT2lyLTNvM1Z4aV9ta0F1TzJfMHluRG16SG1aMFA2XzJKTWdJbTVqQkpzdWUxXzd6T1JHQkF4MXlvdzNKbWpYb0R2SDRFN2hzemo3S29DVmNBZHFjM1U?oc=5",
-        "date": "2026-08-28T19:47:40+00:00"
-      },
-      {
         "title": "CIBC Just Reported Q3 Results: What Investors Need to Know",
         "source": "The Globe and Mail",
         "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVDZUVUw2N3BVZXI1OXF0U1ppQVFnNFFwMllGUVVHSU5uMkRPLVBuTWJKbUtRVnk4UDRuSlFjRWVPMERNaGk3aV8zcHlNNXVqVTF3OU41ZHRTcV9SeTl3cEh6TVc1OHctNEVWX2ItV2x1VnFmdC10ZFZFMm5adGRLcGtITWsyU01TR01MMUVvdXZSNUl1MW9xc1cwalIxTGM1UDNmaVY2NXdmaEtOWkh2dml5YUNjVkx3dVo4NmFqcGs5UDRSem1QSU9BM1FhaW5JOThlYzlyRktFUQ?oc=5",
@@ -7593,12 +7683,6 @@
         "date": "2026-08-28T19:44:22+00:00"
       },
       {
-        "title": "NuScale Power May Sign a Deal That Will Change Everything for SMRs -- Here's Why",
-        "source": "The Globe and Mail",
-        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOZ1lJZk5BblBkUzZURmV5MGdEbGluaXg0b1VmQkxlNjFSQnFHSnZiMmxQM1pCZGFkVHNzTjU5U0dWVmRaa2JyWkQtSlVqS0pEZHE4VnhFcmtKVnZaT3ZERzlveENxSkVxQnBTa21pRHZaVkc3cnJOc3FQdTg1Uzd4V2dUZlBpc3dVTC03WVdUdElzaHM0M2F5bWE3SE1jLUgyUVRqemh5M0xpR0VJb3hVQUhRVUd3eEdFby1fdF9NaFpBdkdjQmFfbjBHS2lLbEYtcWNNb19WOTdWQkZUdHlhT0cwaGFhajZMNzRmTm9qd2hOdHM?oc=5",
-        "date": "2026-08-28T19:43:33+00:00"
-      },
-      {
         "title": "Meet the NBJ's 2026 Fastest-Growing Companies",
         "source": "The Business Journals",
         "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNDFpZHpYSnB1N0c0NTV1eFhycm1qRnVwcjJqNDljNFU1VThsMmJZMmRBT3FpMXlSZkkwRTJxWm00QmFtUnNXcGFlRXV6cEhadnRsVV9pRWhSQ2dCbDU4cjd4VXJ0ZmdXa0FNdDRPa3BjUGZEeGliQTZKZE5Xcm1WWEJ4SFJQM0FCbC1pMWhnbjQtZ09JSFZWeW1HbXpDUVBYR1RKWGJ3?oc=5",
@@ -7609,90 +7693,6 @@
         "source": "Quantum Zeitgeist",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQ1I2UUgydTRwMDJHZHlVVmhZVU9OVXozRVVjalRjZWxYZVJicjBsb19uSmw0NGhLaFdwUjRCTnNpbE5YeUJlTlIwZ2M1cHpWblBuQWNNSzY2NExOR05xSEVyUWVaNjVTTXNtQ2ZpelUxcnJzV1RwMHVDaTNYOVkxZA?oc=5",
         "date": "2026-08-28T19:40:15+00:00"
-      },
-      {
-        "title": "DeepLearningAI Highlights 5 Breakthrough AI Engineering Trends",
-        "source": "blockchain.news",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONWNWLWhEdTBZQ0RTbGliQmlLOE9aT0lwVFV3bUtMV3pmUVJySjJfSGYzLVJ1TzR2Q2EzVEltY2hOYWREbGVHNEhMNk9ydkduVmdBd1NGWXdtQm1vUUxyUEZnd1ROMG5qT3h0S0NWMVZGWmNfVWVuNks1NHoxTmNDVGpQVGdXWFNZNTBOT1BXZTZtSk9vc3JUaw?oc=5",
-        "date": "2026-08-28T19:38:36+00:00"
-      },
-      {
-        "title": "GC Forum returns with new case for embedded general counsel",
-        "source": "The Business Journals",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNTBLbklLNllQNko0NHFJUDF6N2UwVGFjYmkzRVBabDJsaXBucnN5WXZjX0NpQTJVdHcxQ3hxYWpxQ0FVSWJ0Ui1jeEliVm9EUGNDYkZGN2xHdktvTTc4V0xJSG5wandfQnluOHNGZTF5U1FJTTFHQzl5eEZfcEM3R051T2ZmZFFET0FaTFNlUkQ3d2JaRlVQcDZYNUZpdTdXYWw0Wg?oc=5",
-        "date": "2026-08-28T19:38:00+00:00"
-      },
-      {
-        "title": "University of Maine launches 3Dirigo X, advancing future of maritime manufacturing",
-        "source": "The University of Maine",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR0hSN0RlcE1yOS1JRDNkdTRtSkNzNWhNOGpMYnBtU0Q2VFdTcU5xWmpQY29xRGdXQUxqOVQzU2g3YmRYYU1sY0Q5UkwzMUNvam8za01kMDZrdEY0Q0VETWtycXFzdVYwYXVhbzc0LVZaUlF1X1l6OThTWHR1MHRZbllEQXJieGJHYmc0ODEzZ013STVjZ0RWT24tY3JRdUZwR3ZCMVBuTDJrcVAzUXI1ZGc0LU4?oc=5",
-        "date": "2026-08-28T19:36:08+00:00"
-      },
-      {
-        "title": "Oroville's water future: major well project underway downtown",
-        "source": "Action News Now",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVkFETXlNRGpseEhjVUpiMW5pWXNNelJGRllrdHo4dTVzM1JqdlRqbGlOc3U1WUNoNEg1Z3lIT0dIOEFCRk45OGFxNk5hd0Z0b0UwWkZNRkpMVG42N2tPdHF3UXQ0dGl4cXk1WVlrenY2YjRwV1JuOElnWHh2bTN2aURRM3lzb1ZjTjJGem1XYTNQVjI0ZFFReW1PYkFabFJGcUltZG5ZY2RybnVfQTBDRzYxd1JoSy1pTV8wQzVNWHJjWnRaTnZQdkoyMmI5WVAySlNvZ0xYcWQ3ZjFMZG1JWnJsVFY?oc=5",
-        "date": "2026-08-28T19:36:00+00:00"
-      },
-      {
-        "title": "The bond market sees a hike to interest rates as more likely, while US stocks drift lower",
-        "source": "The Globe and Mail",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQMFpEWE1ORDBrNTUxMHAzQU1HV0tqNF9jYm9qSm9KQ2hIV2JYdklXVDJhdEdiVWNxR1FxRVptb0pjbWhJYktSb09LZzNOcHdrcDAzSGN3SHZ4TWtKVU9YVVFiSjJJTDRGNFNqMFNRa3FFMF9GZDBrUk5uNnZCS3UxcVNJX2xZLUtCUmRaMGZvUFpZYXVDSDMycncwUUQweXdZQ0E3X2dUM0Z3am5zUjRWLWE2dmN6VGJSbUd6TFdocl9NdndYYlg1dVhyQ011d0pMS0MtN0dsNE9NUXBsUF9aUnBPT1pOMTN0X1ZFbU5GeWtvRmQzaGgycU9TZ09LRjRtWTViQg?oc=5",
-        "date": "2026-08-28T19:31:32+00:00"
-      },
-      {
-        "title": "US Energy Companies Close to Sealing Deals to Invest in Venezuelan Oil Industry",
-        "source": "The Eastern Herald",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRXMzOW1PeUtXMW1YTm5NOGcta1U1MDUwa0c3Vk1UU2Q5VmIweUNrQ2FWTmpZZ0wxY2VSOEo5NW1YajlsTHJ1M1ZPNkRCZ0pTaUY3V2xrRV9YcU14YWJMdHNQR0M2THc1WmptcF9GaGJfWENKQnN0amc5UXJkVkVtRG1ZZWM5WU1BVFNST0hqVWkyVWlKYnc?oc=5",
-        "date": "2026-08-28T19:30:17+00:00"
-      },
-      {
-        "title": "The Smaller Customers Accenture’s Stock Now Needs",
-        "source": "Trefis",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa1FiS1VFMkRhZlpaWXNPbmpYay12VUJkQjZPbV9VaE05aVlNZTF6UlpXbzc2MjBrbGFFbWtxWUJhVXZhTGd0NUV6R2d1bXlZR1MyODlRMDZyZ2RxeElaMG1XVG56ZWItZk0tUW5haURUcmRRSk8yMnp1djZCaUZKb0JJbDRwYk1aVUVUUVU4M2piaDVLSWJMdDcyY1A4VGUtb1VZd2VBTEt4S0x2?oc=5",
-        "date": "2026-08-28T19:30:00+00:00"
-      },
-      {
-        "title": "Latur Emerges As Production Hub Of Vande Bharat Sleeper Project",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcVV4cUtXdFZVRGg0bDgwLXhSaXgzOTVROE54ZEo5WmpQNjdPLUtHakJnUEoyX2FsNWxTa0Q0bHB0UWM5NjhReVB4dHlSTFpqM0lyZ1BSbTZuLW5TUEVheWxQeHRLVWRCVXZHRnliX1liTlFFUS1YZnNtYkZzSFhFcGRRQXFtWFJMMUhEbll1OFppQWlaT1U5X1c5SmxjOVNxY3VydzVrR29nZF9PMlVLLV9HbXRqbmVmYWo3T2VvNnhRaFlfMzVjbmJtaV9JcUp2WS1J0gHYAUFVX3lxTE1NZjlxZ0dvaWpTazltczEzMUNNSXlaMEFxQUtvQzlUbUFENVZMal9SNnhSS3FIemhUcmVJbm5iaFlVVXhfR0JYN1hmdzdUOEpJLVFSMTg0NS1fNmN1djR0MzRZRlJuVTRSblVua0R5ai1LTmxNZ1RNMUFWUURPdEl4RXNJa1ZoUDZOQkRHalpYVGhDZi1paVRIZ1l1dEtYUndTQ2UwUVRNbXpTdFpXR3pxVEUwd1k1RmU2TXRPVzM4c0JaSnRLUy15Q3lPdF9TTno5SC12eWdmSg?oc=5",
-        "date": "2026-08-28T19:28:00+00:00"
-      },
-      {
-        "title": "President Donald Trump signs order creating US Space Academy",
-        "source": "Al Jazeera",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdjBTelk5Tm4xTEtGNkQzU2ZBYUF4cmxYVHR0RTBZUEVXRVh0Y0JSaGZwakNDVk1YQkRwMFVLWFc5YzNZU1J6aDBoSEVRY2RLbEpwZVRoUEo4a0RjQlo1MlhsODJ6ZVllalpEOFBvRGx5S3lkUUl3dE1UbnNfNURQMGNmSDQ3clozb0JxaFhUUGxvbVBnR0tMdjlkV0ktd1BnZDVj0gGoAUFVX3lxTE1CazYzRlpkcVNqakxxX1ZRbWZOV3ZCazU3NmpVRFQtbnF0U29ubmhyaFIyTno3cmxGLWxOV2UydlliTEljTy1sVHRBVmZlQ3FjVVZzMWJIMi1aUF8tRjhDTEJzMUhKYVlYRjhmaExfWEpKbVlsdkF2Z1JCV3Q1OEc4Uk5PbTVRNUxldDNYZDFMTUN3dTlybWNXbXhDQU44LTN5d0pBd0stag?oc=5",
-        "date": "2026-08-28T19:26:43+00:00"
-      },
-      {
-        "title": "Lonergan named to endowed chair in glass science",
-        "source": "Missouri S&T",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObnJCUmpqLWFrNGFNZmYzOHUzSG53MkROSERSSWU2V3RXNmZvaUVaeE9lZUlJTFBISy1uXzhUblFQSUhnVHZKRlh6RE51QWY3ZUNVX0UzS0V6Qnl1bk4yMTRqOS1kUlJFR2NTZ2sxNEEwRzFHN3RINFI4WDQwWXYyNEwxZzBwUQ?oc=5",
-        "date": "2026-08-28T19:25:16+00:00"
-      },
-      {
-        "title": "They discover an “underwater city” beneath the ice of Antarctica: it shelters 60 million fish nests and its own natural energy source",
-        "source": "El Cronista",
-        "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcVNNV3NmS3hfRkY5akNrTkNMM29MZkhGYlpjMGtySWlkWVdMdEtta09td2RSdTVhM19Pd0dWYWlFeWNNbU9VRm5aTnZiSHVOcWRTYUV1SzFmXzFjemZHUnk4MEx1VnQxZTJSeXFBU3FfVUpyWjVNQ3pSVU1sdkVLRlhnZ2wtdUJIcHk3a29ZcnVkLXJYcG02UFFaRVQ3THJXQXpNZU9UU2F0c0puWVZnNVdwWnZsNHBfbkFWb1U5WnpDYUo5MVFDc1VlcTcwb0lGeUJidWhKcHhFc0Fjb1BMdWZhVFFGd2NYVVNqcTUzWjgxVlNnZHJhSG4tajJkR2xaemxPYg?oc=5",
-        "date": "2026-08-28T19:23:11+00:00"
-      },
-      {
-        "title": "The McLean Group Advises The Operations & Management Division of Valiant on Its Acquisition by Inspirit Equity",
-        "source": "citybiz",
-        "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcUpvRHVQRjlZY0c4NGJ4VGMxeDVUYko2akxYLW9ZZXJCZlJMLU1GWjNWQlRXRExnRlJRLVNDSjA5REhqNHBXLV9TU0VOaHpUS21PQVVUWHpQcDFfaHZEY3c1a2xNRVhMcXpLRGVtbGhKS2g5S2g0WWF3RDdyWEVodHljeG43ZEtYek5meVB5YVhKQ3ZFNk1uYmpYU1FXbGZ3VjVMQlkwbjdFSEE5RkJ6ZHdkZXlzbU5zbDE5R05CTWFEUTZMZXdVUW9Cam1VVDRNM0dXUGxzQQ?oc=5",
-        "date": "2026-08-28T19:22:22+00:00"
-      },
-      {
-        "title": "Air Suspension Rubber Spring Bladders Market Outlook to 2035",
-        "source": "IndexBox",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTnUzRW91NFBpQU1mZ2VqX1c3aFVqakZXcl92WTlpdDc2UlRuMVFaWUJENU5NdHJLbzEtS1hUM3lzcHBKeHVZYkhFOVI5N3NoNW50cnd5ZXhkYmFLQ2NYWlcxeUVzNGo5NzFPVnNPNzZ1V0c3M2tXRFZaVmhKeGNqYW16LXFISTJHZUR2MzdFMTVsSnE5?oc=5",
-        "date": "2026-08-28T19:21:17+00:00"
-      },
-      {
-        "title": "In 2016, a partnership claimed a $180.2 million tax deduction after placing an easement on 236 Mississipp",
-        "source": "The Times of India",
-        "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPTmdaWFB4XzNQdjR1MGJIam04R2RNUnF5WXpHMVhoOTUydEQzQ1kzQUNlSFdiTW5KeXJTTUVIbDdJdVpJZDNLYlA1YzlfNXhoZUd6RVFYSkM0WFc2blR3NURNQnNWdmlsalY2NTlWVmxXWTctRjFjQTU1bllyNEtpc0xOeHpkZnM3TllqT0tDWm1VNV9yNTQ0Q1JOU1MtM2JHZkp2dnFPdkJqWWZYbHZXZlktVVh3WjlCSjVoR1AwREw3Ymc2SXhZVnFwRXpjQ2xiYnZPcjB4V1BVLW9OOGhmOHVnaGpxUlhwUUlTUzRydlBFS3FwNFVxeWFYM2o4QS1kQ2wxZ2w4Q3BOYm41UUhDLU42OTU0eG5DcWRrQTU1aHFrYjNuTGFMTXM4U2NoTWM1eXNLS3laQzZzbnhJN0VTb0dLenRCczVmdUhxOHV1dzlHal9hNVlKdXZXRVXSAeICQVVfeXFMTmxCWi04dUJNVW9hUlFpR01GeFBsTl9MLTNCVmZLWmFxdUQ2d0VxcGFwOUNOdHNlVkRaUnVsRFhWMHNsbFpuZTV3dWg2dERyYkMtaHUwME9ZZlpNR1AxTnUzNmVSNGQxNC1YM01HNnkxbmt4RkZ5RHBuV0YtS2tlcmdLc0MxcXdiVjA4T1hxaDFxcW1oVzJ1U0RCSXl1R2g5UkV2NnFUZ2NIQmJMUUpfdXpRdzFFU2tTenZGZmpKZExUWFVYTU9XZlRTazgyMkhDQkh1eFRTZkNPNDc5SnJhdURUWlpZYjVqQS1FTVVPZy1YWDkwaDhwelIxRm9GcGdEVlZfZTN6bS12dHNnMllMT3VkX0wzRkNZNV9fSW1ZSHd0c2hxX2JTcDcyNko0OGNsQnpiNHNfXy16eURMUE1kUWVFekJQdGc2SjU4UDRaZE92TlJncVFLVUVCeF9MdDlMNnJR?oc=5",
-        "date": "2026-08-28T19:21:00+00:00"
       }
     ]
   }
